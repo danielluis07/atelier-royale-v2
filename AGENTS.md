@@ -24,7 +24,7 @@ English
 
 ### Issue tracker
 
-Issues are tracked in GitHub Issues (`danielluis07/atelier-royale-v2`) via the `gh` CLI. See `docs/agents/issue-tracker.md`.
+Issues are tracked in GitHub Issues (`danielluis07/millrace`) via the `gh` CLI. See `docs/agents/issue-tracker.md`.
 
 ### Triage labels
 
