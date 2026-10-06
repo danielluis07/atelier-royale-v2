@@ -2,7 +2,7 @@
 
 The design system, brand mark and tone of voice for the Millrace virtual store. It assembles decisions already closed on the map ([Brand positioning](https://github.com/danielluis07/millrace/issues/2), [Design direction](https://github.com/danielluis07/millrace/issues/4), [Design direction prototype](https://github.com/danielluis07/millrace/issues/10), [Experience blueprint](https://github.com/danielluis07/millrace/issues/5)) and fixes the things those tickets left to this file: final hexes, font families, the brand mark, the place and the voice. Vocabulary follows `GLOSSARY.md`.
 
-Out of scope here: the actual product copy (separate work) and the accessibility and performance bar (its own ticket). Motion choreography is summarised in section 5; the full detail lives in [Motion choreography](https://github.com/danielluis07/millrace/issues/15).
+Out of scope here: the actual product copy (separate work). The accessibility and performance bar and the build checklist live in [`docs/build-guide.md`](docs/build-guide.md). Motion choreography is summarised in section 5; the full detail lives in [Motion choreography](https://github.com/danielluis07/millrace/issues/15).
 
 ## 1. Principles
 
@@ -36,6 +36,7 @@ Rules:
 - Indigo is **sparing**: at most one or two indigo moments per screen. If everything is indigo, nothing is.
 - Sold-out and disabled states use `ink-muted` with a hairline strike or border, not red.
 - Contrast (WCAG, measured): `ink` on `paper` 16.6:1; `ink-muted` on `paper` 5.5:1 and on `stone` 5.1:1; `indigo` on `paper` 11.2:1; `paper` on `indigo-deep` 15.3:1; `indigo-wash` on `indigo-deep` 9.0:1; `oxide` on `paper` 6.7:1. Do not use anything lighter than `ink-muted` for text.
+- Non-text contrast (WCAG 1.4.11, measured): `hairline` is 1.33:1 on `paper` and `stone`, so **`hairline` is never the only boundary of an interactive control**. Field, checkbox, chip, stepper and unselected size-cell borders use `ink-muted` (5.5:1 on `paper`, 5.1:1 on `stone`). Rules, grid lines, ledger lines and swatch edges stay `hairline` (a swatch is identified by its fill). Focus ring: `indigo` is 11.2:1 on `paper` and 10.2:1 on `stone`, but 1.37:1 on `indigo-deep`, so dark sections switch it to `indigo-wash` (9.0:1).
 - Photography is graded muted and film-like; the UI must never tint images (no overlays except a plain 0.4 black scrim behind text on a full-bleed hero, and only when the image needs it).
 
 ### Token mapping (shadcn / Tailwind 4)
@@ -153,7 +154,7 @@ Rules:
 
 ## 6. Components
 
-All components are built on the project's shadcn (base-nova, base-ui) primitives and restyled to the tokens above. Every interactive element shows a **2px `indigo` focus ring with a 2px paper offset**, on keyboard focus only.
+All components are built on the project's shadcn (base-nova, base-ui) primitives and restyled to the tokens above. Every interactive element shows a **2px focus ring with a 2px offset**, on keyboard focus only. The ring colour is one variable, `--ring`: `indigo` with a `paper` offset by default, overridden to `indigo-wash` with an `indigo-deep` offset inside `indigo-deep` sections.
 
 ### Buttons
 
@@ -170,7 +171,7 @@ Square image on `stone`; below it, one row: mono `No. 014` left, price right; se
 
 - **Gallery:** square main image, thumbnail row below (square thumbnails, 1px `ink` border on the active one). Four squares per Colourway, in order: still life, on-body front, on-body back, on-body detail (a Proof close-up). Click opens a lightbox for zooming in on detail and Proof. Mobile: swipeable square with the same thumbnail row.
 - **Buy panel (sticky on desktop):** `No. 014` mono, name (H2 serif), price, colour swatches, size selector, one badge at most, short story line (serif lede), Add to cart (primary, full width), size guide link.
-- **Swatches:** 24px circles with a 1px hairline border; selected has a 2px `ink` ring offset by 2px. The colour name appears beside the label.
+- **Swatches:** 24px circles with a 1px hairline border; selected has a 2px `ink` ring offset by 2px. The colour name appears beside the label. The hit area is padded to 44px; the circle stays 24px.
 - **Size selector:** a row of square cells, 48 min, mono labels. Selected is `ink` fill and `paper` text. Sold-out is `ink-muted` with a hairline diagonal strike and `aria-disabled`.
 
 ### Proof ledger
@@ -187,11 +188,11 @@ A panel over the flow listing a Look's Pieces: thumbnail, mono number, name, pri
 
 ### Chips and filters
 
-Category chips and filters use label style on a 1px hairline outline; active is `ink` fill with `paper` text. Filter groups (size, colour, Cloth) are hairline-ruled sections with square checkboxes.
+Category chips and filters use label style on a 1px `ink-muted` outline; active is `ink` fill with `paper` text. Filter groups (size, colour, Cloth) are hairline-ruled sections with square checkboxes (1px `ink-muted` border).
 
 ### Forms and Checkout
 
-Single page with numbered spec-sheet sections (`01 Contact`, `02 Shipping`, `03 Delivery`, `04 Payment`), each with a mono number and a full-width hairline above. Fields: 48 high, 1px hairline border, label above in label style, no placeholder as label. Validation: `oxide` message beneath the field in body small, plus an `oxide` 1px border. The payment section has no card inputs; it shows a `stone` panel with "Showcase store, no payment is taken." and the Place order button. A sticky order summary sits beside the form on desktop and collapses to a top bar on mobile.
+Single page with numbered spec-sheet sections (`01 Contact`, `02 Shipping`, `03 Delivery`, `04 Payment`), each with a mono number and a full-width hairline above. Fields: 48 high, 1px `ink-muted` border, label above in label style, no placeholder as label. Validation: `oxide` message beneath the field in body small, plus an `oxide` 1px border. The payment section has no card inputs; it shows a `stone` panel with "Showcase store, no payment is taken." and the Place order button. A sticky order summary sits beside the form on desktop and collapses to a top bar on mobile.
 
 ### Order confirmation
 
@@ -289,12 +290,3 @@ Sample lines to calibrate tone, not final copy:
 - Showcase note at Checkout: "Showcase store, no payment is taken."
 - Empty cart: "Your bag is empty. See the Lookbook."
 - 404: "This page isn't here."
-
-## 9. Build checklist for the downstream tickets
-
-- [ ] Replace `app/globals.css` tokens per section 2; remove `.dark`; set `--radius: 0`.
-- [ ] Replace `fonts/index.ts` with Newsreader, Archivo (`axes: ["wdth"]`) and IBM Plex Mono; wire `--font-serif`, `--font-sans`, `--font-mono`.
-- [ ] Add motion tokens (section 5) as CSS variables and respect `prefers-reduced-motion` globally.
-- [ ] Restyle shadcn primitives (Button, Sheet, Input, Checkbox, Badge) per section 6 before building pages.
-- [ ] Add the wordmark as an inline SVG or text component and a monogram favicon.
-- [ ] Use the marked placeholder component everywhere until Campaign imagery arrives.

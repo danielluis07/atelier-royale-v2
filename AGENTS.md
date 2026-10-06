@@ -20,6 +20,10 @@ Bun
 
 English
 
+# Design
+
+`DESIGN.md` at the repo root is the source of truth for the visual design: colour tokens, typography, layout and spacing, motion, components, brand mark and tone of voice. Read it before building or styling any UI. The accessibility and performance bar and the build checklist live in `docs/build-guide.md`.
+
 ## Agent skills
 
 ### Issue tracker
