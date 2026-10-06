@@ -259,7 +259,8 @@ Heavy cloth woven and finished in the mill, indigo-dyed in the old way, cut and 
 - No exclamation marks. No emoji. No ALL CAPS except condensed-caps labels set by the system.
 - No heritage clichés: *artisan*, *timeless*, *crafted with love*, *since*, *founded*, *legacy*. No founder figure, no dates.
 - No luxury clichés: *curated*, *elevated* (the word), *exclusive*, *discover*.
-- Use the glossary: **Piece** (not product or item), **Proof** (not specs), **Look** (not outfit), **Cloth**, **Collection**, **Lookbook**.- Numbers are numerals: `14oz`, `3 colours`, `$480`. British or American spelling is picked once: **American** (the site is USD-only), except the Cloth names, which are traditional.
+- Use the glossary: **Piece** (not product or item), **Proof** (not specs), **Look** (not outfit), **Cloth**, **Collection**, **Lookbook**, **Colourway**.
+- Numbers are numerals: `14oz`, `3 colours`, `$480`. British or American spelling is picked once: **American** (the site is USD-only), except the Cloth names and **colour / Colourway**, which are trade words and stay traditional.
 - Second person is allowed, sparingly. First-person plural ("we") is avoided; the house speaks about the work, not about itself.
 - Microcopy is one short line. Error messages say what happened and what to do, with no apology.
 

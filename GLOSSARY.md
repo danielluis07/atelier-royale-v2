@@ -29,10 +29,11 @@ The believable shop mechanics layered under the editorial front end: Collection,
 The campaign-grade storytelling that leads the experience: hero imagery, lookbook, and campaign narrative. It sits above the Storefront.
 
 **Lookbook**:
-The editorial anchor: a curated visual presentation of a season's looks.
+The editorial anchor: a curated visual presentation of one named season's Looks. The season belongs to the Lookbook and the campaign; Pieces carry no season.
 
 **Collection**:
-A listing of Pieces grouped by season, theme, or category.
+A listing of Pieces: all of them, one Category, or one Cloth.
+_Avoid_: Range, line
 
 **Category**:
 A garment type (for example outerwear, shirts, boots) that every Piece belongs to exactly one of. Categories are the store's top-level way in; a Collection may list one Category, one Cloth, or a mix.
@@ -47,11 +48,15 @@ The material evidence a Piece carries: fabric and weight, construction, origin, 
 _Avoid_: Specs, details, product info
 
 **Cloth**:
-The named material a Piece is made from (for example waxed canvas, selvedge denim), shared across Pieces so the Shopper can browse by it. One part of a Piece's Proof, singled out because Pieces have it in common.
+The named material a Piece is made from (for example waxed canvas, selvedge denim), shared across Pieces so the Shopper can browse by it. Every Piece has exactly one Cloth, its main shell material (leather counts, so boots have one too). One part of a Piece's Proof, singled out because Pieces have it in common.
 _Avoid_: Fabric (as a browse term), material
 
 **Look**:
-A styled outfit composed of several Pieces, shown in the Lookbook.
+A styled outfit composed of several Pieces, each in a specific Colourway, shown in the Lookbook. Every Piece is worn in at least one Look.
+
+**Colourway**:
+One colour a Piece is offered in. A Piece has one or more Colourways, and choosing one changes what the Shopper sees; price never varies by Colourway.
+_Avoid_: Variant, colour option
 _Avoid_: Outfit, ensemble
 
 **Campaign imagery**:
