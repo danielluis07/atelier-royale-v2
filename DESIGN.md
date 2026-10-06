@@ -134,7 +134,7 @@ Rules:
 
 - **Allowed:** opacity and transform (translate, clip-path). **Reveals are clip or wipe**, like a shutter or a page turn, never fade-and-float.
 - **Not allowed:** springs, overshoot, scale-bounce, parallax on text, auto-playing carousels, looping animation, animated gradients.
-- Hover on a Collection card swaps still life for on-body with a `--dur-base` crossfade.
+- Hover on a Collection card swaps the still life for the on-body front shot with a `--dur-base` crossfade.
 - The cart drawer slides from the right over `--dur-slow`, scrim in at the same time. Closing is the same, reversed.
 - Underlines on links draw left-to-right over `--dur-fast`.
 - Respect `prefers-reduced-motion`: replace slides and wipes with an instant or opacity-only change, keep layout identical.
@@ -157,7 +157,7 @@ Square image on `stone`; below it, one row: mono `No. 014` left, price right; se
 
 ### Piece page
 
-- **Gallery:** square main image, thumbnail row below (square thumbnails, 1px `ink` border on the active one). Click opens a lightbox for macro Proof shots. Mobile: swipeable square with the same thumbnail row.
+- **Gallery:** square main image, thumbnail row below (square thumbnails, 1px `ink` border on the active one). Four squares per Colourway, in order: still life, on-body front, on-body back, on-body detail (a Proof close-up). Click opens a lightbox for zooming in on detail and Proof. Mobile: swipeable square with the same thumbnail row.
 - **Buy panel (sticky on desktop):** `No. 014` mono, name (H2 serif), price, colour swatches, size selector, one badge at most, short story line (serif lede), Add to cart (primary, full width), size guide link.
 - **Swatches:** 24px circles with a 1px hairline border; selected has a 2px `ink` ring offset by 2px. The colour name appears beside the label.
 - **Size selector:** a row of square cells, 48 min, mono labels. Selected is `ink` fill and `paper` text. Sold-out is `ink-muted` with a hairline diagonal strike and `aria-disabled`.
