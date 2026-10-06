@@ -53,11 +53,15 @@ _Avoid_: Fabric (as a browse term), material
 
 **Look**:
 A styled outfit composed of several Pieces, each in a specific Colourway, shown in the Lookbook. Every Piece is worn in at least one Look.
+_Avoid_: Outfit, ensemble
+
+**Interstitial**:
+A place-only frame in the Lookbook, set between Looks: Hollins Weir with no Pieces and no people. It is never shoppable.
+_Avoid_: Spacer, filler
 
 **Colourway**:
 One colour a Piece is offered in. A Piece has one or more Colourways, and choosing one changes what the Shopper sees; price never varies by Colourway.
 _Avoid_: Variant, colour option
-_Avoid_: Outfit, ensemble
 
 **Campaign imagery**:
 AI-generated photography, supplied by the owner outside this repo. The build consumes it; it does not generate it.
