@@ -2,7 +2,7 @@
 
 The design system, brand mark and tone of voice for the Millrace virtual store. It assembles decisions already closed on the map ([Brand positioning](https://github.com/danielluis07/millrace/issues/2), [Design direction](https://github.com/danielluis07/millrace/issues/4), [Design direction prototype](https://github.com/danielluis07/millrace/issues/10), [Experience blueprint](https://github.com/danielluis07/millrace/issues/5)) and fixes the things those tickets left to this file: final hexes, font families, the brand mark, the place and the voice. Vocabulary follows `GLOSSARY.md`.
 
-Out of scope here: the actual product copy (separate work) and the accessibility and performance bar (its own ticket). Motion choreography is summarised in section 5; the full detail lives in [Motion choreography](https://github.com/danielluis07/millrace/issues/15).
+Out of scope here: the actual product copy (separate work). The accessibility and performance bar is section 9; the reasoning lives in [Accessibility and performance bar](https://github.com/danielluis07/millrace/issues/16). Motion choreography is summarised in section 5; the full detail lives in [Motion choreography](https://github.com/danielluis07/millrace/issues/15).
 
 ## 1. Principles
 
@@ -36,6 +36,7 @@ Rules:
 - Indigo is **sparing**: at most one or two indigo moments per screen. If everything is indigo, nothing is.
 - Sold-out and disabled states use `ink-muted` with a hairline strike or border, not red.
 - Contrast (WCAG, measured): `ink` on `paper` 16.6:1; `ink-muted` on `paper` 5.5:1 and on `stone` 5.1:1; `indigo` on `paper` 11.2:1; `paper` on `indigo-deep` 15.3:1; `indigo-wash` on `indigo-deep` 9.0:1; `oxide` on `paper` 6.7:1. Do not use anything lighter than `ink-muted` for text.
+- Non-text contrast (WCAG 1.4.11, measured): `hairline` is 1.33:1 on `paper` and `stone`, so **`hairline` is never the only boundary of an interactive control**. Field, checkbox, chip, stepper and unselected size-cell borders use `ink-muted` (5.5:1 on `paper`, 5.1:1 on `stone`). Rules, grid lines, ledger lines and swatch edges stay `hairline` (a swatch is identified by its fill). Focus ring: `indigo` is 11.2:1 on `paper` and 10.2:1 on `stone`, but 1.37:1 on `indigo-deep`, so dark sections switch it to `indigo-wash` (9.0:1).
 - Photography is graded muted and film-like; the UI must never tint images (no overlays except a plain 0.4 black scrim behind text on a full-bleed hero, and only when the image needs it).
 
 ### Token mapping (shadcn / Tailwind 4)
@@ -153,7 +154,7 @@ Rules:
 
 ## 6. Components
 
-All components are built on the project's shadcn (base-nova, base-ui) primitives and restyled to the tokens above. Every interactive element shows a **2px `indigo` focus ring with a 2px paper offset**, on keyboard focus only.
+All components are built on the project's shadcn (base-nova, base-ui) primitives and restyled to the tokens above. Every interactive element shows a **2px focus ring with a 2px offset**, on keyboard focus only. The ring colour is one variable, `--ring`: `indigo` with a `paper` offset by default, overridden to `indigo-wash` with an `indigo-deep` offset inside `indigo-deep` sections.
 
 ### Buttons
 
@@ -170,7 +171,7 @@ Square image on `stone`; below it, one row: mono `No. 014` left, price right; se
 
 - **Gallery:** square main image, thumbnail row below (square thumbnails, 1px `ink` border on the active one). Four squares per Colourway, in order: still life, on-body front, on-body back, on-body detail (a Proof close-up). Click opens a lightbox for zooming in on detail and Proof. Mobile: swipeable square with the same thumbnail row.
 - **Buy panel (sticky on desktop):** `No. 014` mono, name (H2 serif), price, colour swatches, size selector, one badge at most, short story line (serif lede), Add to cart (primary, full width), size guide link.
-- **Swatches:** 24px circles with a 1px hairline border; selected has a 2px `ink` ring offset by 2px. The colour name appears beside the label.
+- **Swatches:** 24px circles with a 1px hairline border; selected has a 2px `ink` ring offset by 2px. The colour name appears beside the label. The hit area is padded to 44px; the circle stays 24px.
 - **Size selector:** a row of square cells, 48 min, mono labels. Selected is `ink` fill and `paper` text. Sold-out is `ink-muted` with a hairline diagonal strike and `aria-disabled`.
 
 ### Proof ledger
@@ -187,11 +188,11 @@ A panel over the flow listing a Look's Pieces: thumbnail, mono number, name, pri
 
 ### Chips and filters
 
-Category chips and filters use label style on a 1px hairline outline; active is `ink` fill with `paper` text. Filter groups (size, colour, Cloth) are hairline-ruled sections with square checkboxes.
+Category chips and filters use label style on a 1px `ink-muted` outline; active is `ink` fill with `paper` text. Filter groups (size, colour, Cloth) are hairline-ruled sections with square checkboxes (1px `ink-muted` border).
 
 ### Forms and Checkout
 
-Single page with numbered spec-sheet sections (`01 Contact`, `02 Shipping`, `03 Delivery`, `04 Payment`), each with a mono number and a full-width hairline above. Fields: 48 high, 1px hairline border, label above in label style, no placeholder as label. Validation: `oxide` message beneath the field in body small, plus an `oxide` 1px border. The payment section has no card inputs; it shows a `stone` panel with "Showcase store, no payment is taken." and the Place order button. A sticky order summary sits beside the form on desktop and collapses to a top bar on mobile.
+Single page with numbered spec-sheet sections (`01 Contact`, `02 Shipping`, `03 Delivery`, `04 Payment`), each with a mono number and a full-width hairline above. Fields: 48 high, 1px `ink-muted` border, label above in label style, no placeholder as label. Validation: `oxide` message beneath the field in body small, plus an `oxide` 1px border. The payment section has no card inputs; it shows a `stone` panel with "Showcase store, no payment is taken." and the Place order button. A sticky order summary sits beside the form on desktop and collapses to a top bar on mobile.
 
 ### Order confirmation
 
@@ -290,7 +291,48 @@ Sample lines to calibrate tone, not final copy:
 - Empty cart: "Your bag is empty. See the Lookbook."
 - 404: "This page isn't here."
 
-## 9. Build checklist for the downstream tickets
+## 9. Accessibility and performance
+
+The bar the built site must meet before hand-off. Reasoning: [Accessibility and performance bar](https://github.com/danielluis07/millrace/issues/16).
+
+### Accessibility target
+
+**WCAG 2.2 AA**, plus two AAA criteria the design already meets: **2.3.3 Animation from Interactions** (the reduced-motion rules in section 5) and **2.5.5 Target Size (Enhanced)**, so every target is at least 44px. Contrast rules are in section 2.
+
+- **Focus:** the `--ring` from section 6 everywhere. Sticky elements (header, buy panel, mobile order-summary bar) set `scroll-padding` so a focused element is never hidden beneath them (2.4.11).
+- **Lookbook flow:** a labelled region (`aria-label="Lookbook, FW26"`) holding a list of 8 Looks. Each Look is a list item with a heading (`Look 03, Hollins Weir`), image alt text and a "Shop this Look" button. Tab moves through those buttons and scrolls each Look into view. Left and right arrow keys work while focus is inside the flow. A polite live region announces "Look 3 of 8" after prev or next. No autoplay, no ARIA carousel pattern. Caption text is in the DOM from the start and is never `aria-hidden` while its wipe hides it visually.
+- **Overlays** (Look panel, cart drawer, support sheets, search overlay, lightbox): all are **modal dialogs** on base-ui defaults. Focus moves in and is trapped, Esc closes, focus returns to the trigger, the background is inert, and `aria-labelledby` points at a visible title. The Look panel's mobile bottom sheet is modal too: the Look stays visible but inert, and tapping it closes the sheet.
+- **Status messages:** a polite live region carries Look panel quick add ("Added: Chore Coat, M") and cart count changes.
+- **Search:** a search input followed by a plain list of result links, not a combobox. Tab moves into the results. A polite live region announces the count ("6 results") or the no-results line with its Category suggestions.
+- **Checkout:** on submit, focus moves to the first invalid field. Fields carry `aria-invalid` and `aria-describedby` pointing at their `oxide` message. The browser bubble is replaced by the inline message (`setCustomValidity` plus an `invalid` handler). No error summary at the top. "Placing order…" is `role="status"`. The mobile summary bar is a disclosure button with `aria-expanded`. On Order confirmation, focus moves to the H1.
+
+### Performance budget
+
+Lab numbers from Lighthouse with default throttling, measured on the five key routes: Home, Lookbook, Collection, one Piece page and Checkout.
+
+| Metric | Mobile | Desktop |
+|---|---|---|
+| LCP | ≤ 2.5s | ≤ 2.5s |
+| CLS | ≤ 0.05 | ≤ 0.05 |
+| TBT (stands in for INP) | ≤ 200ms | ≤ 200ms |
+| Performance score | ≥ 90 | ≥ 95 |
+| Accessibility score | 100 | 100 |
+| Best Practices score | 100 | 100 |
+| SEO score | ≥ 95 | ≥ 95 |
+
+- **JS:** ≤ 180 KB compressed JS on initial load for any key route, as reported in Lighthouse's network data (Next 16 no longer prints First Load JS). No client dependencies beyond React, Next, base-ui and Zustand. Editorial sections stay Server Components.
+- **Fonts:** three families via `next/font`, Latin subset, at most 4 files preloaded, `font-display: swap`.
+
+### How it is checked
+
+1. **Lighthouse CI:** a committed `lighthouserc.json` encodes the table above as assertions and runs against `next build && next start` on the five routes. It runs each route 3 times and takes the median, with separate mobile and desktop presets. Run it locally with `bunx @lhci/cli autorun`. Nothing is added to `package.json` and there is no CI workflow.
+2. **Manual keyboard pass** against `docs/qa/accessibility-checklist.md` (written during the build). It covers every behaviour listed above: focus trap and return for each overlay, Lookbook arrows and announcements, Checkout first-invalid focus, visible focus everywhere, nothing hidden under sticky elements, 200% zoom, 320px reflow, and text over imagery checked by eye against the real image (if in doubt, scrim).
+3. **Screen reader pass** with NVDA and Chrome on Windows over the signature path: Home → Lookbook → Look panel quick add → cart drawer → Checkout → Order confirmation. VoiceOver on iOS is optional.
+4. **Twice for performance:** the Lighthouse run must pass at build hand-off with whatever images exist. It must then be **re-run once the priority imagery** (Hero frames, Look crops, first Colourway galleries) is in `public/images/`. The bar is met only on that second run.
+
+Median scores and checklist results go in the hand-off PR description.
+
+## 10. Build checklist for the downstream tickets
 
 - [ ] Replace `app/globals.css` tokens per section 2; remove `.dark`; set `--radius: 0`.
 - [ ] Replace `fonts/index.ts` with Newsreader, Archivo (`axes: ["wdth"]`) and IBM Plex Mono; wire `--font-serif`, `--font-sans`, `--font-mono`.
@@ -298,3 +340,5 @@ Sample lines to calibrate tone, not final copy:
 - [ ] Restyle shadcn primitives (Button, Sheet, Input, Checkbox, Badge) per section 6 before building pages.
 - [ ] Add the wordmark as an inline SVG or text component and a monogram favicon.
 - [ ] Use the marked placeholder component everywhere until Campaign imagery arrives.
+- [ ] Define `--ring` (section 6) and switch control borders to `ink-muted` (section 2) while restyling primitives.
+- [ ] Before hand-off: commit `lighthouserc.json` and `docs/qa/accessibility-checklist.md`, then run the checks in section 9; re-run Lighthouse once the priority imagery lands.
