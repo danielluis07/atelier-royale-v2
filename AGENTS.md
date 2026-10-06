@@ -7,3 +7,15 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+# About this app
+
+A fictional men wear virtual store to showcase to clients. This app has zero backend implementation.
+
+# Runtime
+
+Bun
+
+# Language
+
+English
