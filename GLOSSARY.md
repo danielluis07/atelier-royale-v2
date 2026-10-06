@@ -38,6 +38,10 @@ A listing of Pieces grouped by season, theme, or category.
 A single garment or accessory offered in the store.
 _Avoid_: Product, item, SKU
 
+**Proof**:
+The material evidence a Piece carries: fabric and weight, construction, origin, and care or repair. Presented as a design feature that earns the Shopper persona's trust, never as fine print.
+_Avoid_: Specs, details, product info
+
 **Look**:
 A styled outfit composed of several Pieces, shown in the Lookbook.
 _Avoid_: Outfit, ensemble
