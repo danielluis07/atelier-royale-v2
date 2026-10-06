@@ -34,6 +34,10 @@ The editorial anchor: a curated visual presentation of a season's looks.
 **Collection**:
 A listing of Pieces grouped by season, theme, or category.
 
+**Category**:
+A garment type (for example outerwear, shirts, boots) that every Piece belongs to exactly one of. Categories are the store's top-level way in; a Collection may list one Category, one Cloth, or a mix.
+_Avoid_: Department, section
+
 **Piece**:
 A single garment or accessory offered in the store.
 _Avoid_: Product, item, SKU
@@ -41,6 +45,10 @@ _Avoid_: Product, item, SKU
 **Proof**:
 The material evidence a Piece carries: fabric and weight, construction, origin, and care or repair. Presented as a design feature that earns the Shopper persona's trust, never as fine print.
 _Avoid_: Specs, details, product info
+
+**Cloth**:
+The named material a Piece is made from (for example waxed canvas, selvedge denim), shared across Pieces so the Shopper can browse by it. One part of a Piece's Proof, singled out because Pieces have it in common.
+_Avoid_: Fabric (as a browse term), material
 
 **Look**:
 A styled outfit composed of several Pieces, shown in the Lookbook.
