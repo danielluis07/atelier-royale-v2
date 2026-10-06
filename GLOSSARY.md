@@ -59,6 +59,10 @@ _Avoid_: Outfit, ensemble
 A place-only frame in the Lookbook, set between Looks: Hollins Weir with no Pieces and no people. It is never shoppable.
 _Avoid_: Spacer, filler
 
+**Lookbook cover**:
+The first frame of the Lookbook: the season and the place set in type, with no image. It opens the Lookbook like a cover and is never shoppable.
+_Avoid_: Title card, intro
+
 **Colourway**:
 One colour a Piece is offered in. A Piece has one or more Colourways, and choosing one changes what the Shopper sees; price never varies by Colourway.
 _Avoid_: Variant, colour option

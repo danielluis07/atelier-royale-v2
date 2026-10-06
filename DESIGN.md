@@ -2,7 +2,7 @@
 
 The design system, brand mark and tone of voice for the Millrace virtual store. It assembles decisions already closed on the map ([Brand positioning](https://github.com/danielluis07/millrace/issues/2), [Design direction](https://github.com/danielluis07/millrace/issues/4), [Design direction prototype](https://github.com/danielluis07/millrace/issues/10), [Experience blueprint](https://github.com/danielluis07/millrace/issues/5)) and fixes the things those tickets left to this file: final hexes, font families, the brand mark, the place and the voice. Vocabulary follows `GLOSSARY.md`.
 
-Out of scope here: the actual product copy (separate work), motion choreography (still in the map's fog), and the accessibility and performance bar (also fog). This file gives motion _tokens and rules_ only.
+Out of scope here: the actual product copy (separate work) and the accessibility and performance bar (its own ticket). Motion choreography is summarised in section 5; the full detail lives in [Motion choreography](https://github.com/danielluis07/millrace/issues/15).
 
 ## 1. Principles
 
@@ -119,7 +119,7 @@ Rules:
 
 ## 5. Motion tokens
 
-Restrained and tactile. Nothing bounces, nothing springs, nothing loops. This section holds tokens and rules only; the choreography of the signature Lookbook moment is decided later (see the map's Not yet specified).
+Restrained and tactile. Nothing bounces, nothing springs, nothing loops. Tokens and rules first, then the choreography (full detail in [Motion choreography](https://github.com/danielluis07/millrace/issues/15)).
 
 | Token | Value | Use |
 |---|---|---|
@@ -139,6 +139,17 @@ Rules:
 - Underlines on links draw left-to-right over `--dur-fast`.
 - Respect `prefers-reduced-motion`: replace slides and wipes with an instant or opacity-only change, keep layout identical.
 - The Lookbook flow is horizontal on desktop (scroll) and on mobile (swipe). Native scroll behaviour is preserved; do not hijack the wheel.
+
+### Choreography
+
+- **Lookbook:** the strip opens on the **Lookbook cover** (text only; it wipes in once). When a Look settles, its mono number and title wipe in left to right (`--dur-reveal`, once per Look per visit); the image never animates and the counter swaps instantly. Interstitials don't move. Prev and next buttons and arrow keys scroll one snap.
+- **Look panel:** a right drawer on desktop (same motion as the cart), a bottom sheet of about 85% on mobile. Quick add there does not open the cart; the button shows "Added · M" for about 2s.
+- **Routes:** every route change crossfades the page body over `--dur-base`, with nav and footer anchored. No directional slides. Exactly three shared-element morphs (`--dur-slow`): Collection card → Piece main image, Home featured Piece → Piece main image, Home Lookbook teaser frame → Lookbook frame.
+- **Storefront changes:** filters, Colourway swaps and gallery thumbnails crossfade images over `--dur-base`; text swaps instantly.
+- **Lightbox:** morphs from the main image (`--dur-slow`); click toggles a 2× zoom (`--dur-base`).
+- **Overlays:** support sheets come from the right like the drawer; the mobile nav sheet comes from the left; the search overlay clips down from under the nav.
+- **Reveals** (clip or wipe, once per load) appear only on the Home hero line, the brand-promise place line (the stamp then appears instantly), the *By cloth* and teaser headings, the Lookbook cover and captions, and the 404 line. **Never** in the Storefront.
+- **Reduced motion:** reveals become instant; drawers, panels, sheets, overlays, the lightbox and route changes become a `--dur-base` opacity crossfade; morphs fall back to the page crossfade.
 
 ## 6. Components
 
@@ -172,7 +183,7 @@ Right-side `stone` panel, 440 wide on desktop and full-width on mobile. Rows: sq
 
 ### Look panel (Lookbook)
 
-A panel over the flow listing a Look's Pieces: thumbnail, mono number, name, price, link to the Piece page, quick add with size. Same chrome as the cart drawer so the two read as one family.
+A panel over the flow listing a Look's Pieces: thumbnail, mono number, name, price, link to the Piece page, quick add with size. Same chrome as the cart drawer so the two read as one family; on mobile it is a bottom sheet (about 85% high) so the Look stays visible above it. Quick add here does not open the cart drawer: the button reads "Added · M" for about 2s and the cart count updates.
 
 ### Chips and filters
 
