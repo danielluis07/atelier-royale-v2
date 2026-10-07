@@ -1,5 +1,7 @@
 "use client";
 
+import { Dialog } from "@base-ui/react/dialog";
+import { XIcon } from "lucide-react";
 import {
   addTransitionType,
   startTransition,
@@ -17,16 +19,22 @@ import { Button } from "@/components/ui/button";
 import type { Colorway, Piece, Size } from "@/lib/catalog";
 import { formatPrice } from "@/lib/format";
 import { cn } from "@/lib/utils";
-import { galleryViews, pieceMorphName } from "./gallery-views";
+import { galleryViews, lightboxMorphName, pieceMorphName } from "./gallery-views";
+import { ZoomableImage } from "./lightbox";
 
 /** Marks Colourway swaps so only the gallery crossfades (globals.css). */
 const colorwayTransition = "piece-colourway";
 const galleryUpdate = { [colorwayTransition]: "piece-gallery", default: "none" };
 
+/** Marks the lightbox open/close so only its morph animates (globals.css). */
+const lightboxTransition = "piece-lightbox";
+
 /** One Colourway's server-rendered images, in `galleryViews` order. */
 export interface ColorwayMedia {
   readonly slides: readonly ReactNode[];
   readonly thumbnails: readonly ReactNode[];
+  /** Full-screen renders for the lightbox, in `galleryViews` order. */
+  readonly lightbox: readonly ReactNode[];
 }
 
 interface PieceViewProps {
@@ -89,10 +97,32 @@ function Gallery({
   className?: string;
 }) {
   const [active, setActive] = useState(0);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const id = useId();
   const strip = useRef<HTMLDivElement>(null);
   /** The slide a thumbnail or key is scrolling to; swipes have none. */
   const target = useRef<number | null>(null);
   const count = media.slides.length;
+  const activeLabel = `${label}, ${galleryViews[active].label}`;
+
+  function triggerId(index: number) {
+    return `${id}-lightbox-trigger-${index}`;
+  }
+
+  // The lightbox morphs from the main image open and closed (DESIGN.md §5).
+  function openLightbox() {
+    startTransition(() => {
+      addTransitionType(lightboxTransition);
+      setLightboxOpen(true);
+    });
+  }
+
+  function closeLightbox() {
+    startTransition(() => {
+      addTransitionType(lightboxTransition);
+      setLightboxOpen(false);
+    });
+  }
 
   // Below md the slides are a swipeable strip with native snapping. From md
   // they stack and crossfade, so the strip has nothing to scroll.
@@ -130,33 +160,84 @@ function Gallery({
 
   return (
     <div className={className}>
-      {/* The main image morphs from the Collection card (DESIGN.md §5). */}
-      <ViewTransition
-        name={pieceMorphName(pieceId)}
-        share="piece-morph"
-        update={galleryUpdate}
-        default="none">
-        <div
-          ref={strip}
-          role="group"
-          aria-label={`${label}, ${count} images`}
-          tabIndex={0}
-          onScroll={onScroll}
-          onKeyDown={onKeyDown}
-          className="flex snap-x snap-mandatory overflow-x-auto overscroll-x-contain [scrollbar-width:none] md:grid md:overflow-hidden [&::-webkit-scrollbar]:hidden">
-          {media.slides.map((slide, index) => (
-            <div
-              key={galleryViews[index].image}
-              aria-hidden={index === active ? undefined : true}
-              className={cn(
-                "w-full shrink-0 snap-start snap-always md:[grid-area:1/1] md:transition-opacity md:duration-(--dur-base) md:ease-mech",
-                index !== active && "md:pointer-events-none md:opacity-0",
-              )}>
-              {slide}
+      <Dialog.Root
+        open={lightboxOpen}
+        onOpenChange={(next) => (next ? openLightbox() : closeLightbox())}
+        triggerId={triggerId(active)}>
+        {/* The main image morphs from the Collection card (DESIGN.md §5). */}
+        <ViewTransition
+          name={pieceMorphName(pieceId)}
+          share="piece-morph"
+          update={galleryUpdate}
+          default="none">
+          <div
+            ref={strip}
+            role="group"
+            aria-label={`${label}, ${count} images`}
+            tabIndex={0}
+            onScroll={onScroll}
+            onKeyDown={onKeyDown}
+            className="flex snap-x snap-mandatory overflow-x-auto overscroll-x-contain [scrollbar-width:none] md:grid md:overflow-hidden [&::-webkit-scrollbar]:hidden">
+            {media.slides.map((slide, index) => (
+              <div
+                key={galleryViews[index].image}
+                aria-hidden={index === active ? undefined : true}
+                className={cn(
+                  "w-full shrink-0 snap-start snap-always md:[grid-area:1/1] md:transition-opacity md:duration-(--dur-base) md:ease-mech",
+                  index !== active && "md:pointer-events-none md:opacity-0",
+                )}>
+                {index === active ? (
+                  <Dialog.Trigger
+                    id={triggerId(index)}
+                    aria-label={`Zoom, ${galleryViews[index].label}`}
+                    className="block w-full cursor-zoom-in">
+                    {lightboxOpen ? (
+                      slide
+                    ) : (
+                      <ViewTransition
+                        name={lightboxMorphName(pieceId)}
+                        share="piece-lightbox"
+                        default="none">
+                        {slide}
+                      </ViewTransition>
+                    )}
+                  </Dialog.Trigger>
+                ) : (
+                  slide
+                )}
+              </div>
+            ))}
+          </div>
+        </ViewTransition>
+
+        <Dialog.Portal>
+          <Dialog.Backdrop className="fixed inset-0 z-50 bg-ink/90 transition-opacity duration-(--dur-slow) ease-mech data-ending-style:opacity-0 data-starting-style:opacity-0" />
+          <Dialog.Popup className="fixed inset-0 z-50 flex items-center justify-center p-4 md:p-10">
+            <Dialog.Title className="sr-only">{activeLabel}</Dialog.Title>
+            <Dialog.Close
+              render={
+                <Button
+                  variant="ghost"
+                  className="absolute top-2 right-2 text-paper hover:text-indigo-wash md:top-4 md:right-4"
+                  size="icon-dense"
+                />
+              }>
+              <XIcon strokeWidth={1.5} />
+              <span className="sr-only">Close</span>
+            </Dialog.Close>
+            <div className="relative aspect-square w-[min(92vw,92vh)] bg-stone md:w-[min(80vw,80vh)]">
+              {/* Guarded by our own state, not Popup's mount timing: exactly
+                  one `lightboxMorphName` instance must ever exist, paired
+                  with the gallery's trigger below. */}
+              {lightboxOpen && (
+                <ViewTransition name={lightboxMorphName(pieceId)} share="piece-lightbox" default="none">
+                  <ZoomableImage label={activeLabel}>{media.lightbox[active]}</ZoomableImage>
+                </ViewTransition>
+              )}
             </div>
-          ))}
-        </div>
-      </ViewTransition>
+          </Dialog.Popup>
+        </Dialog.Portal>
+      </Dialog.Root>
 
       <ViewTransition update={galleryUpdate} default="none">
         <ul className="mt-3 flex gap-2 md:mt-4 md:gap-3">

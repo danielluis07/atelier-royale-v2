@@ -283,15 +283,15 @@
   animation: none;
 }
 
-/* Collection filters and Colourway swaps (DESIGN.md §5): the grid, or the
-   Piece gallery, crossfades as one block and everything else, text included,
-   swaps instantly. Cards carry no names of their own during a filter change,
-   so nothing reorders or slides. */
-:root:active-view-transition-type(collection-filter, piece-colourway)::view-transition-old(root) {
+/* Collection filters, Colourway swaps and the lightbox (DESIGN.md §5): each
+   crossfades or morphs as its own block and everything else, text included,
+   swaps instantly. Cards and the gallery carry no names of their own during
+   a filter or lightbox change, so nothing else reorders or slides. */
+:root:active-view-transition-type(collection-filter, piece-colourway, piece-lightbox)::view-transition-old(root) {
   display: none;
 }
 
-:root:active-view-transition-type(collection-filter, piece-colourway)::view-transition-new(root) {
+:root:active-view-transition-type(collection-filter, piece-colourway, piece-lightbox)::view-transition-new(root) {
   animation: none;
 }
 
@@ -325,6 +325,27 @@
 
   ::view-transition-old(.piece-morph),
   ::view-transition-new(.piece-morph) {
+    animation-duration: var(--dur-base);
+  }
+}
+
+/* The lightbox morphs from the gallery's main image, open and closed
+   (DESIGN.md §5), local to the Piece page. Reduced motion drops the morph
+   for an in-place --dur-base crossfade, same as every other overlay. */
+::view-transition-group(.piece-lightbox),
+::view-transition-old(.piece-lightbox),
+::view-transition-new(.piece-lightbox) {
+  animation-duration: var(--dur-slow);
+  animation-timing-function: var(--ease-mech);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(.piece-lightbox) {
+    animation: none;
+  }
+
+  ::view-transition-old(.piece-lightbox),
+  ::view-transition-new(.piece-lightbox) {
     animation-duration: var(--dur-base);
   }
 }
