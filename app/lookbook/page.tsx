@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { ViewTransition } from "react";
+import { LookPanel } from "@/components/lookbook/look-panel";
 import { LookbookFlow } from "@/components/lookbook/lookbook-flow";
 import { MillraceImage } from "@/components/millrace-image";
 import { RevealLine } from "@/components/reveal-line";
-import { getLookbook, getLooks, type Interstitial, type Look } from "@/lib/catalog";
-import { lookAlt, lookIndexAt, lookMorphName } from "@/lib/lookbook";
+import { getLookbook, getLooks, getPiece, type Interstitial, type Look } from "@/lib/catalog";
+import { lookAlt, lookIndexAt, lookMorphName, lookPieces } from "@/lib/lookbook";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
@@ -18,6 +19,19 @@ const frameWidth = {
   "3:2": "lookbook-frame-landscape",
   "1:1": "lookbook-frame-portrait",
 } as const;
+
+/** Still lifes in the Colourway worn, rendered here so image metadata never ships as JavaScript. */
+function lookThumbnails(look: Look) {
+  return Object.fromEntries(
+    look.items.map(({ piece: pieceId, colorway: colorwayId }) => {
+      const colorway = getPiece(pieceId)!.colorways.find((entry) => entry.id === colorwayId)!;
+      return [
+        pieceId,
+        <MillraceImage key={pieceId} imageKey={colorway.images.still} slot="cart-thumbnail" alt="" />,
+      ];
+    }),
+  );
+}
 
 function imageSlot(frame: Look | Interstitial) {
   return frame.aspect === "3:2" ? "look-landscape" : "look-portrait";
@@ -95,6 +109,20 @@ export default function LookbookPage() {
                     </h2>
                     <p className="type-lede max-w-[36ch]">{frame.caption}</p>
                   </div>
+                  <LookPanel
+                    number={frame.number}
+                    caption={frame.caption}
+                    pieces={lookPieces(frame)}
+                    image={
+                      <MillraceImage
+                        imageKey={frame.image}
+                        slot={imageSlot(frame)}
+                        alt=""
+                        className="size-full aspect-auto! [&_img]:object-[50%_30%]"
+                      />
+                    }
+                    thumbnails={lookThumbnails(frame)}
+                  />
                 </li>
               );
             })}
