@@ -1,0 +1,340 @@
+{
+  "issue": 40,
+  "generator": "Built-in imagegen; model version not exposed",
+  "format": "JPEG",
+  "colorSpace": "sRGB",
+  "quality": 85,
+  "requestedCount": 19,
+  "assets": [
+    {
+      "key": "pieces/160-shetland-crew/oat-front",
+      "model": "A",
+      "referenceKeys": [
+        "public/images/pieces/160-shetland-crew/oat-still.jpg",
+        "public/images/looks/look-02-square.jpg"
+      ],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic menswear catalog FRONT photograph. Reference 1 GARMENT ONLY: exact Shetland Crew No.160, oat (#C4B697), preserve plain stockinette Shetland wool texture, silhouette, neckline and all construction. Proof: Fully fashioned body; linked shoulder seams; ribbed crew neck, cuffs and hem. 100% 3-ply Shetland wool, natural slightly fuzzy face, no cable patterns. Reference 2 CAST ONLY: same Model A, build and skin tone, ignore his outfit and environment. Standing still: three-quarter torso facing left, arms relaxed apart from body. Crop top exactly at chin with face above frame, bottom mid-thigh; entire sweater and hem visible. Dark slate neutral trousers. Sweater worn alone untucked. Blank seamless stone #F3F1EC studio background, soft diffused daylight, muted natural film grade matching still life. Accurate hands, anatomy, knitted seams and coherent functional buttons. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/160-shetland-crew/navy-front",
+      "model": "B",
+      "referenceKeys": [
+        "public/images/pieces/160-shetland-crew/navy-still.jpg",
+        "public/images/looks/look-03-square.jpg"
+      ],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic menswear catalog FRONT photograph. Reference 1 GARMENT ONLY: exact Shetland Crew No.160, navy (#29364B), preserve plain stockinette Shetland wool texture, silhouette, neckline and all construction. Proof: Fully fashioned body; linked shoulder seams; ribbed crew neck, cuffs and hem. 100% 3-ply Shetland wool, natural slightly fuzzy face, no cable patterns. Reference 2 CAST ONLY: same Model B, build and skin tone, ignore his outfit and environment. Standing still: square torso, right hand in trouser pocket, left arm relaxed. Crop top exactly at chin with face above frame, bottom mid-thigh; entire sweater and hem visible. Dark slate neutral trousers. Sweater worn alone untucked. Blank seamless stone #F3F1EC studio background, soft diffused daylight, muted natural film grade matching still life. Accurate hands, anatomy, knitted seams and coherent functional buttons. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "categories/knitwear",
+      "model": "B",
+      "referenceKeys": [
+        "public/images/pieces/160-shetland-crew/moss-still.jpg",
+        "public/images/looks/look-03-square.jpg"
+      ],
+      "prompt": "Use case: photorealistic-natural. Generate ONE portrait 4:5 editorial category photograph requested 1600x2000. Reference 1 GARMENT ONLY: exact Shetland Crew No.160 Moss, plain stockinette 3-ply wool with ribbed crew neck cuffs hem, muted moss green. Reference 2 CAST ONLY: same Model B Spanish man mid-30s, olive skin, broad rectangular face, clean-shaven, long dark-brown hair tied low at nape, strong brows. Ignore his outfit. New pose: seated sideways on a low limestone riverbank wall, torso turned three-quarter toward camera, one forearm resting loosely on raised knee and other hand resting on stone beside hip. Relaxed direct eye contact, shoulders level, entire sweater front and hem readable, dark slate trousers. Framed head to upper thighs with knitwear prominent. Icy early-winter Hollins Weir riverbank: visibly frozen pale river surface behind him, frosted limestone stones, small icicles at water edge, snow-dusted bare birch and oak, distant stone mill softly out of focus. Soft overcast daylight, muted film-like natural grade, tactile crisp wool and realistic human anatomy. No jacket, scarf, gloves, cable patterns, text, logos, watermark or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "deliveryDimensions": {
+        "width": 1600,
+        "height": 2000
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/160-shetland-crew/oat-back",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/160-shetland-crew/oat-front"
+      ],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic catalog BACK photograph. Reference SESSION CONTINUITY: exact same Model A, skin tone, build, Shetland Crew No.160 in oat (#C4B697), garment texture, construction, neutral dark slate trousers, light and grade. Proof: Fully fashioned body; linked shoulder seams; ribbed crew neck, cuffs and hem. Natural slightly fuzzy 3-ply Shetland wool, plain stockinette, no cable patterns. Rear three-quarter view of the same stationary standing man, camera behind him. Upper crop at nape with head above frame, lower crop mid-thigh. Whole back of sweater and full ribbed hem visible. Arms relaxed apart from body. Anatomically coherent hands. Back has no pockets or buttons. Blank seamless warm stone #F3F1EC studio background, diffused daylight and muted natural film-like grade match reference. No scenery, props, text, logos, watermark or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/160-shetland-crew/oat-detail",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/160-shetland-crew/oat-front"
+      ],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic catalog DETAIL photograph. Reference SESSION CONTINUITY: exact same Model A, skin tone, build, Shetland Crew No.160 in oat (#C4B697), garment texture, construction, neutral dark slate trousers, light and grade. Proof: Fully fashioned body; linked shoulder seams; ribbed crew neck, cuffs and hem. Natural slightly fuzzy 3-ply Shetland wool, plain stockinette, no cable patterns. Tight close-up of the SAME WORN garment showing linked shoulder seam beside ribbed crew neckline. Body curvature, real fabric tension and skin where appropriate establish it is worn, not flat lay. Face and hands outside frame. Sharp authentic knitting stitches, linked seams and coherent construction. Blank seamless warm stone #F3F1EC studio background, diffused daylight and muted natural film-like grade match reference. No scenery, props, text, logos, watermark or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/160-shetland-crew/navy-back",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/160-shetland-crew/navy-front"
+      ],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic catalog BACK photograph. Reference SESSION CONTINUITY: exact same Model B, skin tone, build, Shetland Crew No.160 in navy (#29364B), garment texture, construction, neutral dark slate trousers, light and grade. Proof: Fully fashioned body; linked shoulder seams; ribbed crew neck, cuffs and hem. Natural slightly fuzzy 3-ply Shetland wool, plain stockinette, no cable patterns. Rear three-quarter view of the same stationary standing man, camera behind him. Upper crop at nape with head above frame, lower crop mid-thigh. Whole back of sweater and full ribbed hem visible. Arms relaxed apart from body. Anatomically coherent hands. Back has no pockets or buttons. Blank seamless warm stone #F3F1EC studio background, diffused daylight and muted natural film-like grade match reference. No scenery, props, text, logos, watermark or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/160-shetland-crew/navy-detail",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/160-shetland-crew/navy-front"
+      ],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic catalog DETAIL photograph. Reference SESSION CONTINUITY: exact same Model B, skin tone, build, Shetland Crew No.160 in navy (#29364B), garment texture, construction, neutral dark slate trousers, light and grade. Proof: Fully fashioned body; linked shoulder seams; ribbed crew neck, cuffs and hem. Natural slightly fuzzy 3-ply Shetland wool, plain stockinette, no cable patterns. Tight close-up of the SAME WORN garment showing linked shoulder seam beside ribbed crew neckline. Body curvature, real fabric tension and skin where appropriate establish it is worn, not flat lay. Face and hands outside frame. Sharp authentic knitting stitches, linked seams and coherent construction. Blank seamless warm stone #F3F1EC studio background, diffused daylight and muted natural film-like grade match reference. No scenery, props, text, logos, watermark or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/160-shetland-crew/moss-front",
+      "model": "D",
+      "referenceKeys": [
+        "pieces/160-shetland-crew/moss-still",
+        "docs/images/cast-model-d.jpg"
+      ],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic catalog FRONT photograph. Reference 1 GARMENT ONLY: exact Shetland Crew No.160 moss (#697253), same silhouette, neckline, plain stockinette wool texture, cuffs and hem. Proof: Fully fashioned body; linked shoulder seams; ribbed crew neck, cuffs and hem. Natural fuzzy 3-ply Shetland wool; no cable patterns. Reference 2 IDENTITY ONLY: same Model D, large sturdy man, fair freckled skin, long reddish-brown hair and full thick reddish beard. Preserve build, skin and facial hair. Stationary standing pose: three-quarter torso facing right, left thumb hooked in trouser pocket, right arm relaxed. Upper crop at chin, include tip of chin only and exclude mouth and all face above chin; lower crop mid-thigh, full sweater and hem visible. Dark slate trousers. Sweater worn alone untucked. Blank seamless warm stone #F3F1EC studio backdrop, diffused daylight, muted natural film-like grade. Accurate human anatomy, fingers and functional buttons. No scenery, props, text, logo, watermark or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/163-shetland-cardigan/charcoal-front",
+      "model": "E",
+      "referenceKeys": [
+        "pieces/163-shetland-cardigan/charcoal-still",
+        "docs/images/cast-model-e.jpg"
+      ],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic catalog FRONT photograph. Reference 1 GARMENT ONLY: exact Shetland Cardigan No.163 charcoal (#464744), same silhouette, neckline, plain stockinette wool texture, cuffs and hem. Proof: Fully fashioned body; reinforced button band; exactly two knitted patch pockets; five dark corozo buttons; relaxed hip length. Natural fuzzy 3-ply Shetland wool; no cable patterns. Reference 2 IDENTITY ONLY: same Model E, lean man, medium warm skin, very short dark buzz cut and dark moustache, otherwise clean-shaven cheeks and chin. Preserve build, skin and facial hair. Stationary standing pose: slight three-quarter torso facing left, both arms hanging clear of pockets. Upper crop at chin, include tip of chin only and exclude mouth and all face above chin; lower crop mid-thigh, full sweater and hem visible. Dark slate trousers. Cardigan buttoned over a plain thin ecru shirt, five dark corozo buttons and exactly two unobscured front patch pockets. Blank seamless warm stone #F3F1EC studio backdrop, diffused daylight, muted natural film-like grade. Accurate human anatomy, fingers and functional buttons. No scenery, props, text, logo, watermark or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/169-roll-neck/ecru-front",
+      "model": "F",
+      "referenceKeys": [
+        "pieces/169-roll-neck/ecru-still",
+        "docs/images/cast-model-f.jpg"
+      ],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic catalog FRONT photograph. Reference 1 GARMENT ONLY: exact Roll-Neck No.169 ecru (#DFD8C5), same silhouette, neckline, plain stockinette wool texture, cuffs and hem. Proof: Fully fashioned body; linked shoulder seams; deep ribbed folded roll neck. Natural fuzzy 3-ply Shetland wool; no cable patterns. Reference 2 IDENTITY ONLY: same Model F, medium build man, fair skin, short natural blond hair, completely clean-shaven. Preserve build, skin and facial hair. Stationary standing pose: square torso with weight on left leg, both arms relaxed. Upper crop at chin, include tip of chin only and exclude mouth and all face above chin; lower crop mid-thigh, full sweater and hem visible. Dark slate trousers. Sweater worn alone untucked. Blank seamless warm stone #F3F1EC studio backdrop, diffused daylight, muted natural film-like grade. Accurate human anatomy, fingers and functional buttons. No scenery, props, text, logo, watermark or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/169-roll-neck/navy-front",
+      "model": "D",
+      "referenceKeys": [
+        "pieces/169-roll-neck/navy-still",
+        "docs/images/cast-model-d.jpg"
+      ],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic catalog FRONT photograph. Reference 1 GARMENT ONLY: exact Roll-Neck No.169 navy (#29364B), same silhouette, neckline, plain stockinette wool texture, cuffs and hem. Proof: Fully fashioned body; linked shoulder seams; deep ribbed folded roll neck. Natural fuzzy 3-ply Shetland wool; no cable patterns. Reference 2 IDENTITY ONLY: same Model D, large sturdy man, fair freckled skin, long reddish-brown hair and full thick reddish beard. Preserve build, skin and facial hair. Stationary standing pose: three-quarter torso facing right, left hand in trouser pocket, right arm relaxed. Upper crop at chin, include tip of chin only and exclude mouth and all face above chin; lower crop mid-thigh, full sweater and hem visible. Dark slate trousers. Sweater worn alone untucked. Blank seamless warm stone #F3F1EC studio backdrop, diffused daylight, muted natural film-like grade. Accurate human anatomy, fingers and functional buttons. No scenery, props, text, logo, watermark or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/160-shetland-crew/moss-back",
+      "model": "D",
+      "referenceKeys": [
+        "pieces/160-shetland-crew/moss-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square 2048x2048 photorealistic catalog back photograph. Reference is SESSION CONTINUITY: preserve EXACT same Model D, skin, build, hair and beard if present, exact Shetland Crew No.160 moss (#697253), fuzzy 3-ply Shetland wool, construction, trousers, background, lighting and grade. Proof: Fully fashioned body; linked shoulder seams; ribbed crew neck, cuffs and hem. Rear three-quarter view of same stationary standing man. Frame from nape to mid-thigh, head entirely above frame. Entire back, both sleeves and ribbed hem visible, arms relaxed. No rear pockets or rear buttons. Blank seamless stone #F3F1EC studio backdrop, diffuse overcast-like daylight, muted film grade. Accurate anatomy and functional hardware. No cable knitting, scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/160-shetland-crew/moss-detail",
+      "model": "D",
+      "referenceKeys": [
+        "pieces/160-shetland-crew/moss-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square 2048x2048 photorealistic catalog detail photograph. Reference is SESSION CONTINUITY: preserve EXACT same Model D, skin, build, hair and beard if present, exact Shetland Crew No.160 moss (#697253), fuzzy 3-ply Shetland wool, construction, trousers, background, lighting and grade. Proof: Fully fashioned body; linked shoulder seams; ribbed crew neck, cuffs and hem. Tight photograph of SAME WORN garment showing ribbed cuff and transition to fully fashioned sleeve. Keep feature prominent and cloth curved around body with real knit tension. Face and hands out of frame. Not flat lay. Blank seamless stone #F3F1EC studio backdrop, diffuse overcast-like daylight, muted film grade. Accurate anatomy and functional hardware. No cable knitting, scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/163-shetland-cardigan/charcoal-back",
+      "model": "E",
+      "referenceKeys": [
+        "pieces/163-shetland-cardigan/charcoal-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square 2048x2048 photorealistic catalog back photograph. Reference is SESSION CONTINUITY: preserve EXACT same Model E, skin, build, hair and beard if present, exact Shetland Cardigan No.163 charcoal (#464744), fuzzy 3-ply Shetland wool, construction, trousers, background, lighting and grade. Proof: Fully fashioned body; reinforced button band; exactly two knitted patch pockets; five dark corozo buttons; relaxed hip length. Rear three-quarter view of same stationary standing man. Frame from nape to mid-thigh, head entirely above frame. Entire back, both sleeves and ribbed hem visible, arms relaxed. No rear pockets or rear buttons. Blank seamless stone #F3F1EC studio backdrop, diffuse overcast-like daylight, muted film grade. Accurate anatomy and functional hardware. No cable knitting, scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/163-shetland-cardigan/charcoal-detail",
+      "model": "E",
+      "referenceKeys": [
+        "pieces/163-shetland-cardigan/charcoal-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square 2048x2048 photorealistic catalog detail photograph. Reference is SESSION CONTINUITY: preserve EXACT same Model E, skin, build, hair and beard if present, exact Shetland Cardigan No.163 charcoal (#464744), fuzzy 3-ply Shetland wool, construction, trousers, background, lighting and grade. Proof: Fully fashioned body; reinforced button band; exactly two knitted patch pockets; five dark corozo buttons; relaxed hip length. Tight photograph of SAME WORN garment showing reinforced ribbed button band with functional corozo button and knitted patch pocket edge. Keep feature prominent and cloth curved around body with real knit tension. Face and hands out of frame. Not flat lay. Blank seamless stone #F3F1EC studio backdrop, diffuse overcast-like daylight, muted film grade. Accurate anatomy and functional hardware. No cable knitting, scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/169-roll-neck/navy-detail",
+      "model": "D",
+      "referenceKeys": [
+        "pieces/169-roll-neck/navy-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square 2048x2048 photorealistic catalog detail photograph. Reference is SESSION CONTINUITY: preserve EXACT same Model D, skin, build, hair and beard if present, exact Roll-Neck No.169 navy (#29364B), fuzzy 3-ply Shetland wool, construction, trousers, background, lighting and grade. Proof: Fully fashioned body; linked shoulder seams; deep ribbed folded roll neck. Tight photograph of SAME WORN garment showing deep ribbed folded roll neck and linked shoulder seam. Keep feature prominent and cloth curved around body with real knit tension. Face and hands out of frame. Not flat lay. Blank seamless stone #F3F1EC studio backdrop, diffuse overcast-like daylight, muted film grade. Accurate anatomy and functional hardware. No cable knitting, scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/169-roll-neck/ecru-back",
+      "model": "F",
+      "referenceKeys": [
+        "pieces/169-roll-neck/ecru-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square 2048x2048 photorealistic catalog back photograph. Reference is SESSION CONTINUITY: preserve EXACT same Model F, skin, build, hair and beard if present, exact Roll-Neck No.169 ecru (#DFD8C5), fuzzy 3-ply Shetland wool, construction, trousers, background, lighting and grade. Proof: Fully fashioned body; linked shoulder seams; deep ribbed folded roll neck. Rear three-quarter view of same stationary standing man. Frame from nape to mid-thigh, head entirely above frame. Entire back, both sleeves and ribbed hem visible, arms relaxed. No rear pockets or rear buttons. Blank seamless stone #F3F1EC studio backdrop, diffuse overcast-like daylight, muted film grade. Accurate anatomy and functional hardware. No cable knitting, scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/169-roll-neck/ecru-detail",
+      "model": "F",
+      "referenceKeys": [
+        "pieces/169-roll-neck/ecru-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square 2048x2048 photorealistic catalog detail photograph. Reference is SESSION CONTINUITY: preserve EXACT same Model F, skin, build, hair and beard if present, exact Roll-Neck No.169 ecru (#DFD8C5), fuzzy 3-ply Shetland wool, construction, trousers, background, lighting and grade. Proof: Fully fashioned body; linked shoulder seams; deep ribbed folded roll neck. Tight photograph of SAME WORN garment showing deep ribbed folded roll neck and linked shoulder seam. Keep feature prominent and cloth curved around body with real knit tension. Face and hands out of frame. Not flat lay. Blank seamless stone #F3F1EC studio backdrop, diffuse overcast-like daylight, muted film grade. Accurate anatomy and functional hardware. No cable knitting, scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/169-roll-neck/navy-back",
+      "model": "D",
+      "referenceKeys": [
+        "pieces/169-roll-neck/navy-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square 2048x2048 photorealistic catalog back photograph. Reference is SESSION CONTINUITY: preserve EXACT same Model D, skin, build, hair and beard if present, exact Roll-Neck No.169 navy (#29364B), fuzzy 3-ply Shetland wool, construction, trousers, background, lighting and grade. Proof: Fully fashioned body; linked shoulder seams; deep ribbed folded roll neck. Rear three-quarter view of same stationary standing man. Frame from nape to mid-thigh, head entirely above frame. Entire back, both sleeves and ribbed hem visible, arms relaxed. No rear pockets or rear buttons. Blank seamless stone #F3F1EC studio backdrop, diffuse overcast-like daylight, muted film grade. Accurate anatomy and functional hardware. No cable knitting, scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    }
+  ]
+}
