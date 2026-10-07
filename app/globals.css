@@ -91,6 +91,9 @@
   --input: var(--ink-muted);
   --ring: var(--indigo);
   --radius: 0;
+
+  /* The sticky site header; focused elements scroll clear of it (2.4.11). */
+  --header-height: 4rem;
 }
 
 /* Reduced motion (DESIGN.md §5): reveals become instant, drawers and sheets a
@@ -219,6 +222,7 @@
 
   html {
     @apply bg-background font-sans text-foreground;
+    scroll-padding-top: calc(var(--header-height) + 1rem);
   }
 
   body {
@@ -236,6 +240,59 @@
   button:not(:disabled),
   [role="button"]:not(:disabled) {
     cursor: pointer;
+  }
+}
+
+/* Route changes (DESIGN.md §5): the page body crossfades over --dur-base; nav
+   and footer hold their own names and stay put. The body group does not move
+   or resize, so a link clicked far down a page never slides the body; under
+   reduced motion this opacity crossfade is already the fallback. */
+::view-transition {
+  pointer-events: none;
+}
+
+::view-transition-group(.page-body) {
+  animation: none;
+}
+
+::view-transition-old(.page-body),
+::view-transition-new(.page-body),
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: var(--dur-base);
+  animation-timing-function: var(--ease-mech);
+}
+
+::view-transition-group(site-header),
+::view-transition-group(site-footer) {
+  animation: none;
+  z-index: 10;
+}
+
+::view-transition-old(site-header),
+::view-transition-old(site-footer) {
+  display: none;
+}
+
+::view-transition-new(site-header),
+::view-transition-new(site-footer) {
+  animation: none;
+}
+
+/* Editorial reveal (DESIGN.md §5), driven by hooks/use-reveal.ts: a left to
+   right wipe, once. The text is always in the DOM; it is only clipped while
+   scripting can uncover it, and never under reduced motion. The clip sits on
+   the children: IntersectionObserver honours a target's own clip-path, so a
+   clipped target would never intersect. The negative insets keep serif
+   ascenders, descenders and italics unclipped. */
+@media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
+  .reveal > * {
+    clip-path: inset(-0.25em 100% -0.25em -0.1em);
+  }
+
+  .reveal.is-revealed > * {
+    clip-path: inset(-0.25em -0.1em -0.25em -0.1em);
+    transition: clip-path var(--dur-reveal) var(--ease-out-mech);
   }
 }
 

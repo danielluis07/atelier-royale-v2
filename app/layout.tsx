@@ -1,7 +1,12 @@
 import type { Metadata, Viewport } from "next";
+import { ViewTransition } from "react";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { archivo, newsreader, plexMono } from "@/fonts";
+import { LiveRegion } from "@/components/live-region";
+import { SiteFooter, CornerMark } from "@/components/site/site-footer";
+import { SiteHeader } from "@/components/site/site-header";
+import { SupportSheets } from "@/components/support/support-sheets";
 
 export const metadata: Metadata = {
   title: {
@@ -27,7 +32,24 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         archivo.variable,
         plexMono.variable,
       )}>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <a
+          href="#main"
+          className="type-label sr-only z-50 bg-primary px-4 text-primary-foreground focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:flex focus:h-11 focus:items-center">
+          Skip to content
+        </a>
+        <SiteHeader />
+        {/* Every route change crossfades the body (DESIGN.md §5). */}
+        <ViewTransition update="page-body" default="none">
+          <main id="main" tabIndex={-1} className="flex flex-1 flex-col outline-none">
+            {children}
+          </main>
+        </ViewTransition>
+        <SiteFooter />
+        <CornerMark />
+        <SupportSheets />
+        <LiveRegion />
+      </body>
     </html>
   );
 }
