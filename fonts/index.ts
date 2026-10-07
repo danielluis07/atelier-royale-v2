@@ -1,13 +1,25 @@
-import { Geist, Geist_Mono, Inter } from "next/font/google";
+import { Archivo, IBM_Plex_Mono, Newsreader } from "next/font/google";
 
-export const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+// Four preloaded files in all (docs/build-guide.md): Newsreader roman and
+// italic, Archivo with its width axis, IBM Plex Mono regular.
 
-export const geistSans = Geist({
-  variable: "--font-geist-sans",
+export const newsreader = Newsreader({
+  variable: "--font-newsreader",
   subsets: ["latin"],
+  style: ["normal", "italic"],
+  display: "swap",
 });
 
-export const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+export const archivo = Archivo({
+  variable: "--font-archivo",
   subsets: ["latin"],
+  axes: ["wdth"],
+  display: "swap",
+});
+
+export const plexMono = IBM_Plex_Mono({
+  variable: "--font-plex-mono",
+  subsets: ["latin"],
+  weight: "400",
+  display: "swap",
 });
