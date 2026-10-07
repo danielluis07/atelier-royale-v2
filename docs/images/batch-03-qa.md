@@ -65,11 +65,10 @@ Generated with the built-in imagegen tool, which exposes no model version
 selector. Native sources are 1122 × 1402 for portraits and 1254 × 1254 for
 squares. Sources are resampled to the required delivery dimensions, with a
 minimal cover crop to make portrait ratios exact. Resampling does not add
-native photographic detail. Selected original sources remain in the generator's
-default artifact location; the project consumes the delivered JPEGs. At the
-owner's request, the three superseded Spanish-model source images generated
-in this session (two Shirts versions and one Knitwear version) were deleted.
-The approved redhead sources and delivered portraits are retained.
+native photographic detail. At the owner's request, this session's native
+generated sources, including the superseded Spanish-model versions, were
+deleted from Codex after image review. The project retains all 11 delivered
+JPEGs, including the approved redhead portraits, and the review contact sheet.
 
 The Home route is currently a foundations stub and does not yet render
 Category tiles or the *By cloth* row. This imagery batch supplies their catalog
