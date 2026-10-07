@@ -34,7 +34,7 @@ export function MobileNav({ items }: { items: NavItem[] }) {
         <SheetHeader>
           <SheetTitle>Menu</SheetTitle>
         </SheetHeader>
-        <nav aria-label="Main" className="flex-1 overflow-y-auto px-6 py-6">
+        <nav aria-label="Principal" className="flex-1 overflow-y-auto px-6 py-6">
           <ul className="flex flex-col">
             {items.map((item) => (
               <li key={item.href}>
@@ -53,7 +53,7 @@ export function MobileNav({ items }: { items: NavItem[] }) {
             href={routes.shop}
             onClick={close}
             className="type-label flex min-h-11 items-center hover:text-indigo">
-            All Pieces
+            Todas as peças
           </Link>
           <span className="type-caption text-muted-foreground">Hollins Weir</span>
         </SheetFooter>

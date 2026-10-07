@@ -12,10 +12,10 @@ import { NewsletterForm } from "./newsletter-form";
 const linkClass = cn(buttonVariants({ variant: "link" }), "type-body-sm justify-start");
 
 const supportTopics: { topic: SupportTopic; label: string }[] = [
-  { topic: "shipping", label: "Shipping" },
-  { topic: "returns", label: "Returns" },
-  { topic: "repairs", label: "Repairs" },
-  { topic: "size-guide", label: "Size guide" },
+  { topic: "shipping", label: "Envio" },
+  { topic: "returns", label: "Devoluções" },
+  { topic: "repairs", label: "Reparos" },
+  { topic: "size-guide", label: "Guia de tamanhos" },
 ];
 
 // Four hairline-ruled columns on desktop, stacked on mobile (DESIGN.md §6).
@@ -28,11 +28,11 @@ export function SiteFooter() {
     <footer className="border-t border-border [view-transition-name:site-footer]">
       <div className="mx-auto w-full max-w-[1536px] px-4 md:px-8 lg:px-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4">
-          <FooterColumn title="Shop">
+          <FooterColumn title="Loja">
             <ul>
               <li>
                 <Link href={routes.shop} className={linkClass}>
-                  All Pieces
+                  Todas as peças
                 </Link>
               </li>
               {getCategories().map((category) => (
@@ -48,11 +48,11 @@ export function SiteFooter() {
           <FooterColumn title="Lookbook">
             <p className="type-lede max-w-[32ch]">{lookbook.intro}</p>
             <Link href={routes.lookbook} className={cn(linkClass, "mt-2")}>
-              See the {lookbook.seasonLabel} Lookbook
+              Abrir o Lookbook {lookbook.seasonLabel}
             </Link>
           </FooterColumn>
 
-          <FooterColumn title="Support">
+          <FooterColumn title="Suporte">
             <ul>
               {supportTopics.map(({ topic, label }) => (
                 <li key={topic}>
@@ -66,7 +66,7 @@ export function SiteFooter() {
 
           <FooterColumn title="Newsletter">
             <p className="type-body-sm text-muted-foreground max-w-[40ch]">
-              The Lookbook and new Cloths, a few times a season.
+              Novidades do Lookbook e novos tecidos, algumas vezes por temporada.
             </p>
             <NewsletterForm />
           </FooterColumn>
@@ -78,8 +78,8 @@ export function SiteFooter() {
             <RaceLine />
           </div>
           <p className="type-caption text-muted-foreground max-w-[52ch]">
-            A showcase store by {showcaseCredit.name}. Millrace and Hollins Weir
-            are fictional; nothing is sold or shipped.
+            Uma loja de demonstração de {showcaseCredit.name}. Millrace e Hollins Weir
+            são fictícios; nada é vendido ou enviado.
           </p>
         </div>
       </div>

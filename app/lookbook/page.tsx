@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Lookbook",
   description:
-    "FW26 at Hollins Weir: eight Looks in heavy cloth, from the first leaves to frost on the weir.",
+    "FW26 em Hollins Weir: oito looks em tecidos pesados, das primeiras folhas à geada no açude.",
 };
 
 const frameWidth = {

@@ -57,7 +57,7 @@ export function LookPanel({ number, caption, pieces, image, thumbnails }: LookPa
     <Sheet>
       <SheetTrigger
         render={<Button variant="link" className="type-body-sm self-start" />}>
-        Shop this Look
+        Comprar este look
         <span className="sr-only">, Look {number}</span>
       </SheetTrigger>
       <SheetContent
@@ -132,13 +132,13 @@ function LookPanelRow({ piece, thumbnail }: { piece: LookPiece; thumbnail: React
         </div>
 
         {soldOut ? (
-          <p className="type-body-sm text-muted-foreground">Sold out in {piece.colourwayName}.</p>
+          <p className="type-body-sm text-muted-foreground">Esta cor está esgotada.</p>
         ) : (
           <div className="flex flex-col gap-1">
             <div className="flex flex-wrap items-end gap-3">
               <div className="flex flex-col gap-1">
                 <label htmlFor={`${id}-size`} className="type-label">
-                  Size
+                  Tamanho
                 </label>
                 <select
                   ref={select}
@@ -152,11 +152,11 @@ function LookPanelRow({ piece, thumbnail }: { piece: LookPiece; thumbnail: React
                   }}
                   className="type-proof h-11 min-w-24 border border-input bg-background px-3 aria-invalid:border-destructive">
                   <option value="" disabled>
-                    Choose
+                    Escolha
                   </option>
                   {piece.sizes.map((entry) => (
                     <option key={entry.size} value={entry.size} disabled={entry.soldOut}>
-                      {entry.soldOut ? `${entry.size}, sold out` : entry.size}
+                      {entry.soldOut ? `${entry.size}, esgotado` : entry.size}
                     </option>
                   ))}
                 </select>
@@ -165,14 +165,14 @@ function LookPanelRow({ piece, thumbnail }: { piece: LookPiece; thumbnail: React
                 variant="secondary"
                 size="dense"
                 className="min-w-36 px-4"
-                aria-label={added ? undefined : `Quick add, ${piece.name}`}
+                aria-label={added ? undefined : `Adicionar rapidamente, ${piece.name}`}
                 onClick={quickAdd}>
-                {added ? addedLabel(added) : "Quick add"}
+                {added ? addedLabel(added) : "Adicionar rapidamente"}
               </Button>
             </div>
             {missingSize && (
               <p id={errorId} className="type-body-sm text-destructive">
-                Choose a size.
+                Escolha um tamanho.
               </p>
             )}
           </div>

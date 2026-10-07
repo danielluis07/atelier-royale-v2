@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: "%s · Millrace",
   },
   description:
-    "Heavy cloth, plain cut. Jackets, shirts, trousers, knitwear and boots, made at Hollins Weir and mended free for life.",
+    "Roupas de trabalho em tecidos pesados, cortadas e costuradas em Hollins Weir. Jaquetas, camisas, calças, malhas e botas, reparadas para a vida toda.",
   applicationName: "Millrace",
 };
 
@@ -26,7 +26,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
-      lang="en"
+      lang="pt-BR"
       className={cn(
         "h-full antialiased",
         newsreader.variable,
@@ -37,7 +37,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <a
           href="#main"
           className="type-label sr-only z-50 bg-primary px-4 text-primary-foreground focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:flex focus:h-11 focus:items-center">
-          Skip to content
+          Ir para o conteúdo
         </a>
         <SiteHeader />
         {/* Every route change crossfades the body (DESIGN.md §5); Collection

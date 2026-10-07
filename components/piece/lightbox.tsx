@@ -46,7 +46,7 @@ export function ZoomableImage({ label, children }: ZoomableImageProps) {
     <button
       ref={frame}
       type="button"
-      aria-label={zoomed ? `Zoom out, ${label}` : `Zoom in, ${label}`}
+      aria-label={zoomed ? `Reduzir, ${label}` : `Ampliar, ${label}`}
       aria-pressed={zoomed}
       onClick={onClick}
       onPointerMove={onPointerMove}

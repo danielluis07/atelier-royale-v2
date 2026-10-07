@@ -218,7 +218,7 @@ export function LookbookFlow({ label, lookCount, children }: LookbookFlowProps) 
           <Button
             variant="ghost"
             size="icon"
-            aria-label="Previous Look"
+            aria-label="Look anterior"
             aria-disabled={ends.start}
             onClick={() => step(-1)}
             className="aria-disabled:text-ink-muted aria-disabled:hover:text-ink-muted">
@@ -227,7 +227,7 @@ export function LookbookFlow({ label, lookCount, children }: LookbookFlowProps) 
           <Button
             variant="ghost"
             size="icon"
-            aria-label="Next Look"
+            aria-label="Próximo look"
             aria-disabled={ends.end}
             onClick={() => step(1)}
             className="aria-disabled:text-ink-muted aria-disabled:hover:text-ink-muted">

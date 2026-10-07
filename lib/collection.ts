@@ -28,8 +28,8 @@ export interface CollectionQuery {
 
 export const sortOptions: readonly { value: CollectionSort; label: string }[] = [
   { value: "featured", label: "Featured" },
-  { value: "price-asc", label: "Price low–high" },
-  { value: "price-desc", label: "Price high–low" },
+  { value: "price-asc", label: "Price: low to high" },
+  { value: "price-desc", label: "Price: high to low" },
 ];
 
 export const emptyQuery: CollectionQuery = {
@@ -156,7 +156,7 @@ export function describeCollection(query: CollectionQuery): {
     kicker: "Collection",
     title: "All Pieces",
     intro:
-      "Jackets, shirts, trousers, knitwear and boots, cut and sewn at Hollins Weir.",
+      "Jackets, shirts, trousers, knitwear and boots. Cut and sewn at Hollins Weir.",
   };
 }
 

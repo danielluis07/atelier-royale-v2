@@ -13,9 +13,9 @@ export function CategoryTiles() {
   return (
     <section aria-labelledby="categories" className="mx-auto w-full max-w-[1536px] py-16 md:py-24">
       <div className="flex items-baseline justify-between gap-6 px-4 md:px-8 lg:px-12">
-        <h2 id="categories" className="type-label">Shop by Category</h2>
+        <h2 id="categories" className="type-label">Comprar por categoria</h2>
         <Link href={routes.shop} className={cn(buttonVariants({ variant: "link" }), "type-body-sm")}>
-          View all Pieces
+          Ver todas as peças
         </Link>
       </div>
       <ul className="mt-6 flex snap-x snap-mandatory scroll-px-4 gap-4 overflow-x-auto overscroll-x-contain px-4 pb-2 [scrollbar-width:none] md:scroll-px-8 md:gap-5 md:px-8 lg:grid lg:grid-cols-5 lg:overflow-visible lg:px-12 xl:gap-6 [&::-webkit-scrollbar]:hidden">

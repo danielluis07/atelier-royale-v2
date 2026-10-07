@@ -21,7 +21,7 @@ export function Hero() {
         imageKey="editorial/hero-mobile"
         desktopImageKey="editorial/hero-desktop"
         slot="home-hero"
-        alt="A man in an olive Field Jacket and selvedge jeans walks the wet stone path along the millrace, the weir and the mill behind him."
+        alt="Um homem usando a Field Jacket oliva e jeans selvedge caminha pela trilha de pedras molhada ao longo do canal do moinho, com o açude e o moinho ao fundo."
       />
       <div aria-hidden="true" className="absolute inset-0 hidden bg-black/40 md:block" />
 
@@ -31,14 +31,14 @@ export function Hero() {
             Hollins Weir · {lookbook.seasonLabel}
           </p>
           <RevealLine as="h1" className="type-display max-w-[14ch] text-balance">
-            <span id="hero-line">Heavy cloth. Plain cut.</span>
+            <span id="hero-line">Tecido pesado. Corte simples.</span>
           </RevealLine>
           <div className="flex flex-wrap gap-3 md:gap-4">
             <Link href={routes.lookbook} className={cn(buttonVariants())}>
-              See the Lookbook
+              Abrir o Lookbook
             </Link>
             <Link href={routes.shop} className={cn(buttonVariants({ variant: "secondary" }))}>
-              Shop all Pieces
+              Ver a coleção
             </Link>
           </div>
         </div>

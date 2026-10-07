@@ -35,7 +35,7 @@ export async function generateMetadata({
   if (!piece) return {};
   return {
     title: piece.name,
-    description: `No. ${piece.number}. ${piece.story} ${getCloth(piece.cloth)!.name}, cut and sewn at Hollins Weir.`,
+    description: `${piece.story} ${getCloth(piece.cloth)!.name}, cortada e costurada em Hollins Weir.`,
   };
 }
 
@@ -57,7 +57,7 @@ export default async function PiecePage({ params }: PageProps<"/shop/[slug]">) {
         <ProofLedger piece={piece} />
       </PieceView>
 
-      <SpecSection number="02" title="Worn in">
+      <SpecSection number="02" title="Usadas">
         <ul className="grid grid-cols-2 gap-x-4 gap-y-10 md:grid-cols-3 md:gap-x-5 lg:grid-cols-4 lg:gap-x-6">
           {wornIn.map((look) => (
             <li key={look.id}>
@@ -68,7 +68,7 @@ export default async function PiecePage({ params }: PageProps<"/shop/[slug]">) {
       </SpecSection>
 
       {related.length > 0 && (
-        <SpecSection number="03" title="Related Pieces">
+        <SpecSection number="03" title="Peças relacionadas">
           <ul className="grid grid-cols-2 gap-x-4 gap-y-10 md:grid-cols-3 md:gap-x-5 lg:grid-cols-4 lg:gap-x-6">
             {related.map((entry) => (
               <li key={entry.id}>

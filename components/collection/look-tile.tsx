@@ -19,7 +19,7 @@ export function LookTile({ look }: { look: Look }) {
       </div>
       <span className="mt-2 font-medium">{look.caption}</span>
       <span className="type-body-sm text-muted-foreground group-hover:text-indigo transition-colors duration-(--dur-fast) ease-mech">
-        See this Look
+        Abrir este look
       </span>
     </Link>
   );

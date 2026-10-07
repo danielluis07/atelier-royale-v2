@@ -51,7 +51,7 @@ export function CartDrawerView({ thumbnails }: CartDrawerViewProps) {
       <SheetContent side="right">
         <SheetHeader>
           <SheetTitle ref={title} tabIndex={-1} className="outline-none">
-            Bag
+            Sacola
           </SheetTitle>
           {hasHydrated && items.length > 0 && (
             <SheetDescription className="type-caption">{formatPieceCount(count)}</SheetDescription>
@@ -62,12 +62,12 @@ export function CartDrawerView({ thumbnails }: CartDrawerViewProps) {
         {hasHydrated &&
           (items.length === 0 ? (
             <div className="flex flex-1 flex-col items-start gap-2 px-6 py-10">
-              <p className="type-h3">Your bag is empty.</p>
+              <p className="type-h3">Sua sacola está vazia.</p>
               <Link
                 href={routes.lookbook}
                 onClick={close}
                 className={cn(buttonVariants({ variant: "link" }), "type-body")}>
-                See the Lookbook
+                Abrir o Lookbook
               </Link>
             </div>
           ) : (
@@ -93,17 +93,17 @@ export function CartDrawerView({ thumbnails }: CartDrawerViewProps) {
                 </div>
                 <div className="flex items-center gap-4">
                   <span className="type-label shrink-0 -rotate-2 border border-indigo px-2 py-1 text-indigo">
-                    Mended free for life
+                    Reparos gratuitos para toda a vida
                   </span>
                   <p className="type-caption text-muted-foreground">
-                    Repairs at Hollins Weir are complimentary for every Piece.
+                    Os reparos em Hollins Weir são gratuitos para todas as peças.
                   </p>
                 </div>
                 <p className="type-caption text-muted-foreground">
-                  Shipping is set at Checkout.
+                  O frete é definido no checkout.
                 </p>
                 <Link href={routes.checkout} onClick={close} className={cn(buttonVariants(), "w-full")}>
-                  Checkout
+                  Finalizar compra
                 </Link>
               </SheetFooter>
             </>
@@ -156,14 +156,14 @@ function CartRow({
           </Link>
           <p className="type-body-sm text-muted-foreground">
             {colorway.name}
-            {line.qty > 1 && <> · {formatPrice(piece.price)} each</>}
+            {line.qty > 1 && <> · {formatPrice(piece.price)} cada</>}
           </p>
         </div>
 
         <div className="flex flex-wrap items-end gap-4">
           <div className="flex flex-col gap-1">
             <label htmlFor={`${id}-size`} className="type-label">
-              Size
+              Tamanho
             </label>
             <select
               id={`${id}-size`}
@@ -178,7 +178,7 @@ function CartRow({
                   key={size}
                   value={size}
                   disabled={soldOut && size !== line.size}>
-                  {soldOut ? `${size}, sold out` : size}
+                  {soldOut ? `${size}, esgotado` : size}
                 </option>
               ))}
             </select>
@@ -186,22 +186,22 @@ function CartRow({
 
           <div className="flex flex-col gap-1">
             <span id={`${id}-qty`} className="type-label">
-              Quantity
+              Quantidade
             </span>
             <div role="group" aria-labelledby={`${id}-qty`} className="flex">
               <StepperButton
-                label={`One fewer, ${label}`}
+                label={`Uma unidade a menos, ${label}`}
                 disabled={line.qty <= 1}
                 onClick={() => setQty(key, line.qty - 1)}>
                 <MinusIcon strokeWidth={1.5} />
               </StepperButton>
               <output
-                aria-label={`${line.qty} of ${label}`}
+                aria-label={`${line.qty} de ${label}`}
                 className="type-proof -ml-px flex size-11 items-center justify-center border border-input tabular-nums">
                 {line.qty}
               </output>
               <StepperButton
-                label={`One more, ${label}`}
+                label={`Uma unidade a mais, ${label}`}
                 disabled={line.qty >= MAX_QTY}
                 onClick={() => setQty(key, line.qty + 1)}
                 className="-ml-px">
@@ -214,12 +214,12 @@ function CartRow({
         <Button
           variant="link"
           className="type-body-sm self-start text-muted-foreground"
-          aria-label={`Remove ${label}`}
+          aria-label={`Remover ${label}`}
           onClick={() => {
             removeLine(key);
             onRowChange();
           }}>
-          Remove
+          Remover
         </Button>
       </div>
     </li>

@@ -18,7 +18,7 @@ export function NewsletterForm() {
   if (done) {
     return (
       <p ref={confirmation} tabIndex={-1} className="type-lede max-w-[32ch]">
-        Noted. The FW26 Lookbook comes to you first.
+        Você está na lista. O Lookbook FW26 será a primeira coisa que enviaremos.
       </p>
     );
   }
@@ -43,7 +43,7 @@ export function NewsletterForm() {
           className="min-w-48 flex-1"
         />
         <Button type="submit" variant="secondary">
-          Sign up
+          Inscrever-se
         </Button>
       </div>
     </form>

@@ -13,20 +13,20 @@ export function BrandPromise() {
     <section aria-labelledby="brand-promise" className="bg-stone">
       <div className="mx-auto grid w-full max-w-[1536px] gap-8 px-4 py-24 md:px-8 md:py-32 lg:grid-cols-12 lg:gap-6 lg:px-12 lg:py-48">
         <div className="flex flex-col items-start gap-8 lg:col-span-7 lg:col-start-2">
-          <p className="type-label text-muted-foreground">Made at the mill</p>
+          <p className="type-label text-muted-foreground">Feita no moinho</p>
           <RevealLine as="h2" className="type-display italic">
-            <span id="brand-promise">Cut and sewn at Hollins Weir.</span>
+            <span id="brand-promise">Cortada e costurada em Hollins Weir.</span>
           </RevealLine>
           <Stamp className="after-reveal" />
         </div>
         <div className="flex flex-col items-start gap-2 lg:col-span-3 lg:col-start-9 lg:self-end">
           <p className="type-body max-w-[36ch]">
-            Bring any Piece back, for as long as it is worn. Seams resewn, buttons
-            and rivets replaced, wax renewed, boots resoled on the original welt.
-            Shipping is covered both ways within the US.
+            Traga qualquer peça de volta enquanto você a usar. Refazemos costuras,
+            trocamos botões e rebites, renovamos a cera e refazemos as solas das
+            botas no debrum original. Cobrimos o frete de ida e volta dentro dos EUA.
           </p>
           <SupportSheetTrigger topic="repairs" className={cn(buttonVariants({ variant: "link" }), "self-start")}>
-            Read the repair promise
+            Ler os termos de reparo
           </SupportSheetTrigger>
         </div>
       </div>

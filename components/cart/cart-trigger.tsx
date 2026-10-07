@@ -26,7 +26,7 @@ export function CartTrigger() {
         </span>
       )}
       <span className="sr-only">
-        {count ? `Bag, ${formatPieceCount(count)}` : "Bag"}
+        {count ? `Sacola, ${formatPieceCount(count)}` : "Sacola"}
       </span>
     </Button>
   );

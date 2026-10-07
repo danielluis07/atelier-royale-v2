@@ -25,9 +25,9 @@ export function formatCounter(index: number, total: number): string {
   return `${pad(index)} / ${pad(total)}`;
 }
 
-/** What the live region says after prev or next: "Look 3 of 8". */
+/** Texto anunciado depois de avançar ou voltar: "Look 3 de 8". */
 export function describePosition(index: number, total: number): string {
-  return `Look ${index} of ${total}`;
+  return `Look ${index} de ${total}`;
 }
 
 /** Alt text from what the Look is wearing, in the Colourways worn. */
@@ -41,7 +41,7 @@ export function lookAlt(look: Look): string {
     worn.length > 1
       ? `${worn.slice(0, -1).join(", ")} and ${worn.at(-1)}`
       : worn.join("");
-  return `Look ${look.number} at Hollins Weir: ${list}.`;
+  return `Look ${look.number} em Hollins Weir: ${list}.`;
 }
 
 // Snap maths for the strip. `targets` are the scroll positions at which each
@@ -115,12 +115,12 @@ export function quickAddLine(
   return { pieceId: piece.id, colourwayId: piece.colourwayId, size };
 }
 
-/** The quick-add button once it has added: "Added · M". */
+/** Texto do botão depois de adicionar: "Adicionado · M". */
 export function addedLabel(size: string): string {
-  return `Added · ${size}`;
+  return `Adicionado · ${size}`;
 }
 
-/** What the live region says after a quick add: "Added: Chore Jacket, M". */
+/** Texto anunciado depois de uma adição rápida. */
 export function describeQuickAdd(piece: Pick<LookPiece, "name">, size: string): string {
-  return `Added: ${piece.name}, ${size}`;
+  return `Adicionado: ${piece.name}, ${size}`;
 }

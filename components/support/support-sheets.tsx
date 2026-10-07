@@ -61,39 +61,39 @@ function SupportContent({ topic, category }: SupportPayload) {
     case "shipping":
       return (
         <Ledger
-          title="Shipping"
-          description="Packed at Hollins Weir. Sent within 2 working days."
+          title="Envio"
+          description="Preparamos os pedidos em Hollins Weir e os enviamos em até 2 dias úteis."
           rows={[
-            ["Standard", "Free on US orders over $250. $12 below that. 3 to 5 working days."],
-            ["Express", "$25. 1 to 2 working days."],
-            ["Tracking", "A tracking link follows by email when the parcel leaves the mill."],
-            ["Where", "United States only. All prices in USD."],
+            ["Padrão", "Grátis para pedidos nos EUA acima de US$ 250; caso contrário, US$ 12. A entrega leva de 3 a 5 dias úteis."],
+            ["Expresso", "US$ 25 para entrega em 1 a 2 dias úteis."],
+            ["Rastreamento", "Enviamos um link de rastreamento por e-mail quando o pacote sai do moinho."],
+            ["Onde", "Enviamos dentro dos Estados Unidos. Todos os preços estão em USD."],
           ]}
         />
       );
     case "returns":
       return (
         <Ledger
-          title="Returns"
-          description="30 days to send back an unworn Piece."
+          title="Devoluções"
+          description="Devolva uma peça não usada em até 30 dias."
           rows={[
-            ["Window", "30 days from delivery. Tags on, unworn, unwashed."],
-            ["Cost", "Free within the US. The prepaid label is in the box."],
-            ["Refund", "To the original payment, within 5 working days of arrival at the mill."],
-            ["Final", "Trousers chain-stitched to length are not returnable."],
+            ["Prazo", "30 dias a partir da entrega. Mantenha as etiquetas e não use nem lave a peça."],
+            ["Custo", "As devoluções são gratuitas dentro dos EUA. A etiqueta pré-paga está na caixa."],
+            ["Reembolso", "Reembolsamos o pagamento original em até 5 dias úteis após a peça chegar ao moinho."],
+            ["Final", "Não aceitamos calças com costura de corrente ajustadas ao comprimento."],
           ]}
         />
       );
     case "repairs":
       return (
         <Ledger
-          title="Repairs"
-          description="Mended free for life."
+          title="Reparos"
+          description="Reparamos cada peça enquanto você a usar."
           rows={[
-            ["Cover", "Every Piece, for as long as it is worn. No receipt needed."],
-            ["Work", "Seams resewn, buttons and rivets replaced, wax renewed, boots resoled on the original welt."],
-            ["Shipping", "Covered both ways within the US."],
-            ["Time", "3 to 4 weeks at Hollins Weir."],
+            ["Cobertura", "Todas as peças, enquanto você as usar. Você não precisa de recibo."],
+            ["Trabalho", "Refazemos costuras, trocamos botões e rebites, renovamos a cera e refazemos as solas das botas no debrum original."],
+            ["Envio", "Cobrimos o frete de ida e volta dentro dos EUA."],
+            ["Prazo", "Os reparos levam de 3 a 4 semanas em Hollins Weir."],
           ]}
         />
       );
@@ -144,8 +144,8 @@ function SizeGuide({ category }: { category?: CategoryId }) {
   return (
     <>
       <SheetHeader>
-        <SheetTitle>Size guide</SheetTitle>
-        <SheetDescription>Measurements in inches.</SheetDescription>
+        <SheetTitle>Guia de tamanhos</SheetTitle>
+        <SheetDescription>Todas as medidas estão em polegadas.</SheetDescription>
       </SheetHeader>
       <div className="flex flex-1 flex-col gap-10 overflow-y-auto px-6 py-6">
         {categories.map((entry, index) => (
@@ -172,7 +172,7 @@ function SizeTable({ category, index }: { category: Category; index: number }) {
         <thead>
           <tr className="border-y border-border">
             <th scope="col" className="type-label py-2 pr-4 text-left">
-              Size
+              Tamanho
             </th>
             {sizeGuide.columns.map((column) => (
               <th key={column} scope="col" className="type-label py-2 pl-4 text-right">

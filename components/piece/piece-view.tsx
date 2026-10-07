@@ -173,7 +173,7 @@ function Gallery({
           <div
             ref={strip}
             role="group"
-            aria-label={`${label}, ${count} images`}
+            aria-label={`${label}, ${count} imagens`}
             tabIndex={0}
             onScroll={onScroll}
             onKeyDown={onKeyDown}
@@ -189,7 +189,7 @@ function Gallery({
                 {index === active ? (
                   <Dialog.Trigger
                     id={triggerId(index)}
-                    aria-label={`Zoom, ${galleryViews[index].label}`}
+                    aria-label={`Ampliar, ${galleryViews[index].label}`}
                     className="block w-full cursor-zoom-in">
                     {lightboxOpen ? (
                       slide
@@ -223,7 +223,7 @@ function Gallery({
                 />
               }>
               <XIcon strokeWidth={1.5} />
-              <span className="sr-only">Close</span>
+              <span className="sr-only">Fechar</span>
             </Dialog.Close>
             <div className="relative aspect-square w-[min(92vw,92vh)] bg-stone md:w-[min(80vw,80vh)]">
               {/* Guarded by our own state, not Popup's mount timing: exactly
@@ -316,7 +316,7 @@ function BuyPanel({
 
       <fieldset>
         <legend className="type-label float-left w-full pb-1">
-          Colour
+          Cor
           <span
             aria-hidden="true"
             className="type-body-sm ml-3 tracking-normal normal-case [font-stretch:100%] text-muted-foreground">
@@ -354,7 +354,7 @@ function BuyPanel({
       </fieldset>
 
       <fieldset ref={sizeGroup}>
-        <legend className="type-label float-left w-full pb-3">Size</legend>
+        <legend className="type-label float-left w-full pb-3">Tamanho</legend>
         <div className="clear-left flex flex-wrap gap-2">
           {sizes.map((entry) => {
             const soldOut = colorway.soldOutSizes.includes(entry);
@@ -387,7 +387,7 @@ function BuyPanel({
                 {entry}
                 {soldOut && (
                   <>
-                    <span className="sr-only">, sold out</span>
+                    <span className="sr-only">, esgotado</span>
                     <svg
                       aria-hidden="true"
                       className="absolute inset-0 size-full"
@@ -410,17 +410,17 @@ function BuyPanel({
         <div className="flex flex-col gap-1 pt-3 empty:hidden">
           {missingSize && (
             <p id={errorId} className="type-body-sm text-destructive">
-              Choose a size.
+              Escolha um tamanho.
             </p>
           )}
           {soldOutNote && (
             <p id={noteId} className="type-caption text-muted-foreground">
-              Struck sizes are sold out in {colorway.name}.
+              Os tamanhos riscados estão esgotados em {colorway.name}.
             </p>
           )}
           {piece.category === "trousers" && (
             <p className="type-caption text-muted-foreground">
-              34in inseam. Sold unhemmed; chain-stitched to length on request.
+              Entreperna de 34 pol. Vendida sem barra; costura de corrente no comprimento sob solicitação.
             </p>
           )}
         </div>
@@ -430,13 +430,13 @@ function BuyPanel({
 
       <div className="flex flex-col items-start gap-2">
         <Button type="button" className="w-full" onClick={addToCart}>
-          Add to cart
+          Adicionar à sacola
         </Button>
         <SupportSheetTrigger
           topic="size-guide"
           category={piece.category}
           render={<Button variant="link" />}>
-          Size guide
+          Guia de tamanhos
         </SupportSheetTrigger>
       </div>
 

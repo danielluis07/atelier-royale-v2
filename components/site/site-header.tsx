@@ -22,11 +22,11 @@ export function SiteHeader() {
         <Link
           href={routes.home}
           className="flex h-11 items-center justify-self-center"
-          aria-label="Millrace, home">
+          aria-label="Millrace, início">
           <Wordmark className="text-base" />
         </Link>
 
-        <nav aria-label="Main" className="hidden lg:block">
+        <nav aria-label="Principal" className="hidden lg:block">
           <ul className="flex items-center gap-8">
             {items.map((item) => (
               <li key={item.href}>

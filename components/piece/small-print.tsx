@@ -11,14 +11,15 @@ import { cn } from "@/lib/utils";
 export function SmallPrint({ category }: { category: CategoryId }) {
   return (
     <div className="border-t border-border">
-      <Disclosure title="Shipping" topic="shipping">
-        Sent from Hollins Weir within 2 working days. Free on US orders over
-        $250; $12 below that.
+      <Disclosure title="Envio" topic="shipping">
+        Enviamos os pedidos de Hollins Weir em até 2 dias úteis. O frete é
+        grátis para pedidos nos EUA acima de US$ 250 e custa US$ 12 abaixo disso.
       </Disclosure>
-      <Disclosure title="Returns" topic="returns">
-        30 days from delivery to send back an unworn Piece. Free within the US.
+      <Disclosure title="Devoluções" topic="returns">
+        Devolva uma peça não usada em até 30 dias após a entrega. As devoluções são
+        gratuitas dentro dos EUA.
         {category === "trousers" &&
-          " Trousers chain-stitched to length are not returnable."}
+          " Calças com costura de corrente ajustadas ao comprimento não podem ser devolvidas."}
       </Disclosure>
     </div>
   );
@@ -47,7 +48,7 @@ function Disclosure({
         <SupportSheetTrigger
           topic={topic}
           className={cn(buttonVariants({ variant: "link" }), "type-body-sm")}>
-          {title} in full
+          {title} na íntegra
         </SupportSheetTrigger>
       </div>
     </details>

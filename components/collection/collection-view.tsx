@@ -111,7 +111,7 @@ function CollectionView({
     announce(
       pieces.length
         ? formatPieceCount(pieces.length)
-        : "No Pieces match these filters.",
+        : "Nenhuma peça corresponde a estes filtros.",
     );
     if (focusResults.current) {
       focusResults.current = false;
@@ -136,11 +136,11 @@ function CollectionView({
         <p className="type-lede max-w-[52ch]">{intro}</p>
       </header>
 
-      <nav aria-label="Categories" className="border-t border-border py-4">
+      <nav aria-label="Categorias" className="border-t border-border py-4">
         <ul className="flex flex-wrap gap-2">
           <li>
             <Chip query={withCategory(pending, undefined)} active={!pending.category}>
-              All
+              Todas
             </Chip>
           </li>
           {getCategories().map((category) => (
@@ -163,7 +163,7 @@ function CollectionView({
           aria-expanded={filtersOpen}
           aria-controls="collection-filters"
           onClick={() => setFiltersOpen((open) => !open)}>
-          Filter{filterCount > 0 && ` · ${filterCount}`}
+          Filtrar{filterCount > 0 && ` · ${filterCount}`}
           <ChevronDownIcon
             aria-hidden="true"
             className={cn(
@@ -172,7 +172,7 @@ function CollectionView({
             )}
           />
         </Button>
-        <p className="type-label hidden lg:block">Filter</p>
+        <p className="type-label hidden lg:block">Filtrar</p>
         <div className="ml-auto flex items-center gap-6">
           <p className="type-caption text-muted-foreground">
             {formatPieceCount(pieces.length)}
@@ -263,7 +263,7 @@ function SortSelect({
   return (
     <div className="flex items-center gap-3">
       <label htmlFor={id} className="type-label text-muted-foreground">
-        Sort
+        Ordenar
       </label>
       <div className="relative">
         <select
@@ -299,7 +299,7 @@ function Filters({
 
   return (
     <div className="flex flex-col pb-6 lg:pt-4">
-      <FilterGroup legend="Size">
+      <FilterGroup legend="Tamanho">
         {options.sizes.map((run) => (
           <div key={run.label} className="flex flex-col">
             {options.sizes.length > 1 && (
@@ -324,7 +324,7 @@ function Filters({
         ))}
       </FilterGroup>
 
-      <FilterGroup legend="Colour">
+      <FilterGroup legend="Cor">
         <div className="grid grid-cols-2 gap-x-4 sm:grid-cols-3 lg:grid-cols-1">
           {options.colors.map((color) => (
             <Option
@@ -347,7 +347,7 @@ function Filters({
         </div>
       </FilterGroup>
 
-      <FilterGroup legend="Cloth">
+      <FilterGroup legend="Tecido">
         <div className="grid grid-cols-2 gap-x-4 sm:grid-cols-3 lg:grid-cols-1">
           {options.cloths.map((cloth) => (
             <Option
@@ -367,7 +367,7 @@ function Filters({
 
       {activeFilterCount(query) > 0 && (
         <Button variant="link" className="self-start" onClick={onClear}>
-          Clear filters
+          Limpar filtros
         </Button>
       )}
     </div>
@@ -410,12 +410,12 @@ function EmptyState({
   return (
     <div className="flex flex-col items-start gap-6 py-12 lg:py-16">
       <p className="type-h3 max-w-[28ch]">
-        No Piece is made in that combination.
+        Não fazemos uma peça com essa combinação.
       </p>
       <div className="flex flex-wrap items-center gap-6">
         {canClear && (
           <Button variant="secondary" onClick={onClear}>
-            Clear filters
+            Limpar filtros
           </Button>
         )}
         <Link
@@ -423,7 +423,7 @@ function EmptyState({
           scroll={false}
           transitionTypes={[filterTransition]}
           className={buttonVariants({ variant: "link" })}>
-          See all Pieces
+          Ver todas as peças
         </Link>
       </div>
     </div>

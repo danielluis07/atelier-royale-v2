@@ -38,7 +38,19 @@ export type ProofLabel =
   | "REPAIR"
   | "LAST"
   | "SOLE"
-  | "WELT";
+  | "WELT"
+  | "TECIDO"
+  | "PESO"
+  | "COMPOSIÇÃO"
+  | "CONSTRUÇÃO"
+  | "AVIAMENTOS"
+  | "CAIMENTO"
+  | "FABRICADO EM"
+  | "CUIDADOS"
+  | "REPARO"
+  | "FORMA"
+  | "SOLA"
+  | "VIRA";
 export type ImageAspect = "1:1" | "4:5" | "3:2";
 
 export interface SizeGuide {
@@ -98,7 +110,7 @@ export interface Piece {
   readonly category: CategoryId;
   readonly cloth: ClothId;
   readonly price: number;
-  readonly badge?: "NEW" | "LAST OF THE CLOTH";
+  readonly badge?: "NOVA" | "ÚLTIMAS DO TECIDO";
   readonly story: string;
   readonly proof: readonly ProofRow[];
   readonly featuredRank: number;

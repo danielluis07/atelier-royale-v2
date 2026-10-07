@@ -33,7 +33,7 @@ export function FeaturedPiece() {
         </Link>
 
         <div className="flex flex-col gap-6 md:py-2 lg:pl-[calc(100%/6)]">
-          <p className="type-label text-muted-foreground">Featured Piece</p>
+          <p className="type-label text-muted-foreground">Peça em destaque</p>
           <div className="flex flex-col gap-3">
             <div className="flex items-baseline justify-between gap-3">
               <span className="type-caption">No. {piece.number}</span>
@@ -47,7 +47,7 @@ export function FeaturedPiece() {
           <p className="type-lede max-w-[36ch]">{piece.story}</p>
           <ProofRows rows={piece.proof.slice(0, proofSlice)} />
           <Link href={href} className={cn(buttonVariants({ variant: "link" }), "self-start")}>
-            Read the Proof
+            Ver a ficha técnica
             <span className="sr-only">, {piece.name}</span>
           </Link>
         </div>

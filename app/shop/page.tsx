@@ -6,9 +6,9 @@ import { PieceCard } from "@/components/collection/piece-card";
 import { getCollection, getLook } from "@/lib/catalog";
 
 export const metadata: Metadata = {
-  title: "Shop",
+  title: "Loja",
   description:
-    "Every Piece by Category or Cloth: jackets, shirts, trousers, knitwear and boots, cut and sewn at Hollins Weir.",
+    "Compre jaquetas, camisas, calças, malhas e botas por categoria ou tecido. Cortadas e costuradas em Hollins Weir.",
 };
 
 // One Collection template for all Pieces, one Category or one Cloth. The shell

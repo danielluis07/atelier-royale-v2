@@ -13,7 +13,7 @@ export function CartHydrator() {
     const unsubscribe = cartStore.subscribe((state, previous) => {
       if (!previous.hasHydrated) return;
       const count = getCount(state.lines);
-      if (count !== getCount(previous.lines)) announce(`Bag: ${formatPieceCount(count)}`);
+      if (count !== getCount(previous.lines)) announce(`Sacola: ${formatPieceCount(count)}`);
     });
 
     function onStorage(event: StorageEvent) {

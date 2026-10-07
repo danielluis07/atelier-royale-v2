@@ -41,8 +41,8 @@ export function SearchOverlayView({
     if (idle) return;
     const count = result.pieces.length;
     const line = count
-      ? `${count} ${count === 1 ? "result" : "results"}`
-      : `No Pieces match. Try ${suggestions.map((category) => category.name).join(", ")}.`;
+      ? `${count} ${count === 1 ? "resultado" : "resultados"}`
+      : `Nenhuma peça corresponde. Tente ${suggestions.map((category) => category.name).join(", ")}.`;
     const timer = setTimeout(() => announce(line), ANNOUNCE_DELAY);
     return () => clearTimeout(timer);
   }, [idle, result, suggestions]);
@@ -58,7 +58,7 @@ export function SearchOverlayView({
       onOpenChange={(next) => (next ? setOpen(true) : close())}>
       <SheetTrigger render={<Button variant="ghost" size="icon-dense" />}>
         <SearchIcon strokeWidth={1.5} />
-        <span className="sr-only">Search</span>
+        <span className="sr-only">Pesquisar</span>
       </SheetTrigger>
       <SheetContent
         side="top"
@@ -70,15 +70,15 @@ export function SearchOverlayView({
           "motion-reduce:duration-(--dur-base) motion-reduce:data-starting-style:[clip-path:none]! motion-reduce:data-ending-style:[clip-path:none]!",
         )}>
         <SheetHeader>
-          <SheetTitle>Search</SheetTitle>
+          <SheetTitle>Pesquisar</SheetTitle>
         </SheetHeader>
         <div className="mx-auto flex min-h-0 w-full max-w-4xl flex-col gap-6 px-6 pt-6 pb-8 md:px-8">
           <Input
             type="search"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            aria-label="Search Pieces by name, Category or Cloth"
-            placeholder="Search Pieces"
+            aria-label="Pesquisar peças por nome, categoria ou tecido"
+            placeholder="Pesquisar peças"
             autoComplete="off"
             spellCheck={false}
             className="type-h2 h-16 border-0 border-b px-0"
@@ -86,8 +86,8 @@ export function SearchOverlayView({
 
           {noResults && (
             <div className="flex flex-col items-start gap-2">
-              <p className="type-h3">Nothing matches &ldquo;{query.trim()}&rdquo;.</p>
-              <p className="type-body-sm text-muted-foreground">Try a Category.</p>
+              <p className="type-h3">Nada corresponde a &ldquo;{query.trim()}&rdquo;.</p>
+              <p className="type-body-sm text-muted-foreground">Tente uma categoria.</p>
               <ul className="flex flex-wrap gap-x-6">
                 {suggestions.map((category) => (
                   <li key={category.id}>
