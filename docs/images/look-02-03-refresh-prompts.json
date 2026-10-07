@@ -1,0 +1,41 @@
+{
+  "generator": "Built-in imagegen",
+  "assets": [
+    {
+      "key": "looks/look-02",
+      "identityReference": "docs/images/cast-model-e.jpg"
+    },
+    {
+      "key": "looks/look-02-square",
+      "reference": "looks/look-02",
+      "prompt": "Use case: identity-preserve. Produce ONE square 1:1 editorial photograph as a closer alternate framing of the supplied photograph. Preserve EXACT same man's facial identity, hair, facial hair, build, garments, garment details, pose, hands, environment, time, lighting and muted natural film grade. Frame from above his head to upper thighs, with moustache face prominent, all four jacket patch pockets and leaning forearm on timber gate visible. Same timber field gate, wet reeds and misty meadow. Recompose the camera framing into a true square without stretching. No text, logos, watermark, collage. Save accessible local artifact."
+    },
+    {
+      "key": "looks/look-03",
+      "identityReference": "docs/images/cast-model-d.jpg"
+    },
+    {
+      "key": "looks/look-03-square",
+      "reference": "looks/look-03",
+      "prompt": "Use case: identity-preserve. Produce ONE square 1:1 editorial photograph as a closer alternate framing of the supplied photograph. Preserve EXACT same man's facial identity, hair, facial hair, build, garments, garment details, pose, hands, environment, time, lighting and muted natural film grade. Frame from above his head to knees, with Viking model face prominent, same seated pose on mossy stone, both hands and entire brown leather jacket visible, river and birches remain behind. Recompose the camera framing into a true square without stretching. No text, logos, watermark, collage. Save accessible local artifact."
+    }
+  ],
+  "delivery": {
+    "format": "JPEG",
+    "quality": 85,
+    "dimensions": {
+      "looks/look-02": [
+        1600,
+        2000
+      ],
+      "looks/look-03": [
+        2400,
+        1600
+      ],
+      "square": [
+        2048,
+        2048
+      ]
+    }
+  }
+}

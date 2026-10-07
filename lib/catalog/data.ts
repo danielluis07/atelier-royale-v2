@@ -753,7 +753,7 @@ const looks = [
     ["straight-jean", "indigo"],
     ["service-boot", "oxblood"],
   ]),
-  look("02", "Rain has passed. The yard holds it a little longer.", "4:5", [
+  look("02", "Rain has passed. The fields hold it a little longer.", "4:5", [
     ["chore-jacket", "indigo"],
     ["shetland-crew", "oat"],
     ["work-trouser", "slate"],
@@ -761,7 +761,7 @@ const looks = [
   ]),
   look(
     "03",
-    "Low cloud over the wall. A steady walk across the fields.",
+    "Low cloud over the river. A pause beside the water.",
     "3:2",
     [
       ["leather-work-jacket", "saddle"],
