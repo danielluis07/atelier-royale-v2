@@ -7,6 +7,14 @@ later batches; [the prompt records](images/batch-01-prompts.json) include the
 outfits and native versus delivery dimensions. Run `bun test` to validate
 these slots and their blur metadata.
 
+Batch 2's first half delivers 24 catalog images: three complete Field Jacket
+galleries and 12 other still lifes. Review the [contact sheet](images/batch-02-first-half.jpg),
+[cast and production rules](images/batch-02-continuity.md),
+[prompt records](images/batch-02-prompts.json) and [QA notes](images/batch-02-qa.md).
+All catalog photography uses a blank stone background, including model shots.
+Upcoming model shots use deliberate stationary standing poses. The remaining
+24 still lifes in issue #35 await the owner's next instruction.
+
 Drop source JPEGs into `public/images/`. A key is the path without `.jpg`:
 `pieces/027-field-jacket/olive-still` resolves to
 `public/images/pieces/027-field-jacket/olive-still.jpg`. Use lowercase kebab-case

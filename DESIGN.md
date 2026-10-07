@@ -116,6 +116,8 @@ Rules:
 - **Radius: 0** everywhere. Square corners are part of the spec-sheet feel. The only round shapes are colour swatches.
 - **Elevation:** none. No shadows. Separation comes from hairlines and `stone` surfaces. The cart drawer and sheets sit over a plain 40% `ink` scrim.
 - **Images:** Collection cards, Piece gallery and thumbnails are **square (1:1)**. Hero is 16:9 on desktop and 4:5 on mobile. Look frames in the Lookbook are 4:5 portrait or 3:2 landscape, always from the image brief. Use `object-fit: cover` and reserve space to avoid layout shift.
+- **Catalog photography:** every Piece still life and on-body front, back and detail shot uses a blank, seamless `stone` backdrop (`#F3F1EC`). Model shots share the clothes-only photos' studio background; scenery and location objects belong in editorial imagery.
+- **Catalog model poses:** models stand still in deliberate poses. Vary stance, arm placement and body angle between models while keeping the Piece visible; capture back and detail views from the same stationary posing session.
 - **Breakpoint behaviour:** the nav is the flat desktop bar from 1024; below it, a menu button opens a full-height sheet.
 
 ## 5. Motion tokens

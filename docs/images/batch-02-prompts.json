@@ -1,0 +1,393 @@
+{
+  "issue": 35,
+  "generator": "Built-in imagegen; model version not exposed",
+  "format": "JPEG",
+  "colorSpace": "sRGB",
+  "quality": 85,
+  "requestedCount": 48,
+  "firstHalfCount": 24,
+  "assets": [
+    {
+      "key": "pieces/027-field-jacket/olive-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic catalog photograph, not a collage. Overhead flat lay of a men's Olive Field Jacket centered on a seamless warm stone #F3F1EC backdrop with 12% margin on every side, whole garment including sleeves visible. Jacket: muted olive #62694A 10oz paraffin-waxed cotton, straight body, four bellows pockets with flaps (two chest, two lower), double stitched shell seams, cotton lining, dark brown corduroy collar facing, drawcord waist, two-way brass zipper under brass snap storm placket. Both sleeves straight and gently angled downward. Soft overhead daylight, muted natural film-like grade and fine authentic textile detail. No props, no people, no text, no logos, no labels, no watermark. Functional coherent brass hardware. Save the generated image as an accessible local artifact."
+    },
+    {
+      "key": "pieces/027-field-jacket/tobacco-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/027-field-jacket/olive-still"
+      ],
+      "prompt": "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft overcast daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Use case: product-mockup. Reference is GARMENT CONSTRUCTION ONLY, change shell color to Tobacco #886346. Same Field Jacket pattern as garment reference: Tobacco #886346 10oz paraffin-waxed cotton, dark brown corduroy collar facing, cotton-lined body, four bellows pockets with rectangular flaps, each flap has two brass snaps, double-stitched shell seams, drawcord waist, brass two-way zipper behind brass snap storm placket. Keep exact pocket arrangement, snap placement and silhouette from reference. Overhead flat lay whole garment, centered on seamless warm stone #F3F1EC studio backdrop. Slightly spread sleeves angled gently down. Generous approximately 12 percent empty margin on all four sides, no cropped sleeves. Soft overhead daylight. No people and no props."
+    },
+    {
+      "key": "pieces/027-field-jacket/olive-front",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/027-field-jacket/olive-front"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit this exact catalog photograph. Replace ALL scenery and location background with a completely blank seamless matte warm stone #F3F1EC studio background matching the flat-lay garment photographs. Remove every building, stone wall, water, plant, ground feature, distant object and horizon. Keep the exact same man, identity, hair, face, anatomy, skin tone, pose, framing, jacket color, cloth texture, pockets, collar, seams, brass hardware, hands, underlayers and trousers unchanged. Preserve square composition. Soft diffused neutral studio daylight, restrained muted film-like grade. No props, no text, no logos, no watermark, no extra objects. The entire visible background must be blank light stone. ONE square photorealistic image, 2048x2048 requested.",
+      "supersededPrompts": [
+        "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft overcast daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Use case: photorealistic-natural. Reference 1 is garment construction/color. Additional reference is exact cast identity, outfit and setting, not a garment to substitute. Same Field Jacket pattern as garment reference: Olive #62694A 10oz paraffin-waxed cotton, dark brown corduroy collar facing, cotton-lined body, four bellows pockets with rectangular flaps, each flap has two brass snaps, double-stitched shell seams, drawcord waist, brass two-way zipper behind brass snap storm placket. Keep exact pocket arrangement, snap placement and silhouette from reference. Model A, same identity as cast reference: lean man in his mid-30s, angular face, short wavy brown hair, brown stubble. Navy wool crew and grey check shirt collar underneath, indigo jeans. Hollins Weir invented mill hamlet, wet limestone millrace walkway with grey stone mill softly behind. Front three-quarter product-led view, camera at chest level, jacket occupies most of square; entire head visible at top to make the cast distinguishable, bottom ends mid-thigh. Relaxed direct eye contact, arms naturally down without hiding pockets. No extra people or props. Avoid fashion styling accessories."
+      ]
+    },
+    {
+      "key": "pieces/027-field-jacket/olive-back",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/027-field-jacket/olive-back"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit this exact catalog photograph. Replace ALL scenery and location background with a completely blank seamless matte warm stone #F3F1EC studio background matching the flat-lay garment photographs. Remove every building, stone wall, water, plant, ground feature, distant object and horizon. Keep the exact same man, identity, hair, face, anatomy, skin tone, pose, framing, jacket color, cloth texture, pockets, collar, seams, brass hardware, hands, underlayers and trousers unchanged. Preserve square composition. Soft diffused neutral studio daylight, restrained muted film-like grade. No props, no text, no logos, no watermark, no extra objects. The entire visible background must be blank light stone. ONE square photorealistic image, 2048x2048 requested.",
+      "supersededPrompts": [
+        "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft overcast daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Use case: photorealistic-natural. Reference 1 is garment construction/color. Additional reference is exact cast identity, outfit and setting, not a garment to substitute. Same Field Jacket pattern as garment reference: Olive #62694A 10oz paraffin-waxed cotton, dark brown corduroy collar facing, cotton-lined body, four bellows pockets with rectangular flaps, each flap has two brass snaps, double-stitched shell seams, drawcord waist, brass two-way zipper behind brass snap storm placket. Keep exact pocket arrangement, snap placement and silhouette from reference. Model A, same identity as cast reference: lean man in his mid-30s, angular face, short wavy brown hair, brown stubble. Navy wool crew and grey check shirt collar underneath, indigo jeans. Hollins Weir invented mill hamlet, wet limestone millrace walkway with grey stone mill softly behind. Back three-quarter view of EXACT SAME MAN, outfit and jacket as front reference. Turn torso away from camera showing plain back shell and double-stitched back shoulder and sleeve seams; face mostly turned away, preserve hairstyle and skin tone. Frame head to mid-thigh. No pockets on back. No extra people or props. Avoid fashion styling accessories."
+      ]
+    },
+    {
+      "key": "pieces/027-field-jacket/olive-detail",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/027-field-jacket/olive-detail"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit this exact catalog photograph. Replace ALL scenery and location background with a completely blank seamless matte warm stone #F3F1EC studio background matching the flat-lay garment photographs. Remove every building, stone wall, water, plant, ground feature, distant object and horizon. Keep the exact same man, identity, hair, face, anatomy, skin tone, pose, framing, jacket color, cloth texture, pockets, collar, seams, brass hardware, hands, underlayers and trousers unchanged. Preserve square composition. Soft diffused neutral studio daylight, restrained muted film-like grade. No props, no text, no logos, no watermark, no extra objects. The entire visible background must be blank light stone. ONE square photorealistic image, 2048x2048 requested.",
+      "supersededPrompts": [
+        "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft overcast daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Use case: photorealistic-natural. Reference 1 is garment construction/color. Additional reference is exact cast identity, outfit and setting, not a garment to substitute. Same Field Jacket pattern as garment reference: Olive #62694A 10oz paraffin-waxed cotton, dark brown corduroy collar facing, cotton-lined body, four bellows pockets with rectangular flaps, each flap has two brass snaps, double-stitched shell seams, drawcord waist, brass two-way zipper behind brass snap storm placket. Keep exact pocket arrangement, snap placement and silhouette from reference. Model A, same identity as cast reference: lean man in his mid-30s, angular face, short wavy brown hair, brown stubble. Navy wool crew and grey check shirt collar underneath, indigo jeans. Hollins Weir invented mill hamlet, wet limestone millrace walkway with grey stone mill softly behind. Tight close-up of the WORN lower front jacket, from waist to upper thigh, showing a single bellows pocket with rectangular flap, two brass snaps and double stitched seams. Clothing is clearly shaped over the torso, naturally resting sleeve visible at one edge, no hands covering pocket. Focus sharply on gusset volume, brass snaps and waxed weave. Crop out head and background largely. Preserve exact pocket design from front reference. No extra people or props. Avoid fashion styling accessories."
+      ]
+    },
+    {
+      "key": "pieces/027-field-jacket/tobacco-front",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/027-field-jacket/tobacco-front"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit this exact catalog photograph. Replace ALL scenery and location background with a completely blank seamless matte warm stone #F3F1EC studio background matching the flat-lay garment photographs. Remove every building, stone wall, water, plant, ground feature, distant object and horizon. Keep the exact same man, identity, hair, face, anatomy, skin tone, pose, framing, jacket color, cloth texture, pockets, collar, seams, brass hardware, hands, underlayers and trousers unchanged. Preserve square composition. Soft diffused neutral studio daylight, restrained muted film-like grade. No props, no text, no logos, no watermark, no extra objects. The entire visible background must be blank light stone. ONE square photorealistic image, 2048x2048 requested.",
+      "supersededPrompts": [
+        "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft overcast daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Use case: photorealistic-natural. Reference 1 is garment construction/color. Additional reference is exact cast identity, outfit and setting, not a garment to substitute. Same Field Jacket pattern as garment reference: Tobacco #886346 10oz paraffin-waxed cotton, dark brown corduroy collar facing, cotton-lined body, four bellows pockets with rectangular flaps, each flap has two brass snaps, double-stitched shell seams, drawcord waist, brass two-way zipper behind brass snap storm placket. Keep exact pocket arrangement, snap placement and silhouette from reference. Model B, same identity as cast reference: Spanish man mid-30s with olive complexion, broad rectangular face, aquiline nose, long dark-brown hair tied in a low bun, clean-shaven, sturdy neck. Indigo shirt underneath, dark trousers. Hollins Weir invented mill hamlet, wet cobbled mill yard beside a weathered grey limestone wall. Front three-quarter product-led view, camera at chest level, jacket occupies most of square; entire head visible at top to make the cast distinguishable, bottom ends mid-thigh. Relaxed direct eye contact, arms naturally down without hiding pockets. No extra people or props. Avoid fashion styling accessories."
+      ]
+    },
+    {
+      "key": "pieces/027-field-jacket/tobacco-back",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/027-field-jacket/tobacco-still",
+        "pieces/027-field-jacket/tobacco-front"
+      ],
+      "prompt": "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft diffused neutral studio daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Use case: photorealistic-natural. Reference 1 is garment construction/color. Additional reference is exact cast identity, outfit only; ignore every reference background. Same Field Jacket pattern as garment reference: Tobacco #886346 10oz paraffin-waxed cotton, dark brown corduroy collar facing, cotton-lined body, four bellows pockets with rectangular flaps, each flap has two brass snaps, double-stitched shell seams, drawcord waist, brass two-way zipper behind brass snap storm placket. Keep exact pocket arrangement, snap placement and silhouette from reference. Model B, same identity as cast reference: Spanish man mid-30s with olive complexion, broad rectangular face, aquiline nose, long dark-brown hair tied in a low bun, clean-shaven, sturdy neck. Indigo shirt underneath, dark trousers. Seamless blank warm stone #F3F1EC studio backdrop, exactly like the flat-lay clothing photos. No scenery, architecture, plants, horizon, ground features, props or background objects. Back three-quarter view of EXACT SAME MAN, outfit and jacket as front reference. Turn torso away from camera showing plain back shell and double-stitched back shoulder and sleeve seams; face mostly turned away, preserve hairstyle and skin tone. Frame head to mid-thigh. No pockets on back. No extra people or props. Avoid fashion styling accessories."
+    },
+    {
+      "key": "pieces/027-field-jacket/tobacco-detail",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/027-field-jacket/tobacco-still",
+        "pieces/027-field-jacket/tobacco-front"
+      ],
+      "prompt": "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft diffused neutral studio daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Use case: photorealistic-natural. Reference 1 is garment construction/color. Additional reference is exact cast identity, outfit only; ignore every reference background. Same Field Jacket pattern as garment reference: Tobacco #886346 10oz paraffin-waxed cotton, dark brown corduroy collar facing, cotton-lined body, four bellows pockets with rectangular flaps, each flap has two brass snaps, double-stitched shell seams, drawcord waist, brass two-way zipper behind brass snap storm placket. Keep exact pocket arrangement, snap placement and silhouette from reference. Model B, same identity as cast reference: Spanish man mid-30s with olive complexion, broad rectangular face, aquiline nose, long dark-brown hair tied in a low bun, clean-shaven, sturdy neck. Indigo shirt underneath, dark trousers. Seamless blank warm stone #F3F1EC studio backdrop, exactly like the flat-lay clothing photos. No scenery, architecture, plants, horizon, ground features, props or background objects. Tight close-up of the WORN lower front jacket, from waist to upper thigh, showing a single bellows pocket with rectangular flap, two brass snaps and double stitched seams. Clothing is clearly shaped over the torso, naturally resting sleeve visible at one edge, no hands covering pocket. Focus sharply on gusset volume, brass snaps and waxed weave. Crop out head and background largely. Preserve exact pocket design from front reference. No extra people or props. Avoid fashion styling accessories."
+    },
+    {
+      "key": "pieces/027-field-jacket/navy-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/027-field-jacket/olive-still"
+      ],
+      "prompt": "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft diffused neutral studio daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Use case: product-mockup. Reference is GARMENT CONSTRUCTION ONLY, change shell color to Navy #29364B. Same Field Jacket pattern as garment reference: Navy #29364B 10oz paraffin-waxed cotton, dark brown corduroy collar facing, cotton-lined body, four bellows pockets with rectangular flaps, each flap has two brass snaps, double-stitched shell seams, drawcord waist, brass two-way zipper behind brass snap storm placket. Keep exact pocket arrangement, snap placement and silhouette from reference. Overhead flat lay whole garment, centered on seamless warm stone #F3F1EC studio backdrop. Slightly spread sleeves angled gently down. Generous approximately 12 percent empty margin on all four sides, no cropped sleeves. Soft overhead daylight. No people and no props."
+    },
+    {
+      "key": "pieces/027-field-jacket/navy-front",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/027-field-jacket/navy-still"
+      ],
+      "prompt": "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft diffused neutral studio daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Use case: photorealistic-natural. Reference 1 is garment construction/color. Additional reference is exact cast identity, outfit only; ignore every reference background. Same Field Jacket pattern as garment reference: Navy #29364B 10oz paraffin-waxed cotton, dark brown corduroy collar facing, cotton-lined body, four bellows pockets with rectangular flaps, each flap has two brass snaps, double-stitched shell seams, drawcord waist, brass two-way zipper behind brass snap storm placket. Keep exact pocket arrangement, snap placement and silhouette from reference. Model C: Black man about 40, dark brown skin, completely shaved scalp, broad powerful build, rounder face with broad nose, clean-shaven, no hair or beard. Distinct from both previous models. Ecru plain shirt underneath and charcoal trousers. Seamless blank warm stone #F3F1EC studio backdrop, exactly like the flat-lay clothing photos. No scenery, architecture, plants, horizon, ground features, props or background objects. Front three-quarter product-led view, camera at chest level, jacket occupies most of square; entire head visible at top to make the cast distinguishable, bottom ends mid-thigh. Relaxed direct eye contact, arms naturally down without hiding pockets. No extra people or props. Avoid fashion styling accessories."
+    },
+    {
+      "key": "pieces/027-field-jacket/navy-back",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/027-field-jacket/navy-still",
+        "pieces/027-field-jacket/navy-front"
+      ],
+      "prompt": "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft diffused neutral studio daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Use case: photorealistic-natural. Reference 1 is garment construction/color. Additional reference is exact cast identity, outfit only; ignore every reference background. Same Field Jacket pattern as garment reference: Navy #29364B 10oz paraffin-waxed cotton, dark brown corduroy collar facing, cotton-lined body, four bellows pockets with rectangular flaps, each flap has two brass snaps, double-stitched shell seams, drawcord waist, brass two-way zipper behind brass snap storm placket. Keep exact pocket arrangement, snap placement and silhouette from reference. Model C: Black man about 40, dark brown skin, completely shaved scalp, broad powerful build, rounder face with broad nose, clean-shaven, no hair or beard. Distinct from both previous models. Ecru plain shirt underneath and charcoal trousers. Seamless blank warm stone #F3F1EC studio backdrop, exactly like the flat-lay clothing photos. No scenery, architecture, plants, horizon, ground features, props or background objects. Back three-quarter view of EXACT SAME MAN, outfit and jacket as front reference. Turn torso away from camera showing plain back shell and double-stitched back shoulder and sleeve seams; face mostly turned away, preserve hairstyle and skin tone. Frame head to mid-thigh. No pockets on back. No extra people or props. Avoid fashion styling accessories."
+    },
+    {
+      "key": "pieces/027-field-jacket/navy-detail",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/027-field-jacket/navy-still",
+        "pieces/027-field-jacket/navy-front"
+      ],
+      "prompt": "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft diffused neutral studio daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Use case: photorealistic-natural. Reference 1 is garment construction/color. Additional reference is exact cast identity, outfit only; ignore every reference background. Same Field Jacket pattern as garment reference: Navy #29364B 10oz paraffin-waxed cotton, dark brown corduroy collar facing, cotton-lined body, four bellows pockets with rectangular flaps, each flap has two brass snaps, double-stitched shell seams, drawcord waist, brass two-way zipper behind brass snap storm placket. Keep exact pocket arrangement, snap placement and silhouette from reference. Model C: Black man about 40, dark brown skin, completely shaved scalp, broad powerful build, rounder face with broad nose, clean-shaven, no hair or beard. Distinct from both previous models. Ecru plain shirt underneath and charcoal trousers. Seamless blank warm stone #F3F1EC studio backdrop, exactly like the flat-lay clothing photos. No scenery, architecture, plants, horizon, ground features, props or background objects. Tight close-up of the WORN lower front jacket, from waist to upper thigh, showing a single bellows pocket with rectangular flap, two brass snaps and double stitched seams. Clothing is clearly shaped over the torso, naturally resting sleeve visible at one edge, no hands covering pocket. Focus sharply on gusset volume, brass snaps and waxed weave. Crop out head and background largely. Preserve exact pocket design from front reference. No extra people or props. Avoid fashion styling accessories."
+    },
+    {
+      "key": "pieces/014-chore-jacket/indigo-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft diffused neutral studio daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Use case: product-mockup. Overhead flat lay of a men's Chore Jacket in Indigo #334567. Cloth selvedge-denim. WEIGHT: 13.5oz. CONSTRUCTION: Felled shoulder seams\n4 patch pockets\nBar-tacked pocket corners. HARDWARE: Tack buttons in brass. FIT: Straight body; room for a shirt and knit. Whole garment with both sleeves visible, centered on warm stone #F3F1EC seamless matte backdrop. Approximately 12% empty margin on all four sides. Sleeves gently angled down, front fastened, no mannequin, no people, no props. Soft overhead daylight and restrained film grain."
+    },
+    {
+      "key": "pieces/014-chore-jacket/ecru-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/014-chore-jacket/indigo-still"
+      ],
+      "prompt": "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft diffused neutral studio daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Reference is exact garment construction: preserve design and change shell color only.  Use case: product-mockup. Overhead flat lay of a men's Chore Jacket in Ecru #DFD8C5. Cloth selvedge-denim. WEIGHT: 13.5oz. CONSTRUCTION: Felled shoulder seams\n4 patch pockets\nBar-tacked pocket corners. HARDWARE: Tack buttons in brass. FIT: Straight body; room for a shirt and knit. Whole garment with both sleeves visible, centered on warm stone #F3F1EC seamless matte backdrop. Approximately 12% empty margin on all four sides. Sleeves gently angled down, front fastened, no mannequin, no people, no props. Soft overhead daylight and restrained film grain."
+    },
+    {
+      "key": "pieces/031-cruiser-jacket/tobacco-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft diffused neutral studio daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Use case: product-mockup. Overhead flat lay of a men's Cruiser Jacket in Tobacco #886346. Cloth waxed-cotton. WEIGHT: 10oz. CONSTRUCTION: Double-stitched seams\n2 chest pockets and 2 hand pockets\nReinforced back yoke. HARDWARE: Brass snaps. FIT: Boxy body; hip-length hem. Whole garment with both sleeves visible, centered on warm stone #F3F1EC seamless matte backdrop. Approximately 12% empty margin on all four sides. Sleeves gently angled down, front fastened, no mannequin, no people, no props. Soft overhead daylight and restrained film grain."
+    },
+    {
+      "key": "pieces/031-cruiser-jacket/black-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/031-cruiser-jacket/tobacco-still"
+      ],
+      "prompt": "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft diffused neutral studio daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Reference is exact garment construction: preserve design and change shell color only.  Use case: product-mockup. Overhead flat lay of a men's Cruiser Jacket in Black #292827. Cloth waxed-cotton. WEIGHT: 10oz. CONSTRUCTION: Double-stitched seams\n2 chest pockets and 2 hand pockets\nReinforced back yoke. HARDWARE: Brass snaps. FIT: Boxy body; hip-length hem. Whole garment with both sleeves visible, centered on warm stone #F3F1EC seamless matte backdrop. Approximately 12% empty margin on all four sides. Sleeves gently angled down, front fastened, no mannequin, no people, no props. Soft overhead daylight and restrained film grain."
+    },
+    {
+      "key": "pieces/046-work-coat/slate-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft diffused neutral studio daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Use case: product-mockup. Overhead flat lay of a men's Work Coat in Slate #646A6D. Cloth moleskin. WEIGHT: 12oz. CONSTRUCTION: Felled side seams\n3 patch pockets\nReinforced elbow panels. HARDWARE: Corozo buttons. FIT: Relaxed body; below-hip length. Whole garment with both sleeves visible, centered on warm stone #F3F1EC seamless matte backdrop. Approximately 12% empty margin on all four sides. Sleeves gently angled down, front fastened, no mannequin, no people, no props. Soft overhead daylight and restrained film grain."
+    },
+    {
+      "key": "pieces/046-work-coat/moss-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/046-work-coat/slate-still"
+      ],
+      "prompt": "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft diffused neutral studio daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Reference is exact garment construction: preserve design and change shell color only.  Use case: product-mockup. Overhead flat lay of a men's Work Coat in Moss #697253. Cloth moleskin. WEIGHT: 12oz. CONSTRUCTION: Felled side seams\n3 patch pockets\nReinforced elbow panels. HARDWARE: Corozo buttons. FIT: Relaxed body; below-hip length. Whole garment with both sleeves visible, centered on warm stone #F3F1EC seamless matte backdrop. Approximately 12% empty margin on all four sides. Sleeves gently angled down, front fastened, no mannequin, no people, no props. Soft overhead daylight and restrained film grain."
+    },
+    {
+      "key": "pieces/052-rider-jacket/indigo-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft diffused neutral studio daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Use case: product-mockup. Overhead flat lay of a men's Rider Jacket in Indigo #334567. Cloth selvedge-denim. WEIGHT: 13.5oz. CONSTRUCTION: Double-stitched panel seams\nPleated front panels\nAdjustable hem tabs. HARDWARE: Brass tack buttons. FIT: Trim body; waist-length hem. Whole garment with both sleeves visible, centered on warm stone #F3F1EC seamless matte backdrop. Approximately 12% empty margin on all four sides. Sleeves gently angled down, front fastened, no mannequin, no people, no props. Soft overhead daylight and restrained film grain."
+    },
+    {
+      "key": "pieces/068-mill-overshirt/grey-check-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft diffused neutral studio daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Use case: product-mockup. Overhead flat lay of a men's Mill Overshirt in Grey Check #777671. Cloth brushed-flannel. WEIGHT: 9oz. CONSTRUCTION: Felled shoulder seams\n2 chest pockets\nSquare hem with side vents. HARDWARE: Corozo buttons. FIT: Relaxed body; cut to wear over a shirt. Whole garment with both sleeves visible, centered on warm stone #F3F1EC seamless matte backdrop. Approximately 12% empty margin on all four sides. Sleeves gently angled down, front fastened, no mannequin, no people, no props. Soft overhead daylight and restrained film grain."
+    },
+    {
+      "key": "pieces/073-leather-work-jacket/saddle-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft diffused neutral studio daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Use case: product-mockup. Overhead flat lay of a men's Leather Work Jacket in Saddle #A16F49. Cloth full-grain-leather. WEIGHT: 2mm. CONSTRUCTION: Lock-stitched leather panels\nCotton-lined body\nReinforced pocket openings. HARDWARE: Brass zipper. FIT: Straight body; hip-length hem. Whole garment with both sleeves visible, centered on warm stone #F3F1EC seamless matte backdrop. Approximately 12% empty margin on all four sides. Sleeves gently angled down, front fastened, no mannequin, no people, no props. Soft overhead daylight and restrained film grain."
+    },
+    {
+      "key": "pieces/101-work-shirt/indigo-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft diffused neutral studio daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Use case: product-mockup. Overhead flat lay of a men's Work Shirt in Indigo #334567. Cloth selvedge-denim. WEIGHT: 8oz. CONSTRUCTION: Felled side seams\n2 chest pockets\nChain-stitched hem. HARDWARE: Corozo buttons. FIT: Straight body; curved hem. Whole garment with both sleeves visible, centered on warm stone #F3F1EC seamless matte backdrop. Approximately 12% empty margin on all four sides. Sleeves gently angled down, front fastened, no mannequin, no people, no props. Soft overhead daylight and restrained film grain."
+    },
+    {
+      "key": "pieces/101-work-shirt/ecru-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/101-work-shirt/indigo-still"
+      ],
+      "prompt": "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft diffused neutral studio daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Reference is exact garment construction: preserve design and change shell color only.  Use case: product-mockup. Overhead flat lay of a men's Work Shirt in Ecru #DFD8C5. Cloth selvedge-denim. WEIGHT: 8oz. CONSTRUCTION: Felled side seams\n2 chest pockets\nChain-stitched hem. HARDWARE: Corozo buttons. FIT: Straight body; curved hem. Whole garment with both sleeves visible, centered on warm stone #F3F1EC seamless matte backdrop. Approximately 12% empty margin on all four sides. Sleeves gently angled down, front fastened, no mannequin, no people, no props. Soft overhead daylight and restrained film grain."
+    },
+    {
+      "key": "pieces/104-western-shirt/indigo-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft diffused neutral studio daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Use case: product-mockup. Overhead flat lay of a men's Western Shirt in Indigo #334567. Cloth selvedge-denim. WEIGHT: 8oz. CONSTRUCTION: Pointed front and back yokes\nFelled side seams\n2 flap chest pockets. HARDWARE: Pearl-faced snaps. FIT: Trim body; curved hem. Whole garment with both sleeves visible, centered on warm stone #F3F1EC seamless matte backdrop. Approximately 12% empty margin on all four sides. Sleeves gently angled down, front fastened, no mannequin, no people, no props. Soft overhead daylight and restrained film grain."
+    }
+  ]
+}
