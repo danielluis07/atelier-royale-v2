@@ -1,0 +1,242 @@
+{
+  "issue": 36,
+  "generator": "Built-in imagegen; model version not exposed",
+  "format": "JPEG",
+  "colorSpace": "sRGB",
+  "quality": 85,
+  "requestedCount": 11,
+  "assets": [
+    {
+      "key": "categories/outerwear",
+      "referenceKeys": [
+        "looks/look-02-square",
+        "pieces/014-chore-jacket/ecru-still",
+        "editorial/interstitial-river"
+      ],
+      "prompt": "Generate ONE photorealistic 4:5 portrait editorial photograph, requested 1600x2000, for outerwear Category tile. Reference 1 is Model A IDENTITY ONLY: same lean mid-30s man, angular face, short wavy dark-brown hair, brown stubble. Reference 2 is GARMENT ONLY: exact Ecru #DFD8C5 Chore Jacket No.014, 13.5oz cotton denim, four patch pockets with bar-tacked corners, felled shoulder seams, brass tack buttons, straight hem. Reference 3 is geography and muted overcast film-like GRADE ONLY. Model stands against damp rough gray limestone mill wall in Hollins Weir mill yard mid-autumn, three-quarter figure framed head to mid-thigh, wearing that Ecru jacket buttoned over plain charcoal shirt with dark trousers. Relaxed direct gaze, arms relaxed, garment unobstructed. Natural anatomy, coherent functional hardware, visible denim twill, fine grain. No rope, no extra people, no text/logos/watermark. New composition, not collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "deliveryDimensions": {
+        "width": 1600,
+        "height": 2000
+      },
+      "resampled": true
+    },
+    {
+      "key": "categories/shirts",
+      "referenceKeys": [
+        "categories/shirts (superseded portrait)"
+      ],
+      "prompt": "Edit this Shirts Category photograph. Replace the model with an entirely different man aged around 45, fair lightly freckled skin, short copper-red hair with a natural close tapered cut, full medium-length ginger beard about 2-3cm, connected moustache, broad weathered face, pale blue eyes, average sturdy build. Clearly a mid-40s redhead, no long hair, bun or ponytail. He stands naturally looking toward camera at slight three-quarter angle. Preserve the exact Red Check Flannel Shirt: same muted brick-red cream gray check grid, double-napped cotton texture, check-aligned two chest patch pockets, dark corozo buttons, sleeves rolled to forearms, open collar and dark trousers. Change scenery entirely to a covered mill loading passage at Hollins Weir: rough gray limestone walls, weathered timber doorway, damp cobbled floor, a few stacked empty wooden crates softly out of focus; cool overcast daylight enters sideways. No woods/log pile, no river/weir. Garment unobstructed waist-up portrait. Same muted natural film-like grade and authentic anatomy/hardware. ONE 4:5 portrait photograph requested 1600x2000. No text/logos/watermark. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "deliveryDimensions": {
+        "width": 1600,
+        "height": 2000
+      },
+      "resampled": true,
+      "supersededVersions": [
+        {
+          "key": "categories/shirts",
+          "referenceKeys": [
+            "looks/look-03-square",
+            "pieces/112-flannel-shirt/red-check-still",
+            "editorial/interstitial-river"
+          ],
+          "prompt": "Generate ONE 4:5 portrait photorealistic editorial photograph, 1600x2000 requested. Shirts Category tile. First reference is Model B identity ONLY: Spanish man mid-30s, broad rectangular face, aquiline nose, olive skin, clean-shaven, dark brown hair tied in low bun. Second reference is GARMENT only: Red Check #854A43 Flannel Shirt No.112, exact muted brick-red cream gray check grid, 9oz double-napped cotton, matched checks at patch chest pockets, dark corozo buttons, regular body. Third reference is geography and grade only. Mid-autumn oak/birch woods of Hollins Weir, beside split log pile. Waist-up standing model, sleeves rolled neatly to forearms, shirt buttoned with collar open, plain dark trousers. Gaze relaxed ahead at eye level, face three-quarter; arms rest naturally beside body, hands intact. Focus on cloth, checks and shirt construction. Soft overcast daylight, muted natural film-like grade, subtle grain, realistic anatomy. No jacket, no extra people, no text/logos/watermark. New single composition, not collage. Save accessible local artifact.",
+          "revisionPrompt": "Edit this photograph with exactly one change: replace the background with dense mid-autumn oak and birch WOODS beside a split log pile in Hollins Weir. Forest extends entirely behind model, damp leaf-covered ground; remove all river water, weir, mill architecture and open sky. Preserve this exact man Model B, face, hair in low bun, hands, pose, Red Check flannel shirt, sleeves, texture, colors and framing. Keep overcast muted film-like grade. 4:5 portrait single photograph, no text/logos/watermark. Save accessible local artifact.",
+          "sourceDimensions": {
+            "width": 1122,
+            "height": 1402
+          },
+          "deliveryDimensions": {
+            "width": 1600,
+            "height": 2000
+          },
+          "resampled": true
+        }
+      ],
+      "ownerRevision": "Replace the long-haired Spanish model with the same mid-40s redheaded man, short hair and medium beard, in new scenery."
+    },
+    {
+      "key": "categories/trousers",
+      "referenceKeys": [
+        "pieces/137-double-knee-trouser/olive-still",
+        "editorial/interstitial-river"
+      ],
+      "prompt": "Generate ONE 4:5 portrait photorealistic editorial photograph, 1600x2000 requested. Trousers Category tile, frame strictly waist to boots, head outside image. Reference 1 garment construction and color ONLY: Olive #62694A Double-Knee Trouser No.137, 10oz paraffin waxed cotton, high rise relaxed straight legs, extended double-knee reinforcement panels with brass rivets, triple-stitched inseams, reinforced tool pocket, button fly. Reference 2 geography and muted overcast film-like grade only. Hollins Weir mid-autumn field fence, wet grass, dry-stone wall blurred behind. Model A kneels beside a wooden fence post, holding a simple wooden mallet naturally in one hand; one knee rests in grass, opposite knee bent with foot planted, both knee panels and both boots visible. Plain charcoal shirt tucked in, incidental brown work boots. Accurate proportions, natural hand gripping mallet, subtle tension and folds of waxed cloth, functional coherent rivets. Soft diffuse daylight, restrained grain, earthy grade. No extra people, no text/logos/watermark. One image, no collage. Save accessible local artifact.",
+      "revisionPrompt": "Edit this photograph with exactly one change: replace background with Hollins Weir damp FIELD at wooden fence post, wet grass and a low dry-stone wall behind, open autumn fields in soft focus beyond. Remove all river water, weir and mill architecture. Preserve exact kneeling body, natural hands gripping wooden mallet, boots, Olive double-knee waxed cotton trousers with all panels/rivets/texture, posture, crop and color. Keep subdued overcast film-like daylight. 4:5 portrait single photograph, no text/logos/watermark. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "deliveryDimensions": {
+        "width": 1600,
+        "height": 2000
+      },
+      "resampled": true
+    },
+    {
+      "key": "categories/knitwear",
+      "referenceKeys": [
+        "categories/knitwear (superseded portrait)",
+        "categories/shirts (replacement redhead identity)"
+      ],
+      "prompt": "Edit the FIRST reference photograph (Knitwear Category tile). Replace its model with the EXACT SAME man as SECOND reference, used for IDENTITY ONLY: mid-40s man around 45 with fair freckled skin, short copper-red hair, pale blue eyes, broad weathered face, full medium-length ginger beard and connected moustache. Match second man's face age hair and beard precisely. No long hair/bun/ponytail. Preserve first reference's exact Moss #697253 Shetland Crew sweater, plain 3-ply stockinette wool texture, fully fashioned body, linked shoulder seams, ribbed crew neck/cuffs/hem, hip length; plain dark charcoal trousers. Hands in pockets, standing still, waist-up three-quarter portrait, gaze forward toward camera naturally, shoulders relaxed. Change scenery entirely to open upland autumn pasture at Hollins Weir, standing beside a small rough dry-stone field shelter with weathered wooden lintel, rolling muted wet green fields and distant bare hedgerow under overcast sky. No river/weir, no mill or loading passage, no crates. The second reference contributes IDENTITY ONLY, not red-check shirt or background. Single 4:5 photorealistic editorial portrait requested 1600x2000; soft overcast daylight and muted natural film-like color, realistic anatomy, no text/logos/watermark. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "deliveryDimensions": {
+        "width": 1600,
+        "height": 2000
+      },
+      "resampled": true,
+      "supersededVersions": [
+        {
+          "key": "categories/knitwear",
+          "referenceKeys": [
+            "looks/look-03-square",
+            "pieces/160-shetland-crew/moss-still",
+            "editorial/interstitial-river"
+          ],
+          "prompt": "Generate ONE 4:5 portrait photorealistic editorial photograph, 1600x2000 requested. Knitwear Category tile, waist-up. First reference is Model B IDENTITY ONLY: same Spanish man mid-30s, olive complexion, broad rectangular face, aquiline nose, clean-shaven, long dark-brown hair tied in low bun. Second reference GARMENT only: Shetland Crew No.160 Moss #697253, plain 3-ply 100% Shetland wool stockinette sweater, fully fashioned body, linked shoulder seams, ribbed crew neck, cuffs and hem, hip length. Preserve plain knit, no cables. Third reference location and muted overcast film-like grade only. Hollins Weir riverbank, calm water and rough limestone mill small in soft background, autumn woodland. Model stands hands inside dark charcoal trouser pockets, relaxed shoulders, head upright gazing toward distant river at eye level, sweater front visible, no jacket. Natural anatomy and wool fibers, quiet film grain, soft overcast light. No additional people, no text/logos/watermark, no collage. Save accessible local artifact.",
+          "sourceDimensions": {
+            "width": 1122,
+            "height": 1402
+          },
+          "deliveryDimensions": {
+            "width": 1600,
+            "height": 2000
+          },
+          "resampled": true
+        }
+      ],
+      "ownerRevision": "Replace the long-haired Spanish model with the same mid-40s redheaded man, short hair and medium beard, in new scenery."
+    },
+    {
+      "key": "categories/boots",
+      "referenceKeys": [
+        "pieces/182-service-boot/oxblood-still",
+        "editorial/interstitial-river"
+      ],
+      "prompt": "Generate ONE 4:5 portrait photorealistic editorial photograph, 1600x2000 requested. Boots Category tile, framing ONLY knee down, two feet naturally planted in wet autumn field grass beside shallow puddle. Reference 1 leather COLOR and hardware quality ONLY: Service Boot No.182 Oxblood #603438 2mm vegetable-tanned full-grain leather, ankle-height lace-up, brass eyelets and speed hooks, brown laces, double-stitched quarters, leather-lined upper, reinforced heel, round plain toe, studded rubber sole and stacked leather heel. Catalog specifies PLAIN TOE, so omit the reference boot's cap-toe seam. Both boots intact visible at three-quarter angle, lightly damp with small traces mud near welt, dark charcoal trouser hems slightly turned above boots. Model A wearer, face outside frame. Reference 2 geography and grade only: Hollins Weir wet grass, subdued natural autumn color, soft overcast film-like daylight, restrained grain, realistic leather pores. No hands, no extra feet, no text/logos/watermark, no collage. Save accessible local artifact.",
+      "revisionPrompt": "Edit this photograph with exactly one change: replace distant background with wet open autumn FIELD at Hollins Weir, grass, a low distant dry-stone boundary wall and shallow grass puddle. Remove river, weir and mill building entirely. Preserve exact two Oxblood plain-toe ankle Service Boots, all brass eyelets/hooks/laces, leather grain, coherent quarters/stitching/welt, shape, soles, mud, worn knee-down trouser legs, foreground puddle and camera framing. Same muted overcast film-like grade. 4:5 portrait single photograph, no text/logos/watermark. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "deliveryDimensions": {
+        "width": 1600,
+        "height": 2000
+      },
+      "resampled": true
+    },
+    {
+      "key": "cloths/waxed-cotton",
+      "referenceKeys": [
+        "pieces/027-field-jacket/olive-still",
+        "editorial/interstitial-river"
+      ],
+      "prompt": "Generate ONE square 1:1 photorealistic close textile photograph, requested 2048x2048, waxed cotton By cloth image. Reference 1 MATERIAL COLOR/FINISH ONLY: muted olive #62694A 10oz 100% cotton paraffin-waxed cloth, same as Field Jacket. Reference 2 geography and overcast film-like grade ONLY. Tight frame on a folded section of that waxed cotton draped over a rain-darkened wooden gate rail in Hollins Weir mill yard, hundreds of small believable rain beads on waxed face, subtle creases and cotton weave. Material fills most frame, only narrow weathered wet rail and soft gray limestone background visible. No complete garment, no sleeves/buttons/pockets or garment outline, no people/hands. Soft cool overcast daylight, muted natural color, fine film grain, tactile texture without synthetic plastic shine. No text/logos/watermark, no collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "cloths/selvedge-denim",
+      "referenceKeys": [
+        "pieces/014-chore-jacket/indigo-still",
+        "editorial/interstitial-river"
+      ],
+      "prompt": "Generate ONE square 1:1 photorealistic textile close-up, requested 2048x2048, selvedge denim By cloth image. Reference 1 is material texture only: rope-dyed indigo #334567 13.5oz 100% cotton denim twill, off-white selvedge edge with narrow red thread. Reference 2 muted natural film-like overcast grade only. Close view across a worn dark wooden mill workbench in Hollins Weir with a folded length of heavy indigo denim, its woven off-white selvedge edge runs diagonally across foreground; window daylight grazes diagonal twill and pale weft on turned fold. No full garment, no pockets/buttons/labels, only cloth section and workbench. Dense authentic twill, subtle indigo variation, coherent woven edge, soft cool window light, muted colors and fine grain. No people/hands, no text/logos/watermark, no collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "cloths/moleskin",
+      "referenceKeys": [
+        "pieces/125-moleskin-shirt/slate-still",
+        "editorial/interstitial-river"
+      ],
+      "prompt": "Generate ONE square 1:1 photorealistic textile close-up, requested 2048x2048, moleskin By cloth image. Reference 1 is MATERIAL COLOR/TEXTURE ONLY: Slate #646A6D 12oz 100% cotton moleskin, dense tightly woven cloth with quiet short brushed face, NOT suede/leather or fur. Reference 2 natural muted film-like overcast grade ONLY. A folded length of slate moleskin lies on a weathered wooden bench in Hollins Weir, close framing, cloth fills most image and wooden grain forms a narrow grounding edge. Soft raking window daylight catches the short directional cotton nap and shallow fold highlights. No full garment, pockets/buttons/seams/labels, no people/hands, no props. Tactile dense cotton, subdued slate-gray tone, fine grain, no glossy shine, no text/logos/watermark, no collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "cloths/brushed-flannel",
+      "referenceKeys": [
+        "pieces/112-flannel-shirt/red-check-still",
+        "editorial/interstitial-river"
+      ],
+      "prompt": "Generate ONE square 1:1 photorealistic textile close-up, requested 2048x2048, brushed flannel By cloth image. Reference 1 MATERIAL AND CHECK COLOR ONLY: exact Flannel Shirt Red Check #854A43 muted brick red, cream and gray check, 9oz 100% cotton double-napped flannel. Reference 2 location and grade ONLY. A folded section of this flannel rests on a rough limestone mill windowsill at Hollins Weir, soft cool window light, moisture condensation on glass above it in shallow focus. Tight view on fuzzy cotton nap and check grid across soft folds, no whole garment, no collar/sleeves/buttons/pockets/labels. Dense visible natural cotton fibers, believable check intersections, muted film-like grade and fine grain. No people/hands, no text/logos/watermark, no collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "cloths/shetland-wool",
+      "referenceKeys": [
+        "pieces/160-shetland-crew/moss-still",
+        "editorial/interstitial-river"
+      ],
+      "prompt": "Generate ONE square 1:1 photorealistic textile close-up, requested 2048x2048, Shetland wool By cloth image. Reference 1 MATERIAL COLOR/TEXTURE ONLY: Moss #697253 plain stockinette 3-ply 100% Shetland wool, natural wool face with soft visible fibers. Reference 2 film-like muted overcast grade ONLY. Close framing on a section of this wool knit draped over a weathered wooden field fence post at Hollins Weir, mist droplets sit subtly among fuzzy wool fibers. Cloth fills most frame; small exposed gray-brown post at side, damp autumn fields blurred beyond. Consistent interlocking knit stitches, natural irregular wool fibers, no cable pattern. No full sweater, neckline/cuffs/hem or garment silhouette, no people/hands, no river or mill. Soft overcast daylight, quiet natural grain, subdued earthy color. No text/logos/watermark, no collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "cloths/full-grain-leather",
+      "referenceKeys": [
+        "pieces/182-service-boot/oxblood-still",
+        "editorial/interstitial-river"
+      ],
+      "prompt": "Generate ONE square 1:1 photorealistic leather close-up, requested 2048x2048, full-grain leather By cloth image. Reference 1 is MATERIAL COLOR AND STITCHING ONLY: Oxblood #603438 2mm vegetable-tanned 100% full-grain leather as Service Boot No.182, natural pores, double-stitched quarter panels. Reference 2 muted film-like soft daylight grade ONLY. Extreme close view of a small boot-upper section resting on a worn cobbler's wooden bench at Hollins Weir, a little dried mud at the welt, leather grain dominates photograph; reveal curved quarter panel, two coherent rows of stitching and a narrow edge of welt. Crop so no complete boot or footwear silhouette appears, no toe cap or full lacing system. Upper quarter rests naturally above welt and dark rubber edge. Authentic unembossed fine leather grain, subtle use creases, coherent stitching, soft side window daylight, restrained muted natural color and fine grain. No people/hands, no text/logos/watermark, no collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    }
+  ]
+}
