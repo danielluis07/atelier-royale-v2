@@ -18,6 +18,13 @@ entry in the regenerated manifest. The automated acceptance check is
   and the slate moleskin shirt.
 - Mobile Hero has its own composition; each square companion retains its
   full frame's model, outfit and setting.
+- Revised 16 human frames and square companions to vary gaze and distinguish
+  the two recurring models. Model B is now a Spanish man in his mid-30s with
+  long dark hair tied at the nape, a clean-shaven face and level or raised gaze.
+  Both recurring models remain in their mid-30s. Checked the revised faces,
+  tied hair and gaze in the full frames and their square companions.
+- SHA-256 comparison confirmed the three people-free images and both Look 01
+  images were unchanged by this revision.
 
 All generated sources were below the brief's delivery dimensions and were
 resampled for export. The prompt records disclose native and delivered sizes;

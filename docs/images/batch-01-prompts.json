@@ -32,52 +32,6 @@
         "height": 1800
       },
       "resampled": true,
-      "referenceKeys": [],
-      "outfit": [
-        {
-          "number": "027",
-          "piece": "Field Jacket",
-          "cloth": "waxed-cotton",
-          "colorway": "olive"
-        },
-        {
-          "number": "160",
-          "piece": "Shetland Crew",
-          "cloth": "shetland-wool",
-          "colorway": "navy"
-        },
-        {
-          "number": "112",
-          "piece": "Flannel Shirt",
-          "cloth": "brushed-flannel",
-          "colorway": "grey-check"
-        },
-        {
-          "number": "131",
-          "piece": "Straight Jean",
-          "cloth": "selvedge-denim",
-          "colorway": "indigo"
-        },
-        {
-          "number": "182",
-          "piece": "Service Boot",
-          "cloth": "full-grain-leather",
-          "colorway": "oxblood"
-        }
-      ],
-      "prompt": "Create a single photorealistic natural menswear editorial campaign photograph, landscape 16:9, ideally 3200x1800 or larger. No collage. Hollins Weir is a fictional river mill hamlet: rough grey limestone mill with slate roof and tall narrow windows, low stone weir, narrow millrace water channel, wet cobbles, oak and birch woods. Late autumn morning, soft overcast light, muted film-like grade, restrained fine grain, naturally weathered textures. Model A is a weathered man age 34, lean build, short dark brown wavy hair, short brown stubble, angular face, straight nose. Full figure walking on wet stone beside the millrace channel in the RIGHT THIRD. Channel runs diagonally from left foreground to right distance, open LEFT HALF for later website copy. Wear only this outfit: olive (#62694A) waxed cotton Field Jacket, straight body with drawcord waist, exactly four bellows flap pockets, two-way brass zipper and brass snaps, dark corduroy collar facing; beneath it navy Shetland wool crewneck and grey check brushed flannel shirt collar, straight indigo selvedge jeans, plain-toe oxblood leather ankle service boots with brass eyelets/speed hooks and studded rubber soles. Jacket open enough to glimpse knit and shirt collar. Natural unposed walking, hands relaxed with correct anatomy. Wet stone and calm water. No text, logos, watermarks, extra accessories, fashion effects, orange/teal grade. This is the master continuity reference for 21 related assets."
-    },
-    {
-      "key": "editorial/hero-mobile",
-      "sourceDimensions": {
-        "width": 1122,
-        "height": 1402
-      },
-      "deliveryDimensions": {
-        "width": 1600,
-        "height": 2000
-      },
-      "resampled": true,
       "referenceKeys": [
         "editorial/hero-desktop"
       ],
@@ -113,7 +67,81 @@
           "colorway": "oxblood"
         }
       ],
-      "prompt": "Use case: photorealistic-natural. Single editorial campaign photograph, no collage, no lettering, no logos, no watermark. Reference image is continuity for model A and Hollins Weir: grey limestone mill, slate roof, narrow windows, wet limestone channel/walkway, low weir, oak/birch woodland. Muted overcast film-like grade, restrained fine grain, realistic cloth and anatomically correct hands, unposed workwear. Model A: lean man 34, angular face, straight nose, short wavy dark brown hair and brown stubble. Preserve exact identity when A is requested. Model B: man 54, lean sturdy build, weathered lined face, short salt-and-pepper hair, close grey beard, broad straight nose. Never mix the two faces. Portrait 4:5. Recompose the SAME morning millrace scene and model A/outfit in reference for mobile, not a crop of landscape. Centered model, knee-up framing; visible clear water and wet stone in lower third for later copy. Olive waxed Field Jacket with 4 bellows flap pockets, brass two-way zipper/snaps and dark corduroy collar; navy wool crew, grey check shirt collar, indigo straight jeans. Model walking. No text."
+      "previousRevision": {
+        "commit": "28807ff",
+        "sourceDimensions": {
+          "width": 1672,
+          "height": 941
+        },
+        "referenceKeys": [],
+        "prompt": "Create a single photorealistic natural menswear editorial campaign photograph, landscape 16:9, ideally 3200x1800 or larger. No collage. Hollins Weir is a fictional river mill hamlet: rough grey limestone mill with slate roof and tall narrow windows, low stone weir, narrow millrace water channel, wet cobbles, oak and birch woods. Late autumn morning, soft overcast light, muted film-like grade, restrained fine grain, naturally weathered textures. Model A is a weathered man age 34, lean build, short dark brown wavy hair, short brown stubble, angular face, straight nose. Full figure walking on wet stone beside the millrace channel in the RIGHT THIRD. Channel runs diagonally from left foreground to right distance, open LEFT HALF for later website copy. Wear only this outfit: olive (#62694A) waxed cotton Field Jacket, straight body with drawcord waist, exactly four bellows flap pockets, two-way brass zipper and brass snaps, dark corduroy collar facing; beneath it navy Shetland wool crewneck and grey check brushed flannel shirt collar, straight indigo selvedge jeans, plain-toe oxblood leather ankle service boots with brass eyelets/speed hooks and studded rubber soles. Jacket open enough to glimpse knit and shirt collar. Natural unposed walking, hands relaxed with correct anatomy. Wet stone and calm water. No text, logos, watermarks, extra accessories, fashion effects, orange/teal grade. This is the master continuity reference for 21 related assets."
+      },
+      "model": "A",
+      "gaze": "Watch the wet walkway while walking, head aligned with body.",
+      "referenceRevision": "Original frame at 28807ff for scene and outfit; current Look 03 for Model B identity",
+      "revisionBrief": "Preserve the original scene, composition, catalog outfit, props and muted editorial grade. Preserve Model A identity or recast Model B consistently as specified in revision.cast. Watch the wet walkway while walking, head aligned with body. Natural anatomy, functional hardware, no text or logos."
+    },
+    {
+      "key": "editorial/hero-mobile",
+      "sourceDimensions": {
+        "width": 1121,
+        "height": 1403
+      },
+      "deliveryDimensions": {
+        "width": 1600,
+        "height": 2000
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "editorial/hero-mobile"
+      ],
+      "outfit": [
+        {
+          "number": "027",
+          "piece": "Field Jacket",
+          "cloth": "waxed-cotton",
+          "colorway": "olive"
+        },
+        {
+          "number": "160",
+          "piece": "Shetland Crew",
+          "cloth": "shetland-wool",
+          "colorway": "navy"
+        },
+        {
+          "number": "112",
+          "piece": "Flannel Shirt",
+          "cloth": "brushed-flannel",
+          "colorway": "grey-check"
+        },
+        {
+          "number": "131",
+          "piece": "Straight Jean",
+          "cloth": "selvedge-denim",
+          "colorway": "indigo"
+        },
+        {
+          "number": "182",
+          "piece": "Service Boot",
+          "cloth": "full-grain-leather",
+          "colorway": "oxblood"
+        }
+      ],
+      "previousRevision": {
+        "commit": "28807ff",
+        "sourceDimensions": {
+          "width": 1122,
+          "height": 1402
+        },
+        "referenceKeys": [
+          "editorial/hero-desktop"
+        ],
+        "prompt": "Use case: photorealistic-natural. Single editorial campaign photograph, no collage, no lettering, no logos, no watermark. Reference image is continuity for model A and Hollins Weir: grey limestone mill, slate roof, narrow windows, wet limestone channel/walkway, low weir, oak/birch woodland. Muted overcast film-like grade, restrained fine grain, realistic cloth and anatomically correct hands, unposed workwear. Model A: lean man 34, angular face, straight nose, short wavy dark brown hair and brown stubble. Preserve exact identity when A is requested. Model B: man 54, lean sturdy build, weathered lined face, short salt-and-pepper hair, close grey beard, broad straight nose. Never mix the two faces. Portrait 4:5. Recompose the SAME morning millrace scene and model A/outfit in reference for mobile, not a crop of landscape. Centered model, knee-up framing; visible clear water and wet stone in lower third for later copy. Olive waxed Field Jacket with 4 bellows flap pockets, brass two-way zipper/snaps and dark corduroy collar; navy wool crew, grey check shirt collar, indigo straight jeans. Model walking. No text."
+      },
+      "model": "A",
+      "gaze": "Watch the wet walkway while walking, head aligned with body.",
+      "referenceRevision": "Original frame at 28807ff for scene and outfit; current Look 03 for Model B identity",
+      "revisionBrief": "Preserve the original scene, composition, catalog outfit, props and muted editorial grade. Preserve Model A identity or recast Model B consistently as specified in revision.cast. Watch the wet walkway while walking, head aligned with body. Natural anatomy, functional hardware, no text or logos."
     },
     {
       "key": "editorial/interstitial-river",
@@ -247,8 +275,8 @@
     {
       "key": "looks/look-02",
       "sourceDimensions": {
-        "width": 1122,
-        "height": 1402
+        "width": 1121,
+        "height": 1403
       },
       "deliveryDimensions": {
         "width": 1600,
@@ -284,8 +312,22 @@
           "colorway": "saddle"
         }
       ],
-      "initialPrompt": "Use case: photorealistic-natural. Single editorial campaign photograph, no collage, no lettering, no logos, no watermark. Reference image is continuity for model A and Hollins Weir: grey limestone mill, slate roof, narrow windows, wet limestone channel/walkway, low weir, oak/birch woodland. Muted overcast film-like grade, restrained fine grain, realistic cloth and anatomically correct hands, unposed workwear. Model A: lean man 34, angular face, straight nose, short wavy dark brown hair and brown stubble. Preserve exact identity when A is requested. Model B: man 54, lean sturdy build, weathered lined face, short salt-and-pepper hair, close grey beard, broad straight nose. Never mix the two faces. Portrait 4:5 full figure. Model A crossing wet mill yard cobbles past stacked timber, natural coil of thick rope over one shoulder. Early autumn mid-morning after rain. Outfit: indigo 14oz selvedge denim Chore Jacket with EXACTLY 4 patch pockets, felled shoulders, brass tack buttons, straight hem; oat 3-ply Shetland wool crewneck; slate brushed moleskin straight Work Trousers; saddle brown full-grain Moc-Toe Boots with sewn moc seam, brass eyelets, pale rubber wedge sole. No other garments visible.",
-      "prompt": "Edit only garment pocket construction: replace BOTH upper chest pocket flaps with simple OPEN TOP rectangular PATCH pockets, matching the two lower open patch pockets. Four open patch pockets TOTAL. No flap pocket anywhere, no chest-pocket buttons. Keep the jacket front brass tack buttons, Model A face/age, hands, rope, exact indigo denim, oat knit, slate trousers, saddle moc boots, full figure, 4:5 portrait, SAME wet yard, timber, composition, grade unchanged. No text/logos."
+      "previousRevision": {
+        "commit": "28807ff",
+        "sourceDimensions": {
+          "width": 1122,
+          "height": 1402
+        },
+        "referenceKeys": [
+          "looks/look-02"
+        ],
+        "prompt": "Edit only garment pocket construction: replace BOTH upper chest pocket flaps with simple OPEN TOP rectangular PATCH pockets, matching the two lower open patch pockets. Four open patch pockets TOTAL. No flap pocket anywhere, no chest-pocket buttons. Keep the jacket front brass tack buttons, Model A face/age, hands, rope, exact indigo denim, oat knit, slate trousers, saddle moc boots, full figure, 4:5 portrait, SAME wet yard, timber, composition, grade unchanged. No text/logos.",
+        "initialPrompt": "Use case: photorealistic-natural. Single editorial campaign photograph, no collage, no lettering, no logos, no watermark. Reference image is continuity for model A and Hollins Weir: grey limestone mill, slate roof, narrow windows, wet limestone channel/walkway, low weir, oak/birch woodland. Muted overcast film-like grade, restrained fine grain, realistic cloth and anatomically correct hands, unposed workwear. Model A: lean man 34, angular face, straight nose, short wavy dark brown hair and brown stubble. Preserve exact identity when A is requested. Model B: man 54, lean sturdy build, weathered lined face, short salt-and-pepper hair, close grey beard, broad straight nose. Never mix the two faces. Portrait 4:5 full figure. Model A crossing wet mill yard cobbles past stacked timber, natural coil of thick rope over one shoulder. Early autumn mid-morning after rain. Outfit: indigo 14oz selvedge denim Chore Jacket with EXACTLY 4 patch pockets, felled shoulders, brass tack buttons, straight hem; oat 3-ply Shetland wool crewneck; slate brushed moleskin straight Work Trousers; saddle brown full-grain Moc-Toe Boots with sewn moc seam, brass eyelets, pale rubber wedge sole. No other garments visible."
+      },
+      "model": "A",
+      "gaze": "Direct camera eye contact while carrying rope.",
+      "referenceRevision": "Original frame at 28807ff for scene and outfit; current Look 03 for Model B identity",
+      "revisionBrief": "Preserve the original scene, composition, catalog outfit, props and muted editorial grade. Preserve Model A identity or recast Model B consistently as specified in revision.cast. Direct camera eye contact while carrying rope. Natural anatomy, functional hardware, no text or logos."
     },
     {
       "key": "looks/look-02-square",
@@ -299,7 +341,7 @@
       },
       "resampled": true,
       "referenceKeys": [
-        "looks/look-02-square"
+        "looks/look-02"
       ],
       "outfit": [
         {
@@ -327,8 +369,22 @@
           "colorway": "saddle"
         }
       ],
-      "initialPrompt": "Use case: identity-preserve. Create one SQUARE 1:1 companion photograph, ideally 2048x2048, of the EXACT Look in reference. Reframe waist-up or head to upper thigh so the face and clothing are generous in the square. Keep SAME model identity/age, SAME garments, colours, fabric textures, construction, SAME location, weather, grade, pose and visible props. Preserve crisp realistic face, fingers and hardware. No extra garments, no text, logos, watermark, collage. Chore Jacket has FOUR OPEN PATCH POCKETS, two upper and two lower, no pocket flaps. Keep rope over shoulder. ",
-      "prompt": "Create a 1:1 SQUARE waist-up / upper-thigh companion of THIS corrected reference. Preserve exact model face, pose, rope, clothing, location and grade. The indigo denim Chore Jacket MUST have exactly FOUR OPEN TOP PATCH POCKETS, upper two open and lower two open. No pocket flaps and no chest-pocket buttons, faithfully copy reference jacket. Keep front placket brass buttons. Oat knit and slate trousers. Natural face/fingers, no text/logos."
+      "previousRevision": {
+        "commit": "28807ff",
+        "sourceDimensions": {
+          "width": 1254,
+          "height": 1254
+        },
+        "referenceKeys": [
+          "looks/look-02-square"
+        ],
+        "prompt": "Create a 1:1 SQUARE waist-up / upper-thigh companion of THIS corrected reference. Preserve exact model face, pose, rope, clothing, location and grade. The indigo denim Chore Jacket MUST have exactly FOUR OPEN TOP PATCH POCKETS, upper two open and lower two open. No pocket flaps and no chest-pocket buttons, faithfully copy reference jacket. Keep front placket brass buttons. Oat knit and slate trousers. Natural face/fingers, no text/logos.",
+        "initialPrompt": "Use case: identity-preserve. Create one SQUARE 1:1 companion photograph, ideally 2048x2048, of the EXACT Look in reference. Reframe waist-up or head to upper thigh so the face and clothing are generous in the square. Keep SAME model identity/age, SAME garments, colours, fabric textures, construction, SAME location, weather, grade, pose and visible props. Preserve crisp realistic face, fingers and hardware. No extra garments, no text, logos, watermark, collage. Chore Jacket has FOUR OPEN PATCH POCKETS, two upper and two lower, no pocket flaps. Keep rope over shoulder. "
+      },
+      "model": "A",
+      "gaze": "Direct camera eye contact while carrying rope.",
+      "referenceRevision": "Current revised full frame",
+      "revisionBrief": "Create a square waist-up or upper-thigh companion from the revised full frame. Preserve its exact model identity, age, tied hair when present, gaze, outfit, props, setting and muted editorial grade. Natural face and hands; no text or logos."
     },
     {
       "key": "looks/look-03",
@@ -342,7 +398,7 @@
       },
       "resampled": true,
       "referenceKeys": [
-        "editorial/hero-desktop"
+        "looks/look-03"
       ],
       "outfit": [
         {
@@ -370,7 +426,21 @@
           "colorway": "black"
         }
       ],
-      "prompt": "Use case: photorealistic-natural. Single editorial campaign photograph, no collage, no lettering, no logos, no watermark. Reference image is continuity for model A and Hollins Weir: grey limestone mill, slate roof, narrow windows, wet limestone channel/walkway, low weir, oak/birch woodland. Muted overcast film-like grade, restrained fine grain, realistic cloth and anatomically correct hands, unposed workwear. Model A: lean man 34, angular face, straight nose, short wavy dark brown hair and brown stubble. Preserve exact identity when A is requested. Model B: man 54, lean sturdy build, weathered lined face, short salt-and-pepper hair, close grey beard, broad straight nose. Never mix the two faces. Landscape 3:2 full figure, model B small and off-center LEFT walking along a dry-stone wall, fields run to RIGHT. Mid-autumn afternoon, windy low cloud. Saddle brown 2mm full-grain Leather Work Jacket with brass zipper, lock-stitched panels, reinforced pocket openings, hip-length; indigo Western Shirt with pointed yoke and pearl-faced snaps; dark rinsed straight selvedge jeans; black Engineer Boots with brass instep/shaft buckles and rubber soles. Model B weathered man 54 with close grey beard and salt-and-pepper short hair, broad straight nose. Establish his recurring identity clearly. Same grade and limestone geography as reference."
+      "previousRevision": {
+        "commit": "28807ff",
+        "sourceDimensions": {
+          "width": 1536,
+          "height": 1024
+        },
+        "referenceKeys": [
+          "editorial/hero-desktop"
+        ],
+        "prompt": "Use case: photorealistic-natural. Single editorial campaign photograph, no collage, no lettering, no logos, no watermark. Reference image is continuity for model A and Hollins Weir: grey limestone mill, slate roof, narrow windows, wet limestone channel/walkway, low weir, oak/birch woodland. Muted overcast film-like grade, restrained fine grain, realistic cloth and anatomically correct hands, unposed workwear. Model A: lean man 34, angular face, straight nose, short wavy dark brown hair and brown stubble. Preserve exact identity when A is requested. Model B: man 54, lean sturdy build, weathered lined face, short salt-and-pepper hair, close grey beard, broad straight nose. Never mix the two faces. Landscape 3:2 full figure, model B small and off-center LEFT walking along a dry-stone wall, fields run to RIGHT. Mid-autumn afternoon, windy low cloud. Saddle brown 2mm full-grain Leather Work Jacket with brass zipper, lock-stitched panels, reinforced pocket openings, hip-length; indigo Western Shirt with pointed yoke and pearl-faced snaps; dark rinsed straight selvedge jeans; black Engineer Boots with brass instep/shaft buckles and rubber soles. Model B weathered man 54 with close grey beard and salt-and-pepper short hair, broad straight nose. Establish his recurring identity clearly. Same grade and limestone geography as reference."
+      },
+      "model": "B",
+      "gaze": "Look ahead at eye level while walking.",
+      "referenceRevision": "Original frame at 28807ff for scene and outfit; current Look 03 for Model B identity",
+      "revisionBrief": "Preserve the original scene, composition, catalog outfit, props and muted editorial grade. Preserve Model A identity or recast Model B consistently as specified in revision.cast. Look ahead at eye level while walking. Natural anatomy, functional hardware, no text or logos."
     },
     {
       "key": "looks/look-03-square",
@@ -412,7 +482,21 @@
           "colorway": "black"
         }
       ],
-      "prompt": "Use case: identity-preserve. Create one SQUARE 1:1 companion photograph, ideally 2048x2048, of the EXACT Look in reference. Reframe waist-up or head to upper thigh so the face and clothing are generous in the square. Keep SAME model identity/age, SAME garments, colours, fabric textures, construction, SAME location, weather, grade, pose and visible props. Preserve crisp realistic face, fingers and hardware. No extra garments, no text, logos, watermark, collage.  "
+      "previousRevision": {
+        "commit": "28807ff",
+        "sourceDimensions": {
+          "width": 1254,
+          "height": 1254
+        },
+        "referenceKeys": [
+          "looks/look-03"
+        ],
+        "prompt": "Use case: identity-preserve. Create one SQUARE 1:1 companion photograph, ideally 2048x2048, of the EXACT Look in reference. Reframe waist-up or head to upper thigh so the face and clothing are generous in the square. Keep SAME model identity/age, SAME garments, colours, fabric textures, construction, SAME location, weather, grade, pose and visible props. Preserve crisp realistic face, fingers and hardware. No extra garments, no text, logos, watermark, collage.  "
+      },
+      "model": "B",
+      "gaze": "Look ahead at eye level while walking.",
+      "referenceRevision": "Current revised full frame",
+      "revisionBrief": "Create a square waist-up or upper-thigh companion from the revised full frame. Preserve its exact model identity, age, tied hair when present, gaze, outfit, props, setting and muted editorial grade. Natural face and hands; no text or logos."
     },
     {
       "key": "looks/look-04",
@@ -426,7 +510,8 @@
       },
       "resampled": true,
       "referenceKeys": [
-        "looks/look-04"
+        "looks/look-04",
+        "looks/look-03"
       ],
       "outfit": [
         {
@@ -454,8 +539,22 @@
           "colorway": "tobacco"
         }
       ],
-      "initialPrompt": "Use case: photorealistic-natural. Single editorial campaign photograph, no collage, no lettering, no logos, no watermark. Reference image is continuity for model A and Hollins Weir: grey limestone mill, slate roof, narrow windows, wet limestone channel/walkway, low weir, oak/birch woodland. Muted overcast film-like grade, restrained fine grain, realistic cloth and anatomically correct hands, unposed workwear. Model A: lean man 34, angular face, straight nose, short wavy dark brown hair and brown stubble. Preserve exact identity when A is requested. Model B: man 54, lean sturdy build, weathered lined face, short salt-and-pepper hair, close grey beard, broad straight nose. Never mix the two faces. Portrait 4:5 FULL FIGURE Model B (reference 2 face exactly), standing open mill doorway, drizzle outside, mid-autumn late afternoon. Moss (#697253) dense 12oz brushed cotton moleskin Work Coat, below-hip length, 3 plain PATCH pockets, reinforced elbows, corozo buttons; ecru 3-ply Shetland wool Roll-Neck with deep ribbed turtleneck; charcoal heavy brushed flannel single-pleat straight trousers; tobacco brown full-grain plain Chukka Boots, 3 brass eyelets, low crepe soles. Behind him, softly out of focus in window light, one secondary craftsperson age 45 with tied-back dark hair, plain grey work apron at workbench chain-stitching a trouser hem with mechanical sewing machine. Exactly two people. Model B must remain older grey-haired grey-bearded man from reference 2.",
-      "prompt": "Precise local edit of reference: change only the two tobacco brown ankle boots into LOW THREE-EYELET CHUKKA boots: each boot has exactly THREE pairs of brass eyelets, with corresponding lacing, low ankle shaft, round plain toe, crepe rubber sole, low stacked leather heel. Remove all extra eyelets above those three pairs. Keep exact Model B face, moss moleskin coat, ecru rollneck, charcoal trousers, secondary craftsperson sewing, doorway, mill, 4:5 FULL FIGURE composition and grade untouched. No text/logos."
+      "previousRevision": {
+        "commit": "28807ff",
+        "sourceDimensions": {
+          "width": 1122,
+          "height": 1402
+        },
+        "referenceKeys": [
+          "looks/look-04"
+        ],
+        "prompt": "Precise local edit of reference: change only the two tobacco brown ankle boots into LOW THREE-EYELET CHUKKA boots: each boot has exactly THREE pairs of brass eyelets, with corresponding lacing, low ankle shaft, round plain toe, crepe rubber sole, low stacked leather heel. Remove all extra eyelets above those three pairs. Keep exact Model B face, moss moleskin coat, ecru rollneck, charcoal trousers, secondary craftsperson sewing, doorway, mill, 4:5 FULL FIGURE composition and grade untouched. No text/logos.",
+        "initialPrompt": "Use case: photorealistic-natural. Single editorial campaign photograph, no collage, no lettering, no logos, no watermark. Reference image is continuity for model A and Hollins Weir: grey limestone mill, slate roof, narrow windows, wet limestone channel/walkway, low weir, oak/birch woodland. Muted overcast film-like grade, restrained fine grain, realistic cloth and anatomically correct hands, unposed workwear. Model A: lean man 34, angular face, straight nose, short wavy dark brown hair and brown stubble. Preserve exact identity when A is requested. Model B: man 54, lean sturdy build, weathered lined face, short salt-and-pepper hair, close grey beard, broad straight nose. Never mix the two faces. Portrait 4:5 FULL FIGURE Model B (reference 2 face exactly), standing open mill doorway, drizzle outside, mid-autumn late afternoon. Moss (#697253) dense 12oz brushed cotton moleskin Work Coat, below-hip length, 3 plain PATCH pockets, reinforced elbows, corozo buttons; ecru 3-ply Shetland wool Roll-Neck with deep ribbed turtleneck; charcoal heavy brushed flannel single-pleat straight trousers; tobacco brown full-grain plain Chukka Boots, 3 brass eyelets, low crepe soles. Behind him, softly out of focus in window light, one secondary craftsperson age 45 with tied-back dark hair, plain grey work apron at workbench chain-stitching a trouser hem with mechanical sewing machine. Exactly two people. Model B must remain older grey-haired grey-bearded man from reference 2."
+      },
+      "model": "B",
+      "gaze": "Direct camera eye contact at the doorway.",
+      "referenceRevision": "Original frame at 28807ff for scene and outfit; current Look 03 for Model B identity",
+      "revisionBrief": "Preserve the original scene, composition, catalog outfit, props and muted editorial grade. Preserve Model A identity or recast Model B consistently as specified in revision.cast. Direct camera eye contact at the doorway. Natural anatomy, functional hardware, no text or logos."
     },
     {
       "key": "looks/look-04-square",
@@ -497,7 +596,21 @@
           "colorway": "tobacco"
         }
       ],
-      "prompt": "Use case: identity-preserve. Create one SQUARE 1:1 companion photograph, ideally 2048x2048, of the EXACT Look in reference. Reframe waist-up or head to upper thigh so the face and clothing are generous in the square. Keep SAME model identity/age, SAME garments, colours, fabric textures, construction, SAME location, weather, grade, pose and visible props. Preserve crisp realistic face, fingers and hardware. No extra garments, no text, logos, watermark, collage.  Keep secondary craftsperson sewing at window-lit bench visible softly in background, preserve moss THREE-patch-pocket moleskin coat and ecru turtleneck."
+      "previousRevision": {
+        "commit": "28807ff",
+        "sourceDimensions": {
+          "width": 1254,
+          "height": 1254
+        },
+        "referenceKeys": [
+          "looks/look-04"
+        ],
+        "prompt": "Use case: identity-preserve. Create one SQUARE 1:1 companion photograph, ideally 2048x2048, of the EXACT Look in reference. Reframe waist-up or head to upper thigh so the face and clothing are generous in the square. Keep SAME model identity/age, SAME garments, colours, fabric textures, construction, SAME location, weather, grade, pose and visible props. Preserve crisp realistic face, fingers and hardware. No extra garments, no text, logos, watermark, collage.  Keep secondary craftsperson sewing at window-lit bench visible softly in background, preserve moss THREE-patch-pocket moleskin coat and ecru turtleneck."
+      },
+      "model": "B",
+      "gaze": "Direct camera eye contact at the doorway.",
+      "referenceRevision": "Current revised full frame",
+      "revisionBrief": "Create a square waist-up or upper-thigh companion from the revised full frame. Preserve its exact model identity, age, tied hair when present, gaze, outfit, props, setting and muted editorial grade. Natural face and hands; no text or logos."
     },
     {
       "key": "looks/look-05",
@@ -511,7 +624,7 @@
       },
       "resampled": true,
       "referenceKeys": [
-        "editorial/hero-desktop"
+        "looks/look-05"
       ],
       "outfit": [
         {
@@ -539,7 +652,21 @@
           "colorway": "saddle"
         }
       ],
-      "prompt": "Use case: photorealistic-natural. Single editorial campaign photograph, no collage, no lettering, no logos, no watermark. Reference image is continuity for model A and Hollins Weir: grey limestone mill, slate roof, narrow windows, wet limestone channel/walkway, low weir, oak/birch woodland. Muted overcast film-like grade, restrained fine grain, realistic cloth and anatomically correct hands, unposed workwear. Model A: lean man 34, angular face, straight nose, short wavy dark brown hair and brown stubble. Preserve exact identity when A is requested. Model B: man 54, lean sturdy build, weathered lined face, short salt-and-pepper hair, close grey beard, broad straight nose. Never mix the two faces. Landscape 3:2 full figure model A walking muddy wood track, collar raised, off-center RIGHT with trunks extending LEFT. Late autumn midday steady rain, most leaves fallen. Tobacco brown 8oz waxed cotton Cruiser Jacket, hip-length boxy body, reinforced back yoke, 2 chest pockets and 2 hand pockets, brass snaps; ecru shirt-weight selvedge denim Work Shirt with 2 chest pockets and corozo buttons; olive waxed Double-Knee Trousers with visible double knee panels and reinforced tool pocket, brass rivets; saddle brown pull-on Engineer Boots brass buckles, rubber sole. NO extra knit."
+      "previousRevision": {
+        "commit": "28807ff",
+        "sourceDimensions": {
+          "width": 1536,
+          "height": 1024
+        },
+        "referenceKeys": [
+          "editorial/hero-desktop"
+        ],
+        "prompt": "Use case: photorealistic-natural. Single editorial campaign photograph, no collage, no lettering, no logos, no watermark. Reference image is continuity for model A and Hollins Weir: grey limestone mill, slate roof, narrow windows, wet limestone channel/walkway, low weir, oak/birch woodland. Muted overcast film-like grade, restrained fine grain, realistic cloth and anatomically correct hands, unposed workwear. Model A: lean man 34, angular face, straight nose, short wavy dark brown hair and brown stubble. Preserve exact identity when A is requested. Model B: man 54, lean sturdy build, weathered lined face, short salt-and-pepper hair, close grey beard, broad straight nose. Never mix the two faces. Landscape 3:2 full figure model A walking muddy wood track, collar raised, off-center RIGHT with trunks extending LEFT. Late autumn midday steady rain, most leaves fallen. Tobacco brown 8oz waxed cotton Cruiser Jacket, hip-length boxy body, reinforced back yoke, 2 chest pockets and 2 hand pockets, brass snaps; ecru shirt-weight selvedge denim Work Shirt with 2 chest pockets and corozo buttons; olive waxed Double-Knee Trousers with visible double knee panels and reinforced tool pocket, brass rivets; saddle brown pull-on Engineer Boots brass buckles, rubber sole. NO extra knit."
+      },
+      "model": "A",
+      "gaze": "Watch the muddy track.",
+      "referenceRevision": "Original frame at 28807ff for scene and outfit; current Look 03 for Model B identity",
+      "revisionBrief": "Preserve the original scene, composition, catalog outfit, props and muted editorial grade. Preserve Model A identity or recast Model B consistently as specified in revision.cast. Watch the muddy track. Natural anatomy, functional hardware, no text or logos."
     },
     {
       "key": "looks/look-05-square",
@@ -581,7 +708,21 @@
           "colorway": "saddle"
         }
       ],
-      "prompt": "Use case: identity-preserve. One SQUARE 1:1 companion editorial photograph, ideally 2048x2048, of EXACT Look in reference. Waist-up or three-quarter framing, generous face/cloth detail. Preserve SAME model identity, apparent age, pose, location, weather, grade, EXACT outfit/colours/construction, visible props and natural anatomy. No text, logos, watermark, collage, extra garments.  "
+      "previousRevision": {
+        "commit": "28807ff",
+        "sourceDimensions": {
+          "width": 1254,
+          "height": 1254
+        },
+        "referenceKeys": [
+          "looks/look-05"
+        ],
+        "prompt": "Use case: identity-preserve. One SQUARE 1:1 companion editorial photograph, ideally 2048x2048, of EXACT Look in reference. Waist-up or three-quarter framing, generous face/cloth detail. Preserve SAME model identity, apparent age, pose, location, weather, grade, EXACT outfit/colours/construction, visible props and natural anatomy. No text, logos, watermark, collage, extra garments.  "
+      },
+      "model": "A",
+      "gaze": "Watch the muddy track.",
+      "referenceRevision": "Current revised full frame",
+      "revisionBrief": "Create a square waist-up or upper-thigh companion from the revised full frame. Preserve its exact model identity, age, tied hair when present, gaze, outfit, props, setting and muted editorial grade. Natural face and hands; no text or logos."
     },
     {
       "key": "looks/look-06",
@@ -595,7 +736,7 @@
       },
       "resampled": true,
       "referenceKeys": [
-        "editorial/hero-desktop"
+        "looks/look-06"
       ],
       "outfit": [
         {
@@ -617,7 +758,21 @@
           "colorway": "oat"
         }
       ],
-      "prompt": "Use case: photorealistic-natural. Single editorial campaign photograph, no collage, no lettering, no logos, no watermark. Reference image is continuity for model A and Hollins Weir: grey limestone mill, slate roof, narrow windows, wet limestone channel/walkway, low weir, oak/birch woodland. Muted overcast film-like grade, restrained fine grain, realistic cloth and anatomically correct hands, unposed workwear. Model A: lean man 34, angular face, straight nose, short wavy dark brown hair and brown stubble. Preserve exact identity when A is requested. Model B: man 54, lean sturdy build, weathered lined face, short salt-and-pepper hair, close grey beard, broad straight nose. Never mix the two faces. Portrait 4:5 full figure Model A leaning naturally on wooden field gate, one boot on lower bar, gazing across wet grass. Late autumn dusk, rain clearing, dim blue-grey overcast light, no golden sunset. Indigo 14oz selvedge Rider Jacket, trim waist-length, pleated front panels, adjustable hem tabs, brass tack buttons; oat brushed flannel Popover Shirt with short reinforced half-placket, corozo buttons and straight hem; oat moleskin Fatigue Trousers with large front patch pockets, relaxed legs, adjustable waist tabs. Only these 3 catalog garments, plain unbranded dark neutral boots incidental to the scene."
+      "previousRevision": {
+        "commit": "28807ff",
+        "sourceDimensions": {
+          "width": 1122,
+          "height": 1402
+        },
+        "referenceKeys": [
+          "editorial/hero-desktop"
+        ],
+        "prompt": "Use case: photorealistic-natural. Single editorial campaign photograph, no collage, no lettering, no logos, no watermark. Reference image is continuity for model A and Hollins Weir: grey limestone mill, slate roof, narrow windows, wet limestone channel/walkway, low weir, oak/birch woodland. Muted overcast film-like grade, restrained fine grain, realistic cloth and anatomically correct hands, unposed workwear. Model A: lean man 34, angular face, straight nose, short wavy dark brown hair and brown stubble. Preserve exact identity when A is requested. Model B: man 54, lean sturdy build, weathered lined face, short salt-and-pepper hair, close grey beard, broad straight nose. Never mix the two faces. Portrait 4:5 full figure Model A leaning naturally on wooden field gate, one boot on lower bar, gazing across wet grass. Late autumn dusk, rain clearing, dim blue-grey overcast light, no golden sunset. Indigo 14oz selvedge Rider Jacket, trim waist-length, pleated front panels, adjustable hem tabs, brass tack buttons; oat brushed flannel Popover Shirt with short reinforced half-placket, corozo buttons and straight hem; oat moleskin Fatigue Trousers with large front patch pockets, relaxed legs, adjustable waist tabs. Only these 3 catalog garments, plain unbranded dark neutral boots incidental to the scene."
+      },
+      "model": "A",
+      "gaze": "Relaxed camera eye contact at the gate.",
+      "referenceRevision": "Original frame at 28807ff for scene and outfit; current Look 03 for Model B identity",
+      "revisionBrief": "Preserve the original scene, composition, catalog outfit, props and muted editorial grade. Preserve Model A identity or recast Model B consistently as specified in revision.cast. Relaxed camera eye contact at the gate. Natural anatomy, functional hardware, no text or logos."
     },
     {
       "key": "looks/look-06-square",
@@ -653,7 +808,21 @@
           "colorway": "oat"
         }
       ],
-      "prompt": "Use case: identity-preserve. One SQUARE 1:1 companion editorial photograph, ideally 2048x2048, of EXACT Look in reference. Waist-up or three-quarter framing, generous face/cloth detail. Preserve SAME model identity, apparent age, pose, location, weather, grade, EXACT outfit/colours/construction, visible props and natural anatomy. No text, logos, watermark, collage, extra garments.  "
+      "previousRevision": {
+        "commit": "28807ff",
+        "sourceDimensions": {
+          "width": 1254,
+          "height": 1254
+        },
+        "referenceKeys": [
+          "looks/look-06"
+        ],
+        "prompt": "Use case: identity-preserve. One SQUARE 1:1 companion editorial photograph, ideally 2048x2048, of EXACT Look in reference. Waist-up or three-quarter framing, generous face/cloth detail. Preserve SAME model identity, apparent age, pose, location, weather, grade, EXACT outfit/colours/construction, visible props and natural anatomy. No text, logos, watermark, collage, extra garments.  "
+      },
+      "model": "A",
+      "gaze": "Relaxed camera eye contact at the gate.",
+      "referenceRevision": "Current revised full frame",
+      "revisionBrief": "Create a square waist-up or upper-thigh companion from the revised full frame. Preserve its exact model identity, age, tied hair when present, gaze, outfit, props, setting and muted editorial grade. Natural face and hands; no text or logos."
     },
     {
       "key": "looks/look-07",
@@ -667,7 +836,8 @@
       },
       "resampled": true,
       "referenceKeys": [
-        "looks/look-07"
+        "looks/look-07",
+        "looks/look-03"
       ],
       "outfit": [
         {
@@ -695,8 +865,22 @@
           "colorway": "saddle"
         }
       ],
-      "initialPrompt": "Use case: photorealistic-natural. Single editorial campaign photograph, no collage, no lettering, no logos, no watermark. Reference image is continuity for model A and Hollins Weir: grey limestone mill, slate roof, narrow windows, wet limestone channel/walkway, low weir, oak/birch woodland. Muted overcast film-like grade, restrained fine grain, realistic cloth and anatomically correct hands, unposed workwear. Model A: lean man 34, angular face, straight nose, short wavy dark brown hair and brown stubble. Preserve exact identity when A is requested. Model B: man 54, lean sturdy build, weathered lined face, short salt-and-pepper hair, close grey beard, broad straight nose. Never mix the two faces. Portrait 4:5 FULL FIGURE Model B, exact reference 2 face and age, carrying armful of split logs between BARE oak/birch trees. Early winter morning FIRST HARD FROST, light white frost on leaves and ground, faint visible breath. Charcoal 3-ply Shetland wool CARDIGAN, reinforced corozo button band, 2 knitted patch pockets, open at upper chest; SLATE moleskin shirt, two chest pockets, corozo buttons; straight INDIGO selvedge jeans; SADDLE brown full-grain MOC-TOE boots, stitched moc seam, brass eyelets, pale rubber wedge sole. No jacket or extra knit. Natural hands supporting logs with anatomically correct fingers.",
-      "prompt": "Precise local edit: change ONLY shirt under CHARCOAL wool cardigan to SLATE GREY (#646A6D) brushed cotton MOLESKIN shirt, with 2 chest pockets and COROZO buttons. It is grey cotton, NOT indigo/blue denim. Add very faint visible breath at mouth to indicate first hard frost. Preserve exact Model B older weathered face, charcoal cardigan, indigo jeans, saddle moc boots, logs, correct hands, frosted woods, full figure 4:5 composition and grade. No extra people/text/logos."
+      "previousRevision": {
+        "commit": "28807ff",
+        "sourceDimensions": {
+          "width": 1122,
+          "height": 1402
+        },
+        "referenceKeys": [
+          "looks/look-07"
+        ],
+        "prompt": "Precise local edit: change ONLY shirt under CHARCOAL wool cardigan to SLATE GREY (#646A6D) brushed cotton MOLESKIN shirt, with 2 chest pockets and COROZO buttons. It is grey cotton, NOT indigo/blue denim. Add very faint visible breath at mouth to indicate first hard frost. Preserve exact Model B older weathered face, charcoal cardigan, indigo jeans, saddle moc boots, logs, correct hands, frosted woods, full figure 4:5 composition and grade. No extra people/text/logos.",
+        "initialPrompt": "Use case: photorealistic-natural. Single editorial campaign photograph, no collage, no lettering, no logos, no watermark. Reference image is continuity for model A and Hollins Weir: grey limestone mill, slate roof, narrow windows, wet limestone channel/walkway, low weir, oak/birch woodland. Muted overcast film-like grade, restrained fine grain, realistic cloth and anatomically correct hands, unposed workwear. Model A: lean man 34, angular face, straight nose, short wavy dark brown hair and brown stubble. Preserve exact identity when A is requested. Model B: man 54, lean sturdy build, weathered lined face, short salt-and-pepper hair, close grey beard, broad straight nose. Never mix the two faces. Portrait 4:5 FULL FIGURE Model B, exact reference 2 face and age, carrying armful of split logs between BARE oak/birch trees. Early winter morning FIRST HARD FROST, light white frost on leaves and ground, faint visible breath. Charcoal 3-ply Shetland wool CARDIGAN, reinforced corozo button band, 2 knitted patch pockets, open at upper chest; SLATE moleskin shirt, two chest pockets, corozo buttons; straight INDIGO selvedge jeans; SADDLE brown full-grain MOC-TOE boots, stitched moc seam, brass eyelets, pale rubber wedge sole. No jacket or extra knit. Natural hands supporting logs with anatomically correct fingers."
+      },
+      "model": "B",
+      "gaze": "Look forward at eye level while carrying logs.",
+      "referenceRevision": "Original frame at 28807ff for scene and outfit; current Look 03 for Model B identity",
+      "revisionBrief": "Preserve the original scene, composition, catalog outfit, props and muted editorial grade. Preserve Model A identity or recast Model B consistently as specified in revision.cast. Look forward at eye level while carrying logs. Natural anatomy, functional hardware, no text or logos."
     },
     {
       "key": "looks/look-07-square",
@@ -738,7 +922,21 @@
           "colorway": "saddle"
         }
       ],
-      "prompt": "Use case: identity-preserve. One SQUARE 1:1 companion editorial photograph, ideally 2048x2048, of EXACT Look in reference. Waist-up or three-quarter framing, generous face/cloth detail. Preserve SAME model identity, apparent age, pose, location, weather, grade, EXACT outfit/colours/construction, visible props and natural anatomy. No text, logos, watermark, collage, extra garments. Model B age 54, split logs, CHARCOAL wool cardigan with 2 knitted patch pockets, SLATE GREY (#646A6D) brushed cotton MOLESKIN shirt (not indigo denim), corozo buttons, indigo jeans. Bare winter trees, hard frost, faint breath. "
+      "previousRevision": {
+        "commit": "28807ff",
+        "sourceDimensions": {
+          "width": 1254,
+          "height": 1254
+        },
+        "referenceKeys": [
+          "looks/look-07"
+        ],
+        "prompt": "Use case: identity-preserve. One SQUARE 1:1 companion editorial photograph, ideally 2048x2048, of EXACT Look in reference. Waist-up or three-quarter framing, generous face/cloth detail. Preserve SAME model identity, apparent age, pose, location, weather, grade, EXACT outfit/colours/construction, visible props and natural anatomy. No text, logos, watermark, collage, extra garments. Model B age 54, split logs, CHARCOAL wool cardigan with 2 knitted patch pockets, SLATE GREY (#646A6D) brushed cotton MOLESKIN shirt (not indigo denim), corozo buttons, indigo jeans. Bare winter trees, hard frost, faint breath. "
+      },
+      "model": "B",
+      "gaze": "Look forward at eye level while carrying logs.",
+      "referenceRevision": "Current revised full frame",
+      "revisionBrief": "Create a square waist-up or upper-thigh companion from the revised full frame. Preserve its exact model identity, age, tied hair when present, gaze, outfit, props, setting and muted editorial grade. Natural face and hands; no text or logos."
     },
     {
       "key": "looks/look-08",
@@ -752,7 +950,7 @@
       },
       "resampled": true,
       "referenceKeys": [
-        "editorial/hero-desktop",
+        "looks/look-08",
         "looks/look-03"
       ],
       "outfit": [
@@ -781,7 +979,22 @@
           "colorway": "black"
         }
       ],
-      "prompt": "Use case: photorealistic-natural. Single editorial campaign photograph, no collage, no lettering, no logos, no watermark. Reference image is continuity for model A and Hollins Weir: grey limestone mill, slate roof, narrow windows, wet limestone channel/walkway, low weir, oak/birch woodland. Muted overcast film-like grade, restrained fine grain, realistic cloth and anatomically correct hands, unposed workwear. Model A: lean man 34, angular face, straight nose, short wavy dark brown hair and brown stubble. Preserve exact identity when A is requested. Model B: man 54, lean sturdy build, weathered lined face, short salt-and-pepper hair, close grey beard, broad straight nose. Never mix the two faces. Landscape 3:2 full figure Model B exact reference 2 identity standing on bank BELOW weir off-center LEFT, falling white water runs across background. Early winter DUSK, cold muted blue-grey, frost on limestone, bare trees. GREY CHECK 9oz double-napped brushed flannel Mill Overshirt, relaxed body, 2 chest pockets, square hem with side vents, corozo buttons; NAVY Shetland wool Roll-Neck, deep ribbed turtleneck; MOSS (#697253) brushed moleskin straight Work Trousers; BLACK full-grain Engineer Boots with solid brass instep/shaft buckles and rubber soles. Show layers, no other pieces."
+      "previousRevision": {
+        "commit": "28807ff",
+        "sourceDimensions": {
+          "width": 1536,
+          "height": 1024
+        },
+        "referenceKeys": [
+          "editorial/hero-desktop",
+          "looks/look-03"
+        ],
+        "prompt": "Use case: photorealistic-natural. Single editorial campaign photograph, no collage, no lettering, no logos, no watermark. Reference image is continuity for model A and Hollins Weir: grey limestone mill, slate roof, narrow windows, wet limestone channel/walkway, low weir, oak/birch woodland. Muted overcast film-like grade, restrained fine grain, realistic cloth and anatomically correct hands, unposed workwear. Model A: lean man 34, angular face, straight nose, short wavy dark brown hair and brown stubble. Preserve exact identity when A is requested. Model B: man 54, lean sturdy build, weathered lined face, short salt-and-pepper hair, close grey beard, broad straight nose. Never mix the two faces. Landscape 3:2 full figure Model B exact reference 2 identity standing on bank BELOW weir off-center LEFT, falling white water runs across background. Early winter DUSK, cold muted blue-grey, frost on limestone, bare trees. GREY CHECK 9oz double-napped brushed flannel Mill Overshirt, relaxed body, 2 chest pockets, square hem with side vents, corozo buttons; NAVY Shetland wool Roll-Neck, deep ribbed turtleneck; MOSS (#697253) brushed moleskin straight Work Trousers; BLACK full-grain Engineer Boots with solid brass instep/shaft buckles and rubber soles. Show layers, no other pieces."
+      },
+      "model": "B",
+      "gaze": "Look toward the horizon with chin slightly raised.",
+      "referenceRevision": "Original frame at 28807ff for scene and outfit; current Look 03 for Model B identity",
+      "revisionBrief": "Preserve the original scene, composition, catalog outfit, props and muted editorial grade. Preserve Model A identity or recast Model B consistently as specified in revision.cast. Look toward the horizon with chin slightly raised. Natural anatomy, functional hardware, no text or logos."
     },
     {
       "key": "looks/look-08-square",
@@ -823,7 +1036,30 @@
           "colorway": "black"
         }
       ],
-      "prompt": "Use case: identity-preserve. One SQUARE 1:1 companion editorial photograph, ideally 2048x2048, of EXACT Look in reference. Waist-up or three-quarter framing, generous face/cloth detail. Preserve SAME model identity, apparent age, pose, location, weather, grade, EXACT outfit/colours/construction, visible props and natural anatomy. No text, logos, watermark, collage, extra garments.  Model B age54, grey check overshirt over navy turtleneck, moss trousers. Falling weir water behind him and frost."
+      "previousRevision": {
+        "commit": "28807ff",
+        "sourceDimensions": {
+          "width": 1254,
+          "height": 1254
+        },
+        "referenceKeys": [
+          "looks/look-08"
+        ],
+        "prompt": "Use case: identity-preserve. One SQUARE 1:1 companion editorial photograph, ideally 2048x2048, of EXACT Look in reference. Waist-up or three-quarter framing, generous face/cloth detail. Preserve SAME model identity, apparent age, pose, location, weather, grade, EXACT outfit/colours/construction, visible props and natural anatomy. No text, logos, watermark, collage, extra garments.  Model B age54, grey check overshirt over navy turtleneck, moss trousers. Falling weir water behind him and frost."
+      },
+      "model": "B",
+      "gaze": "Look toward the horizon with chin slightly raised.",
+      "referenceRevision": "Current revised full frame",
+      "revisionBrief": "Create a square waist-up or upper-thigh companion from the revised full frame. Preserve its exact model identity, age, tied hair when present, gaze, outfit, props, setting and muted editorial grade. Natural face and hands; no text or logos."
     }
-  ]
+  ],
+  "revision": {
+    "reason": "Owner requested varied gaze and distinct identities, then replaced Model B with a Spanish man in his mid-30s with long tied hair and no downward gaze.",
+    "generator": "Built-in imagegen; model version not exposed. GPT Image 2.5 through Higgsfield was unavailable because the account required a paid plan.",
+    "recordType": "Revision briefs reconstructed from the approved generation session; not verbatim tool prompts.",
+    "cast": {
+      "A": "Lean man in his mid-30s; angular face, straight nose, short wavy dark-brown hair, short brown stubble.",
+      "B": "Spanish man in his mid-30s; long dark-brown hair tied in a low bun at the nape, olive complexion, broad rectangular face, straight brows, brown eyes, aquiline nose, substantial jaw, clean-shaven, sturdy neck. No downward gaze."
+    }
+  }
 }
