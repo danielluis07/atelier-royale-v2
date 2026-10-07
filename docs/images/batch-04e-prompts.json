@@ -1,0 +1,270 @@
+{
+  "issue": 41,
+  "generator": "Built-in imagegen; model version not exposed",
+  "format": "JPEG",
+  "colorSpace": "sRGB",
+  "quality": 85,
+  "requestedCount": 15,
+  "assets": [
+    {
+      "key": "pieces/177-engineer-boot/black-front",
+      "model": "A",
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic footwear catalog FRONT photograph. Reference 1 PRODUCT ONLY: exact No.177 black Engineer Boot, full-grain black leather tall shafts, plain broad round toes, solid brass instep and shaft buckles, stitched leather 360-degree Goodyear welt, oil-resistant black rubber sole and stacked leather heel. Preserve every panel and hardware from still life. Reference 2 CAST ONLY: Model A body build; frame only from knees down so no face or hands. He stands still wearing charcoal work trousers tucked inside shafts, feet comfortably apart, one foot slightly ahead, front three-quarter angle showing both complete boots and brass buckles. Blank seamless warm stone #F3F1EC background AND floor, soft diffused daylight, muted natural film grade matching reference. Crisp tactile leather grain and coherent stitching. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "referenceKeys": [
+        "public/images/pieces/177-engineer-boot/black-still.jpg",
+        "public/images/looks/look-02-square.jpg"
+      ],
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/177-engineer-boot/black-back",
+      "model": "A",
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic footwear catalog BACK photograph from this exact session reference. Same Model A, charcoal trousers tucked into exact black No.177 Engineer Boots, identical grain, shaft height, brass buckles, leather welt, stacked leather heel and black rubber sole. Camera behind at rear three-quarter angle, frame knees down, two complete worn boots fully visible including shafts, reinforced heel counters and heels. Stationary stance both feet grounded. Seamless blank warm stone #F3F1EC studio floor and background, same soft diffuse light and muted natural film grade. Accurate anatomy, coherent functional buckles and stitching. No props, scenery, text, logos, watermark or collage. Save accessible local artifact.",
+      "referenceKeys": [
+        "public/images/pieces/177-engineer-boot/black-front.jpg"
+      ],
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/177-engineer-boot/black-detail",
+      "model": "A",
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic footwear catalog DETAIL photograph from this exact session reference. Same Model A, charcoal trousers tucked into exact black No.177 Engineer Boots, identical grain, shaft height, brass buckles, leather welt, stacked leather heel and black rubber sole. Tight close-up of ONE WORN boot forefoot and instep, charcoal trouser entering shaft near upper frame; clearly resolve continuous 360-degree Goodyear stitched leather welt, round last, black rubber sole and brass instep buckle. Foot remains planted. Seamless blank warm stone #F3F1EC studio floor and background, same soft diffuse light and muted natural film grade. Accurate anatomy, coherent functional buckles and stitching. No props, scenery, text, logos, watermark or collage. Save accessible local artifact.",
+      "referenceKeys": [
+        "public/images/pieces/177-engineer-boot/black-front.jpg"
+      ],
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/177-engineer-boot/saddle-front",
+      "model": "B",
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic footwear catalog FRONT photograph. Reference 1 PRODUCT ONLY: match leather colour, grain, hardware, silhouette and sole of still life. Reference 2 CAST ONLY: same Model B build; ignore reference outfit and setting. Product: No.177 Saddle Engineer Boot, warm saddle tan full-grain leather tall shafts, broad plain round toes, solid brass shaft and instep buckles, 360-degree stitched leather Goodyear welt, black oil-resistant rubber sole and stacked leather heel.  Worn with dark indigo work jeans tucked into shafts. Frame from knees down, two complete boots fully visible with generous margins, deliberate stationary stance, feet apart with one foot slightly forward; low front three-quarter angle. Blank seamless warm stone #F3F1EC studio floor and backdrop; soft diffuse daylight, muted natural film-like grade. Functional brass hardware, coherent laces through eyelets and accurate stitching, physically correct two legs and feet. No faces, hands, scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "referenceKeys": [
+        "public/images/pieces/177-engineer-boot/saddle-still.jpg",
+        "public/images/looks/look-03-square.jpg"
+      ],
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/177-engineer-boot/saddle-back",
+      "model": "B",
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic footwear catalog BACK photograph. Reference 1 exact FRONT session: preserve same wearer, trousers, footwear, colour, construction, lighting. Product: No.177 Saddle Engineer Boot, warm saddle tan full-grain leather tall shafts, broad plain round toes, solid brass shaft and instep buckles, 360-degree stitched leather Goodyear welt, black oil-resistant rubber sole and stacked leather heel.  Worn with dark indigo work jeans tucked into shafts. Frame knees down, two complete boots fully visible, stationary rear three-quarter stance, reinforced heel counters and sole profile clearly visible. Blank seamless warm stone #F3F1EC studio floor and backdrop; soft diffuse daylight, muted natural film-like grade. Functional brass hardware, coherent laces through eyelets and accurate stitching, physically correct two legs and feet. No faces, hands, scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "referenceKeys": [
+        "public/images/pieces/177-engineer-boot/saddle-front.jpg"
+      ],
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/177-engineer-boot/saddle-detail",
+      "model": "B",
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic footwear catalog DETAIL photograph. Reference 1 exact FRONT session: preserve same wearer, trousers, footwear, colour, construction, lighting. Product: No.177 Saddle Engineer Boot, warm saddle tan full-grain leather tall shafts, broad plain round toes, solid brass shaft and instep buckles, 360-degree stitched leather Goodyear welt, black oil-resistant rubber sole and stacked leather heel.  Worn with dark indigo work jeans tucked into shafts. Tight close-up of ONE WORN boot with trouser cuff entering upper frame, planted foot, show stitched leather Goodyear welt, brass instep buckle and layered leather heel in crisp tactile focus. Blank seamless warm stone #F3F1EC studio floor and backdrop; soft diffuse daylight, muted natural film-like grade. Functional brass hardware, coherent laces through eyelets and accurate stitching, physically correct two legs and feet. No faces, hands, scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "referenceKeys": [
+        "public/images/pieces/177-engineer-boot/saddle-front.jpg"
+      ],
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/182-service-boot/oxblood-front",
+      "model": "A",
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic footwear catalog FRONT photograph. Reference 1 PRODUCT ONLY: match leather colour, grain, hardware, silhouette and sole of still life. Reference 2 CAST ONLY: same Model A build; ignore reference outfit and setting. Product: No.182 Oxblood Service Boot, deep burgundy full-grain leather, plain round toe, ankle-high lace-up, brass eyelets and speed hooks, double-stitched quarters, 360-degree stitched leather Goodyear welt, studded black rubber sole and stacked leather heel. Catalog requires a PLAIN toe: omit decorative toe-cap seam from still life. Worn with charcoal work trousers with small rolled cuffs above ankles. Frame from knees down, two complete boots fully visible with generous margins, deliberate stationary stance, feet apart with one foot slightly forward; low front three-quarter angle. Blank seamless warm stone #F3F1EC studio floor and backdrop; soft diffuse daylight, muted natural film-like grade. Functional brass hardware, coherent laces through eyelets and accurate stitching, physically correct two legs and feet. No faces, hands, scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "referenceKeys": [
+        "public/images/pieces/182-service-boot/oxblood-still.jpg",
+        "public/images/looks/look-02-square.jpg"
+      ],
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/182-service-boot/oxblood-back",
+      "model": "A",
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic footwear catalog BACK photograph. Reference 1 exact FRONT session: preserve same wearer, trousers, footwear, colour, construction, lighting. Product: No.182 Oxblood Service Boot, deep burgundy full-grain leather, plain round toe, ankle-high lace-up, brass eyelets and speed hooks, double-stitched quarters, 360-degree stitched leather Goodyear welt, studded black rubber sole and stacked leather heel. Catalog requires a PLAIN toe: omit decorative toe-cap seam from still life. Worn with charcoal work trousers with small rolled cuffs above ankles. Frame knees down, two complete boots fully visible, stationary rear three-quarter stance, reinforced heel counters and sole profile clearly visible. Blank seamless warm stone #F3F1EC studio floor and backdrop; soft diffuse daylight, muted natural film-like grade. Functional brass hardware, coherent laces through eyelets and accurate stitching, physically correct two legs and feet. No faces, hands, scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "referenceKeys": [
+        "public/images/pieces/182-service-boot/oxblood-front.jpg"
+      ],
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/182-service-boot/oxblood-detail",
+      "model": "A",
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic footwear catalog DETAIL photograph. Reference 1 exact FRONT session: preserve same wearer, trousers, footwear, colour, construction, lighting. Product: No.182 Oxblood Service Boot, deep burgundy full-grain leather, plain round toe, ankle-high lace-up, brass eyelets and speed hooks, double-stitched quarters, 360-degree stitched leather Goodyear welt, studded black rubber sole and stacked leather heel. Catalog requires a PLAIN toe: omit decorative toe-cap seam from still life. Worn with charcoal work trousers with small rolled cuffs above ankles. Tight close-up of ONE WORN boot with trouser cuff entering upper frame, planted foot, show 360-degree stitched leather Goodyear welt and stacked heel at side of worn forefoot in crisp tactile focus. Blank seamless warm stone #F3F1EC studio floor and backdrop; soft diffuse daylight, muted natural film-like grade. Functional brass hardware, coherent laces through eyelets and accurate stitching, physically correct two legs and feet. No faces, hands, scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "referenceKeys": [
+        "public/images/pieces/182-service-boot/oxblood-front.jpg"
+      ],
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/188-moc-toe-boot/saddle-front",
+      "model": "B",
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic footwear catalog FRONT photograph. Reference 1 PRODUCT ONLY: match leather colour, grain, hardware, silhouette and sole of still life. Reference 2 CAST ONLY: same Model B build; ignore reference outfit and setting. Product: No.188 Saddle Moc Toe Boot, warm saddle tan full-grain leather, hand-stitched moc toe apron, brass eyelets, ankle-high lacing, stitched leather 360-degree Goodyear welt, pale rubber wedge sole with shallow tread, broad forefoot.  Worn with dark indigo work jeans with small rolled cuffs. Frame from knees down, two complete boots fully visible with generous margins, deliberate stationary stance, feet apart with one foot slightly forward; low front three-quarter angle. Blank seamless warm stone #F3F1EC studio floor and backdrop; soft diffuse daylight, muted natural film-like grade. Functional brass hardware, coherent laces through eyelets and accurate stitching, physically correct two legs and feet. No faces, hands, scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "referenceKeys": [
+        "public/images/pieces/188-moc-toe-boot/saddle-still.jpg",
+        "public/images/looks/look-03-square.jpg"
+      ],
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/188-moc-toe-boot/saddle-back",
+      "model": "B",
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic footwear catalog BACK photograph. Reference 1 exact FRONT session: preserve same wearer, trousers, footwear, colour, construction, lighting. Product: No.188 Saddle Moc Toe Boot, warm saddle tan full-grain leather, hand-stitched moc toe apron, brass eyelets, ankle-high lacing, stitched leather 360-degree Goodyear welt, pale rubber wedge sole with shallow tread, broad forefoot.  Worn with dark indigo work jeans with small rolled cuffs. Frame knees down, two complete boots fully visible, stationary rear three-quarter stance, reinforced heel counters and sole profile clearly visible. Blank seamless warm stone #F3F1EC studio floor and backdrop; soft diffuse daylight, muted natural film-like grade. Functional brass hardware, coherent laces through eyelets and accurate stitching, physically correct two legs and feet. No faces, hands, scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "referenceKeys": [
+        "public/images/pieces/188-moc-toe-boot/saddle-front.jpg"
+      ],
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/188-moc-toe-boot/saddle-detail",
+      "model": "B",
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic footwear catalog DETAIL photograph. Reference 1 exact FRONT session: preserve same wearer, trousers, footwear, colour, construction, lighting. Product: No.188 Saddle Moc Toe Boot, warm saddle tan full-grain leather, hand-stitched moc toe apron, brass eyelets, ankle-high lacing, stitched leather 360-degree Goodyear welt, pale rubber wedge sole with shallow tread, broad forefoot.  Worn with dark indigo work jeans with small rolled cuffs. Tight close-up of ONE WORN boot with trouser cuff entering upper frame, planted foot, show hand-stitched moc toe apron and stitched leather welt above pale rubber wedge sole in crisp tactile focus. Blank seamless warm stone #F3F1EC studio floor and backdrop; soft diffuse daylight, muted natural film-like grade. Functional brass hardware, coherent laces through eyelets and accurate stitching, physically correct two legs and feet. No faces, hands, scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "referenceKeys": [
+        "public/images/pieces/188-moc-toe-boot/saddle-front.jpg"
+      ],
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/194-chukka/tobacco-front",
+      "model": "A",
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic footwear catalog FRONT photograph. Reference 1 PRODUCT ONLY: match leather colour, grain, hardware, silhouette and sole of still life. Reference 2 CAST ONLY: same Model A build; ignore reference outfit and setting. Product: No.194 Tobacco Chukka, dark tobacco brown full-grain leather low ankle boots, exactly THREE brass eyelets on each facing, plain round toe, double-stitched quarters, stitched leather 360-degree Goodyear welt, crepe rubber sole and low stacked leather heel.  Worn with charcoal work trousers with small rolled cuffs. Frame from knees down, two complete boots fully visible with generous margins, deliberate stationary stance, feet apart with one foot slightly forward; low front three-quarter angle. Blank seamless warm stone #F3F1EC studio floor and backdrop; soft diffuse daylight, muted natural film-like grade. Functional brass hardware, coherent laces through eyelets and accurate stitching, physically correct two legs and feet. No faces, hands, scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "referenceKeys": [
+        "public/images/pieces/194-chukka/tobacco-still.jpg",
+        "public/images/looks/look-02-square.jpg"
+      ],
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/194-chukka/tobacco-back",
+      "model": "A",
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic footwear catalog BACK photograph. Reference 1 exact FRONT session: preserve same wearer, trousers, footwear, colour, construction, lighting. Product: No.194 Tobacco Chukka, dark tobacco brown full-grain leather low ankle boots, exactly THREE brass eyelets on each facing, plain round toe, double-stitched quarters, stitched leather 360-degree Goodyear welt, crepe rubber sole and low stacked leather heel.  Worn with charcoal work trousers with small rolled cuffs. Frame knees down, two complete boots fully visible, stationary rear three-quarter stance, reinforced heel counters and sole profile clearly visible. Blank seamless warm stone #F3F1EC studio floor and backdrop; soft diffuse daylight, muted natural film-like grade. Functional brass hardware, coherent laces through eyelets and accurate stitching, physically correct two legs and feet. No faces, hands, scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "referenceKeys": [
+        "public/images/pieces/194-chukka/tobacco-front.jpg"
+      ],
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/194-chukka/tobacco-detail",
+      "model": "A",
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic footwear catalog DETAIL photograph. Reference 1 exact FRONT session: preserve same wearer, trousers, footwear, colour, construction, lighting. Product: No.194 Tobacco Chukka, dark tobacco brown full-grain leather low ankle boots, exactly THREE brass eyelets on each facing, plain round toe, double-stitched quarters, stitched leather 360-degree Goodyear welt, crepe rubber sole and low stacked leather heel.  Worn with charcoal work trousers with small rolled cuffs. Tight close-up of ONE WORN boot with trouser cuff entering upper frame, planted foot, show double-stitched quarter, stitched leather Goodyear welt, crepe sole and low stacked leather heel in crisp tactile focus. Blank seamless warm stone #F3F1EC studio floor and backdrop; soft diffuse daylight, muted natural film-like grade. Functional brass hardware, coherent laces through eyelets and accurate stitching, physically correct two legs and feet. No faces, hands, scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "referenceKeys": [
+        "public/images/pieces/194-chukka/tobacco-front.jpg"
+      ],
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    }
+  ]
+}
