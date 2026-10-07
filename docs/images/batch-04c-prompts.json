@@ -1,0 +1,414 @@
+{
+  "issue": 39,
+  "generator": "Built-in imagegen; model version not exposed",
+  "format": "JPEG",
+  "colorSpace": "sRGB",
+  "quality": 85,
+  "requestedCount": 21,
+  "assets": [
+    {
+      "key": "pieces/131-straight-jean/indigo-front",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/131-straight-jean/indigo-still",
+        "looks/look-02-square"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery front. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 GARMENT: copy exact still-life colour, construction, pockets, waistband and silhouette. Reference 2 CAST AND GRADE: Model A from batch 1; preserve lower-body proportions and skin tone; discard location, background and upper clothing. A is a lean mid-30s man; B is a Spanish mid-30s man with olive skin. Piece No.131 Straight Jean, Colourway Indigo (#334567). Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 13.5oz; COMPOSITION: 100% cotton; CONSTRUCTION: Selvedge outseams\n5-pocket construction\nChain-stitched waistband; HARDWARE: Brass rivets; button fly; FIT: Mid rise; straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. Front three-quarter, feet slightly apart, right leg half a step forward; arms relaxed outside garment. Crop from immediately above entire waistband to ankle; head and torso excluded. Whole trouser legs and waist visible. Plain dark brown unbranded boots may show only at bottom edge. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "revisionPrompt": "Use case: precise-object-edit. Edit this exact catalog photograph. Change ONLY the lower edges of both trouser legs to show that the trousers are sold UNHEMMED: remove the horizontal hem stitching and folded hem band completely, replacing them with a clean raw cut fabric edge with very subtle short fraying. The raw edge has NO horizontal stitching, NO folded fabric, NO turned-up cuff. Keep the full 34-inch length and ankle drape; do NOT shorten the trousers. Preserve exact man, hands, pose, boots, colour, texture, waistband, pockets, seams everywhere else, lighting, plain warm stone backdrop and square framing. One photorealistic square 2048x2048 image, no text, logos or watermarks. Save accessible local artifact.",
+      "originalSourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      }
+    },
+    {
+      "key": "pieces/131-straight-jean/indigo-back",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/131-straight-jean/indigo-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery back. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: same man, exact trousers, cloth colour and texture, boots, lighting and seamless stone background. Change only camera viewpoint/framing. Piece No.131 Straight Jean, Colourway Indigo (#334567). Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 13.5oz; COMPOSITION: 100% cotton; CONSTRUCTION: Selvedge outseams\n5-pocket construction\nChain-stitched waistband; HARDWARE: Brass rivets; button fly; FIT: Mid rise; straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. Rear three-quarter stationary standing view of the same session, same man, boots and garment. Crop immediately above waistband to ankle; head and torso excluded. Show whole rear waistband, correct rear pockets and both full legs. No front pockets on rear. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "revisionPrompt": "Use case: precise-object-edit. Edit this exact catalog photograph. Change ONLY the lower edges of both trouser legs to show that the trousers are sold UNHEMMED: remove the horizontal hem stitching and folded hem band completely, replacing them with a clean raw cut fabric edge with very subtle short fraying. The raw edge has NO horizontal stitching, NO folded fabric, NO turned-up cuff. Keep the full 34-inch length and ankle drape; do NOT shorten the trousers. Preserve exact man, hands, pose, boots, colour, texture, waistband, pockets, seams everywhere else, lighting, plain warm stone backdrop and square framing. One photorealistic square 2048x2048 image, no text, logos or watermarks. Save accessible local artifact.",
+      "originalSourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      }
+    },
+    {
+      "key": "pieces/131-straight-jean/indigo-detail",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/131-straight-jean/indigo-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery detail. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: same man, exact trousers, cloth colour and texture, boots, lighting and seamless stone background. Change only camera viewpoint/framing. Piece No.131 Straight Jean, Colourway Indigo (#334567). Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 13.5oz; COMPOSITION: 100% cotton; CONSTRUCTION: Selvedge outseams\n5-pocket construction\nChain-stitched waistband; HARDWARE: Brass rivets; button fly; FIT: Mid rise; straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. A tight square close-up of the same WORN garment: tight worn hip close-up of the five-pocket construction, small brass pocket rivet, and chain-stitched waistband, with clear cotton denim weave; no hem required. Body curvature makes clear it is worn, never flat lay. Hands and face excluded. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/131-straight-jean/rinsed-front",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/131-straight-jean/rinsed-still",
+        "looks/look-03-square"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery front. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 GARMENT: copy exact still-life colour, construction, pockets, waistband and silhouette. Reference 2 CAST AND GRADE: Model B from batch 1; preserve lower-body proportions and skin tone; discard location, background and upper clothing. A is a lean mid-30s man; B is a Spanish mid-30s man with olive skin. Piece No.131 Straight Jean, Colourway Rinsed (#26344F). Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 13.5oz; COMPOSITION: 100% cotton; CONSTRUCTION: Selvedge outseams\n5-pocket construction\nChain-stitched waistband; HARDWARE: Brass rivets; button fly; FIT: Mid rise; straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. Front three-quarter angled the opposite way, weight over left leg, hands outside frame. Crop from immediately above entire waistband to ankle; head and torso excluded. Whole trouser legs and waist visible. Plain dark brown unbranded boots may show only at bottom edge. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/131-straight-jean/rinsed-back",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/131-straight-jean/rinsed-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery back. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: same man, exact trousers, cloth colour and texture, boots, lighting and seamless stone background. Change only camera viewpoint/framing. Piece No.131 Straight Jean, Colourway Rinsed (#26344F). Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 13.5oz; COMPOSITION: 100% cotton; CONSTRUCTION: Selvedge outseams\n5-pocket construction\nChain-stitched waistband; HARDWARE: Brass rivets; button fly; FIT: Mid rise; straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. Rear three-quarter stationary standing view of the same session, same man, boots and garment. Crop immediately above waistband to ankle; head and torso excluded. Show whole rear waistband, correct rear pockets and both full legs. No front pockets on rear. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "revisionPrompt": "Use case: precise-object-edit. Edit this exact catalog photograph. Change ONLY the lower edges of both trouser legs to show that the trousers are sold UNHEMMED: remove the horizontal hem stitching and folded hem band completely, replacing them with a clean raw cut fabric edge with very subtle short fraying. The raw edge has NO horizontal stitching, NO folded fabric, NO turned-up cuff. Keep the full 34-inch length and ankle drape; do NOT shorten the trousers. Preserve exact man, hands, pose, boots, colour, texture, waistband, pockets, seams everywhere else, lighting, plain warm stone backdrop and square framing. One photorealistic square 2048x2048 image, no text, logos or watermarks. Save accessible local artifact.",
+      "originalSourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      }
+    },
+    {
+      "key": "pieces/131-straight-jean/rinsed-detail",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/131-straight-jean/rinsed-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery detail. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: same man, exact trousers, cloth colour and texture, boots, lighting and seamless stone background. Change only camera viewpoint/framing. Piece No.131 Straight Jean, Colourway Rinsed (#26344F). Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 13.5oz; COMPOSITION: 100% cotton; CONSTRUCTION: Selvedge outseams\n5-pocket construction\nChain-stitched waistband; HARDWARE: Brass rivets; button fly; FIT: Mid rise; straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. A tight square close-up of the same WORN garment: tight worn hip close-up of the five-pocket construction, small brass pocket rivet, and chain-stitched waistband, with clear cotton denim weave; no hem required. Body curvature makes clear it is worn, never flat lay. Hands and face excluded. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/137-double-knee-trouser/olive-front",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/137-double-knee-trouser/olive-still",
+        "looks/look-02-square"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery front. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 GARMENT: copy exact still-life colour, construction, pockets, waistband and silhouette. Reference 2 CAST AND GRADE: Model A from batch 1; preserve lower-body proportions and skin tone; discard location, background and upper clothing. A is a lean mid-30s man; B is a Spanish mid-30s man with olive skin. Piece No.137 Double-Knee Trouser, Colourway Olive (#62694A). Catalog Proof: CLOTH: Waxed cotton · paraffin wax finish; WEIGHT: 10oz; COMPOSITION: 100% cotton; CONSTRUCTION: Double knee panels\nTriple-stitched inseams\nReinforced tool pocket; HARDWARE: Brass rivets; button fly; FIT: High rise; relaxed straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. Almost frontal, sturdy relaxed stance, feet parallel; arms outside garment. Crop from immediately above entire waistband to ankle; head and torso excluded. Whole trouser legs and waist visible. Plain dark brown unbranded boots may show only at bottom edge. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "revisionPrompt": "Use case: precise-object-edit. Edit this exact catalog photograph. Change ONLY the lower edges of both trouser legs to show that the trousers are sold UNHEMMED: remove the horizontal hem stitching and folded hem band completely, replacing them with a clean raw cut fabric edge with very subtle short fraying. The raw edge has NO horizontal stitching, NO folded fabric, NO turned-up cuff. Keep the full 34-inch length and ankle drape; do NOT shorten the trousers. Preserve exact man, hands, pose, boots, colour, texture, waistband, pockets, seams everywhere else, lighting, plain warm stone backdrop and square framing. One photorealistic square 2048x2048 image, no text, logos or watermarks. Save accessible local artifact.",
+      "originalSourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      }
+    },
+    {
+      "key": "pieces/137-double-knee-trouser/olive-back",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/137-double-knee-trouser/olive-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery back. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: same man, exact trousers, cloth colour and texture, boots, lighting and seamless stone background. Change only camera viewpoint/framing. Piece No.137 Double-Knee Trouser, Colourway Olive (#62694A). Catalog Proof: CLOTH: Waxed cotton · paraffin wax finish; WEIGHT: 10oz; COMPOSITION: 100% cotton; CONSTRUCTION: Double knee panels\nTriple-stitched inseams\nReinforced tool pocket; HARDWARE: Brass rivets; button fly; FIT: High rise; relaxed straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. Rear three-quarter stationary standing view of the same session, same man, boots and garment. Crop immediately above waistband to ankle; head and torso excluded. Show whole rear waistband, correct rear pockets and both full legs. No front pockets on rear. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "revisionPrompt": "Use case: precise-object-edit. Edit this exact catalog photograph. Change ONLY the lower edges of both trouser legs to show that the trousers are sold UNHEMMED: remove the horizontal hem stitching and folded hem band completely, replacing them with a clean raw cut fabric edge with very subtle short fraying. The raw edge has NO horizontal stitching, NO folded fabric, NO turned-up cuff. Keep the full 34-inch length and ankle drape; do NOT shorten the trousers. Preserve exact man, hands, pose, boots, colour, texture, waistband, pockets, seams everywhere else, lighting, plain warm stone backdrop and square framing. One photorealistic square 2048x2048 image, no text, logos or watermarks. Save accessible local artifact.",
+      "originalSourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      }
+    },
+    {
+      "key": "pieces/137-double-knee-trouser/olive-detail",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/137-double-knee-trouser/olive-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery detail. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: same man, exact trousers, cloth colour and texture, boots, lighting and seamless stone background. Change only camera viewpoint/framing. Piece No.137 Double-Knee Trouser, Colourway Olive (#62694A). Catalog Proof: CLOTH: Waxed cotton · paraffin wax finish; WEIGHT: 10oz; COMPOSITION: 100% cotton; CONSTRUCTION: Double knee panels\nTriple-stitched inseams\nReinforced tool pocket; HARDWARE: Brass rivets; button fly; FIT: High rise; relaxed straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. A tight square close-up of the same WORN garment: tight worn knee close-up of the double knee reinforcement panel, neatly triple-stitched seam and functional brass reinforcement rivet; no extra pockets or random studs. Body curvature makes clear it is worn, never flat lay. Hands and face excluded. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/140-work-trouser/slate-front",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/140-work-trouser/slate-still",
+        "looks/look-03-square"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery front. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 GARMENT: copy exact still-life colour, construction, pockets, waistband and silhouette. Reference 2 CAST AND GRADE: Model B from batch 1; preserve lower-body proportions and skin tone; discard location, background and upper clothing. A is a lean mid-30s man; B is a Spanish mid-30s man with olive skin. Piece No.140 Work Trouser, Colourway Slate (#646A6D). Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; COMPOSITION: 100% cotton; CONSTRUCTION: Felled inseams\nDeep cotton pocket bags\nBar-tacked belt loops; HARDWARE: Corozo waist button; brass zipper fly; FIT: Mid rise; straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. Front three-quarter, left leg forward, stationary and relaxed; arms outside garment. Crop from immediately above entire waistband to ankle; head and torso excluded. Whole trouser legs and waist visible. Plain dark brown unbranded boots may show only at bottom edge. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/140-work-trouser/slate-back",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/140-work-trouser/slate-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery back. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: same man, exact trousers, cloth colour and texture, boots, lighting and seamless stone background. Change only camera viewpoint/framing. Piece No.140 Work Trouser, Colourway Slate (#646A6D). Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; COMPOSITION: 100% cotton; CONSTRUCTION: Felled inseams\nDeep cotton pocket bags\nBar-tacked belt loops; HARDWARE: Corozo waist button; brass zipper fly; FIT: Mid rise; straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. Rear three-quarter stationary standing view of the same session, same man, boots and garment. Crop immediately above waistband to ankle; head and torso excluded. Show whole rear waistband, correct rear pockets and both full legs. No front pockets on rear. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/140-work-trouser/slate-detail",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/140-work-trouser/slate-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery detail. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: same man, exact trousers, cloth colour and texture, boots, lighting and seamless stone background. Change only camera viewpoint/framing. Piece No.140 Work Trouser, Colourway Slate (#646A6D). Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; COMPOSITION: 100% cotton; CONSTRUCTION: Felled inseams\nDeep cotton pocket bags\nBar-tacked belt loops; HARDWARE: Corozo waist button; brass zipper fly; FIT: Mid rise; straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. A tight square close-up of the same WORN garment: tight worn waist and hip close-up of a securely bar-tacked belt loop and deep side pocket opening, with dense brushed moleskin texture. Body curvature makes clear it is worn, never flat lay. Hands and face excluded. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/140-work-trouser/moss-front",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/140-work-trouser/moss-still",
+        "looks/look-02-square"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery front. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 GARMENT: copy exact still-life colour, construction, pockets, waistband and silhouette. Reference 2 CAST AND GRADE: Model A from batch 1; preserve lower-body proportions and skin tone; discard location, background and upper clothing. A is a lean mid-30s man; B is a Spanish mid-30s man with olive skin. Piece No.140 Work Trouser, Colourway Moss (#697253). Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; COMPOSITION: 100% cotton; CONSTRUCTION: Felled inseams\nDeep cotton pocket bags\nBar-tacked belt loops; HARDWARE: Corozo waist button; brass zipper fly; FIT: Mid rise; straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. Almost frontal, weight on right leg, left knee relaxed; arms outside garment. Crop from immediately above entire waistband to ankle; head and torso excluded. Whole trouser legs and waist visible. Plain dark brown unbranded boots may show only at bottom edge. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "revisionPrompt": "Use case: precise-object-edit. Edit this exact catalog photograph. Change ONLY the lower edges of both trouser legs to show that the trousers are sold UNHEMMED: remove the horizontal hem stitching and folded hem band completely, replacing them with a clean raw cut fabric edge with very subtle short fraying. The raw edge has NO horizontal stitching, NO folded fabric, NO turned-up cuff. Keep the full 34-inch length and ankle drape; do NOT shorten the trousers. Preserve exact man, hands, pose, boots, colour, texture, waistband, pockets, seams everywhere else, lighting, plain warm stone backdrop and square framing. One photorealistic square 2048x2048 image, no text, logos or watermarks. Save accessible local artifact.",
+      "originalSourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      }
+    },
+    {
+      "key": "pieces/140-work-trouser/moss-back",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/140-work-trouser/moss-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery back. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: same man, exact trousers, cloth colour and texture, boots, lighting and seamless stone background. Change only camera viewpoint/framing. Piece No.140 Work Trouser, Colourway Moss (#697253). Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; COMPOSITION: 100% cotton; CONSTRUCTION: Felled inseams\nDeep cotton pocket bags\nBar-tacked belt loops; HARDWARE: Corozo waist button; brass zipper fly; FIT: Mid rise; straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. Rear three-quarter stationary standing view of the same session, same man, boots and garment. Crop immediately above waistband to ankle; head and torso excluded. Show whole rear waistband, correct rear pockets and both full legs. No front pockets on rear. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "revisionPrompt": "Use case: precise-object-edit. Edit this exact catalog photograph. Change ONLY the lower edges of both trouser legs to show that the trousers are sold UNHEMMED: remove the horizontal hem stitching and folded hem band completely, replacing them with a clean raw cut fabric edge with very subtle short fraying. The raw edge has NO horizontal stitching, NO folded fabric, NO turned-up cuff. Keep the full 34-inch length and ankle drape; do NOT shorten the trousers. Preserve exact man, hands, pose, boots, colour, texture, waistband, pockets, seams everywhere else, lighting, plain warm stone backdrop and square framing. One photorealistic square 2048x2048 image, no text, logos or watermarks. Save accessible local artifact.",
+      "originalSourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      }
+    },
+    {
+      "key": "pieces/140-work-trouser/moss-detail",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/140-work-trouser/moss-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery detail. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: same man, exact trousers, cloth colour and texture, boots, lighting and seamless stone background. Change only camera viewpoint/framing. Piece No.140 Work Trouser, Colourway Moss (#697253). Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; COMPOSITION: 100% cotton; CONSTRUCTION: Felled inseams\nDeep cotton pocket bags\nBar-tacked belt loops; HARDWARE: Corozo waist button; brass zipper fly; FIT: Mid rise; straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. A tight square close-up of the same WORN garment: tight worn waist and hip close-up of a securely bar-tacked belt loop and deep side pocket opening, with dense brushed moleskin texture. Body curvature makes clear it is worn, never flat lay. Hands and face excluded. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/146-fatigue-trouser/oat-front",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/146-fatigue-trouser/oat-still",
+        "looks/look-03-square"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery front. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 GARMENT: copy exact still-life colour, construction, pockets, waistband and silhouette. Reference 2 CAST AND GRADE: Model B from batch 1; preserve lower-body proportions and skin tone; discard location, background and upper clothing. A is a lean mid-30s man; B is a Spanish mid-30s man with olive skin. Piece No.146 Fatigue Trouser, Colourway Oat (#C4B697). Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; COMPOSITION: 100% cotton; CONSTRUCTION: Large front patch pockets\nFelled inseams\nAdjustable waist tabs; HARDWARE: Corozo buttons; FIT: High rise; relaxed leg; 34in inseam, sold unhemmed; chain-stitched to length on request. Front three-quarter, feet apart, hands outside garment; no walking. Crop from immediately above entire waistband to ankle; head and torso excluded. Whole trouser legs and waist visible. Plain dark brown unbranded boots may show only at bottom edge. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/146-fatigue-trouser/oat-back",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/146-fatigue-trouser/oat-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery back. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: same man, exact trousers, cloth colour and texture, boots, lighting and seamless stone background. Change only camera viewpoint/framing. Piece No.146 Fatigue Trouser, Colourway Oat (#C4B697). Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; COMPOSITION: 100% cotton; CONSTRUCTION: Large front patch pockets\nFelled inseams\nAdjustable waist tabs; HARDWARE: Corozo buttons; FIT: High rise; relaxed leg; 34in inseam, sold unhemmed; chain-stitched to length on request. Rear three-quarter stationary standing view of the same session, same man, boots and garment. Crop immediately above waistband to ankle; head and torso excluded. Show whole rear waistband, correct rear pockets and both full legs. No front pockets on rear. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "revisionPrompt": "Use case: precise-object-edit. Edit this exact catalog photograph. Change ONLY the lower edges of both trouser legs to show that the trousers are sold UNHEMMED: remove the horizontal hem stitching and folded hem band completely, replacing them with a clean raw cut fabric edge with very subtle short fraying. The raw edge has NO horizontal stitching, NO folded fabric, NO turned-up cuff. Keep the full 34-inch length and ankle drape; do NOT shorten the trousers. Preserve exact man, hands, pose, boots, colour, texture, waistband, pockets, seams everywhere else, lighting, plain warm stone backdrop and square framing. One photorealistic square 2048x2048 image, no text, logos or watermarks. Save accessible local artifact.",
+      "originalSourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      }
+    },
+    {
+      "key": "pieces/146-fatigue-trouser/oat-detail",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/146-fatigue-trouser/oat-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery detail. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: same man, exact trousers, cloth colour and texture, boots, lighting and seamless stone background. Change only camera viewpoint/framing. Piece No.146 Fatigue Trouser, Colourway Oat (#C4B697). Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; COMPOSITION: 100% cotton; CONSTRUCTION: Large front patch pockets\nFelled inseams\nAdjustable waist tabs; HARDWARE: Corozo buttons; FIT: High rise; relaxed leg; 34in inseam, sold unhemmed; chain-stitched to length on request. A tight square close-up of the same WORN garment: tight worn hip close-up showing the adjustable waist tab with coherent corozo button and upper corner of the large front patch pocket, dense brushed cotton moleskin. Body curvature makes clear it is worn, never flat lay. Hands and face excluded. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/152-pleated-trouser/charcoal-front",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/152-pleated-trouser/charcoal-still",
+        "looks/look-02-square"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery front. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 GARMENT: copy exact still-life colour, construction, pockets, waistband and silhouette. Reference 2 CAST AND GRADE: Model A from batch 1; preserve lower-body proportions and skin tone; discard location, background and upper clothing. A is a lean mid-30s man; B is a Spanish mid-30s man with olive skin. Piece No.152 Pleated Trouser, Colourway Charcoal (#464744). Catalog Proof: CLOTH: Brushed flannel · double-napped; WEIGHT: 9oz; COMPOSITION: 100% cotton; CONSTRUCTION: Single front pleats\nBound inner waistband\nWelted back pockets; HARDWARE: Corozo waist button; brass zipper fly; FIT: High rise; full thigh; straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. Front three-quarter with one knee softly relaxed, both feet planted; hands outside garment. Crop from immediately above entire waistband to ankle; head and torso excluded. Whole trouser legs and waist visible. Plain dark brown unbranded boots may show only at bottom edge. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/152-pleated-trouser/charcoal-back",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/152-pleated-trouser/charcoal-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery back. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: same man, exact trousers, cloth colour and texture, boots, lighting and seamless stone background. Change only camera viewpoint/framing. Piece No.152 Pleated Trouser, Colourway Charcoal (#464744). Catalog Proof: CLOTH: Brushed flannel · double-napped; WEIGHT: 9oz; COMPOSITION: 100% cotton; CONSTRUCTION: Single front pleats\nBound inner waistband\nWelted back pockets; HARDWARE: Corozo waist button; brass zipper fly; FIT: High rise; full thigh; straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. Rear three-quarter stationary standing view of the same session, same man, boots and garment. Crop immediately above waistband to ankle; head and torso excluded. Show whole rear waistband, correct rear pockets and both full legs. No front pockets on rear. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/152-pleated-trouser/charcoal-detail",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/152-pleated-trouser/charcoal-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Trousers Piece gallery detail. Generate ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: same man, exact trousers, cloth colour and texture, boots, lighting and seamless stone background. Change only camera viewpoint/framing. Piece No.152 Pleated Trouser, Colourway Charcoal (#464744). Catalog Proof: CLOTH: Brushed flannel · double-napped; WEIGHT: 9oz; COMPOSITION: 100% cotton; CONSTRUCTION: Single front pleats\nBound inner waistband\nWelted back pockets; HARDWARE: Corozo waist button; brass zipper fly; FIT: High rise; full thigh; straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. A tight square close-up of the same WORN garment: tight worn rear hip close-up of one neatly welted back pocket, dense charcoal double-napped cotton flannel texture; this is cotton, not wool. Body curvature makes clear it is worn, never flat lay. Hands and face excluded. Trousers have full-length 34in inseam, sold unhemmed: leave lower edges raw and unfinished, no stitched or turned-up hems, no cuffs, no shortened legs. Natural drape with slight gathering over ankle. Blank seamless warm stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade. Realistic textile and seams, natural anatomy and coherent functional hardware. No scenery, props, belt, text, labels, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    }
+  ]
+}
