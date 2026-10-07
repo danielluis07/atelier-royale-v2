@@ -283,25 +283,50 @@
   animation: none;
 }
 
-/* Collection filters (DESIGN.md §5): the grid crossfades as one block and
-   everything else, text included, swaps instantly. Cards carry no names of
-   their own, so nothing reorders or slides. */
-:root:active-view-transition-type(collection-filter)::view-transition-old(root) {
+/* Collection filters and Colourway swaps (DESIGN.md §5): the grid, or the
+   Piece gallery, crossfades as one block and everything else, text included,
+   swaps instantly. Cards carry no names of their own during a filter change,
+   so nothing reorders or slides. */
+:root:active-view-transition-type(collection-filter, piece-colourway)::view-transition-old(root) {
   display: none;
 }
 
-:root:active-view-transition-type(collection-filter)::view-transition-new(root) {
+:root:active-view-transition-type(collection-filter, piece-colourway)::view-transition-new(root) {
   animation: none;
 }
 
-::view-transition-group(.collection-grid) {
+::view-transition-group(.collection-grid),
+::view-transition-group(.piece-gallery) {
   animation: none;
 }
 
 ::view-transition-old(.collection-grid),
-::view-transition-new(.collection-grid) {
+::view-transition-new(.collection-grid),
+::view-transition-old(.piece-gallery),
+::view-transition-new(.piece-gallery) {
   animation-duration: var(--dur-base);
   animation-timing-function: var(--ease-mech);
+}
+
+/* Collection card -> Piece main image (DESIGN.md §5): a --dur-slow morph.
+   Under reduced motion the group stays put at the main image, so the two
+   images only crossfade there, with the page. */
+::view-transition-group(.piece-morph),
+::view-transition-old(.piece-morph),
+::view-transition-new(.piece-morph) {
+  animation-duration: var(--dur-slow);
+  animation-timing-function: var(--ease-mech);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(.piece-morph) {
+    animation: none;
+  }
+
+  ::view-transition-old(.piece-morph),
+  ::view-transition-new(.piece-morph) {
+    animation-duration: var(--dur-base);
+  }
 }
 
 /* Editorial reveal (DESIGN.md §5), driven by hooks/use-reveal.ts: a left to

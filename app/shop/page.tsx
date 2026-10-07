@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 // only chooses which to show, so image metadata never ships as JavaScript.
 export default function ShopPage() {
   const cards = Object.fromEntries(
-    getCollection().map((piece) => [piece.id, <PieceCard key={piece.id} piece={piece} />]),
+    getCollection().map((piece) => [piece.id, <PieceCard key={piece.id} piece={piece} morph />]),
   );
   const lookTile = <LookTile look={getLook("01")!} />;
 
