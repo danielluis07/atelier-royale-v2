@@ -1,5 +1,12 @@
 # Campaign imagery
 
+Batch 1 delivers the Hero frames, eight Looks and their square companions,
+two Interstitials and the 404 weir photograph (21 JPEGs). Reuse the cast and
+place references in [the continuity note](images/batch-01-continuity.md) for
+later batches; [the prompt records](images/batch-01-prompts.json) include the
+outfits and native versus delivery dimensions. Run `bun test` to validate
+these slots and their blur metadata.
+
 Drop source JPEGs into `public/images/`. A key is the path without `.jpg`:
 `pieces/027-field-jacket/olive-still` resolves to
 `public/images/pieces/027-field-jacket/olive-still.jpg`. Use lowercase kebab-case
