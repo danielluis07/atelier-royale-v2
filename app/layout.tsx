@@ -40,9 +40,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         </a>
         <SiteHeader />
         {/* Every route change crossfades the body (DESIGN.md §5); Collection
-            filter changes crossfade only their grid. */}
+            filter changes and Colourway swaps crossfade only their images. */}
         <ViewTransition
-          update={{ "collection-filter": "none", default: "page-body" }}
+          update={{
+            "collection-filter": "none",
+            "piece-colourway": "none",
+            default: "page-body",
+          }}
           default="none">
           <main id="main" tabIndex={-1} className="flex flex-1 flex-col outline-none">
             {children}
