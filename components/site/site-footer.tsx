@@ -1,0 +1,111 @@
+import Link from "next/link";
+import { RaceLine } from "@/components/brand/race-line";
+import { Wordmark } from "@/components/brand/wordmark";
+import { SupportSheetTrigger, type SupportTopic } from "@/components/support/support-sheets";
+import { buttonVariants } from "@/components/ui/button";
+import { getCategories, getLookbook } from "@/lib/catalog";
+import { routes } from "@/lib/routes";
+import { showcaseCredit } from "@/lib/site";
+import { cn } from "@/lib/utils";
+import { NewsletterForm } from "./newsletter-form";
+
+const linkClass = cn(buttonVariants({ variant: "link" }), "type-body-sm justify-start");
+
+const supportTopics: { topic: SupportTopic; label: string }[] = [
+  { topic: "shipping", label: "Shipping" },
+  { topic: "returns", label: "Returns" },
+  { topic: "repairs", label: "Repairs" },
+  { topic: "size-guide", label: "Size guide" },
+];
+
+// Four hairline-ruled columns on desktop, stacked on mobile (DESIGN.md §6).
+// Support links open sheets, never pages. The footer keeps its own
+// view-transition name so it holds still while the page body crossfades.
+export function SiteFooter() {
+  const lookbook = getLookbook();
+
+  return (
+    <footer className="border-t border-border [view-transition-name:site-footer]">
+      <div className="mx-auto w-full max-w-[1536px] px-4 md:px-8 lg:px-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4">
+          <FooterColumn title="Shop">
+            <ul>
+              <li>
+                <Link href={routes.shop} className={linkClass}>
+                  All Pieces
+                </Link>
+              </li>
+              {getCategories().map((category) => (
+                <li key={category.id}>
+                  <Link href={routes.category(category.id)} className={linkClass}>
+                    {category.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </FooterColumn>
+
+          <FooterColumn title="Lookbook">
+            <p className="type-lede max-w-[32ch]">{lookbook.intro}</p>
+            <Link href={routes.lookbook} className={cn(linkClass, "mt-2")}>
+              See the {lookbook.seasonLabel} Lookbook
+            </Link>
+          </FooterColumn>
+
+          <FooterColumn title="Support">
+            <ul>
+              {supportTopics.map(({ topic, label }) => (
+                <li key={topic}>
+                  <SupportSheetTrigger topic={topic} className={linkClass}>
+                    {label}
+                  </SupportSheetTrigger>
+                </li>
+              ))}
+            </ul>
+          </FooterColumn>
+
+          <FooterColumn title="Newsletter">
+            <p className="type-body-sm text-muted-foreground max-w-[40ch]">
+              The Lookbook and new Cloths, a few times a season.
+            </p>
+            <NewsletterForm />
+          </FooterColumn>
+        </div>
+
+        <div className="flex flex-col gap-6 border-t border-border py-10 md:flex-row md:items-end md:justify-between">
+          <div className="flex w-fit flex-col gap-4">
+            <Wordmark className="text-lg" />
+            <RaceLine />
+          </div>
+          <p className="type-caption text-muted-foreground max-w-[52ch]">
+            A showcase store by {showcaseCredit.name}. Millrace and Hollins Weir
+            are fictional; nothing is sold or shipped.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+}
+
+function FooterColumn({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <section
+      className="flex flex-col gap-4 border-t border-border py-8 first:border-t-0 md:nth-2:border-t-0 lg:border-t-0 lg:border-l lg:px-6 lg:first:border-l-0 lg:first:pl-0 lg:last:pr-0">
+      <h2 className="type-label">{title}</h2>
+      {children}
+    </section>
+  );
+}
+
+/** The corner mark (DESIGN.md §6): a 28px paper square with the credit's
+ * initial, fixed bottom-right on desktop. The footer line carries the credit
+ * in full, so the mark is decorative. */
+export function CornerMark() {
+  return (
+    <div
+      aria-hidden="true"
+      className="pointer-events-none fixed right-4 bottom-4 z-30 hidden size-7 items-center justify-center border border-hairline bg-paper font-serif text-sm font-medium lg:flex">
+      {showcaseCredit.initial}
+    </div>
+  );
+}
