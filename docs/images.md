@@ -55,6 +55,15 @@ which link the gallery contact sheets, delivery-resolution spot checks and
 [prompt records](images/batch-04c-prompts.json). Every Trouser Colourway has
 four catalog squares with blur metadata.
 
+Batch 4e completes the Boots galleries for issue #41 with 15 front, rear
+and worn Proof-detail photographs across five Colourways. Batch 1 cast
+references A and B supply wearer continuity, with knee-down framing and
+the seamless stone catalog backdrop. Review the
+[delivery and QA notes](images/batch-04e-qa.md), contact sheets, delivery-pixel
+spot checks and [prompt records](images/batch-04e-prompts.json). Every Boot
+Colourway now has its four squares and blur metadata; all 188 Campaign keys
+are present. The Portuguese website copy is preserved.
+
 Drop source JPEGs into `public/images/`. A key is the path without `.jpg`:
 `pieces/027-field-jacket/olive-still` resolves to
 `public/images/pieces/027-field-jacket/olive-still.jpg`. Use lowercase kebab-case
