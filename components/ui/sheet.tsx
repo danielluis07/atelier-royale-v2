@@ -41,14 +41,17 @@ function SheetContent({
   children,
   side = "right",
   showCloseButton = true,
+  backdrop,
   ...props
 }: SheetPrimitive.Popup.Props & {
   side?: "top" | "right" | "bottom" | "left"
   showCloseButton?: boolean
+  /** Shown on the scrim, outside the sheet; tapping it closes the sheet. */
+  backdrop?: React.ReactNode
 }) {
   return (
     <SheetPortal>
-      <SheetOverlay />
+      <SheetOverlay>{backdrop}</SheetOverlay>
       <SheetPrimitive.Popup
         data-slot="sheet-content"
         data-side={side}

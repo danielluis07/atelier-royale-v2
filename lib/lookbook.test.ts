@@ -1,11 +1,15 @@
 import { describe, expect, test } from "bun:test";
-import { getLook, getLookbook, getLooks } from "./catalog";
+import { getCategory, getLook, getLookbook, getLooks, getPiece } from "./catalog";
 import {
+  addedLabel,
   currentFrame,
+  describeQuickAdd,
   describePosition,
   formatCounter,
   lookAlt,
   lookIndexAt,
+  lookPieces,
+  quickAddLine,
   stepTarget,
 } from "./lookbook";
 import { routes } from "./routes";
@@ -62,5 +66,50 @@ describe("Look alt text", () => {
     expect(lookAlt(getLook("06")!)).toBe(
       "Look 06 at Hollins Weir: Rider Jacket in Indigo, Popover Shirt in Oat and Fatigue Trouser in Oat.",
     );
+  });
+});
+
+describe("Look panel", () => {
+  test("every Look lists its Pieces in the Colourway worn, in order", () => {
+    for (const look of getLooks()) {
+      const pieces = lookPieces(look);
+      expect(pieces.map((piece) => [piece.id, piece.colourwayId])).toEqual(
+        look.items.map((item) => [item.piece, item.colorway]),
+      );
+      for (const listed of pieces) {
+        const piece = getPiece(listed.id)!;
+        const colorway = piece.colorways.find((entry) => entry.id === listed.colourwayId)!;
+        expect(listed.colourwayName).toBe(colorway.name);
+        expect(listed.sizes.map((entry) => entry.size)).toEqual([...getCategory(piece.category)!.sizes]);
+        expect(listed.sizes.filter((entry) => entry.soldOut).map((entry) => entry.size)).toEqual([
+          ...colorway.soldOutSizes,
+        ]);
+      }
+    }
+  });
+
+  test("Look 06 lists the Rider Jacket in Indigo first", () => {
+    const [first] = lookPieces(getLook("06")!);
+    expect(first).toMatchObject({ name: "Rider Jacket", colourwayName: "Indigo" });
+  });
+
+  test("quick add makes a line in the worn Colourway and refuses sold-out or unknown sizes", () => {
+    const pieces = getLooks().flatMap(lookPieces);
+    const soldOut = pieces.find((piece) => piece.sizes.some((entry) => entry.soldOut));
+    expect(soldOut).toBeDefined();
+    const struck = soldOut!.sizes.find((entry) => entry.soldOut)!.size;
+    const open = soldOut!.sizes.find((entry) => !entry.soldOut)!.size;
+    expect(quickAddLine(soldOut!, struck)).toBeUndefined();
+    expect(quickAddLine(soldOut!, "XXXL")).toBeUndefined();
+    expect(quickAddLine(soldOut!, open)).toEqual({
+      pieceId: soldOut!.id,
+      colourwayId: soldOut!.colourwayId,
+      size: open,
+    });
+  });
+
+  test("the button and the live region say what was added", () => {
+    expect(addedLabel("M")).toBe("Added · M");
+    expect(describeQuickAdd({ name: "Chore Jacket" }, "M")).toBe("Added: Chore Jacket, M");
   });
 });

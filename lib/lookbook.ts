@@ -1,4 +1,4 @@
-import { getPiece, type Look, type Lookbook } from "@/lib/catalog";
+import { getCategory, getPiece, type Look, type Lookbook, type Size } from "@/lib/catalog";
 
 type Frame = Lookbook["frames"][number];
 
@@ -71,4 +71,56 @@ export function stepTarget(
       : targets.findLast((target) => target < scrollLeft - tolerance);
   // Frames sharing a target count as the last of them, as currentFrame does.
   return left === undefined ? undefined : { frame: targets.lastIndexOf(left), left };
+}
+
+/** One Piece as the Look panel lists it: in the exact Colourway the Look wears. */
+export interface LookPiece {
+  readonly id: string;
+  readonly number: string;
+  readonly name: string;
+  readonly price: number;
+  readonly colourwayId: string;
+  readonly colourwayName: string;
+  /** The Category's sizes, sold-out ones in this Colourway marked. */
+  readonly sizes: readonly { readonly size: Size; readonly soldOut: boolean }[];
+}
+
+/** What the Look panel lists, in the order the Look is worn. */
+export function lookPieces(look: Look): readonly LookPiece[] {
+  return look.items.map(({ piece: pieceId, colorway: colorwayId }) => {
+    const piece = getPiece(pieceId)!;
+    const colorway = piece.colorways.find((entry) => entry.id === colorwayId)!;
+    return {
+      id: piece.id,
+      number: piece.number,
+      name: piece.name,
+      price: piece.price,
+      colourwayId: colorway.id,
+      colourwayName: colorway.name,
+      sizes: getCategory(piece.category)!.sizes.map((size) => ({
+        size,
+        soldOut: colorway.soldOutSizes.includes(size),
+      })),
+    };
+  });
+}
+
+/** The cart line a quick add makes, or nothing for a size the Colourway can't sell. */
+export function quickAddLine(
+  piece: LookPiece,
+  size: string,
+): { pieceId: string; colourwayId: string; size: string } | undefined {
+  const entry = piece.sizes.find((option) => option.size === size);
+  if (!entry || entry.soldOut) return undefined;
+  return { pieceId: piece.id, colourwayId: piece.colourwayId, size };
+}
+
+/** The quick-add button once it has added: "Added · M". */
+export function addedLabel(size: string): string {
+  return `Added · ${size}`;
+}
+
+/** What the live region says after a quick add: "Added: Chore Jacket, M". */
+export function describeQuickAdd(piece: Pick<LookPiece, "name">, size: string): string {
+  return `Added: ${piece.name}, ${size}`;
 }

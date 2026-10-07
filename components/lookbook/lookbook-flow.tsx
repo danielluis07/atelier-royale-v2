@@ -1,6 +1,15 @@
 "use client";
 
-import { Suspense, useEffectEvent, useLayoutEffect, useRef, useState, type KeyboardEvent, type ReactNode } from "react";
+import {
+  Suspense,
+  useEffectEvent,
+  useLayoutEffect,
+  useRef,
+  useState,
+  type FocusEvent,
+  type KeyboardEvent,
+  type ReactNode,
+} from "react";
 import { useSearchParams } from "next/navigation";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import { announce } from "@/components/live-region";
@@ -92,9 +101,7 @@ export function LookbookFlow({ label, lookCount, children }: LookbookFlowProps) 
     pending.current = target.left;
     strip.scrollBy({
       left: target.left - strip.scrollLeft,
-      behavior: matchMedia("(prefers-reduced-motion: no-preference)").matches
-        ? "smooth"
-        : "instant",
+      behavior: scrollBehavior(),
     });
     announce(describePosition(lookIndexOf(frames[target.frame]), lookCount));
   }
@@ -111,7 +118,31 @@ export function LookbookFlow({ label, lookCount, children }: LookbookFlowProps) 
     sync();
   }
 
+  function scrollBehavior(): ScrollBehavior {
+    return matchMedia("(prefers-reduced-motion: no-preference)").matches ? "smooth" : "instant";
+  }
+
+  // React events bubble through portals, so keys and focus inside a Look
+  // panel reach here too; only the strip itself counts.
+  function inStrip(target: EventTarget) {
+    return stripRef.current?.contains(target as Node) ?? false;
+  }
+
+  /** Tabbing to a Look's "Shop this Look" brings the whole Look into view. */
+  function onFocus(event: FocusEvent) {
+    const strip = stripRef.current;
+    if (!strip || !inStrip(event.target)) return;
+    const frame = (event.target as HTMLElement).closest<HTMLElement>("[data-frame]");
+    if (!frame || frame === event.target) return;
+    const frames = frameElements(strip);
+    const left = snapTargets(strip, frames)[frames.indexOf(frame)];
+    if (Math.abs(strip.scrollLeft - left) < 2) return;
+    pending.current = left;
+    strip.scrollTo({ left, behavior: scrollBehavior() });
+  }
+
   function onKeyDown(event: KeyboardEvent) {
+    if (!inStrip(event.target)) return;
     if (event.altKey || event.ctrlKey || event.metaKey) return;
     if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
     event.preventDefault();
@@ -166,7 +197,7 @@ export function LookbookFlow({ label, lookCount, children }: LookbookFlowProps) 
   }, []);
 
   return (
-    <div onKeyDown={onKeyDown} className="flex flex-col gap-6">
+    <div onKeyDown={onKeyDown} onFocus={onFocus} className="flex flex-col gap-6">
       <section
         ref={stripRef}
         aria-label={label}
