@@ -614,6 +614,45 @@ describe("Collection queries", () => {
     expect(getCollection({ color: "purple" })).toEqual([]);
   });
 
+  test("several values in one group match any of them; groups still intersect", () => {
+    expect(
+      ids(getCollection({ cloth: ["waxed-cotton", "moleskin"] })),
+    ).toEqual(ids(getCollection()).filter((id) => {
+      const cloth = getPiece(id)!.cloth;
+      return cloth === "waxed-cotton" || cloth === "moleskin";
+    }));
+    expect(
+      ids(getCollection({ category: "outerwear", cloth: ["waxed-cotton", "moleskin"] })),
+    ).toEqual(["field-jacket", "cruiser-jacket", "work-coat"]);
+    // Olive is sold out in XL, Tobacco is not: a size and a colour must meet
+    // in one Colourway, but any selected pair will do.
+    expect(
+      ids(getCollection({ category: "outerwear", color: ["olive"], size: ["XL"] })),
+    ).toEqual([]);
+    expect(
+      ids(
+        getCollection({
+          category: "outerwear",
+          color: ["olive", "Tobacco"],
+          size: ["XL"],
+        }),
+      ),
+    ).toContain("field-jacket");
+    expect(
+      ids(getCollection({ category: "boots", color: ["black"], size: ["9", "11"] })),
+    ).toEqual(["engineer-boot"]);
+    expect(ids(getCollection({ size: ["M", "34"] }))).toEqual(
+      ids(getCollection()).filter(
+        (id) =>
+          getCollection({ size: "M" }).some((piece) => piece.id === id) ||
+          getCollection({ size: "34" }).some((piece) => piece.id === id),
+      ),
+    );
+    expect(getCollection({ cloth: [], size: [], color: [] })).toEqual(
+      getCollection(),
+    );
+  });
+
   test("Featured and price sorts are stable and leave later queries unchanged", () => {
     const featured = ids(getCollection());
     expect(featured[0]).toBe("field-jacket");

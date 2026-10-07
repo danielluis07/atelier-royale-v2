@@ -39,8 +39,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           Skip to content
         </a>
         <SiteHeader />
-        {/* Every route change crossfades the body (DESIGN.md §5). */}
-        <ViewTransition update="page-body" default="none">
+        {/* Every route change crossfades the body (DESIGN.md §5); Collection
+            filter changes crossfade only their grid. */}
+        <ViewTransition
+          update={{ "collection-filter": "none", default: "page-body" }}
+          default="none">
           <main id="main" tabIndex={-1} className="flex flex-1 flex-col outline-none">
             {children}
           </main>

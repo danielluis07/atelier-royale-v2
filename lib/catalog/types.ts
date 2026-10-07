@@ -140,11 +140,13 @@ export interface Lookbook {
 }
 
 export type CollectionSort = "featured" | "price-asc" | "price-desc";
+/** One value or several; several match any of them, and an empty list is no filter. */
+export type FilterValue<T> = T | readonly T[];
 export interface CollectionFilter {
   readonly category?: CategoryId;
-  readonly cloth?: ClothId;
-  readonly size?: Size;
-  readonly color?: string;
+  readonly cloth?: FilterValue<ClothId>;
+  readonly size?: FilterValue<Size>;
+  readonly color?: FilterValue<string>;
   readonly sort?: CollectionSort;
 }
 

@@ -3,7 +3,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 // Holds a route the nav and footer already link to until its page lands, so
-// no link is a dead end. Lookbook (#28) and Collection (#24) replace it.
+// no link is a dead end. The Lookbook (#28) replaces it.
 export function ComingSoon({
   kicker,
   title,

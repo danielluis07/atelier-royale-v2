@@ -6,7 +6,10 @@ import type { CategoryId, ClothId } from "@/lib/catalog";
 export const routes = {
   home: "/",
   lookbook: "/lookbook",
+  /** Opens the Lookbook at a Look, by its zero-padded number (`03`). */
+  look: (number: string) => `/lookbook?look=${number}`,
   shop: "/shop",
   category: (id: CategoryId) => `/shop?cat=${id}`,
   cloth: (id: ClothId) => `/shop?cloth=${id}`,
+  piece: (id: string) => `/shop/${id}`,
 } as const;

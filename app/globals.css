@@ -5,6 +5,10 @@
 /* No site-wide dark theme (DESIGN.md §2): the dark variant never matches. */
 @custom-variant dark (&:not(*));
 
+/* Hover effects that only make sense with a mouse, e.g. the Collection card
+   image swap (DESIGN.md §5). */
+@custom-variant can-hover (@media (hover: hover) and (pointer: fine));
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -277,6 +281,27 @@
 ::view-transition-new(site-header),
 ::view-transition-new(site-footer) {
   animation: none;
+}
+
+/* Collection filters (DESIGN.md §5): the grid crossfades as one block and
+   everything else, text included, swaps instantly. Cards carry no names of
+   their own, so nothing reorders or slides. */
+:root:active-view-transition-type(collection-filter)::view-transition-old(root) {
+  display: none;
+}
+
+:root:active-view-transition-type(collection-filter)::view-transition-new(root) {
+  animation: none;
+}
+
+::view-transition-group(.collection-grid) {
+  animation: none;
+}
+
+::view-transition-old(.collection-grid),
+::view-transition-new(.collection-grid) {
+  animation-duration: var(--dur-base);
+  animation-timing-function: var(--ease-mech);
 }
 
 /* Editorial reveal (DESIGN.md §5), driven by hooks/use-reveal.ts: a left to
