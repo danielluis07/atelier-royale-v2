@@ -132,6 +132,18 @@
   color: var(--foreground);
 }
 
+/* Text over campaign photography, on the plain 0.4 scrim (DESIGN.md §2):
+   paper text, a paper primary button and a paper focus ring. */
+@utility ground-photo {
+  --foreground: var(--paper);
+  --background: var(--ink);
+  --primary: var(--paper);
+  --primary-foreground: var(--ink);
+  --muted-foreground: var(--paper);
+  --ring: var(--paper);
+  color: var(--foreground);
+}
+
 /* Type scale (DESIGN.md §3), fluid from a 360px to a 1440px viewport. */
 @utility type-display {
   font-family: var(--font-serif);
@@ -329,6 +341,26 @@
   }
 }
 
+/* Home Lookbook teaser frame -> the same Look's Lookbook frame (DESIGN.md
+   §5), the same --dur-slow morph and reduced-motion fallback as the card. */
+::view-transition-group(.look-morph),
+::view-transition-old(.look-morph),
+::view-transition-new(.look-morph) {
+  animation-duration: var(--dur-slow);
+  animation-timing-function: var(--ease-mech);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(.look-morph) {
+    animation: none;
+  }
+
+  ::view-transition-old(.look-morph),
+  ::view-transition-new(.look-morph) {
+    animation-duration: var(--dur-base);
+  }
+}
+
 /* The lightbox morphs from the gallery's main image, open and closed
    (DESIGN.md §5), local to the Piece page. Reduced motion drops the morph
    for an in-place --dur-base crossfade, same as every other overlay. */
@@ -365,6 +397,53 @@
     clip-path: inset(-0.25em -0.1em -0.25em -0.1em);
     transition: clip-path var(--dur-reveal) var(--ease-out-mech);
   }
+
+  /* Something that follows a reveal, such as the brand-promise stamp:
+     hidden while the line is clipped, then there at once when the wipe ends.
+     No fade and no rotation; it is pressed, not animated. */
+  .reveal:not(.is-revealed) ~ .after-reveal {
+    opacity: 0;
+  }
+
+  .reveal.is-revealed ~ .after-reveal {
+    transition: opacity 0s linear var(--dur-reveal);
+  }
+}
+
+/* The Home Lookbook teaser: frames share one height and take their width
+   from their ratio, as in the Lookbook. From 1024 they share the row in
+   proportion to that ratio instead, which keeps the heights equal. */
+.lookbook-teaser {
+  --teaser-h: 62vw;
+}
+
+@media (min-width: 768px) {
+  .lookbook-teaser {
+    --teaser-h: 40vw;
+  }
+}
+
+.lookbook-teaser-portrait {
+  width: calc(var(--teaser-h) * 0.8);
+}
+
+.lookbook-teaser-landscape {
+  width: calc(var(--teaser-h) * 1.5);
+}
+
+@media (min-width: 1024px) {
+  .lookbook-teaser-portrait,
+  .lookbook-teaser-landscape {
+    width: auto;
+  }
+
+  .lookbook-teaser-portrait {
+    flex-grow: 0.8;
+  }
+
+  .lookbook-teaser-landscape {
+    flex-grow: 1.5;
+  }
 }
 
 /* The Lookbook strip (DESIGN.md §5). Frames take their size from the height
@@ -393,9 +472,21 @@
   aspect-ratio: var(--image-aspect);
 }
 
+/* An art-directed image (the Hero) carries one blur per frame, since a
+   <picture> cannot swap next/image's placeholder at the breakpoint. */
+.millrace-image[data-art-directed] {
+  background-image: var(--image-blur);
+  background-size: cover;
+  background-position: center;
+}
+
 @media (min-width: 768px) {
   .millrace-image {
     aspect-ratio: var(--image-desktop-aspect);
+  }
+
+  .millrace-image[data-art-directed] {
+    background-image: var(--image-desktop-blur);
   }
 }
 

@@ -11,6 +11,14 @@ export function lookIndexAt(frames: readonly Frame[], frameIndex: number): numbe
   return Math.max(index, 1);
 }
 
+/**
+ * The shared-element name that morphs a Home teaser frame into the same
+ * Look's frame in the Lookbook (DESIGN.md §5).
+ */
+export function lookMorphName(number: string): string {
+  return `look-${number}`;
+}
+
 /** The counter, zero-padded: `03 / 08`. */
 export function formatCounter(index: number, total: number): string {
   const pad = (value: number) => String(value).padStart(2, "0");
