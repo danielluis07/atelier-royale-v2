@@ -67,6 +67,12 @@ function CollectionView({
   const router = useRouter();
   // Controls follow the click at once; the grid follows the committed URL.
   const [pending, setPending] = useOptimistic(query);
+  // Two clicks can land before a re-render; each change starts from the
+  // latest queued query, not the last rendered one.
+  const latest = useRef(pending);
+  useEffect(() => {
+    latest.current = pending;
+  }, [pending]);
   const [filtersOpen, setFiltersOpen] = useState(false);
   const resultsRef = useRef<HTMLDivElement>(null);
   const focusResults = useRef(false);
@@ -82,7 +88,9 @@ function CollectionView({
   const href = collectionHref(query);
   const filterCount = activeFilterCount(pending);
 
-  function navigate(next: CollectionQuery) {
+  function navigate(update: (current: CollectionQuery) => CollectionQuery) {
+    const next = update(latest.current);
+    latest.current = next;
     startTransition(() => {
       addTransitionType(filterTransition);
       setPending(next);
@@ -92,7 +100,7 @@ function CollectionView({
 
   function clearFilters() {
     focusResults.current = true;
-    navigate(withoutFilters(pending));
+    navigate(withoutFilters);
   }
 
   // Announce the new count after a change, never on arrival.
@@ -171,7 +179,7 @@ function CollectionView({
           </p>
           <SortSelect
             value={pending.sort}
-            onChange={(sort) => navigate({ ...pending, sort })}
+            onChange={(sort) => navigate((current) => ({ ...current, sort }))}
           />
         </div>
       </div>
@@ -284,7 +292,7 @@ function Filters({
   onClear,
 }: {
   query: CollectionQuery;
-  onChange: (next: CollectionQuery) => void;
+  onChange: (update: (current: CollectionQuery) => CollectionQuery) => void;
   onClear: () => void;
 }) {
   const options = getFilterOptions(query.category, query);
@@ -303,7 +311,10 @@ function Filters({
                   key={size}
                   checked={query.sizes.includes(size)}
                   onToggle={() =>
-                    onChange({ ...query, sizes: toggle(query.sizes, size) })
+                    onChange((current) => ({
+                      ...current,
+                      sizes: toggle(current.sizes, size),
+                    }))
                   }>
                   <span className="font-mono">{size}</span>
                 </Option>
@@ -320,7 +331,10 @@ function Filters({
               key={color.id}
               checked={query.colors.includes(color.id)}
               onToggle={() =>
-                onChange({ ...query, colors: toggle(query.colors, color.id) })
+                onChange((current) => ({
+                  ...current,
+                  colors: toggle(current.colors, color.id),
+                }))
               }>
               <span
                 aria-hidden="true"
@@ -340,7 +354,10 @@ function Filters({
               key={cloth.id}
               checked={query.cloths.includes(cloth.id)}
               onToggle={() =>
-                onChange({ ...query, cloths: toggle(query.cloths, cloth.id) })
+                onChange((current) => ({
+                  ...current,
+                  cloths: toggle(current.cloths, cloth.id),
+                }))
               }>
               {cloth.name}
             </Option>
