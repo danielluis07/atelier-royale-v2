@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import { ViewTransition } from "react";
 import { LookbookFlow } from "@/components/lookbook/lookbook-flow";
 import { MillraceImage } from "@/components/millrace-image";
 import { RevealLine } from "@/components/reveal-line";
 import { getLookbook, getLooks, type Interstitial, type Look } from "@/lib/catalog";
-import { lookAlt, lookIndexAt } from "@/lib/lookbook";
+import { lookAlt, lookIndexAt, lookMorphName } from "@/lib/lookbook";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
@@ -82,7 +83,10 @@ export default function LookbookPage() {
                   data-look={frame.number}
                   data-look-index={lookIndex}
                   className={cn(frameWidth[frame.aspect], "flex shrink-0 snap-start flex-col gap-4")}>
-                  <MillraceImage imageKey={frame.image} slot={imageSlot(frame)} alt={lookAlt(frame)} />
+                  {/* Morphs from the Home teaser frame (DESIGN.md §5). */}
+                  <ViewTransition name={lookMorphName(frame.number)} share="look-morph" default="none">
+                    <MillraceImage imageKey={frame.image} slot={imageSlot(frame)} alt={lookAlt(frame)} />
+                  </ViewTransition>
                   {/* Wipes in once when the Look settles (lookbook-flow.tsx). */}
                   <div className="reveal flex flex-col gap-2">
                     <h2 className="type-caption text-muted-foreground">
