@@ -18,6 +18,15 @@ All catalog photography uses a blank stone background, including model shots.
 Upcoming model shots use deliberate stationary standing poses. The owner's
 [three new men](images/next-model-cast.md) are reserved for the next on-body batch.
 
+Batch 3 supplies the five Category tiles and six *By cloth* photographs for
+issue #36. Review the [labeled contact sheet](images/batch-03-contact-sheet.jpg),
+[production and verification notes](images/batch-03-qa.md), and
+[prompt records](images/batch-03-prompts.json). The Category portraits use
+Model A from batch 1 and the owner's replacement redhead, a man in his mid-40s
+with short hair and a medium beard; the Cloth close-ups use the catalog's material
+facts and batch 2 still lifes as references. The owner reviewed the imagery
+and approved the replacement redhead for Shirts and Knitwear.
+
 Drop source JPEGs into `public/images/`. A key is the path without `.jpg`:
 `pieces/027-field-jacket/olive-still` resolves to
 `public/images/pieces/027-field-jacket/olive-still.jpg`. Use lowercase kebab-case
