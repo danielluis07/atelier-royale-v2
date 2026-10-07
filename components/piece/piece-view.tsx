@@ -10,6 +10,7 @@ import {
   type KeyboardEvent,
   type ReactNode,
 } from "react";
+import { useCart } from "@/components/cart/use-cart";
 import { SupportSheetTrigger } from "@/components/support/support-sheets";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -198,6 +199,7 @@ function BuyPanel({
   const id = useId();
   const [size, setSize] = useState<Size>();
   const [missingSize, setMissingSize] = useState(false);
+  const addLine = useCart((state) => state.addLine);
   const sizeGroup = useRef<HTMLFieldSetElement>(null);
   // A size sold out in the chosen Colourway is not chosen.
   const chosen = size && !colorway.soldOutSizes.includes(size) ? size : undefined;
@@ -216,8 +218,8 @@ function BuyPanel({
         ?.focus();
       return;
     }
-    // The line ({ pieceId, colourwayId, size }) goes to the cart store in the
-    // Cart ticket (#26).
+    // Opens the cart drawer, which confirms the add.
+    addLine({ pieceId: piece.id, colourwayId: colorway.id, size: chosen });
   }
 
   return (
