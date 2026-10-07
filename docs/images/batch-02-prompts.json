@@ -388,6 +388,377 @@
       "resampled": true,
       "referenceKeys": [],
       "prompt": "Generate ONE square photorealistic photograph, 2048x2048 requested. No collage, no text, logos, branding, labels or watermark. Soft diffused neutral studio daylight, muted natural film-like color, authentic fabric texture, functional coherent hardware, natural anatomy. Use case: product-mockup. Overhead flat lay of a men's Western Shirt in Indigo #334567. Cloth selvedge-denim. WEIGHT: 8oz. CONSTRUCTION: Pointed front and back yokes\nFelled side seams\n2 flap chest pockets. HARDWARE: Pearl-faced snaps. FIT: Trim body; curved hem. Whole garment with both sleeves visible, centered on warm stone #F3F1EC seamless matte backdrop. Approximately 12% empty margin on all four sides. Sleeves gently angled down, front fastened, no mannequin, no people, no props. Soft overhead daylight and restrained film grain."
+    },
+    {
+      "key": "pieces/112-flannel-shirt/grey-check-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/112-flannel-shirt/grey-check-still"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit only the woven check alignment on BOTH chest patch pockets of this exact Grey Check Flannel Shirt. Currently pockets have diagonal diamond checks. Replace pocket fabric pattern with perfectly VERTICAL and HORIZONTAL grey check, exactly continuous with the body checks at every pocket edge. Matched check construction: pale horizontal stripes and pale vertical stripes flow uninterrupted across the shirt body and both pockets. No diagonal lines or diamonds anywhere on either pocket. Keep both pockets their exact shape, position, buttons and stitching; keep whole shirt body, sleeves, collar, size, folds, colour, lighting, blank warm stone #F3F1EC backdrop, composition and square frame unchanged. No logos, no text, no watermark. One photorealistic square image.",
+      "supersededPrompts": [
+        "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. Men's Flannel Shirt in Grey Check #777671, brushed-flannel. WEIGHT: 9oz. CONSTRUCTION: Felled side seams\nMatched checks at the pockets\nDouble-layer back yoke. HARDWARE: Corozo buttons. FIT: Regular body; curved hem. Two chest patch pockets with exactly matched checks aligned to body, soft double-napped cotton. Distinct Grey Check woven check pattern. True overhead flat lay of ONE whole garment front-up, centered on matte seamless warm stone #F3F1EC backdrop. Approximately 12 percent empty margin around the whole garment. Both sleeves gently angled down and fully visible, no folding or rolling, front fastened where applicable. No mannequin, no hanger. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is blank light stone #F3F1EC. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+      ]
+    },
+    {
+      "key": "pieces/112-flannel-shirt/red-check-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/112-flannel-shirt/grey-check-still"
+      ],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. Reference image is exact garment construction and composition: keep its cut, pocket layout, hardware, knit or woven pattern and pose; change only material colour to this Colourway. Men's Flannel Shirt in Red Check #854A43, brushed-flannel. WEIGHT: 9oz. CONSTRUCTION: Felled side seams\nMatched checks at the pockets\nDouble-layer back yoke. HARDWARE: Corozo buttons. FIT: Regular body; curved hem. Two chest patch pockets with exactly matched checks aligned to body, soft double-napped cotton. Distinct Red Check woven check pattern. True overhead flat lay of ONE whole garment front-up, centered on matte seamless warm stone #F3F1EC backdrop. Approximately 12 percent empty margin around the whole garment. Both sleeves gently angled down and fully visible, no folding or rolling, front fastened where applicable. No mannequin, no hanger. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is blank light stone #F3F1EC. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+    },
+    {
+      "key": "pieces/112-flannel-shirt/green-check-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/112-flannel-shirt/red-check-still"
+      ],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. Reference image is exact garment construction and composition: keep its cut, pocket layout, hardware, knit or woven pattern and pose; change only material colour to this Colourway. Men's Flannel Shirt in Green Check #57634F, brushed-flannel. WEIGHT: 9oz. CONSTRUCTION: Felled side seams\nMatched checks at the pockets\nDouble-layer back yoke. HARDWARE: Corozo buttons. FIT: Regular body; curved hem. Two chest patch pockets with exactly matched checks aligned to body, soft double-napped cotton. Distinct Green Check woven check pattern. True overhead flat lay of ONE whole garment front-up, centered on matte seamless warm stone #F3F1EC backdrop. Approximately 12 percent empty margin around the whole garment. Both sleeves gently angled down and fully visible, no folding or rolling, front fastened where applicable. No mannequin, no hanger. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is blank light stone #F3F1EC. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+    },
+    {
+      "key": "pieces/118-popover-shirt/oat-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. Men's Popover Shirt in Oat #C4B697, brushed-flannel. WEIGHT: 9oz. CONSTRUCTION: Reinforced half placket\nFelled side seams\nGusseted side vents. HARDWARE: Corozo buttons. FIT: Relaxed body; straight hem. True overhead flat lay of ONE whole garment front-up, centered on matte seamless warm stone #F3F1EC backdrop. Approximately 12 percent empty margin around the whole garment. Both sleeves gently angled down and fully visible, no folding or rolling, front fastened where applicable. No mannequin, no hanger. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is blank light stone #F3F1EC. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+    },
+    {
+      "key": "pieces/125-moleskin-shirt/slate-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. Men's Moleskin Shirt in Slate #646A6D, moleskin. WEIGHT: 12oz. CONSTRUCTION: Felled shoulder seams\n2 chest pockets\nDouble-stitched cuffs. HARDWARE: Corozo buttons. FIT: Straight body; curved hem. True overhead flat lay of ONE whole garment front-up, centered on matte seamless warm stone #F3F1EC backdrop. Approximately 12 percent empty margin around the whole garment. Both sleeves gently angled down and fully visible, no folding or rolling, front fastened where applicable. No mannequin, no hanger. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is blank light stone #F3F1EC. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+    },
+    {
+      "key": "pieces/125-moleskin-shirt/tobacco-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/125-moleskin-shirt/slate-still"
+      ],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. Reference image is exact garment construction and composition: keep its cut, pocket layout, hardware, knit or woven pattern and pose; change only material colour to this Colourway. Men's Moleskin Shirt in Tobacco #886346, moleskin. WEIGHT: 12oz. CONSTRUCTION: Felled shoulder seams\n2 chest pockets\nDouble-stitched cuffs. HARDWARE: Corozo buttons. FIT: Straight body; curved hem. True overhead flat lay of ONE whole garment front-up, centered on matte seamless warm stone #F3F1EC backdrop. Approximately 12 percent empty margin around the whole garment. Both sleeves gently angled down and fully visible, no folding or rolling, front fastened where applicable. No mannequin, no hanger. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is blank light stone #F3F1EC. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+    },
+    {
+      "key": "pieces/131-straight-jean/indigo-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. Men's Straight Jean in Indigo #334567, selvedge-denim. WEIGHT: 13.5oz. CONSTRUCTION: Selvedge outseams\n5-pocket construction\nChain-stitched waistband. HARDWARE: Brass rivets; button fly. FIT: Mid rise; straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. True overhead flat lay of ONE whole garment front-up, centered on matte seamless warm stone #F3F1EC backdrop. Approximately 12 percent empty margin around the whole garment. Both legs completely extended, waist at top and both hems fully visible, slight gap between legs, no cuffs or rolled hems, front fastened. No mannequin, no hanger. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is blank light stone #F3F1EC. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+    },
+    {
+      "key": "pieces/131-straight-jean/rinsed-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/131-straight-jean/indigo-still"
+      ],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. Reference image is exact garment construction and composition: keep its cut, pocket layout, hardware, knit or woven pattern and pose; change only material colour to this Colourway. Men's Straight Jean in Rinsed #26344F, selvedge-denim. WEIGHT: 13.5oz. CONSTRUCTION: Selvedge outseams\n5-pocket construction\nChain-stitched waistband. HARDWARE: Brass rivets; button fly. FIT: Mid rise; straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. True overhead flat lay of ONE whole garment front-up, centered on matte seamless warm stone #F3F1EC backdrop. Approximately 12 percent empty margin around the whole garment. Both legs completely extended, waist at top and both hems fully visible, slight gap between legs, no cuffs or rolled hems, front fastened. No mannequin, no hanger. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is blank light stone #F3F1EC. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+    },
+    {
+      "key": "pieces/137-double-knee-trouser/olive-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. Men's Double-Knee Trouser in Olive #62694A, waxed-cotton. WEIGHT: 10oz. CONSTRUCTION: Double knee panels\nTriple-stitched inseams\nReinforced tool pocket. HARDWARE: Brass rivets; button fly. FIT: High rise; relaxed straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. True overhead flat lay of ONE whole garment front-up, centered on matte seamless warm stone #F3F1EC backdrop. Approximately 12 percent empty margin around the whole garment. Both legs completely extended, waist at top and both hems fully visible, slight gap between legs, no cuffs or rolled hems, front fastened. No mannequin, no hanger. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is blank light stone #F3F1EC. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+    },
+    {
+      "key": "pieces/140-work-trouser/slate-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. Men's Work Trouser in Slate #646A6D, moleskin. WEIGHT: 12oz. CONSTRUCTION: Felled inseams\nDeep cotton pocket bags\nBar-tacked belt loops. HARDWARE: Corozo waist button; brass zipper fly. FIT: Mid rise; straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. True overhead flat lay of ONE whole garment front-up, centered on matte seamless warm stone #F3F1EC backdrop. Approximately 12 percent empty margin around the whole garment. Both legs completely extended, waist at top and both hems fully visible, slight gap between legs, no cuffs or rolled hems, front fastened. No mannequin, no hanger. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is blank light stone #F3F1EC. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+    },
+    {
+      "key": "pieces/140-work-trouser/moss-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/140-work-trouser/slate-still"
+      ],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. Reference image is exact garment construction and composition: keep its cut, pocket layout, hardware, knit or woven pattern and pose; change only material colour to this Colourway. Men's Work Trouser in Moss #697253, moleskin. WEIGHT: 12oz. CONSTRUCTION: Felled inseams\nDeep cotton pocket bags\nBar-tacked belt loops. HARDWARE: Corozo waist button; brass zipper fly. FIT: Mid rise; straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. True overhead flat lay of ONE whole garment front-up, centered on matte seamless warm stone #F3F1EC backdrop. Approximately 12 percent empty margin around the whole garment. Both legs completely extended, waist at top and both hems fully visible, slight gap between legs, no cuffs or rolled hems, front fastened. No mannequin, no hanger. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is blank light stone #F3F1EC. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+    },
+    {
+      "key": "pieces/146-fatigue-trouser/oat-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. Men's Fatigue Trouser in Oat #C4B697, moleskin. WEIGHT: 12oz. CONSTRUCTION: Large front patch pockets\nFelled inseams\nAdjustable waist tabs. HARDWARE: Corozo buttons. FIT: High rise; relaxed leg; 34in inseam, sold unhemmed; chain-stitched to length on request. True overhead flat lay of ONE whole garment front-up, centered on matte seamless warm stone #F3F1EC backdrop. Approximately 12 percent empty margin around the whole garment. Both legs completely extended, waist at top and both hems fully visible, slight gap between legs, no cuffs or rolled hems, front fastened. No mannequin, no hanger. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is blank light stone #F3F1EC. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+    },
+    {
+      "key": "pieces/152-pleated-trouser/charcoal-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. Men's Pleated Trouser in Charcoal #464744, brushed-flannel. WEIGHT: 9oz. CONSTRUCTION: Single front pleats\nBound inner waistband\nWelted back pockets. HARDWARE: Corozo waist button; brass zipper fly. FIT: High rise; full thigh; straight leg; 34in inseam, sold unhemmed; chain-stitched to length on request. True overhead flat lay of ONE whole garment front-up, centered on matte seamless warm stone #F3F1EC backdrop. Approximately 12 percent empty margin around the whole garment. Both legs completely extended, waist at top and both hems fully visible, slight gap between legs, no cuffs or rolled hems, front fastened. No mannequin, no hanger. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is blank light stone #F3F1EC. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+    },
+    {
+      "key": "pieces/160-shetland-crew/oat-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. Men's Shetland Crew in Oat #C4B697, shetland-wool. WEIGHT: 3-ply. CONSTRUCTION: Fully fashioned body\nLinked shoulder seams\nRibbed neck, cuffs and hem. FIT: Regular body; hip-length hem. Classic crew neckline and fine robust plain stockinette knit, visibly woolly natural Shetland fibers. True overhead flat lay of ONE whole garment front-up, centered on matte seamless warm stone #F3F1EC backdrop. Approximately 12 percent empty margin around the whole garment. Both sleeves gently angled down and fully visible, no folding or rolling, front fastened where applicable. No mannequin, no hanger. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is blank light stone #F3F1EC. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+    },
+    {
+      "key": "pieces/160-shetland-crew/navy-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/160-shetland-crew/oat-still"
+      ],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. Reference image is exact garment construction and composition: keep its cut, pocket layout, hardware, knit or woven pattern and pose; change only material colour to this Colourway. Men's Shetland Crew in Navy #29364B, shetland-wool. WEIGHT: 3-ply. CONSTRUCTION: Fully fashioned body\nLinked shoulder seams\nRibbed neck, cuffs and hem. FIT: Regular body; hip-length hem. Classic crew neckline and fine robust plain stockinette knit, visibly woolly natural Shetland fibers. True overhead flat lay of ONE whole garment front-up, centered on matte seamless warm stone #F3F1EC backdrop. Approximately 12 percent empty margin around the whole garment. Both sleeves gently angled down and fully visible, no folding or rolling, front fastened where applicable. No mannequin, no hanger. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is blank light stone #F3F1EC. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+    },
+    {
+      "key": "pieces/160-shetland-crew/moss-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/160-shetland-crew/navy-still"
+      ],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. Reference image is exact garment construction and composition: keep its cut, pocket layout, hardware, knit or woven pattern and pose; change only material colour to this Colourway. Men's Shetland Crew in Moss #697253, shetland-wool. WEIGHT: 3-ply. CONSTRUCTION: Fully fashioned body\nLinked shoulder seams\nRibbed neck, cuffs and hem. FIT: Regular body; hip-length hem. Classic crew neckline and fine robust plain stockinette knit, visibly woolly natural Shetland fibers. True overhead flat lay of ONE whole garment front-up, centered on matte seamless warm stone #F3F1EC backdrop. Approximately 12 percent empty margin around the whole garment. Both sleeves gently angled down and fully visible, no folding or rolling, front fastened where applicable. No mannequin, no hanger. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is blank light stone #F3F1EC. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+    },
+    {
+      "key": "pieces/163-shetland-cardigan/charcoal-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. Men's Shetland Cardigan in Charcoal #464744, shetland-wool. WEIGHT: 3-ply. CONSTRUCTION: Fully fashioned body\nReinforced button band\n2 knitted patch pockets. HARDWARE: Corozo buttons. FIT: Relaxed body; hip-length hem. True overhead flat lay of ONE whole garment front-up, centered on matte seamless warm stone #F3F1EC backdrop. Approximately 12 percent empty margin around the whole garment. Both sleeves gently angled down and fully visible, no folding or rolling, front fastened where applicable. No mannequin, no hanger. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is blank light stone #F3F1EC. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+    },
+    {
+      "key": "pieces/169-roll-neck/ecru-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. Men's Roll-Neck in Ecru #DFD8C5, shetland-wool. WEIGHT: 3-ply. CONSTRUCTION: Fully fashioned body\nLinked shoulder seams\nDeep ribbed roll neck. FIT: Regular body; hip-length hem. True overhead flat lay of ONE whole garment front-up, centered on matte seamless warm stone #F3F1EC backdrop. Approximately 12 percent empty margin around the whole garment. Both sleeves gently angled down and fully visible, no folding or rolling, front fastened where applicable. No mannequin, no hanger. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is blank light stone #F3F1EC. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+    },
+    {
+      "key": "pieces/169-roll-neck/navy-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/169-roll-neck/ecru-still"
+      ],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. Reference image is exact garment construction and composition: keep its cut, pocket layout, hardware, knit or woven pattern and pose; change only material colour to this Colourway. Men's Roll-Neck in Navy #29364B, shetland-wool. WEIGHT: 3-ply. CONSTRUCTION: Fully fashioned body\nLinked shoulder seams\nDeep ribbed roll neck. FIT: Regular body; hip-length hem. True overhead flat lay of ONE whole garment front-up, centered on matte seamless warm stone #F3F1EC backdrop. Approximately 12 percent empty margin around the whole garment. Both sleeves gently angled down and fully visible, no folding or rolling, front fastened where applicable. No mannequin, no hanger. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is blank light stone #F3F1EC. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+    },
+    {
+      "key": "pieces/177-engineer-boot/black-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/177-engineer-boot/black-still"
+      ],
+      "prompt": "Edit only the background of this Black Engineer Boot product image. Preserve both boots exactly: position, black leather, brass buckles, stitching, soles, light and all details. Replace the mottled stone surface and entire background with a perfectly smooth solid warm off-white colour #F3F1EC seamless studio sweep. Stone is a colour name, NOT a stone material. No texture, grain, mottling, scenery, horizon, pattern or props anywhere on background. Keep only subtle soft contact shadows beneath the boots. Square catalog product photo.",
+      "supersededPrompts": [
+        "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. A matching pair, left and right men's Engineer Boot boots, full-grain vegetable-tanned leather in Black #292827. WEIGHT: 2mm. CONSTRUCTION: Leather-lined shaft\nReinforced heel counter\nLock-stitched upper panels. HARDWARE: Solid brass instep and shaft buckles. FIT: US whole sizes; room for a work sock. LAST: Round toe; broad forefoot; medium instep. SOLE: Oil-resistant rubber; stacked leather heel. WELT: 360° Goodyear welt; stitched leather welt. A matching pair of boots in three-quarter SIDE view, camera at boot level, both boots complete and unobscured, soles resting on a seamless stone studio surface continuing into blank stone background, no horizon line. One boot slightly behind and offset. Show coherent stitching, functional hardware and leather grain. Keep 12 percent clear margin on all four sides. No overhead flat lay. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is blank light stone #F3F1EC. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+      ]
+    },
+    {
+      "key": "pieces/177-engineer-boot/saddle-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/177-engineer-boot/black-still"
+      ],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. Reference image is exact garment construction and composition: keep its cut, pocket layout, hardware, knit or woven pattern and pose; change only material colour to this Colourway. A matching pair, left and right men's Engineer Boot boots, full-grain vegetable-tanned leather in Saddle #A16F49. WEIGHT: 2mm. CONSTRUCTION: Leather-lined shaft\nReinforced heel counter\nLock-stitched upper panels. HARDWARE: Solid brass instep and shaft buckles. FIT: US whole sizes; room for a work sock. LAST: Round toe; broad forefoot; medium instep. SOLE: Oil-resistant rubber; stacked leather heel. WELT: 360° Goodyear welt; stitched leather welt. A matching pair of boots in three-quarter SIDE view, camera at boot level, both boots complete and unobscured, soles resting on a perfectly smooth solid warm off-white #F3F1EC studio sweep with no texture or mottling; stone is only the colour name, never a material, no horizon line. One boot slightly behind and offset. Show coherent stitching, functional hardware and leather grain. Keep 12 percent clear margin on all four sides. No overhead flat lay. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is smooth solid blank light stone-colour #F3F1EC, no stone material, grain, texture or mottling. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+    },
+    {
+      "key": "pieces/182-service-boot/oxblood-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [
+        "pieces/182-service-boot/oxblood-still"
+      ],
+      "prompt": "Correct only the rubber outsole on both Oxblood Service Boots in this image. Preserve the boots' upper leather, cap toe, laces, brass eyelets and speed hooks, stitching, stacked leather heel, welt, composition and smooth blank #F3F1EC background exactly. Replace the deep chunky lug tread with a low-profile studded rubber sole: smooth thin black sidewall, small circular low studs on the underside, no rectangular teeth or hiking lugs. Keep stacked leather heels with thin smooth black rubber heel cap. Entire image otherwise identical square studio catalog photograph.",
+      "supersededPrompts": [
+        "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. A matching pair, left and right men's Service Boot boots, full-grain vegetable-tanned leather in Oxblood #603438. WEIGHT: 2mm. CONSTRUCTION: Leather-lined upper\nReinforced heel counter\nDouble-stitched quarters. HARDWARE: Brass eyelets and speed hooks. FIT: US whole sizes; regular width. LAST: Round toe; regular forefoot; medium instep. SOLE: Studded rubber; stacked leather heel. WELT: 360° Goodyear welt; stitched leather welt. A matching pair of boots in three-quarter SIDE view, camera at boot level, both boots complete and unobscured, soles resting on a perfectly smooth solid warm off-white #F3F1EC studio sweep with no texture or mottling; stone is only the colour name, never a material, no horizon line. One boot slightly behind and offset. Show coherent stitching, functional hardware and leather grain. Keep 12 percent clear margin on all four sides. No overhead flat lay. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is smooth solid blank light stone-colour #F3F1EC, no stone material, grain, texture or mottling. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+      ]
+    },
+    {
+      "key": "pieces/188-moc-toe-boot/saddle-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. A matching pair, left and right men's Moc-Toe Boot boots, full-grain vegetable-tanned leather in Saddle #A16F49. WEIGHT: 2mm. CONSTRUCTION: Hand-stitched moc toe seam\nLeather-lined upper\nReinforced heel counter. HARDWARE: Brass eyelets. FIT: US whole sizes; broad forefoot. LAST: Moc toe; broad forefoot; medium instep. SOLE: Rubber wedge with shallow tread. WELT: 360° Goodyear welt; stitched leather welt. A matching pair of boots in three-quarter SIDE view, camera at boot level, both boots complete and unobscured, soles resting on a perfectly smooth solid warm off-white #F3F1EC studio sweep with no texture or mottling; stone is only the colour name, never a material, no horizon line. One boot slightly behind and offset. Show coherent stitching, functional hardware and leather grain. Keep 12 percent clear margin on all four sides. No overhead flat lay. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is smooth solid blank light stone-colour #F3F1EC, no stone material, grain, texture or mottling. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
+    },
+    {
+      "key": "pieces/194-chukka/tobacco-still",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "referenceKeys": [],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 requested photorealistic catalog photograph; no collage. A matching pair, left and right men's Chukka boots, full-grain vegetable-tanned leather in Tobacco #886346. WEIGHT: 2mm. CONSTRUCTION: Leather-lined upper\nDouble-stitched quarters\nReinforced heel counter. HARDWARE: Brass eyelets. FIT: US whole sizes; regular width. LAST: Round toe; regular forefoot; low instep. SOLE: Crepe rubber; low stacked leather heel. WELT: 360° Goodyear welt; stitched leather welt. Lacing: Exactly three brass eyelet pairs per boot. A matching pair of boots in three-quarter SIDE view, camera at boot level, both boots complete and unobscured, soles resting on a perfectly smooth solid warm off-white #F3F1EC studio sweep with no texture or mottling; stone is only the colour name, never a material, no horizon line. One boot slightly behind and offset. Show coherent stitching, functional hardware and leather grain. Keep 12 percent clear margin on all four sides. No overhead flat lay. Soft diffuse overhead studio daylight, subtle natural contact shadow, restrained muted film-like grade, accurate cloth and hardware. Entire background is smooth solid blank light stone-colour #F3F1EC, no stone material, grain, texture or mottling. No scenery, people, models, hands, props, accessories, logos, branding, labels, lettering or watermark."
     }
-  ]
+  ],
+  "secondHalfCount": 24,
+  "deliveredCount": 48
 }

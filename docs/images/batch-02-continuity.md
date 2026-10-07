@@ -1,10 +1,15 @@
-# Catalog imagery: batch 2, first half
+# Catalog imagery: batch 2
 
 Issue #35 has 48 unique catalog keys: 39 Colourway still lifes and nine
-additional Field Jacket on-body views. The first checkpoint delivers 24 keys:
+additional Field Jacket on-body views. All 48 are delivered. The first checkpoint delivered 24 keys:
 the Field Jacket's three complete four-image galleries and 12 still lifes for
 Chore Jacket, Cruiser Jacket, Work Coat, Rider Jacket, Mill Overshirt, Leather
 Work Jacket, Work Shirt and Western Shirt.
+
+After the owner approved that checkpoint, the second half delivered the 24
+remaining still lifes: Flannel Shirt, Popover Shirt, Moleskin Shirt, all
+trousers, all knitwear and all boots. The three new men requested by the owner
+are reserved for the next on-body batch in [the casting brief](next-model-cast.md).
 
 ## Background and lighting
 
@@ -48,5 +53,6 @@ use exact catalog keys under `public/images/`, sRGB JPEG quality 85, square
 does not add photographic detail. The prompt records include source and
 delivery dimensions, reference keys and superseded scenery prompts.
 
-Stop at 24 delivered images and report to the owner before generating the
-remaining 24 still lifes. Issue #35 remains incomplete at this checkpoint.
+The first-half stop and owner report are preserved in `batch-02-qa.md`.
+The completed second half is reviewed in `batch-02-second-half-qa.md` and
+`batch-02-second-half.jpg`. This completes the imagery scope of issue #35.
