@@ -47,6 +47,14 @@ are saved for future continuity. Review the [delivery and QA notes](images/batch
 contact sheets and [prompt records](images/batch-04b-prompts.json). Together
 with the existing still lifes, every Shirt Colourway has four catalog squares.
 
+Batch 4c completes the Trousers galleries for issue #39 with 21 front, back
+and worn Proof-detail photographs across seven Colourways. Models A and B
+from batch 1 supply the cast. Full views show the fixed 34in length and
+unfinished lower edges. Review the [delivery and QA notes](images/batch-04c-qa.md),
+which link the gallery contact sheets, delivery-resolution spot checks and
+[prompt records](images/batch-04c-prompts.json). Every Trouser Colourway has
+four catalog squares with blur metadata.
+
 Drop source JPEGs into `public/images/`. A key is the path without `.jpg`:
 `pieces/027-field-jacket/olive-still` resolves to
 `public/images/pieces/027-field-jacket/olive-still.jpg`. Use lowercase kebab-case
