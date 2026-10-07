@@ -37,8 +37,10 @@ const collection = getCollection({
 
 Filters intersect. Category and Cloth use ids; sizes are strings, including
 waist and US boot sizes. Colour accepts either its id (`red-check`) or name
-(`Red Check`), case-insensitively. A size must be available in the selected
-Colourway; without a colour filter, availability in any Colourway is sufficient.
+(`Red Check`), case-insensitively. Cloth, size and colour also take a list,
+which matches any of its values (`cloth: ["waxed-cotton", "moleskin"]`); an
+empty list is no filter. A size must be available in a selected Colourway;
+without a colour filter, availability in any Colourway is sufficient.
 Sort values are `featured`, `price-asc` and `price-desc`. Price ties use Featured
 rank, then Piece number, so ordering remains stable across queries.
 

@@ -16,6 +16,7 @@ export type {
   CollectionFilter,
   CollectionSort,
   Colorway,
+  FilterValue,
   ImageAspect,
   Interstitial,
   Look,
@@ -61,20 +62,34 @@ export function getPiece(id: string): Piece | undefined {
   return pieces.find((piece) => piece.id === id);
 }
 
-/** Groups intersect. Size must be available in the matching Colourway. */
+function toList<T>(value: T | readonly T[] | undefined): readonly T[] {
+  if (value === undefined) return [];
+  return Array.isArray(value) ? value : [value as T];
+}
+
+/**
+ * Groups intersect; several values in one group match any of them. A size
+ * must be available in a Colourway that also matches the colour filter.
+ */
 export function getCollection(filter: CollectionFilter = {}): readonly Piece[] {
-  const color = filter.color?.trim().toLowerCase();
+  const cloths = toList(filter.cloth);
+  const sizes = toList(filter.size);
+  const colors = toList(filter.color).map((color) =>
+    color.trim().toLowerCase(),
+  );
   const result = pieces.filter((piece) => {
     if (filter.category && piece.category !== filter.category) return false;
-    if (filter.cloth && piece.cloth !== filter.cloth) return false;
+    if (cloths.length && !cloths.includes(piece.cloth)) return false;
     const category = getCategory(piece.category)!;
-    if (filter.size && !category.sizes.includes(filter.size)) return false;
+    const offered = sizes.filter((size) => category.sizes.includes(size));
+    if (sizes.length && !offered.length) return false;
     return piece.colorways.some(
       (colorway) =>
-        (!color ||
-          colorway.id === color ||
-          colorway.name.toLowerCase() === color) &&
-        (!filter.size || !colorway.soldOutSizes.includes(filter.size)),
+        (!colors.length ||
+          colors.includes(colorway.id) ||
+          colors.includes(colorway.name.toLowerCase())) &&
+        (!sizes.length ||
+          offered.some((size) => !colorway.soldOutSizes.includes(size))),
     );
   });
   result.sort((a, b) => {
