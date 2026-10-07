@@ -367,6 +367,23 @@
   }
 }
 
+/* The Lookbook strip (DESIGN.md §5). Frames take their size from the height
+   left under the header, caption and controls, capped by the viewport width,
+   so a whole Look and its caption fit on screen at any size down to 320px. */
+.lookbook-strip {
+  --look-h: max(16rem, calc(100svh - var(--header-height) - 14rem));
+  scrollbar-width: thin;
+  scrollbar-color: var(--ink-muted) transparent;
+}
+
+.lookbook-frame-portrait {
+  width: min(82vw, calc(var(--look-h) * 0.8));
+}
+
+.lookbook-frame-landscape {
+  width: min(calc(100vw - 2rem), calc(var(--look-h) * 1.5));
+}
+
 /* Both image branches reserve the slot, regardless of source dimensions. */
 .millrace-image {
   position: relative;
