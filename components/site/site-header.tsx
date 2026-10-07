@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { SearchIcon } from "lucide-react";
 import { CartTrigger } from "@/components/cart/cart-trigger";
 import { Wordmark } from "@/components/brand/wordmark";
-import { Button, buttonVariants } from "@/components/ui/button";
+import { SearchOverlay } from "@/components/search/search-overlay";
+import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { routes } from "@/lib/routes";
 import { MobileNav } from "./mobile-nav";
@@ -41,21 +41,10 @@ export function SiteHeader() {
         </nav>
 
         <div className="flex items-center justify-self-end lg:ml-auto">
-          <SearchTrigger />
+          <SearchOverlay />
           <CartTrigger />
         </div>
       </div>
     </header>
-  );
-}
-
-// Placeholder for the search overlay (#31), which replaces it with a live
-// trigger.
-function SearchTrigger() {
-  return (
-    <Button variant="ghost" size="icon-dense" disabled>
-      <SearchIcon strokeWidth={1.5} />
-      <span className="sr-only">Search</span>
-    </Button>
   );
 }
