@@ -16,7 +16,7 @@ Field Jacket galleries and the other 36 Colourway still lifes. Review the
 and [second-half QA](images/batch-02-second-half-qa.md).
 All catalog photography uses a blank stone background, including model shots.
 Upcoming model shots use deliberate stationary standing poses. The owner's
-[three new men](images/next-model-cast.md) are reserved for the next on-body batch.
+[three new men](images/next-model-cast.md) supply the Shirts cast in batch 4b.
 
 Batch 3 supplies the five Category tiles and six *By cloth* photographs for
 issue #36. Review the [labeled contact sheet](images/batch-03-contact-sheet.jpg),
@@ -38,6 +38,14 @@ Every Outerwear Colourway now has its four catalog squares and blur metadata.
 After review, Model B's six catalog fronts received distinct standing poses,
 including the Tobacco Field Jacket front from batch 2. The replacements use
 the same keys; see the [pose review and prompt records](images/model-b-pose-qa.md).
+
+Batch 4b completes the Shirts galleries for issue #38 with 27 front, back
+and worn Proof-detail photographs across nine Colourways. The owner selected
+Models D (Viking appearance), E (short hair and moustache) and F (blond and
+clean-shaven) for this batch. Their [identity references](images/next-model-cast.md)
+are saved for future continuity. Review the [delivery and QA notes](images/batch-04b-qa.md),
+contact sheets and [prompt records](images/batch-04b-prompts.json). Together
+with the existing still lifes, every Shirt Colourway has four catalog squares.
 
 Drop source JPEGs into `public/images/`. A key is the path without `.jpg`:
 `pieces/027-field-jacket/olive-still` resolves to

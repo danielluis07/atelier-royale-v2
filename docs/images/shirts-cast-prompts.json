@@ -1,0 +1,35 @@
+{
+  "generator": "Built-in imagegen; model version not exposed",
+  "models": [
+    {
+      "id": "D",
+      "description": "Viking-looking modern man aged 35-45, long reddish-brown hair falling to shoulders, full thick reddish brown beard, broad weathered face, pale eyes, large sturdy build, fair lightly freckled skin",
+      "prompt": "Use case: natural-photography. Asset type: menswear catalog CAST IDENTITY reference portrait. Generate ONE square photorealistic studio photograph requested 2048x2048. Subject: entirely new fictional Viking-looking modern man aged 35-45, long reddish-brown hair falling to shoulders, full thick reddish brown beard, broad weathered face, pale eyes, large sturdy build, fair lightly freckled skin. Modern ordinary workwear model, waist-up portrait facing camera, relaxed direct gaze, plain charcoal crew neck t-shirt, arms relaxed. Blank seamless stone #F3F1EC studio backdrop. Soft diffused overcast daylight, muted natural film-like grade, restrained fine grain, real skin and natural anatomy. Distinct identity. No costumes, Viking armour, weapons, hats, jewelry, scenery, props, lettering, logos or watermark. Face unobstructed and clear for identity continuity in later garment photographs. Save accessible local artifact.",
+      "image": "docs/images/cast-model-d.jpg",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      }
+    },
+    {
+      "id": "E",
+      "description": "man aged 30-40 with very short dark buzz cut, distinct dark moustache, otherwise fully clean-shaven cheeks and chin, narrower angular face, lean build, medium warm skin tone, dark eyes",
+      "prompt": "Use case: natural-photography. Asset type: menswear catalog CAST IDENTITY reference portrait. Generate ONE square photorealistic studio photograph requested 2048x2048. Subject: entirely new fictional man aged 30-40 with very short dark buzz cut, distinct dark moustache, otherwise fully clean-shaven cheeks and chin, narrower angular face, lean build, medium warm skin tone, dark eyes. Modern ordinary workwear model, waist-up portrait facing camera, relaxed direct gaze, plain charcoal crew neck t-shirt, arms relaxed. Blank seamless stone #F3F1EC studio backdrop. Soft diffused overcast daylight, muted natural film-like grade, restrained fine grain, real skin and natural anatomy. Distinct identity. No costumes, Viking armour, weapons, hats, jewelry, scenery, props, lettering, logos or watermark. Face unobstructed and clear for identity continuity in later garment photographs. Save accessible local artifact.",
+      "image": "docs/images/cast-model-e.jpg",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      }
+    },
+    {
+      "id": "F",
+      "description": "blond man aged 30-40, short natural blond hair, completely clean-shaven with no moustache or beard, softer oval face, medium build, fair skin, light blue eyes",
+      "prompt": "Use case: natural-photography. Asset type: menswear catalog CAST IDENTITY reference portrait. Generate ONE square photorealistic studio photograph requested 2048x2048. Subject: entirely new fictional blond man aged 30-40, short natural blond hair, completely clean-shaven with no moustache or beard, softer oval face, medium build, fair skin, light blue eyes. Modern ordinary workwear model, waist-up portrait facing camera, relaxed direct gaze, plain charcoal crew neck t-shirt, arms relaxed. Blank seamless stone #F3F1EC studio backdrop. Soft diffused overcast daylight, muted natural film-like grade, restrained fine grain, real skin and natural anatomy. Distinct identity. No costumes, Viking armour, weapons, hats, jewelry, scenery, props, lettering, logos or watermark. Face unobstructed and clear for identity continuity in later garment photographs. Save accessible local artifact.",
+      "image": "docs/images/cast-model-f.jpg",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      }
+    }
+  ]
+}

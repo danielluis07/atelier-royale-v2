@@ -1,0 +1,484 @@
+{
+  "issue": 38,
+  "generator": "Built-in imagegen; model version not exposed",
+  "format": "JPEG",
+  "colorSpace": "sRGB",
+  "quality": 85,
+  "requestedCount": 27,
+  "assets": [
+    {
+      "key": "pieces/101-work-shirt/ecru-back",
+      "model": "E",
+      "referenceKeys": [
+        "pieces/101-work-shirt/ecru-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt gallery back. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: preserve same Model E, body build, skin, exact garment, colour, texture, trousers, backdrop and lighting. Work Shirt No.101, Colourway Ecru (#DFD8C5). Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 8oz; CONSTRUCTION: Felled side seams\n2 chest pockets\nChain-stitched hem; HARDWARE: Corozo buttons; FIT: Straight body; curved hem. Rear three-quarter view of SAME stationary standing model, camera behind him. Crop top at nape level with head entirely above frame, bottom mid-thigh. Whole rear shirt and hem visible, arms relaxed, correct sleeves and back yoke, no chest pockets on rear.  Blank seamless warm stone #F3F1EC studio background, soft diffused overcast-like daylight, muted natural film-like grade. Sharp authentic textile detail, coherent functional buttons or snaps and seams, natural anatomy. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/101-work-shirt/ecru-detail",
+      "model": "E",
+      "referenceKeys": [
+        "pieces/101-work-shirt/ecru-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt gallery detail. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: preserve same Model E, body build, skin, exact garment, colour, texture, trousers, backdrop and lighting. Work Shirt No.101, Colourway Ecru (#DFD8C5). Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 8oz; CONSTRUCTION: Felled side seams\n2 chest pockets\nChain-stitched hem; HARDWARE: Corozo buttons; FIT: Straight body; curved hem. Tight macro photograph of SAME WORN shirt showing chain-stitched curved hem at side seam, showing neat chain loops on slightly turned hem edge and felled side seam, real denim weave. Body curvature and sleeve tension show it is worn; never flat lay. Frame only relevant garment feature, hands and face out of frame. Blank seamless warm stone #F3F1EC studio background, soft diffused overcast-like daylight, muted natural film-like grade. Sharp authentic textile detail, coherent functional buttons or snaps and seams, natural anatomy. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/101-work-shirt/ecru-front",
+      "model": "E",
+      "referenceKeys": [
+        "pieces/101-work-shirt/ecru-still",
+        "docs/images/cast-model-e.jpg"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt Piece gallery FRONT. Generate ONE square photorealistic photograph requested 2048x2048. Reference 1 GARMENT ONLY: exact Work Shirt No.101 in Ecru (#DFD8C5); preserve exact colour, weave, pocket shape, check grid if present, cuffs, collar and closure layout. Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 8oz; CONSTRUCTION: Felled side seams\n2 chest pockets\nChain-stitched hem; HARDWARE: Corozo buttons; FIT: Straight body; curved hem. Reference 2 IDENTITY ONLY: same Model E, man aged 30-40 with very short dark buzz cut, distinct dark moustache, otherwise fully clean-shaven cheeks and chin, narrower angular face, lean build, medium warm skin tone, dark eyes; retain build, skin, facial hair and visible hair. Crop top EXACTLY at chin, face above chin excluded, bottom at mid-thigh; whole shirt and its hem visible. Stationary deliberate standing pose: three-quarter torso facing left, left hand tucked partly inside trouser pocket and right arm hanging relaxed. Shirt worn alone untucked, buttoned with open collar, long sleeves down; dark slate trousers. Blank seamless stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade, sharp realistic cloth. Natural anatomy, correct hands, coherent hardware. No scenery, props, jacket, knitwear, costumes, text, logos or watermark. No collage. Save accessible local artifact.",
+      "revisionPrompt": "Use case: precise-object-edit. Reframe this photograph ONLY. Preserve exact man, physique, pose, shirt colour, weave, checks, pockets, hardware, trousers, light, studio background and film grade. ONE square 2048x2048 catalog photograph. Move the top framing edge down to the BASE OF THE CHIN: exclude the entire mouth, moustache, lips, nose, ears and all face above the chin. Only neck and a tiny lower chin edge may appear at the top. Keep whole shirt and its hem visible, bottom at mid-thigh; expand plain stone background slightly sideways if required to keep square. No garment changes, no text/logos/watermark. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/101-work-shirt/indigo-back",
+      "model": "D",
+      "referenceKeys": [
+        "pieces/101-work-shirt/indigo-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt gallery back. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: preserve same Model D, body build, skin, exact garment, colour, texture, trousers, backdrop and lighting. Work Shirt No.101, Colourway Indigo (#334567). Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 8oz; CONSTRUCTION: Felled side seams\n2 chest pockets\nChain-stitched hem; HARDWARE: Corozo buttons; FIT: Straight body; curved hem. Rear three-quarter view of SAME stationary standing model, camera behind him. Crop top at nape level with head entirely above frame, bottom mid-thigh. Whole rear shirt and hem visible, arms relaxed, correct sleeves and back yoke, no chest pockets on rear. Long reddish-brown hair rests over one shoulder so back yoke remains visible. Blank seamless warm stone #F3F1EC studio background, soft diffused overcast-like daylight, muted natural film-like grade. Sharp authentic textile detail, coherent functional buttons or snaps and seams, natural anatomy. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/101-work-shirt/indigo-detail",
+      "model": "D",
+      "referenceKeys": [
+        "pieces/101-work-shirt/indigo-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt gallery detail. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: preserve same Model D, body build, skin, exact garment, colour, texture, trousers, backdrop and lighting. Work Shirt No.101, Colourway Indigo (#334567). Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 8oz; CONSTRUCTION: Felled side seams\n2 chest pockets\nChain-stitched hem; HARDWARE: Corozo buttons; FIT: Straight body; curved hem. Tight macro photograph of SAME WORN shirt showing chain-stitched curved hem at side seam, showing neat chain loops on slightly turned hem edge and felled side seam, real denim weave. Body curvature and sleeve tension show it is worn; never flat lay. Frame only relevant garment feature, hands and face out of frame. Blank seamless warm stone #F3F1EC studio background, soft diffused overcast-like daylight, muted natural film-like grade. Sharp authentic textile detail, coherent functional buttons or snaps and seams, natural anatomy. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/101-work-shirt/indigo-front",
+      "model": "D",
+      "referenceKeys": [
+        "pieces/101-work-shirt/indigo-still",
+        "docs/images/cast-model-d.jpg"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt Piece gallery FRONT. Generate ONE square photorealistic photograph requested 2048x2048. Reference 1 GARMENT ONLY: exact Work Shirt No.101 in Indigo (#334567); preserve exact colour, weave, pocket shape, check grid if present, cuffs, collar and closure layout. Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 8oz; CONSTRUCTION: Felled side seams\n2 chest pockets\nChain-stitched hem; HARDWARE: Corozo buttons; FIT: Straight body; curved hem. Reference 2 IDENTITY ONLY: same Model D, Viking-looking modern man aged 35-45, long reddish-brown hair falling to shoulders, full thick reddish brown beard, broad weathered face, pale eyes, large sturdy build, fair lightly freckled skin; retain build, skin, facial hair and visible hair. Crop top EXACTLY at chin, face above chin excluded, bottom at mid-thigh; whole shirt and its hem visible. Stationary deliberate standing pose: body square to camera, arms hanging relaxed with hands apart from shirt. Shirt worn alone untucked, buttoned with open collar, long sleeves down; dark slate trousers. Blank seamless stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade, sharp realistic cloth. Natural anatomy, correct hands, coherent hardware. No scenery, props, jacket, knitwear, costumes, text, logos or watermark. No collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/104-western-shirt/indigo-back",
+      "model": "F",
+      "referenceKeys": [
+        "pieces/104-western-shirt/indigo-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt gallery back. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: preserve same Model F, body build, skin, exact garment, colour, texture, trousers, backdrop and lighting. Western Shirt No.104, Colourway Indigo (#334567). Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 8oz; CONSTRUCTION: Pointed front and back yokes\nFelled side seams\n2 flap chest pockets; HARDWARE: Pearl-faced snaps; FIT: Trim body; curved hem. Rear three-quarter view of SAME stationary standing model, camera behind him. Crop top at nape level with head entirely above frame, bottom mid-thigh. Whole rear shirt and hem visible, arms relaxed, correct sleeves and back yoke, no chest pockets on rear.  Blank seamless warm stone #F3F1EC studio background, soft diffused overcast-like daylight, muted natural film-like grade. Sharp authentic textile detail, coherent functional buttons or snaps and seams, natural anatomy. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/104-western-shirt/indigo-detail",
+      "model": "F",
+      "referenceKeys": [
+        "pieces/104-western-shirt/indigo-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt gallery detail. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: preserve same Model F, body build, skin, exact garment, colour, texture, trousers, backdrop and lighting. Western Shirt No.104, Colourway Indigo (#334567). Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 8oz; CONSTRUCTION: Pointed front and back yokes\nFelled side seams\n2 flap chest pockets; HARDWARE: Pearl-faced snaps; FIT: Trim body; curved hem. Tight macro photograph of SAME WORN shirt showing pointed front yoke meeting flap chest pocket, parallel seam stitching and one pearl-faced snap attached to pocket flap, real light denim weave. Body curvature and sleeve tension show it is worn; never flat lay. Frame only relevant garment feature, hands and face out of frame. Blank seamless warm stone #F3F1EC studio background, soft diffused overcast-like daylight, muted natural film-like grade. Sharp authentic textile detail, coherent functional buttons or snaps and seams, natural anatomy. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/104-western-shirt/indigo-front",
+      "model": "F",
+      "referenceKeys": [
+        "pieces/104-western-shirt/indigo-still",
+        "docs/images/cast-model-f.jpg"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt Piece gallery FRONT. Generate ONE square photorealistic photograph requested 2048x2048. Reference 1 GARMENT ONLY: exact Western Shirt No.104 in Indigo (#334567); preserve exact colour, weave, pocket shape, check grid if present, cuffs, collar and closure layout. Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 8oz; CONSTRUCTION: Pointed front and back yokes\nFelled side seams\n2 flap chest pockets; HARDWARE: Pearl-faced snaps; FIT: Trim body; curved hem. Reference 2 IDENTITY ONLY: same Model F, blond man aged 30-40, short natural blond hair, completely clean-shaven with no moustache or beard, softer oval face, medium build, fair skin, light blue eyes; retain build, skin, facial hair and visible hair. Crop top EXACTLY at chin, face above chin excluded, bottom at mid-thigh; whole shirt and its hem visible. Stationary deliberate standing pose: three-quarter torso facing right, right thumb hooked inside trouser pocket and left arm relaxed. Shirt worn alone untucked, buttoned with open collar, long sleeves down; dark slate trousers. Blank seamless stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade, sharp realistic cloth. Natural anatomy, correct hands, coherent hardware. No scenery, props, jacket, knitwear, costumes, text, logos or watermark. No collage. Save accessible local artifact.",
+      "revisionPrompt": "Use case: precise-object-edit. Reframe this photograph ONLY. Preserve exact man, physique, pose, shirt colour, weave, checks, pockets, hardware, trousers, light, studio background and film grade. ONE square 2048x2048 catalog photograph. Move the top framing edge down to the BASE OF THE CHIN: exclude the entire mouth, moustache, lips, nose, ears and all face above the chin. Only neck and a tiny lower chin edge may appear at the top. Keep whole shirt and its hem visible, bottom at mid-thigh; expand plain stone background slightly sideways if required to keep square. No garment changes, no text/logos/watermark. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/112-flannel-shirt/green-check-back",
+      "model": "F",
+      "referenceKeys": [
+        "pieces/112-flannel-shirt/green-check-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt gallery back. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: preserve same Model F, body build, skin, exact garment, colour, texture, trousers, backdrop and lighting. Flannel Shirt No.112, Colourway Green Check (#57634F). Catalog Proof: CLOTH: Brushed flannel · double-napped; WEIGHT: 9oz; CONSTRUCTION: Felled side seams\nMatched checks at the pockets\nDouble-layer back yoke; HARDWARE: Corozo buttons; FIT: Regular body; curved hem. Rear three-quarter view of SAME stationary standing model, camera behind him. Crop top at nape level with head entirely above frame, bottom mid-thigh. Whole rear shirt and hem visible, arms relaxed, correct sleeves and back yoke, no chest pockets on rear.  Blank seamless warm stone #F3F1EC studio background, soft diffused overcast-like daylight, muted natural film-like grade. Sharp authentic textile detail, coherent functional buttons or snaps and seams, natural anatomy. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/112-flannel-shirt/green-check-detail",
+      "model": "F",
+      "referenceKeys": [
+        "pieces/112-flannel-shirt/green-check-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt gallery detail. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: preserve same Model F, body build, skin, exact garment, colour, texture, trousers, backdrop and lighting. Flannel Shirt No.112, Colourway Green Check (#57634F). Catalog Proof: CLOTH: Brushed flannel · double-napped; WEIGHT: 9oz; CONSTRUCTION: Felled side seams\nMatched checks at the pockets\nDouble-layer back yoke; HARDWARE: Corozo buttons; FIT: Regular body; curved hem. Tight macro photograph of SAME WORN shirt showing check-matched chest patch pocket edge and one dark corozo button, showing check stripes continuing accurately across pocket and body, soft double-napped cotton. Body curvature and sleeve tension show it is worn; never flat lay. Frame only relevant garment feature, hands and face out of frame. Blank seamless warm stone #F3F1EC studio background, soft diffused overcast-like daylight, muted natural film-like grade. Sharp authentic textile detail, coherent functional buttons or snaps and seams, natural anatomy. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/112-flannel-shirt/green-check-front",
+      "model": "F",
+      "referenceKeys": [
+        "pieces/112-flannel-shirt/green-check-still",
+        "docs/images/cast-model-f.jpg"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt Piece gallery FRONT. Generate ONE square photorealistic photograph requested 2048x2048. Reference 1 GARMENT ONLY: exact Flannel Shirt No.112 in Green Check (#57634F); preserve exact colour, weave, pocket shape, check grid if present, cuffs, collar and closure layout. Catalog Proof: CLOTH: Brushed flannel · double-napped; WEIGHT: 9oz; CONSTRUCTION: Felled side seams\nMatched checks at the pockets\nDouble-layer back yoke; HARDWARE: Corozo buttons; FIT: Regular body; curved hem. Reference 2 IDENTITY ONLY: same Model F, blond man aged 30-40, short natural blond hair, completely clean-shaven with no moustache or beard, softer oval face, medium build, fair skin, light blue eyes; retain build, skin, facial hair and visible hair. Crop top EXACTLY at chin, face above chin excluded, bottom at mid-thigh; whole shirt and its hem visible. Stationary deliberate standing pose: body facing camera with subtle weight shift onto right leg, hands relaxed at sides. Shirt worn alone untucked, buttoned with open collar, long sleeves down; dark slate trousers. Blank seamless stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade, sharp realistic cloth. Natural anatomy, correct hands, coherent hardware. No scenery, props, jacket, knitwear, costumes, text, logos or watermark. No collage. Save accessible local artifact.",
+      "revisionPrompt": "Use case: precise-object-edit. Reframe this photograph ONLY. Preserve exact man, physique, pose, shirt colour, weave, checks, pockets, hardware, trousers, light, studio background and film grade. ONE square 2048x2048 catalog photograph. Move the top framing edge down to the BASE OF THE CHIN: exclude the entire mouth, moustache, lips, nose, ears and all face above the chin. Only neck and a tiny lower chin edge may appear at the top. Keep whole shirt and its hem visible, bottom at mid-thigh; expand plain stone background slightly sideways if required to keep square. No garment changes, no text/logos/watermark. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/112-flannel-shirt/grey-check-back",
+      "model": "D",
+      "referenceKeys": [
+        "pieces/112-flannel-shirt/grey-check-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt gallery back. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: preserve same Model D, body build, skin, exact garment, colour, texture, trousers, backdrop and lighting. Flannel Shirt No.112, Colourway Grey Check (#777671). Catalog Proof: CLOTH: Brushed flannel · double-napped; WEIGHT: 9oz; CONSTRUCTION: Felled side seams\nMatched checks at the pockets\nDouble-layer back yoke; HARDWARE: Corozo buttons; FIT: Regular body; curved hem. Rear three-quarter view of SAME stationary standing model, camera behind him. Crop top at nape level with head entirely above frame, bottom mid-thigh. Whole rear shirt and hem visible, arms relaxed, correct sleeves and back yoke, no chest pockets on rear. Long reddish-brown hair rests over one shoulder so back yoke remains visible. Blank seamless warm stone #F3F1EC studio background, soft diffused overcast-like daylight, muted natural film-like grade. Sharp authentic textile detail, coherent functional buttons or snaps and seams, natural anatomy. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/112-flannel-shirt/grey-check-detail",
+      "model": "D",
+      "referenceKeys": [
+        "pieces/112-flannel-shirt/grey-check-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt gallery detail. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: preserve same Model D, body build, skin, exact garment, colour, texture, trousers, backdrop and lighting. Flannel Shirt No.112, Colourway Grey Check (#777671). Catalog Proof: CLOTH: Brushed flannel · double-napped; WEIGHT: 9oz; CONSTRUCTION: Felled side seams\nMatched checks at the pockets\nDouble-layer back yoke; HARDWARE: Corozo buttons; FIT: Regular body; curved hem. Tight macro photograph of SAME WORN shirt showing check-matched chest patch pocket edge and one dark corozo button, showing check stripes continuing accurately across pocket and body, soft double-napped cotton. Body curvature and sleeve tension show it is worn; never flat lay. Frame only relevant garment feature, hands and face out of frame. Blank seamless warm stone #F3F1EC studio background, soft diffused overcast-like daylight, muted natural film-like grade. Sharp authentic textile detail, coherent functional buttons or snaps and seams, natural anatomy. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/112-flannel-shirt/grey-check-front",
+      "model": "D",
+      "referenceKeys": [
+        "pieces/112-flannel-shirt/grey-check-still",
+        "docs/images/cast-model-d.jpg"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt Piece gallery FRONT. Generate ONE square photorealistic photograph requested 2048x2048. Reference 1 GARMENT ONLY: exact Flannel Shirt No.112 in Grey Check (#777671); preserve exact colour, weave, pocket shape, check grid if present, cuffs, collar and closure layout. Catalog Proof: CLOTH: Brushed flannel · double-napped; WEIGHT: 9oz; CONSTRUCTION: Felled side seams\nMatched checks at the pockets\nDouble-layer back yoke; HARDWARE: Corozo buttons; FIT: Regular body; curved hem. Reference 2 IDENTITY ONLY: same Model D, Viking-looking modern man aged 35-45, long reddish-brown hair falling to shoulders, full thick reddish brown beard, broad weathered face, pale eyes, large sturdy build, fair lightly freckled skin; retain build, skin, facial hair and visible hair. Crop top EXACTLY at chin, face above chin excluded, bottom at mid-thigh; whole shirt and its hem visible. Stationary deliberate standing pose: body square to camera, left elbow gently bent and hand resting at trouser side, right arm hanging. Shirt worn alone untucked, buttoned with open collar, long sleeves down; dark slate trousers. Blank seamless stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade, sharp realistic cloth. Natural anatomy, correct hands, coherent hardware. No scenery, props, jacket, knitwear, costumes, text, logos or watermark. No collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/112-flannel-shirt/red-check-back",
+      "model": "E",
+      "referenceKeys": [
+        "pieces/112-flannel-shirt/red-check-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt gallery back. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: preserve same Model E, body build, skin, exact garment, colour, texture, trousers, backdrop and lighting. Flannel Shirt No.112, Colourway Red Check (#854A43). Catalog Proof: CLOTH: Brushed flannel · double-napped; WEIGHT: 9oz; CONSTRUCTION: Felled side seams\nMatched checks at the pockets\nDouble-layer back yoke; HARDWARE: Corozo buttons; FIT: Regular body; curved hem. Rear three-quarter view of SAME stationary standing model, camera behind him. Crop top at nape level with head entirely above frame, bottom mid-thigh. Whole rear shirt and hem visible, arms relaxed, correct sleeves and back yoke, no chest pockets on rear.  Blank seamless warm stone #F3F1EC studio background, soft diffused overcast-like daylight, muted natural film-like grade. Sharp authentic textile detail, coherent functional buttons or snaps and seams, natural anatomy. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/112-flannel-shirt/red-check-detail",
+      "model": "E",
+      "referenceKeys": [
+        "pieces/112-flannel-shirt/red-check-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt gallery detail. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: preserve same Model E, body build, skin, exact garment, colour, texture, trousers, backdrop and lighting. Flannel Shirt No.112, Colourway Red Check (#854A43). Catalog Proof: CLOTH: Brushed flannel · double-napped; WEIGHT: 9oz; CONSTRUCTION: Felled side seams\nMatched checks at the pockets\nDouble-layer back yoke; HARDWARE: Corozo buttons; FIT: Regular body; curved hem. Tight macro photograph of SAME WORN shirt showing check-matched chest patch pocket edge and one dark corozo button, showing check stripes continuing accurately across pocket and body, soft double-napped cotton. Body curvature and sleeve tension show it is worn; never flat lay. Frame only relevant garment feature, hands and face out of frame. Blank seamless warm stone #F3F1EC studio background, soft diffused overcast-like daylight, muted natural film-like grade. Sharp authentic textile detail, coherent functional buttons or snaps and seams, natural anatomy. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/112-flannel-shirt/red-check-front",
+      "model": "E",
+      "referenceKeys": [
+        "pieces/112-flannel-shirt/red-check-still",
+        "docs/images/cast-model-e.jpg"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt Piece gallery FRONT. Generate ONE square photorealistic photograph requested 2048x2048. Reference 1 GARMENT ONLY: exact Flannel Shirt No.112 in Red Check (#854A43); preserve exact colour, weave, pocket shape, check grid if present, cuffs, collar and closure layout. Catalog Proof: CLOTH: Brushed flannel · double-napped; WEIGHT: 9oz; CONSTRUCTION: Felled side seams\nMatched checks at the pockets\nDouble-layer back yoke; HARDWARE: Corozo buttons; FIT: Regular body; curved hem. Reference 2 IDENTITY ONLY: same Model E, man aged 30-40 with very short dark buzz cut, distinct dark moustache, otherwise fully clean-shaven cheeks and chin, narrower angular face, lean build, medium warm skin tone, dark eyes; retain build, skin, facial hair and visible hair. Crop top EXACTLY at chin, face above chin excluded, bottom at mid-thigh; whole shirt and its hem visible. Stationary deliberate standing pose: three-quarter torso facing right, both arms relaxed and angled slightly away from garment. Shirt worn alone untucked, buttoned with open collar, long sleeves down; dark slate trousers. Blank seamless stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade, sharp realistic cloth. Natural anatomy, correct hands, coherent hardware. No scenery, props, jacket, knitwear, costumes, text, logos or watermark. No collage. Save accessible local artifact.",
+      "revisionPrompt": "Use case: precise-object-edit. Reframe this photograph ONLY. Preserve exact man, physique, pose, shirt colour, weave, checks, pockets, hardware, trousers, light, studio background and film grade. ONE square 2048x2048 catalog photograph. Move the top framing edge down to the BASE OF THE CHIN: exclude the entire mouth, moustache, lips, nose, ears and all face above the chin. Only neck and a tiny lower chin edge may appear at the top. Keep whole shirt and its hem visible, bottom at mid-thigh; expand plain stone background slightly sideways if required to keep square. No garment changes, no text/logos/watermark. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/118-popover-shirt/oat-back",
+      "model": "D",
+      "referenceKeys": [
+        "pieces/118-popover-shirt/oat-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt gallery back. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: preserve same Model D, body build, skin, exact garment, colour, texture, trousers, backdrop and lighting. Popover Shirt No.118, Colourway Oat (#C4B697). Catalog Proof: CLOTH: Brushed flannel · double-napped; WEIGHT: 9oz; CONSTRUCTION: Reinforced half placket\nFelled side seams\nGusseted side vents; HARDWARE: Corozo buttons; FIT: Relaxed body; straight hem. Rear three-quarter view of SAME stationary standing model, camera behind him. Crop top at nape level with head entirely above frame, bottom mid-thigh. Whole rear shirt and hem visible, arms relaxed, correct sleeves and back yoke, no chest pockets on rear. Long reddish-brown hair rests over one shoulder so back yoke remains visible. Blank seamless warm stone #F3F1EC studio background, soft diffused overcast-like daylight, muted natural film-like grade. Sharp authentic textile detail, coherent functional buttons or snaps and seams, natural anatomy. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/118-popover-shirt/oat-detail",
+      "model": "D",
+      "referenceKeys": [
+        "pieces/118-popover-shirt/oat-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt gallery detail. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: preserve same Model D, body build, skin, exact garment, colour, texture, trousers, backdrop and lighting. Popover Shirt No.118, Colourway Oat (#C4B697). Catalog Proof: CLOTH: Brushed flannel · double-napped; WEIGHT: 9oz; CONSTRUCTION: Reinforced half placket\nFelled side seams\nGusseted side vents; HARDWARE: Corozo buttons; FIT: Relaxed body; straight hem. Tight macro photograph of SAME WORN shirt showing gusseted side vent at straight hem on worn torso, triangular reinforcement inset and felled side seam stitching, soft Oat brushed cotton. Body curvature and sleeve tension show it is worn; never flat lay. Frame only relevant garment feature, hands and face out of frame. Blank seamless warm stone #F3F1EC studio background, soft diffused overcast-like daylight, muted natural film-like grade. Sharp authentic textile detail, coherent functional buttons or snaps and seams, natural anatomy. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/118-popover-shirt/oat-front",
+      "model": "D",
+      "referenceKeys": [
+        "pieces/118-popover-shirt/oat-still",
+        "docs/images/cast-model-d.jpg"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt Piece gallery FRONT. Generate ONE square photorealistic photograph requested 2048x2048. Reference 1 GARMENT ONLY: exact Popover Shirt No.118 in Oat (#C4B697); preserve exact colour, weave, pocket shape, check grid if present, cuffs, collar and closure layout. Catalog Proof: CLOTH: Brushed flannel · double-napped; WEIGHT: 9oz; CONSTRUCTION: Reinforced half placket\nFelled side seams\nGusseted side vents; HARDWARE: Corozo buttons; FIT: Relaxed body; straight hem. Reference 2 IDENTITY ONLY: same Model D, Viking-looking modern man aged 35-45, long reddish-brown hair falling to shoulders, full thick reddish brown beard, broad weathered face, pale eyes, large sturdy build, fair lightly freckled skin; retain build, skin, facial hair and visible hair. Crop top EXACTLY at chin, face above chin excluded, bottom at mid-thigh; whole shirt and its hem visible. Stationary deliberate standing pose: slight three-quarter torso facing left, broad shoulders relaxed, both hands hanging freely. Shirt worn alone untucked, buttoned with open collar, long sleeves down; dark slate trousers. Blank seamless stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade, sharp realistic cloth. Natural anatomy, correct hands, coherent hardware. No scenery, props, jacket, knitwear, costumes, text, logos or watermark. No collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/125-moleskin-shirt/slate-back",
+      "model": "E",
+      "referenceKeys": [
+        "pieces/125-moleskin-shirt/slate-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt gallery back. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: preserve same Model E, body build, skin, exact garment, colour, texture, trousers, backdrop and lighting. Moleskin Shirt No.125, Colourway Slate (#646A6D). Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; CONSTRUCTION: Felled shoulder seams\n2 chest pockets\nDouble-stitched cuffs; HARDWARE: Corozo buttons; FIT: Straight body; curved hem. Rear three-quarter view of SAME stationary standing model, camera behind him. Crop top at nape level with head entirely above frame, bottom mid-thigh. Whole rear shirt and hem visible, arms relaxed, correct sleeves and back yoke, no chest pockets on rear.  Blank seamless warm stone #F3F1EC studio background, soft diffused overcast-like daylight, muted natural film-like grade. Sharp authentic textile detail, coherent functional buttons or snaps and seams, natural anatomy. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/125-moleskin-shirt/slate-detail",
+      "model": "E",
+      "referenceKeys": [
+        "pieces/125-moleskin-shirt/slate-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt gallery detail. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: preserve same Model E, body build, skin, exact garment, colour, texture, trousers, backdrop and lighting. Moleskin Shirt No.125, Colourway Slate (#646A6D). Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; CONSTRUCTION: Felled shoulder seams\n2 chest pockets\nDouble-stitched cuffs; HARDWARE: Corozo buttons; FIT: Straight body; curved hem. Tight macro photograph of SAME WORN shirt showing double-stitched cuff on worn forearm, two parallel rows of thread and one dark corozo cuff button, dense brushed face texture; crop hand out. Body curvature and sleeve tension show it is worn; never flat lay. Frame only relevant garment feature, hands and face out of frame. Blank seamless warm stone #F3F1EC studio background, soft diffused overcast-like daylight, muted natural film-like grade. Sharp authentic textile detail, coherent functional buttons or snaps and seams, natural anatomy. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/125-moleskin-shirt/slate-front",
+      "model": "E",
+      "referenceKeys": [
+        "pieces/125-moleskin-shirt/slate-still",
+        "docs/images/cast-model-e.jpg"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt Piece gallery FRONT. Generate ONE square photorealistic photograph requested 2048x2048. Reference 1 GARMENT ONLY: exact Moleskin Shirt No.125 in Slate (#646A6D); preserve exact colour, weave, pocket shape, check grid if present, cuffs, collar and closure layout. Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; CONSTRUCTION: Felled shoulder seams\n2 chest pockets\nDouble-stitched cuffs; HARDWARE: Corozo buttons; FIT: Straight body; curved hem. Reference 2 IDENTITY ONLY: same Model E, man aged 30-40 with very short dark buzz cut, distinct dark moustache, otherwise fully clean-shaven cheeks and chin, narrower angular face, lean build, medium warm skin tone, dark eyes; retain build, skin, facial hair and visible hair. Crop top EXACTLY at chin, face above chin excluded, bottom at mid-thigh; whole shirt and its hem visible. Stationary deliberate standing pose: body facing camera, right hand tucked in trouser pocket, left hand hanging relaxed. Shirt worn alone untucked, buttoned with open collar, long sleeves down; dark slate trousers. Blank seamless stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade, sharp realistic cloth. Natural anatomy, correct hands, coherent hardware. No scenery, props, jacket, knitwear, costumes, text, logos or watermark. No collage. Save accessible local artifact.",
+      "revisionPrompt": "Use case: precise-object-edit. Reframe this photograph ONLY. Preserve exact man, physique, pose, shirt colour, weave, checks, pockets, hardware, trousers, light, studio background and film grade. ONE square 2048x2048 catalog photograph. Move the top framing edge down to the BASE OF THE CHIN: exclude the entire mouth, moustache, lips, nose, ears and all face above the chin. Only neck and a tiny lower chin edge may appear at the top. Keep whole shirt and its hem visible, bottom at mid-thigh; expand plain stone background slightly sideways if required to keep square. No garment changes, no text/logos/watermark. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/125-moleskin-shirt/tobacco-back",
+      "model": "F",
+      "referenceKeys": [
+        "pieces/125-moleskin-shirt/tobacco-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt gallery back. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: preserve same Model F, body build, skin, exact garment, colour, texture, trousers, backdrop and lighting. Moleskin Shirt No.125, Colourway Tobacco (#886346). Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; CONSTRUCTION: Felled shoulder seams\n2 chest pockets\nDouble-stitched cuffs; HARDWARE: Corozo buttons; FIT: Straight body; curved hem. Rear three-quarter view of SAME stationary standing model, camera behind him. Crop top at nape level with head entirely above frame, bottom mid-thigh. Whole rear shirt and hem visible, arms relaxed, correct sleeves and back yoke, no chest pockets on rear.  Blank seamless warm stone #F3F1EC studio background, soft diffused overcast-like daylight, muted natural film-like grade. Sharp authentic textile detail, coherent functional buttons or snaps and seams, natural anatomy. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/125-moleskin-shirt/tobacco-detail",
+      "model": "F",
+      "referenceKeys": [
+        "pieces/125-moleskin-shirt/tobacco-front"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt gallery detail. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 SESSION CONTINUITY: preserve same Model F, body build, skin, exact garment, colour, texture, trousers, backdrop and lighting. Moleskin Shirt No.125, Colourway Tobacco (#886346). Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; CONSTRUCTION: Felled shoulder seams\n2 chest pockets\nDouble-stitched cuffs; HARDWARE: Corozo buttons; FIT: Straight body; curved hem. Tight macro photograph of SAME WORN shirt showing double-stitched cuff on worn forearm, two parallel rows of thread and one dark corozo cuff button, dense brushed face texture; crop hand out. Body curvature and sleeve tension show it is worn; never flat lay. Frame only relevant garment feature, hands and face out of frame. Blank seamless warm stone #F3F1EC studio background, soft diffused overcast-like daylight, muted natural film-like grade. Sharp authentic textile detail, coherent functional buttons or snaps and seams, natural anatomy. No scenery, props, text, logos, watermarks or collage. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/125-moleskin-shirt/tobacco-front",
+      "model": "F",
+      "referenceKeys": [
+        "pieces/125-moleskin-shirt/tobacco-still",
+        "docs/images/cast-model-f.jpg"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: Shirt Piece gallery FRONT. Generate ONE square photorealistic photograph requested 2048x2048. Reference 1 GARMENT ONLY: exact Moleskin Shirt No.125 in Tobacco (#886346); preserve exact colour, weave, pocket shape, check grid if present, cuffs, collar and closure layout. Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; CONSTRUCTION: Felled shoulder seams\n2 chest pockets\nDouble-stitched cuffs; HARDWARE: Corozo buttons; FIT: Straight body; curved hem. Reference 2 IDENTITY ONLY: same Model F, blond man aged 30-40, short natural blond hair, completely clean-shaven with no moustache or beard, softer oval face, medium build, fair skin, light blue eyes; retain build, skin, facial hair and visible hair. Crop top EXACTLY at chin, face above chin excluded, bottom at mid-thigh; whole shirt and its hem visible. Stationary deliberate standing pose: slight three-quarter torso facing right, both arms relaxed apart from shirt. Shirt worn alone untucked, buttoned with open collar, long sleeves down; dark slate trousers. Blank seamless stone #F3F1EC studio backdrop, soft diffused overcast-like daylight, muted natural film-like grade, sharp realistic cloth. Natural anatomy, correct hands, coherent hardware. No scenery, props, jacket, knitwear, costumes, text, logos or watermark. No collage. Save accessible local artifact.",
+      "revisionPrompt": "Use case: precise-object-edit. Reframe this photograph ONLY. Preserve exact man, physique, pose, shirt colour, weave, checks, pockets, hardware, trousers, light, studio background and film grade. ONE square 2048x2048 catalog photograph. Move the top framing edge down to the BASE OF THE CHIN: exclude the entire mouth, moustache, lips, nose, ears and all face above the chin. Only neck and a tiny lower chin edge may appear at the top. Keep whole shirt and its hem visible, bottom at mid-thigh; expand plain stone background slightly sideways if required to keep square. No garment changes, no text/logos/watermark. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    }
+  ]
+}
