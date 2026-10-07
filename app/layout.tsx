@@ -3,6 +3,7 @@ import { ViewTransition } from "react";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { archivo, newsreader, plexMono } from "@/fonts";
+import { CartDrawer } from "@/components/cart/cart-drawer";
 import { LiveRegion } from "@/components/live-region";
 import { SiteFooter, CornerMark } from "@/components/site/site-footer";
 import { SiteHeader } from "@/components/site/site-header";
@@ -55,6 +56,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <SiteFooter />
         <CornerMark />
         <SupportSheets />
+        <CartDrawer />
         <LiveRegion />
       </body>
     </html>

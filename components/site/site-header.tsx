@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { SearchIcon, ShoppingBagIcon } from "lucide-react";
+import { SearchIcon } from "lucide-react";
+import { CartTrigger } from "@/components/cart/cart-trigger";
 import { Wordmark } from "@/components/brand/wordmark";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -48,22 +49,13 @@ export function SiteHeader() {
   );
 }
 
-// Placeholders for the search overlay (#31) and the cart drawer and count
-// (#26), which replace these with live triggers.
+// Placeholder for the search overlay (#31), which replaces it with a live
+// trigger.
 function SearchTrigger() {
   return (
     <Button variant="ghost" size="icon-dense" disabled>
       <SearchIcon strokeWidth={1.5} />
       <span className="sr-only">Search</span>
-    </Button>
-  );
-}
-
-function CartTrigger() {
-  return (
-    <Button variant="ghost" size="icon-dense" className="-mr-3" disabled>
-      <ShoppingBagIcon strokeWidth={1.5} />
-      <span className="sr-only">Bag</span>
     </Button>
   );
 }

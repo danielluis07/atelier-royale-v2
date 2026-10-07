@@ -12,4 +12,5 @@ export const routes = {
   category: (id: CategoryId) => `/shop?cat=${id}`,
   cloth: (id: ClothId) => `/shop?cloth=${id}`,
   piece: (id: string) => `/shop/${id}`,
+  checkout: "/checkout",
 } as const;
