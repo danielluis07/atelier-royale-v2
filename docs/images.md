@@ -35,6 +35,10 @@ the [delivery and QA notes](images/batch-04a-qa.md), which link the three
 contact sheets, delivery-resolution spot checks and exact prompt records.
 Every Outerwear Colourway now has its four catalog squares and blur metadata.
 
+After review, Model B's six catalog fronts received distinct standing poses,
+including the Tobacco Field Jacket front from batch 2. The replacements use
+the same keys; see the [pose review and prompt records](images/model-b-pose-qa.md).
+
 Drop source JPEGs into `public/images/`. A key is the path without `.jpg`:
 `pieces/027-field-jacket/olive-still` resolves to
 `public/images/pieces/027-field-jacket/olive-still.jpg`. Use lowercase kebab-case

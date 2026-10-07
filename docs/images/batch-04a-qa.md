@@ -3,7 +3,9 @@
 Issue #37 delivers 27 new on-body JPEGs under `public/images/pieces/`, using
 the exact catalog keys. Together with the existing still lifes and Field
 Jacket galleries, all seven Outerwear Pieces have four images in every
-Colourway: 48 images across 12 Colourways. No existing images were replaced.
+Colourway: 48 images across 12 Colourways. The initial batch added missing
+images. The owner's subsequent [pose review](model-b-pose-qa.md) replaces
+Model B's five batch 4a fronts and the earlier Tobacco Field Jacket front.
 
 ## Cast and shot list
 
@@ -59,8 +61,9 @@ The final contact sheets and spot checks include those revisions.
 
 Generated one photograph per built-in imagegen call. No specific generation
 model version is claimed because the tool does not expose a version selector.
-The [prompt records](batch-04a-prompts.json) contain the final generation
+The [prompt records](batch-04a-prompts.json) contain the initial generation
 prompts, reference keys, framing revision prompts and source dimensions.
+The latest Model B front prompts are in [the pose records](model-b-pose-prompts.json).
 
 Delivery is 2048 × 2048 sRGB JPEG at quality 85, with the grade baked in.
 Native outputs below the delivery size were resampled with Sharp; this meets

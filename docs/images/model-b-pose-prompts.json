@@ -1,0 +1,116 @@
+{
+  "generator": "Built-in imagegen; model version not exposed",
+  "format": "JPEG",
+  "colorSpace": "sRGB",
+  "quality": 85,
+  "assets": [
+    {
+      "key": "pieces/014-chore-jacket/ecru-front",
+      "model": "B",
+      "pose": "Turn the torso 30 degrees toward image-left, shift weight onto the rear leg with the other knee relaxed. Put the hand on image-right into the TROUSER pocket BELOW the jacket hem, thumb outside; leave the image-left arm straight and loose. Keep all four jacket pockets visible.",
+      "referenceKeys": [
+        "pieces/014-chore-jacket/ecru-front (approved prior pose)"
+      ],
+      "prompt": "Use case: identity-preserve. Edit the supplied approved catalog photograph. Change ONLY the man's standing POSE as directed: Turn the torso 30 degrees toward image-left, shift weight onto the rear leg with the other knee relaxed. Put the hand on image-right into the TROUSER pocket BELOW the jacket hem, thumb outside; leave the image-left arm straight and loose. Keep all four jacket pockets visible. Preserve the SAME Spanish mid-30s man, olive complexion, sturdy neck, broad rectangular jaw, clean-shaven face, long dark-brown hair tied in low bun when visible. SAME exact garment, colour, cloth texture, pocket count and pocket positions, button/snap/zipper hardware, stitching and underlayers as reference. Retain the blank seamless warm stone #F3F1EC backdrop, diffused studio daylight and muted natural film-like grade. Square 1:1 photograph requested 2048x2048, clothing-centered from mid-thigh to chin, do not show eyes or whole head. Keep entire collar, garment hem and cuffs within frame. Natural believable hands, anatomically correct fingers, functional hardware. One stationary man; no scenery, props, text, logos, watermark. The arm placement and torso angle MUST visibly change from the reference. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/027-field-jacket/tobacco-front",
+      "model": "B",
+      "pose": "Three-quarter torso angled toward image-right. Stand with feet planted slightly wider, BOTH hands resting inside the two LOWER bellows jacket pockets with thumbs outside, elbows gently bent outward. Upper chest pockets, zipper and drawcord fully visible. A deliberate hands-in-jacket-pockets pose.",
+      "referenceKeys": [
+        "pieces/027-field-jacket/tobacco-front (approved prior pose)"
+      ],
+      "prompt": "Use case: identity-preserve. Edit the supplied approved catalog photograph. Change ONLY the man's standing POSE as directed: Three-quarter torso angled toward image-right. Stand with feet planted slightly wider, BOTH hands resting inside the two LOWER bellows jacket pockets with thumbs outside, elbows gently bent outward. Upper chest pockets, zipper and drawcord fully visible. A deliberate hands-in-jacket-pockets pose. Preserve the SAME Spanish mid-30s man, olive complexion, sturdy neck, broad rectangular jaw, clean-shaven face, long dark-brown hair tied in low bun when visible. SAME exact garment, colour, cloth texture, pocket count and pocket positions, button/snap/zipper hardware, stitching and underlayers as reference. Retain the blank seamless warm stone #F3F1EC backdrop, diffused studio daylight and muted natural film-like grade. Square 1:1 photograph requested 2048x2048, clothing-centered from mid-thigh to chin, do not show eyes or whole head. Keep entire collar, garment hem and cuffs within frame. Natural believable hands, anatomically correct fingers, functional hardware. One stationary man; no scenery, props, text, logos, watermark. The arm placement and torso angle MUST visibly change from the reference. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/046-work-coat/slate-front",
+      "model": "B",
+      "pose": "Rotate torso 40 degrees toward image-right, remain a front three-quarter view. Place BOTH hands loosely BEHIND the lower back, elbows drawn subtly backward. Shoulders open, chin aligned forward. Show all three front patch pockets and unobstructed straight coat fall.",
+      "referenceKeys": [
+        "pieces/046-work-coat/slate-front (approved prior pose)"
+      ],
+      "prompt": "Use case: identity-preserve. Edit the supplied approved catalog photograph. Change ONLY the man's standing POSE as directed: Rotate torso 40 degrees toward image-right, remain a front three-quarter view. Place BOTH hands loosely BEHIND the lower back, elbows drawn subtly backward. Shoulders open, chin aligned forward. Show all three front patch pockets and unobstructed straight coat fall. Preserve the SAME Spanish mid-30s man, olive complexion, sturdy neck, broad rectangular jaw, clean-shaven face, long dark-brown hair tied in low bun when visible. SAME exact garment, colour, cloth texture, pocket count and pocket positions, button/snap/zipper hardware, stitching and underlayers as reference. Retain the blank seamless warm stone #F3F1EC backdrop, diffused studio daylight and muted natural film-like grade. Square 1:1 photograph requested 2048x2048, clothing-centered from mid-thigh to chin, do not show eyes or whole head. Keep entire collar, garment hem and cuffs within frame. Natural believable hands, anatomically correct fingers, functional hardware. One stationary man; no scenery, props, text, logos, watermark. The arm placement and torso angle MUST visibly change from the reference. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/046-work-coat/moss-front",
+      "model": "B",
+      "pose": "Nearly front-facing with torso turned 15 degrees toward image-left, weight on one hip. The image-left hand rests ON THE HIP with elbow clearly angled outward; the image-right arm hangs down relaxed. The front pockets remain unobstructed; preserve natural moleskin folds.",
+      "referenceKeys": [
+        "pieces/046-work-coat/moss-front (approved prior pose)"
+      ],
+      "prompt": "Use case: identity-preserve. Edit the supplied approved catalog photograph. Change ONLY the man's standing POSE as directed: Nearly front-facing with torso turned 15 degrees toward image-left, weight on one hip. The image-left hand rests ON THE HIP with elbow clearly angled outward; the image-right arm hangs down relaxed. The front pockets remain unobstructed; preserve natural moleskin folds. Preserve the SAME Spanish mid-30s man, olive complexion, sturdy neck, broad rectangular jaw, clean-shaven face, long dark-brown hair tied in low bun when visible. SAME exact garment, colour, cloth texture, pocket count and pocket positions, button/snap/zipper hardware, stitching and underlayers as reference. Retain the blank seamless warm stone #F3F1EC backdrop, diffused studio daylight and muted natural film-like grade. Square 1:1 photograph requested 2048x2048, clothing-centered from mid-thigh to chin, do not show eyes or whole head. Keep entire collar, garment hem and cuffs within frame. Natural believable hands, anatomically correct fingers, functional hardware. One stationary man; no scenery, props, text, logos, watermark. The arm placement and torso angle MUST visibly change from the reference. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/068-mill-overshirt/grey-check-front",
+      "model": "B",
+      "pose": "Front three-quarter torso toward image-left. The image-right hand gently adjusts the image-left SLEEVE CUFF at waist level; the image-left elbow bends slightly and forearm points diagonally down. Both hands below chest pockets, revealing both flap pockets and the full front check pattern. Do not roll the sleeve or remove cuff buttons.",
+      "referenceKeys": [
+        "pieces/068-mill-overshirt/grey-check-front (approved prior pose)"
+      ],
+      "prompt": "Use case: identity-preserve. Edit the supplied approved catalog photograph. Change ONLY the man's standing POSE as directed: Front three-quarter torso toward image-left. The image-right hand gently adjusts the image-left SLEEVE CUFF at waist level; the image-left elbow bends slightly and forearm points diagonally down. Both hands below chest pockets, revealing both flap pockets and the full front check pattern. Do not roll the sleeve or remove cuff buttons. Preserve the SAME Spanish mid-30s man, olive complexion, sturdy neck, broad rectangular jaw, clean-shaven face, long dark-brown hair tied in low bun when visible. SAME exact garment, colour, cloth texture, pocket count and pocket positions, button/snap/zipper hardware, stitching and underlayers as reference. Retain the blank seamless warm stone #F3F1EC backdrop, diffused studio daylight and muted natural film-like grade. Square 1:1 photograph requested 2048x2048, clothing-centered from mid-thigh to chin, do not show eyes or whole head. Keep entire collar, garment hem and cuffs within frame. Natural believable hands, anatomically correct fingers, functional hardware. One stationary man; no scenery, props, text, logos, watermark. The arm placement and torso angle MUST visibly change from the reference. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/073-leather-work-jacket/saddle-front",
+      "model": "B",
+      "pose": "Torso turned 35 degrees toward image-right with relaxed planted stance. The image-left arm bends upward, its hand lightly touching the LEFT COLLAR edge near the shoulder; the image-right hand rests in the TROUSER pocket below the jacket hem. Keep the breast zipper pocket, main zipper and both lower leather pocket openings visible.",
+      "referenceKeys": [
+        "pieces/073-leather-work-jacket/saddle-front (approved prior pose)"
+      ],
+      "prompt": "Use case: identity-preserve. Edit the supplied approved catalog photograph. Change ONLY the man's standing POSE as directed: Torso turned 35 degrees toward image-right with relaxed planted stance. The image-left arm bends upward, its hand lightly touching the LEFT COLLAR edge near the shoulder; the image-right hand rests in the TROUSER pocket below the jacket hem. Keep the breast zipper pocket, main zipper and both lower leather pocket openings visible. Preserve the SAME Spanish mid-30s man, olive complexion, sturdy neck, broad rectangular jaw, clean-shaven face, long dark-brown hair tied in low bun when visible. SAME exact garment, colour, cloth texture, pocket count and pocket positions, button/snap/zipper hardware, stitching and underlayers as reference. Retain the blank seamless warm stone #F3F1EC backdrop, diffused studio daylight and muted natural film-like grade. Square 1:1 photograph requested 2048x2048, clothing-centered from mid-thigh to chin, do not show eyes or whole head. Keep entire collar, garment hem and cuffs within frame. Natural believable hands, anatomically correct fingers, functional hardware. One stationary man; no scenery, props, text, logos, watermark. The arm placement and torso angle MUST visibly change from the reference. Save accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    }
+  ]
+}
