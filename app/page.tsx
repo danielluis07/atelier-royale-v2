@@ -1,4 +1,6 @@
 import { Wordmark } from "@/components/brand/wordmark";
+import { MillraceImage } from "@/components/millrace-image";
+import { getCollection } from "@/lib/catalog";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
@@ -45,6 +47,21 @@ export default function Home() {
             <span className="font-medium">Field Jacket</span>
             <span className="type-body-sm text-muted-foreground">3 colours</span>
           </div>
+        </section>
+
+        <section aria-label="Pieces" className="grid grid-cols-2 gap-4 px-4 pb-16 md:grid-cols-3 md:gap-5 md:px-8 lg:px-12 xl:grid-cols-4 xl:gap-6 max-w-[1536px] w-full mx-auto">
+          {getCollection().slice(0, 4).map((piece) => (
+            <figure key={piece.id}>
+              <MillraceImage
+                imageKey={piece.colorways[0].images.still}
+                slot="collection-card"
+                alt={`${piece.name}, ${piece.colorways[0].name}, still life`}
+              />
+              <figcaption className="type-caption mt-3">
+                No. {piece.number} · {piece.name}
+              </figcaption>
+            </figure>
+          ))}
         </section>
 
         <section className="ground-indigo-deep flex flex-col gap-8 px-4 py-16 md:px-8 md:py-24 lg:px-12">
