@@ -1,0 +1,526 @@
+{
+  "issue": 37,
+  "generator": "Built-in imagegen; model version not exposed",
+  "format": "JPEG",
+  "colorSpace": "sRGB",
+  "quality": 85,
+  "requestedCount": 27,
+  "assets": [
+    {
+      "key": "pieces/014-chore-jacket/indigo-front",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/014-chore-jacket/indigo-still",
+        "looks/look-02-square"
+      ],
+      "prompt": "Use case: product-mockup. Generate ONE square 2048x2048 photorealistic menswear catalog front three-quarter photograph. Reference 1 GARMENT ONLY: exact Indigo Chore Jacket No.014, 13.5oz denim, four patch pockets, brass tack buttons, felled shoulders, bar-tacked pocket corners. Reference 2 IDENTITY ONLY: Model A, lean mid-30s man short wavy brown hair and stubble; preserve identity but crop top at chin, bottom at mid-thigh so garment fills frame. Standing still, arms relaxed slightly away from jacket, slight three-quarter torso angle, cream plain crew underlayer, slate trousers. Blank seamless stone #F3F1EC studio backdrop, soft overcast-like diffused daylight, muted film-like grade consistent with references. Sharp cloth weave and coherent hardware. No scenery, props, logos, text, watermark; anatomically correct hands. Deliver accessible local file.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/014-chore-jacket/indigo-back",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/014-chore-jacket/indigo-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is continuity for SAME model, garment, colour, grade, underlayers and studio session. Piece No.014 Chore Jacket, Colourway Indigo (#334567). Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 13.5oz; CONSTRUCTION: Felled shoulder seams\n4 patch pockets\nBar-tacked pocket corners; HARDWARE: Tack buttons in brass; FIT: Straight body; room for a shirt and knit. Rear three-quarter view of the SAME stationary man wearing exactly the same garment and underlayers. Crop nape/chin level to mid-thigh, show back construction and natural sleeves, arms relaxed. No added front pockets on rear. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/014-chore-jacket/indigo-detail",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/014-chore-jacket/indigo-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is continuity for SAME model, garment, colour, grade, underlayers and studio session. Piece No.014 Chore Jacket, Colourway Indigo (#334567). Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 13.5oz; CONSTRUCTION: Felled shoulder seams\n4 patch pockets\nBar-tacked pocket corners; HARDWARE: Tack buttons in brass; FIT: Straight body; room for a shirt and knit. Tight photographic close-up of the SAME WORN garment, not flat lay, showing bar-tacked lower patch-pocket corner and parallel stitching, denim twill and one functional brass tack button. Crop to that Proof feature; natural body curvature and sleeve tension demonstrate it is worn; hands out of frame. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/014-chore-jacket/ecru-detail",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/014-chore-jacket/ecru-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is continuity for SAME model, garment, colour, grade, underlayers and studio session. Piece No.014 Chore Jacket, Colourway Ecru (#DFD8C5). Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 13.5oz; CONSTRUCTION: Felled shoulder seams\n4 patch pockets\nBar-tacked pocket corners; HARDWARE: Tack buttons in brass; FIT: Straight body; room for a shirt and knit. Tight photographic close-up of the SAME WORN garment, not flat lay, showing bar-tacked lower patch-pocket corner and parallel stitching, denim twill and one functional brass tack button. Crop to that Proof feature; natural body curvature and sleeve tension demonstrate it is worn; hands out of frame. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/031-cruiser-jacket/tobacco-front",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/031-cruiser-jacket/tobacco-still",
+        "looks/look-02-square"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is GARMENT ONLY: match exact still-life design, pocket count/layout, hardware, stitching and colour. Reference 2 is IDENTITY ONLY: preserve established Model A from batch 1 (lean mid-30s, short wavy brown hair, brown stubble), without importing location or accessories. Piece No.031 Cruiser Jacket, Colourway Tobacco (#886346). Catalog Proof: CLOTH: Waxed cotton · paraffin wax finish; WEIGHT: 10oz; CONSTRUCTION: Double-stitched seams\n2 chest pockets and 2 hand pockets\nReinforced back yoke; HARDWARE: Brass snaps; FIT: Boxy body; hip-length hem. Front three-quarter torso, cropped precisely at chin and mid-thigh, stationary standing pose. Arms relaxed slightly away from garment, slight torso angle. Plain ecru crew and charcoal trousers, garment fully visible. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/031-cruiser-jacket/tobacco-back",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/031-cruiser-jacket/tobacco-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is continuity for SAME model, garment, colour, grade, underlayers and studio session. Piece No.031 Cruiser Jacket, Colourway Tobacco (#886346). Catalog Proof: CLOTH: Waxed cotton · paraffin wax finish; WEIGHT: 10oz; CONSTRUCTION: Double-stitched seams\n2 chest pockets and 2 hand pockets\nReinforced back yoke; HARDWARE: Brass snaps; FIT: Boxy body; hip-length hem. Rear three-quarter view of the SAME stationary man wearing exactly the same garment and underlayers. Crop nape/chin level to mid-thigh, show back construction and natural sleeves, arms relaxed. No added front pockets on rear. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/031-cruiser-jacket/tobacco-detail",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/031-cruiser-jacket/tobacco-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is continuity for SAME model, garment, colour, grade, underlayers and studio session. Piece No.031 Cruiser Jacket, Colourway Tobacco (#886346). Catalog Proof: CLOTH: Waxed cotton · paraffin wax finish; WEIGHT: 10oz; CONSTRUCTION: Double-stitched seams\n2 chest pockets and 2 hand pockets\nReinforced back yoke; HARDWARE: Brass snaps; FIT: Boxy body; hip-length hem. Tight photographic close-up of the SAME WORN garment, not flat lay, showing reinforced back yoke and double-stitched seams in waxed cotton. Crop to that Proof feature; natural body curvature and sleeve tension demonstrate it is worn; hands out of frame. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/031-cruiser-jacket/black-front",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/031-cruiser-jacket/black-still",
+        "looks/look-02-square"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is GARMENT ONLY: match exact still-life design, pocket count/layout, hardware, stitching and colour. Reference 2 is IDENTITY ONLY: preserve established Model A from batch 1 (lean mid-30s, short wavy brown hair, brown stubble), without importing location or accessories. Piece No.031 Cruiser Jacket, Colourway Black (#292827). Catalog Proof: CLOTH: Waxed cotton · paraffin wax finish; WEIGHT: 10oz; CONSTRUCTION: Double-stitched seams\n2 chest pockets and 2 hand pockets\nReinforced back yoke; HARDWARE: Brass snaps; FIT: Boxy body; hip-length hem. Front three-quarter torso, cropped precisely at chin and mid-thigh, stationary standing pose. Arms relaxed slightly away from garment, slight torso angle. Plain ecru crew and charcoal trousers, garment fully visible. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/031-cruiser-jacket/black-back",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/031-cruiser-jacket/black-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is continuity for SAME model, garment, colour, grade, underlayers and studio session. Piece No.031 Cruiser Jacket, Colourway Black (#292827). Catalog Proof: CLOTH: Waxed cotton · paraffin wax finish; WEIGHT: 10oz; CONSTRUCTION: Double-stitched seams\n2 chest pockets and 2 hand pockets\nReinforced back yoke; HARDWARE: Brass snaps; FIT: Boxy body; hip-length hem. Rear three-quarter view of the SAME stationary man wearing exactly the same garment and underlayers. Crop nape/chin level to mid-thigh, show back construction and natural sleeves, arms relaxed. No added front pockets on rear. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/031-cruiser-jacket/black-detail",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/031-cruiser-jacket/black-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is continuity for SAME model, garment, colour, grade, underlayers and studio session. Piece No.031 Cruiser Jacket, Colourway Black (#292827). Catalog Proof: CLOTH: Waxed cotton · paraffin wax finish; WEIGHT: 10oz; CONSTRUCTION: Double-stitched seams\n2 chest pockets and 2 hand pockets\nReinforced back yoke; HARDWARE: Brass snaps; FIT: Boxy body; hip-length hem. Tight photographic close-up of the SAME WORN garment, not flat lay, showing reinforced back yoke and double-stitched seams in waxed cotton. Crop to that Proof feature; natural body curvature and sleeve tension demonstrate it is worn; hands out of frame. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/046-work-coat/slate-front",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/046-work-coat/slate-still",
+        "looks/look-03-square"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is GARMENT ONLY: match exact still-life design, pocket count/layout, hardware, stitching and colour. Reference 2 is IDENTITY ONLY: preserve established Model B from batch 1 (Spanish mid-30s, broad rectangular jaw, aquiline nose, clean-shaven, long dark brown hair TIED IN A LOW BUN at nape, never loose curls), without importing location or accessories. Piece No.046 Work Coat, Colourway Slate (#646A6D). Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; CONSTRUCTION: Felled side seams\n3 patch pockets\nReinforced elbow panels; HARDWARE: Corozo buttons; FIT: Relaxed body; below-hip length. Front three-quarter torso, cropped precisely at chin and mid-thigh, stationary standing pose. Arms relaxed slightly away from garment, slight torso angle. Plain ecru crew and charcoal trousers, garment fully visible. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/046-work-coat/slate-back",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/046-work-coat/slate-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is continuity for SAME model, garment, colour, grade, underlayers and studio session. Piece No.046 Work Coat, Colourway Slate (#646A6D). Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; CONSTRUCTION: Felled side seams\n3 patch pockets\nReinforced elbow panels; HARDWARE: Corozo buttons; FIT: Relaxed body; below-hip length. Rear three-quarter view of the SAME stationary man wearing exactly the same garment and underlayers. Crop nape/chin level to mid-thigh, show back construction and natural sleeves, arms relaxed. No added front pockets on rear. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/046-work-coat/slate-detail",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/046-work-coat/slate-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is continuity for SAME model, garment, colour, grade, underlayers and studio session. Piece No.046 Work Coat, Colourway Slate (#646A6D). Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; CONSTRUCTION: Felled side seams\n3 patch pockets\nReinforced elbow panels; HARDWARE: Corozo buttons; FIT: Relaxed body; below-hip length. Tight photographic close-up of the SAME WORN garment, not flat lay, showing reinforced elbow panel with perimeter stitching on brushed moleskin. Crop to that Proof feature; natural body curvature and sleeve tension demonstrate it is worn; hands out of frame. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/046-work-coat/moss-front",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/046-work-coat/moss-still",
+        "looks/look-03-square"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is GARMENT ONLY: match exact still-life design, pocket count/layout, hardware, stitching and colour. Reference 2 is IDENTITY ONLY: preserve established Model B from batch 1 (Spanish mid-30s, broad rectangular jaw, aquiline nose, clean-shaven, long dark brown hair TIED IN A LOW BUN at nape, never loose curls), without importing location or accessories. Piece No.046 Work Coat, Colourway Moss (#697253). Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; CONSTRUCTION: Felled side seams\n3 patch pockets\nReinforced elbow panels; HARDWARE: Corozo buttons; FIT: Relaxed body; below-hip length. Front three-quarter torso, cropped precisely at chin and mid-thigh, stationary standing pose. Arms relaxed slightly away from garment, slight torso angle. Plain ecru crew and charcoal trousers, garment fully visible. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/046-work-coat/moss-back",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/046-work-coat/moss-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is continuity for SAME model, garment, colour, grade, underlayers and studio session. Piece No.046 Work Coat, Colourway Moss (#697253). Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; CONSTRUCTION: Felled side seams\n3 patch pockets\nReinforced elbow panels; HARDWARE: Corozo buttons; FIT: Relaxed body; below-hip length. Rear three-quarter view of the SAME stationary man wearing exactly the same garment and underlayers. Crop nape/chin level to mid-thigh, show back construction and natural sleeves, arms relaxed. No added front pockets on rear. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/046-work-coat/moss-detail",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/046-work-coat/moss-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is continuity for SAME model, garment, colour, grade, underlayers and studio session. Piece No.046 Work Coat, Colourway Moss (#697253). Catalog Proof: CLOTH: Moleskin · brushed face; WEIGHT: 12oz; CONSTRUCTION: Felled side seams\n3 patch pockets\nReinforced elbow panels; HARDWARE: Corozo buttons; FIT: Relaxed body; below-hip length. Tight photographic close-up of the SAME WORN garment, not flat lay, showing reinforced elbow panel with perimeter stitching on brushed moleskin. Crop to that Proof feature; natural body curvature and sleeve tension demonstrate it is worn; hands out of frame. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/052-rider-jacket/indigo-front",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/052-rider-jacket/indigo-still",
+        "looks/look-02-square"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is GARMENT ONLY: match exact still-life design, pocket count/layout, hardware, stitching and colour. Reference 2 is IDENTITY ONLY: preserve established Model A from batch 1 (lean mid-30s, short wavy brown hair, brown stubble), without importing location or accessories. Piece No.052 Rider Jacket, Colourway Indigo (#334567). Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 13.5oz; CONSTRUCTION: Double-stitched panel seams\nPleated front panels\nAdjustable hem tabs; HARDWARE: Brass tack buttons; FIT: Trim body; waist-length hem. Front three-quarter torso, cropped precisely at chin and mid-thigh, stationary standing pose. Arms relaxed slightly away from garment, slight torso angle. Plain ecru crew and charcoal trousers, garment fully visible. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/052-rider-jacket/indigo-back",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/052-rider-jacket/indigo-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is continuity for SAME model, garment, colour, grade, underlayers and studio session. Piece No.052 Rider Jacket, Colourway Indigo (#334567). Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 13.5oz; CONSTRUCTION: Double-stitched panel seams\nPleated front panels\nAdjustable hem tabs; HARDWARE: Brass tack buttons; FIT: Trim body; waist-length hem. Rear three-quarter view of the SAME stationary man wearing exactly the same garment and underlayers. Crop nape/chin level to mid-thigh, show back construction and natural sleeves, arms relaxed. No added front pockets on rear. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/052-rider-jacket/indigo-detail",
+      "model": "A",
+      "referenceKeys": [
+        "pieces/052-rider-jacket/indigo-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is continuity for SAME model, garment, colour, grade, underlayers and studio session. Piece No.052 Rider Jacket, Colourway Indigo (#334567). Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 13.5oz; CONSTRUCTION: Double-stitched panel seams\nPleated front panels\nAdjustable hem tabs; HARDWARE: Brass tack buttons; FIT: Trim body; waist-length hem. Tight photographic close-up of the SAME WORN garment, not flat lay, showing adjustable hem tab with brass tack button and double-stitched denim panel seams. Crop to that Proof feature; natural body curvature and sleeve tension demonstrate it is worn; hands out of frame. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/068-mill-overshirt/grey-check-front",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/068-mill-overshirt/grey-check-still",
+        "looks/look-03-square"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is GARMENT ONLY: match exact still-life design, pocket count/layout, hardware, stitching and colour. Reference 2 is IDENTITY ONLY: preserve established Model B from batch 1 (Spanish mid-30s, broad rectangular jaw, aquiline nose, clean-shaven, long dark brown hair TIED IN A LOW BUN at nape, never loose curls), without importing location or accessories. Piece No.068 Mill Overshirt, Colourway Grey Check (#777671). Catalog Proof: CLOTH: Brushed flannel · double-napped; WEIGHT: 9oz; CONSTRUCTION: Felled shoulder seams\n2 chest pockets\nSquare hem with side vents; HARDWARE: Corozo buttons; FIT: Relaxed body; cut to wear over a shirt. Front three-quarter torso, cropped precisely at chin and mid-thigh, stationary standing pose. Arms relaxed slightly away from garment, slight torso angle. Plain ecru crew and charcoal trousers, garment fully visible. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/068-mill-overshirt/grey-check-back",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/068-mill-overshirt/grey-check-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is continuity for SAME model, garment, colour, grade, underlayers and studio session. Piece No.068 Mill Overshirt, Colourway Grey Check (#777671). Catalog Proof: CLOTH: Brushed flannel · double-napped; WEIGHT: 9oz; CONSTRUCTION: Felled shoulder seams\n2 chest pockets\nSquare hem with side vents; HARDWARE: Corozo buttons; FIT: Relaxed body; cut to wear over a shirt. Rear three-quarter view of the SAME stationary man wearing exactly the same garment and underlayers. Crop nape/chin level to mid-thigh, show back construction and natural sleeves, arms relaxed. No added front pockets on rear. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/068-mill-overshirt/grey-check-detail",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/068-mill-overshirt/grey-check-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is continuity for SAME model, garment, colour, grade, underlayers and studio session. Piece No.068 Mill Overshirt, Colourway Grey Check (#777671). Catalog Proof: CLOTH: Brushed flannel · double-napped; WEIGHT: 9oz; CONSTRUCTION: Felled shoulder seams\n2 chest pockets\nSquare hem with side vents; HARDWARE: Corozo buttons; FIT: Relaxed body; cut to wear over a shirt. Tight photographic close-up of the SAME WORN garment, not flat lay, showing square hem side vent and felled seam in double-napped grey-check flannel. Crop to that Proof feature; natural body curvature and sleeve tension demonstrate it is worn; hands out of frame. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/073-leather-work-jacket/saddle-front",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/073-leather-work-jacket/saddle-still",
+        "looks/look-03-square"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is GARMENT ONLY: match exact still-life design, pocket count/layout, hardware, stitching and colour. Reference 2 is IDENTITY ONLY: preserve established Model B from batch 1 (Spanish mid-30s, broad rectangular jaw, aquiline nose, clean-shaven, long dark brown hair TIED IN A LOW BUN at nape, never loose curls), without importing location or accessories. Piece No.073 Leather Work Jacket, Colourway Saddle (#A16F49). Catalog Proof: CLOTH: Full-grain leather · vegetable-tanned; WEIGHT: 2mm; CONSTRUCTION: Lock-stitched leather panels\nCotton-lined body\nReinforced pocket openings; HARDWARE: Brass zipper; FIT: Straight body; hip-length hem. Front three-quarter torso, cropped precisely at chin and mid-thigh, stationary standing pose. Arms relaxed slightly away from garment, slight torso angle. Plain ecru crew and charcoal trousers, garment fully visible. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "revisions": [
+        {
+          "prompt": "Use case: precise-object-edit. Reframe this photograph ONLY to meet a catalog shot brief. ONE square photograph requested 2048x2048. The TOP edge must crop at the underside of the chin (rear view at the nape), the BOTTOM edge at mid-thigh. NO eyes, nose, lips, forehead or full head in frame. Show the complete garment including collar, cuffs and hem, same stationary man, same exact stance and body angle, all pocket shapes and positions, seam placement, button count, hardware, garment colour, material weave/grain, underlayers, and blank stone studio backdrop. Preserve subject content, natural hands and the muted soft daylight grade; simply compose a tighter square around the clothing. No extra pockets, seams, props, people, text, watermark. Deliver accessible local file.",
+          "referenceKeys": [
+            "pieces/073-leather-work-jacket/saddle-front (prior wider framing)"
+          ],
+          "sourceDimensions": {
+            "width": 1254,
+            "height": 1254
+          }
+        }
+      ]
+    },
+    {
+      "key": "pieces/073-leather-work-jacket/saddle-back",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/073-leather-work-jacket/saddle-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is continuity for SAME model, garment, colour, grade, underlayers and studio session. Piece No.073 Leather Work Jacket, Colourway Saddle (#A16F49). Catalog Proof: CLOTH: Full-grain leather · vegetable-tanned; WEIGHT: 2mm; CONSTRUCTION: Lock-stitched leather panels\nCotton-lined body\nReinforced pocket openings; HARDWARE: Brass zipper; FIT: Straight body; hip-length hem. Rear three-quarter view of the SAME stationary man wearing exactly the same garment and underlayers. Crop nape/chin level to mid-thigh, show back construction and natural sleeves, arms relaxed. No added front pockets on rear. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "revisions": [
+        {
+          "prompt": "Use case: precise-object-edit. Reframe this photograph ONLY to meet a catalog shot brief. ONE square photograph requested 2048x2048. The TOP edge must crop at the underside of the chin (rear view at the nape), the BOTTOM edge at mid-thigh. NO eyes, nose, lips, forehead or full head in frame. Show the complete garment including collar, cuffs and hem, same stationary man, same exact stance and body angle, all pocket shapes and positions, seam placement, button count, hardware, garment colour, material weave/grain, underlayers, and blank stone studio backdrop. Preserve subject content, natural hands and the muted soft daylight grade; simply compose a tighter square around the clothing. No extra pockets, seams, props, people, text, watermark. Deliver accessible local file.",
+          "referenceKeys": [
+            "pieces/073-leather-work-jacket/saddle-back (prior wider framing)"
+          ],
+          "sourceDimensions": {
+            "width": 1254,
+            "height": 1254
+          }
+        }
+      ]
+    },
+    {
+      "key": "pieces/073-leather-work-jacket/saddle-detail",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/073-leather-work-jacket/saddle-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is continuity for SAME model, garment, colour, grade, underlayers and studio session. Piece No.073 Leather Work Jacket, Colourway Saddle (#A16F49). Catalog Proof: CLOTH: Full-grain leather · vegetable-tanned; WEIGHT: 2mm; CONSTRUCTION: Lock-stitched leather panels\nCotton-lined body\nReinforced pocket openings; HARDWARE: Brass zipper; FIT: Straight body; hip-length hem. Tight photographic close-up of the SAME WORN garment, not flat lay, showing reinforced hand-pocket opening and lock-stitched leather panels, vegetable-tanned full grain. Crop to that Proof feature; natural body curvature and sleeve tension demonstrate it is worn; hands out of frame. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true
+    },
+    {
+      "key": "pieces/014-chore-jacket/ecru-front",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/014-chore-jacket/ecru-still",
+        "looks/look-03-square"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is GARMENT ONLY: match exact still-life design, pocket count/layout, hardware, stitching and colour. Reference 2 is IDENTITY ONLY: preserve established Model B from batch 1 (Spanish mid-30s, broad rectangular jaw, aquiline nose, clean-shaven, long dark brown hair TIED IN A LOW BUN at nape, never loose curls), without importing location or accessories. Piece No.014 Chore Jacket, Colourway Ecru (#DFD8C5). Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 13.5oz; CONSTRUCTION: Felled shoulder seams\n4 patch pockets\nBar-tacked pocket corners; HARDWARE: Tack buttons in brass; FIT: Straight body; room for a shirt and knit. Front three-quarter torso, cropped precisely at chin and mid-thigh, stationary standing pose. Arms relaxed slightly away from garment, slight torso angle. Plain ecru crew and charcoal trousers, garment fully visible. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "revisions": [
+        {
+          "prompt": "Use case: precise-object-edit. Reframe this photograph ONLY to meet a catalog shot brief. ONE square photograph requested 2048x2048. The TOP edge must crop at the underside of the chin (rear view at the nape), the BOTTOM edge at mid-thigh. NO eyes, nose, lips, forehead or full head in frame. Show the complete garment including collar, cuffs and hem, same stationary man, same exact stance and body angle, all pocket shapes and positions, seam placement, button count, hardware, garment colour, material weave/grain, underlayers, and blank stone studio backdrop. Preserve subject content, natural hands and the muted soft daylight grade; simply compose a tighter square around the clothing. No extra pockets, seams, props, people, text, watermark. Deliver accessible local file.",
+          "referenceKeys": [
+            "pieces/014-chore-jacket/ecru-front (prior wider framing)"
+          ],
+          "sourceDimensions": {
+            "width": 1254,
+            "height": 1254
+          }
+        }
+      ]
+    },
+    {
+      "key": "pieces/014-chore-jacket/ecru-back",
+      "model": "B",
+      "referenceKeys": [
+        "pieces/014-chore-jacket/ecru-front"
+      ],
+      "prompt": "Use case: product-mockup. ONE square photorealistic catalog photograph requested 2048x2048. Reference 1 is continuity for SAME model, garment, colour, grade, underlayers and studio session. Piece No.014 Chore Jacket, Colourway Ecru (#DFD8C5). Catalog Proof: CLOTH: Selvedge denim · rope-dyed indigo; WEIGHT: 13.5oz; CONSTRUCTION: Felled shoulder seams\n4 patch pockets\nBar-tacked pocket corners; HARDWARE: Tack buttons in brass; FIT: Straight body; room for a shirt and knit. Rear three-quarter view of the SAME stationary man wearing exactly the same garment and underlayers. Crop nape/chin level to mid-thigh, show back construction and natural sleeves, arms relaxed. No added front pockets on rear. Blank seamless warm stone #F3F1EC studio background. Soft diffused overcast-like daylight, muted film-like natural grade, sharp realistic material texture and coherent functional hardware. No scenery, props, logos, lettering, watermarks; correct anatomy. Deliver accessible local artifact.",
+      "sourceDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "deliveryDimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "resampled": true,
+      "revisions": [
+        {
+          "prompt": "Use case: precise-object-edit. Reframe this photograph ONLY to meet a catalog shot brief. ONE square photograph requested 2048x2048. The TOP edge must crop at the underside of the chin (rear view at the nape), the BOTTOM edge at mid-thigh. NO eyes, nose, lips, forehead or full head in frame. Show the complete garment including collar, cuffs and hem, same stationary man, same exact stance and body angle, all pocket shapes and positions, seam placement, button count, hardware, garment colour, material weave/grain, underlayers, and blank stone studio backdrop. Preserve subject content, natural hands and the muted soft daylight grade; simply compose a tighter square around the clothing. No extra pockets, seams, props, people, text, watermark. Deliver accessible local file.",
+          "referenceKeys": [
+            "pieces/014-chore-jacket/ecru-back (prior wider framing)"
+          ],
+          "sourceDimensions": {
+            "width": 1254,
+            "height": 1254
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -27,6 +27,18 @@ with short hair and a medium beard; the Cloth close-ups use the catalog's materi
 facts and batch 2 still lifes as references. The owner reviewed the imagery
 and approved the replacement redhead for Shirts and Knitwear.
 
+Batch 4a completes the Outerwear on-body galleries for issue #37: 27 new
+front, back and worn Proof-detail photographs across nine Colourways. The
+existing Field Jacket galleries and all still lifes remain in place. Models
+A and B from batch 1 supply the cast; no new models were introduced. Review
+the [delivery and QA notes](images/batch-04a-qa.md), which link the three
+contact sheets, delivery-resolution spot checks and exact prompt records.
+Every Outerwear Colourway now has its four catalog squares and blur metadata.
+
+After review, Model B's six catalog fronts received distinct standing poses,
+including the Tobacco Field Jacket front from batch 2. The replacements use
+the same keys; see the [pose review and prompt records](images/model-b-pose-qa.md).
+
 Drop source JPEGs into `public/images/`. A key is the path without `.jpg`:
 `pieces/027-field-jacket/olive-still` resolves to
 `public/images/pieces/027-field-jacket/olive-still.jpg`. Use lowercase kebab-case
