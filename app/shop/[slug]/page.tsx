@@ -106,6 +106,14 @@ function galleryMedia(piece: Piece): Record<string, ColorwayMedia> {
             alt=""
           />
         )),
+        lightbox: galleryViews.map((view) => (
+          <MillraceImage
+            key={colorway.images[view.image]}
+            imageKey={colorway.images[view.image]}
+            slot="lightbox"
+            alt={`${piece.name} in ${colorway.name}, ${view.label.toLowerCase()}`}
+          />
+        )),
       },
     ]),
   );

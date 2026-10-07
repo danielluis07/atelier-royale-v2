@@ -18,3 +18,12 @@ export const galleryViews: readonly {
 export function pieceMorphName(pieceId: string): string {
   return `piece-${pieceId}`;
 }
+
+/**
+ * The shared-element name that morphs the gallery's main image into the
+ * lightbox, and back (DESIGN.md §5). Local to the Piece page, unlike
+ * {@link pieceMorphName}, which also pairs across a route change.
+ */
+export function lightboxMorphName(pieceId: string): string {
+  return `lightbox-${pieceId}`;
+}
