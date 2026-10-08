@@ -9,8 +9,8 @@ import { cn } from "@/lib/utils";
 // The campaign Hero (DESIGN.md §4, §5): full bleed, one line, two exits. Each
 // breakpoint has its own frame. On mobile the 4:5 frame stands alone and the
 // line sits under it on paper, so nothing covers the jacket. From 768 the
-// 16:9 frame carries the line top left, over the trees and clear of the
-// weir's white water, on the plain 0.4 scrim. The line wipes in once; the
+// 16:9 frame carries a narrower line top left, over the trees and clear of
+// the model in the center, on the plain 0.4 scrim. The line wipes in once; the
 // image never moves. This is the page's only high-priority image.
 export function Hero() {
   const lookbook = getLookbook();
@@ -30,10 +30,12 @@ export function Hero() {
           <p className="type-label text-muted-foreground">
             Hollins Weir · {lookbook.seasonLabel}
           </p>
-          <RevealLine as="h1" className="type-display max-w-[14ch] text-balance">
+          <RevealLine
+            as="h1"
+            className="type-display max-w-[14ch] text-balance md:max-w-[min(34vw,27rem)] md:text-[clamp(2.75rem,4.75vw,4.5rem)]">
             <span id="hero-line">Roupa boa acompanha a vida</span>
           </RevealLine>
-          <div className="flex flex-wrap gap-3 md:gap-4">
+          <div className="flex flex-wrap gap-3 md:max-w-[34vw] md:gap-4 lg:max-w-none">
             <Link href={routes.lookbook} className={cn(buttonVariants())}>
               Ver o lookbook
             </Link>
