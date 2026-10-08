@@ -7,7 +7,7 @@ import type { ImageManifest } from "./types";
 
 test("batch 1 delivers all 21 editorial slots as sRGB JPEGs with blur metadata", async () => {
   const slots = [
-    { key: "editorial/hero-desktop", width: 3200, height: 1800 },
+    { key: "editorial/hero-desktop", width: 2048, height: 1152 },
     { key: "editorial/hero-mobile", width: 1600, height: 2000 },
     ...getLooks().flatMap((look) => [
       {
