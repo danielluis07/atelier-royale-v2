@@ -23,6 +23,7 @@ export const imageSlots = {
   "piece-thumbnail": { aspectRatio: "1 / 1", sizes: "(min-width: 768px) 96px, 64px", highPriority: false },
   "collection-card": { aspectRatio: "1 / 1", sizes: collectionSizes, highPriority: false },
   "home-featured": { aspectRatio: "1 / 1", sizes: mainSizes, highPriority: false },
+  "featured-product-card": { aspectRatio: "1 / 1", sizes: "(min-width: 1536px) 340px, (min-width: 1280px) calc((100vw - 176px) / 4), (min-width: 768px) calc((100vw - 72px) * 0.4), calc((100vw - 40px) * 0.75)", highPriority: false },
   "category-tile": { aspectRatio: "4 / 5", sizes: categoryTileSizes, highPriority: false },
   "cloth-tile": { aspectRatio: "1 / 1", sizes: clothTileSizes, highPriority: false },
   "look-portrait": { aspectRatio: "4 / 5", sizes: "(min-width: 1200px) 60vw, 85vw", highPriority: false },

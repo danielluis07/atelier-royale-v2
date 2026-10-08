@@ -4,6 +4,7 @@ import { MillraceImage } from "@/components/millrace-image";
 import { pieceMorphName } from "@/components/piece/gallery-views";
 import { Badge } from "@/components/ui/badge";
 import type { Piece } from "@/lib/catalog";
+import type { ImageSlot } from "@/lib/images/slots";
 import { formatColorCount, formatPrice } from "@/lib/format";
 import { routes } from "@/lib/routes";
 
@@ -12,14 +13,18 @@ import { routes } from "@/lib/routes";
 // crossfades to the on-body front shot. The front shot is not rendered on
 // touch screens, so it is never downloaded there. In the Collection the image
 // morphs into the Piece main image; elsewhere (Related Pieces) it does not.
-export function PieceCard({ piece, morph = false }: { piece: Piece; morph?: boolean }) {
+export function PieceCard({ piece, morph = false, imageSlot = "collection-card" }: {
+  piece: Piece;
+  morph?: boolean;
+  imageSlot?: Extract<ImageSlot, "collection-card" | "featured-product-card">;
+}) {
   const [colorway] = piece.colorways;
   const image = (
     <div className="relative">
-      <MillraceImage imageKey={colorway.images.still} slot="collection-card" alt="" />
+      <MillraceImage imageKey={colorway.images.still} slot={imageSlot} alt="" />
       <MillraceImage
         imageKey={colorway.images.front}
-        slot="collection-card"
+        slot={imageSlot}
         alt=""
         className="absolute! inset-0 hidden opacity-0 transition-opacity duration-(--dur-base) ease-mech can-hover:block can-hover:group-hover:opacity-100 can-hover:group-focus-visible:opacity-100"
       />
