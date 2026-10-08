@@ -1,7 +1,10 @@
 import Link from "next/link";
 import { RaceLine } from "@/components/brand/race-line";
 import { Wordmark } from "@/components/brand/wordmark";
-import { SupportSheetTrigger, type SupportTopic } from "@/components/support/support-sheets";
+import {
+  SupportSheetTrigger,
+  type SupportTopic,
+} from "@/components/support/support-sheets";
 import { buttonVariants } from "@/components/ui/button";
 import { getCategories, getLookbook } from "@/lib/catalog";
 import { routes } from "@/lib/routes";
@@ -9,7 +12,10 @@ import { showcaseCredit } from "@/lib/site";
 import { cn } from "@/lib/utils";
 import { NewsletterForm } from "./newsletter-form";
 
-const linkClass = cn(buttonVariants({ variant: "link" }), "type-body-sm justify-start");
+const linkClass = cn(
+  buttonVariants({ variant: "link" }),
+  "type-body-sm justify-start",
+);
 
 const supportTopics: { topic: SupportTopic; label: string }[] = [
   { topic: "shipping", label: "Envio" },
@@ -37,7 +43,9 @@ export function SiteFooter() {
               </li>
               {getCategories().map((category) => (
                 <li key={category.id}>
-                  <Link href={routes.category(category.id)} className={linkClass}>
+                  <Link
+                    href={routes.category(category.id)}
+                    className={linkClass}>
                     {category.name}
                   </Link>
                 </li>
@@ -66,7 +74,8 @@ export function SiteFooter() {
 
           <FooterColumn title="Novidades por e-mail">
             <p className="type-body-sm text-muted-foreground max-w-[40ch]">
-              Novas peças, tecidos e fotos do lookbook. Alguns e-mails por temporada.
+              Novas peças, tecidos e fotos do lookbook. Alguns e-mails por
+              temporada.
             </p>
             <NewsletterForm />
           </FooterColumn>
@@ -78,8 +87,9 @@ export function SiteFooter() {
             <RaceLine />
           </div>
           <p className="type-caption text-muted-foreground max-w-[52ch]">
-            Site de demonstração criado por {showcaseCredit.name}. Millrace e Hollins Weir
-            são fictícios. As compras são simuladas, sem cobrança ou envio.
+            Site de demonstração criado por {showcaseCredit.name}. Millrace e
+            Hollins Weir são fictícios. As compras são simuladas, sem cobrança
+            ou envio.
           </p>
         </div>
       </div>
@@ -87,25 +97,17 @@ export function SiteFooter() {
   );
 }
 
-function FooterColumn({ title, children }: { title: string; children: React.ReactNode }) {
+function FooterColumn({
+  title,
+  children,
+}: {
+  title: string;
+  children: React.ReactNode;
+}) {
   return (
-    <section
-      className="flex flex-col gap-4 border-t border-border py-8 first:border-t-0 md:nth-2:border-t-0 lg:border-t-0 lg:border-l lg:px-6 lg:first:border-l-0 lg:first:pl-0 lg:last:pr-0">
+    <section className="flex flex-col gap-4 border-t border-border py-8 first:border-t-0 md:nth-2:border-t-0 lg:border-t-0 lg:border-l lg:px-6 lg:first:border-l-0 lg:first:pl-0 lg:last:pr-0">
       <h2 className="type-label">{title}</h2>
       {children}
     </section>
-  );
-}
-
-/** The corner mark (DESIGN.md §6): a 28px paper square with the credit's
- * initial, fixed bottom-right on desktop. The footer line carries the credit
- * in full, so the mark is decorative. */
-export function CornerMark() {
-  return (
-    <div
-      aria-hidden="true"
-      className="pointer-events-none fixed right-4 bottom-4 z-30 hidden size-7 items-center justify-center border border-hairline bg-paper font-serif text-sm font-medium lg:flex">
-      {showcaseCredit.initial}
-    </div>
   );
 }
