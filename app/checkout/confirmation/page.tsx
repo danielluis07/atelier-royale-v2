@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { ConfirmationView } from "@/components/checkout/confirmation-view";
 
 export const metadata: Metadata = {
-  title: "Pedido realizado",
+  title: "Simulação concluída",
   robots: { index: false },
 };
 

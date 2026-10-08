@@ -67,7 +67,7 @@ export function CartDrawerView({ thumbnails }: CartDrawerViewProps) {
                 href={routes.lookbook}
                 onClick={close}
                 className={cn(buttonVariants({ variant: "link" }), "type-body")}>
-                Abrir o Lookbook
+                Ver o lookbook
               </Link>
             </div>
           ) : (
@@ -93,14 +93,14 @@ export function CartDrawerView({ thumbnails }: CartDrawerViewProps) {
                 </div>
                 <div className="flex items-center gap-4">
                   <span className="type-label shrink-0 -rotate-2 border border-indigo px-2 py-1 text-indigo">
-                    Reparos gratuitos para toda a vida
+                    Reparos gratuitos por toda a vida
                   </span>
                   <p className="type-caption text-muted-foreground">
-                    Os reparos em Hollins Weir são gratuitos para todas as peças.
+                    Todas as peças podem voltar a Hollins Weir para reparo.
                   </p>
                 </div>
                 <p className="type-caption text-muted-foreground">
-                  O frete é definido no checkout.
+                  Veja o valor do frete ao finalizar a compra.
                 </p>
                 <Link href={routes.checkout} onClick={close} className={cn(buttonVariants(), "w-full")}>
                   Finalizar compra

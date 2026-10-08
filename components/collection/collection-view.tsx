@@ -111,7 +111,7 @@ function CollectionView({
     announce(
       pieces.length
         ? formatPieceCount(pieces.length)
-        : "Nenhuma peça corresponde a estes filtros.",
+        : "Nenhuma peça encontrada com esses filtros.",
     );
     if (focusResults.current) {
       focusResults.current = false;
@@ -410,7 +410,7 @@ function EmptyState({
   return (
     <div className="flex flex-col items-start gap-6 py-12 lg:py-16">
       <p className="type-h3 max-w-[28ch]">
-        Não fazemos uma peça com essa combinação.
+        Nenhuma peça encontrada com esses filtros.
       </p>
       <div className="flex flex-wrap items-center gap-6">
         {canClear && (

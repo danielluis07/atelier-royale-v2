@@ -35,11 +35,11 @@ export function lookAlt(look: Look): string {
   const worn = look.items.map(({ piece: pieceId, colorway: colorwayId }) => {
     const piece = getPiece(pieceId)!;
     const colorway = piece.colorways.find((entry) => entry.id === colorwayId)!;
-    return `${piece.name} in ${colorway.name}`;
+    return `${piece.name} na cor ${colorway.name}`;
   });
   const list =
     worn.length > 1
-      ? `${worn.slice(0, -1).join(", ")} and ${worn.at(-1)}`
+      ? `${worn.slice(0, -1).join(", ")} e ${worn.at(-1)}`
       : worn.join("");
   return `Look ${look.number} em Hollins Weir: ${list}.`;
 }
@@ -115,12 +115,12 @@ export function quickAddLine(
   return { pieceId: piece.id, colourwayId: piece.colourwayId, size };
 }
 
-/** Texto do botão depois de adicionar: "Adicionado · M". */
+/** Texto do botão depois de adicionar: "Na sacola · M". */
 export function addedLabel(size: string): string {
-  return `Adicionado · ${size}`;
+  return `Na sacola · ${size}`;
 }
 
 /** Texto anunciado depois de uma adição rápida. */
 export function describeQuickAdd(piece: Pick<LookPiece, "name">, size: string): string {
-  return `Adicionado: ${piece.name}, ${size}`;
+  return `${piece.name}, tamanho ${size}, na sacola`;
 }

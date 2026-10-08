@@ -42,7 +42,7 @@ export function SearchOverlayView({
     const count = result.pieces.length;
     const line = count
       ? `${count} ${count === 1 ? "resultado" : "resultados"}`
-      : `Nenhuma peça corresponde. Tente ${suggestions.map((category) => category.name).join(", ")}.`;
+      : `Nenhuma peça encontrada. Veja as categorias: ${suggestions.map((category) => category.name).join(", ")}.`;
     const timer = setTimeout(() => announce(line), ANNOUNCE_DELAY);
     return () => clearTimeout(timer);
   }, [idle, result, suggestions]);
@@ -86,8 +86,8 @@ export function SearchOverlayView({
 
           {noResults && (
             <div className="flex flex-col items-start gap-2">
-              <p className="type-h3">Nada corresponde a &ldquo;{query.trim()}&rdquo;.</p>
-              <p className="type-body-sm text-muted-foreground">Tente uma categoria.</p>
+              <p className="type-h3">Nenhuma peça encontrada para &ldquo;{query.trim()}&rdquo;.</p>
+              <p className="type-body-sm text-muted-foreground">Tente outro nome ou veja as categorias abaixo.</p>
               <ul className="flex flex-wrap gap-x-6">
                 {suggestions.map((category) => (
                   <li key={category.id}>

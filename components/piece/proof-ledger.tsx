@@ -10,7 +10,7 @@ export function ProofLedger({ piece }: { piece: Piece }) {
   return (
     <section aria-labelledby="proof" className="flex flex-col gap-6">
       <SpecHeading id="proof" number="01">
-        Proof
+        Materiais e construção
       </SpecHeading>
       <p className="type-lede max-w-[52ch]">{cloth.intro}</p>
       <ProofRows rows={piece.proof} />

@@ -79,7 +79,7 @@ export function MillraceImage({ imageKey, slot, alt, desktopImageKey, className 
       <div
         className="millrace-image-placeholder"
         role={alt ? "img" : undefined}
-        aria-label={alt ? `Placeholder: ${alt}` : undefined}
+        aria-label={alt ? `Imagem ainda não disponível: ${alt}` : undefined}
         aria-hidden={alt ? undefined : true}
       >
         <svg className="absolute inset-0 h-full w-full" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">

@@ -119,13 +119,13 @@ export function CheckoutView({ thumbnails }: CheckoutViewProps) {
                 autoComplete="email"
                 required
                 messages={{
-                  valueMissing: "Informe um e-mail para receber a confirmação do pedido.",
-                  typeMismatch: "Este e-mail está incompleto. Use o formato nome@exemplo.com.",
+                  valueMissing: "Informe um e-mail.",
+                  typeMismatch: "Confira o e-mail. Use o formato nome@exemplo.com.",
                 }}
               />
             </Section>
 
-            <Section number="02" title="Envio">
+            <Section number="02" title="Endereço de entrega">
               <div className="grid gap-6 md:grid-cols-2">
                 <Field
                   label="Nome"
@@ -150,7 +150,7 @@ export function CheckoutView({ thumbnails }: CheckoutViewProps) {
                   messages={{ valueMissing: "Informe a rua e o número." }}
                 />
                 <Field
-                  label="Apartamento, sala"
+                  label="Complemento"
                   name="line2"
                   autoComplete="address-line2"
                   className="md:col-span-2"
@@ -180,7 +180,7 @@ export function CheckoutView({ thumbnails }: CheckoutViewProps) {
                   ))}
                 </SelectField>
                 <Field
-                  label="ZIP code"
+                  label="Código postal (ZIP)"
                   name="zip"
                   autoComplete="postal-code"
                   inputMode="numeric"
@@ -188,13 +188,13 @@ export function CheckoutView({ thumbnails }: CheckoutViewProps) {
                   maxLength={10}
                   required
                   messages={{
-                    valueMissing: "Informe o ZIP code.",
-                    patternMismatch: "O ZIP code tem 5 dígitos, como 12534.",
+                    valueMissing: "Informe o código postal americano (ZIP).",
+                    patternMismatch: "Use 5 dígitos ou o formato 12534-1234.",
                   }}
                 />
               </div>
               <p className="type-caption text-muted-foreground">
-                Enviamos apenas para os Estados Unidos.
+                Nesta demonstração, o endereço de entrega deve ser nos Estados Unidos.
               </p>
             </Section>
 
@@ -205,15 +205,15 @@ export function CheckoutView({ thumbnails }: CheckoutViewProps) {
             <Section number="04" title="Pagamento">
               <div className="flex flex-col gap-6 bg-stone p-6 md:p-8">
                 <p className="type-lede max-w-[36ch]">
-                  Loja de demonstração, nenhum pagamento é cobrado.
+                  Esta compra é uma simulação. Nenhum valor será cobrado.
                 </p>
                 {isEmpty ? (
                   <p className="type-body-sm">
-                    Sua sacola está vazia, então não há pedido a fazer.{" "}
+                    Adicione uma peça à sacola para simular o pedido.{" "}
                     <Link
                       href={routes.lookbook}
                       className={cn(buttonVariants({ variant: "link" }), "type-body-sm h-auto")}>
-                      Abrir o Lookbook
+                      Ver o lookbook
                     </Link>
                   </p>
                 ) : (
@@ -228,10 +228,10 @@ export function CheckoutView({ thumbnails }: CheckoutViewProps) {
                     className="w-full"
                     disabled={isEmpty}
                     aria-disabled={!hasHydrated || placing ? true : undefined}>
-                    Fazer pedido
+                    Simular pedido
                   </Button>
                   <p role="status" className="type-caption min-h-[1.4em] text-center">
-                    {placing && "Fazendo o pedido…"}
+                    {placing && "Preparando a simulação…"}
                   </p>
                 </div>
               </div>
@@ -372,7 +372,7 @@ function OrderSummary({
       <div className="flex flex-col items-start gap-2 py-4">
         <p className="type-h3">Sua sacola está vazia.</p>
         <Link href={routes.lookbook} className={cn(buttonVariants({ variant: "link" }), "type-body")}>
-          Abrir o Lookbook
+          Ver o lookbook
         </Link>
       </div>
     );
@@ -412,7 +412,7 @@ function OrderSummary({
         <Total label="Total" value={formatPrice(totals.total)} strong />
       </dl>
       <p className="type-caption text-muted-foreground">
-        Reparos gratuitos para toda a vida, em Hollins Weir.
+        Reparos gratuitos por toda a vida, em Hollins Weir.
       </p>
     </div>
   );

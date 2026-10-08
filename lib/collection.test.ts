@@ -18,7 +18,7 @@ describe("Collection URL state", () => {
   test("an empty query is All Pieces in Featured order", () => {
     expect(parse("")).toEqual(emptyQuery);
     expect(collectionHref(emptyQuery)).toBe("/shop");
-    expect(describeCollection(emptyQuery).title).toBe("All Pieces");
+    expect(describeCollection(emptyQuery).title).toBe("Todas as peças");
   });
 
   test("filters and sort round-trip through a canonical URL", () => {
@@ -43,6 +43,9 @@ describe("Collection URL state", () => {
     expect(parse("color=Red%20Check&colour=olive&colour=red-check").colors).toEqual(
       ["olive", "red-check"],
     );
+    expect(parse("color=Xadrez%20vermelho&colour=Verde-oliva").colors).toEqual(
+      ["olive", "red-check"],
+    );
   });
 
   test("unknown and out-of-Category values are dropped", () => {
@@ -55,8 +58,8 @@ describe("Collection URL state", () => {
 
   test("the pre-filtered Category and Cloth links land on their Collections", () => {
     for (const [href, title] of [
-      [routes.category("boots"), "Boots"],
-      [routes.cloth("selvedge-denim"), "Selvedge denim"],
+      [routes.category("boots"), "Botas"],
+      [routes.cloth("selvedge-denim"), "Denim selvedge"],
     ] as const) {
       const query = parse(href.split("?")[1]);
       expect(collectionHref(query)).toBe(href);
@@ -85,9 +88,9 @@ describe("Collection URL state", () => {
 describe("filter options", () => {
   test("sizes group by shared size run without a Category", () => {
     expect(getFilterOptions().sizes).toEqual([
-      { label: "Outerwear, Shirts, Knitwear", sizes: ["S", "M", "L", "XL", "XXL"] },
-      { label: "Trousers", sizes: ["28", "30", "32", "34", "36", "38"] },
-      { label: "Boots", sizes: ["7", "8", "9", "10", "11", "12", "13"] },
+      { label: "Casacos, Camisas, Malhas", sizes: ["S", "M", "L", "XL", "XXL"] },
+      { label: "Calças", sizes: ["28", "30", "32", "34", "36", "38"] },
+      { label: "Botas", sizes: ["7", "8", "9", "10", "11", "12", "13"] },
     ]);
     expect(getFilterOptions("boots").sizes).toHaveLength(1);
   });
@@ -120,6 +123,6 @@ test("prices follow the house style in Brazilian reais", () => {
 });
 
 test("colour counts follow the house style", () => {
-  expect(formatColorCount(1)).toBe("1 colour");
-  expect(formatColorCount(3)).toBe("3 colours");
+  expect(formatColorCount(1)).toBe("1 cor");
+  expect(formatColorCount(3)).toBe("3 cores");
 });

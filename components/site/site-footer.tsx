@@ -48,11 +48,11 @@ export function SiteFooter() {
           <FooterColumn title="Lookbook">
             <p className="type-lede max-w-[32ch]">{lookbook.intro}</p>
             <Link href={routes.lookbook} className={cn(linkClass, "mt-2")}>
-              Abrir o Lookbook {lookbook.seasonLabel}
+              Ver o lookbook {lookbook.seasonLabel}
             </Link>
           </FooterColumn>
 
-          <FooterColumn title="Suporte">
+          <FooterColumn title="Atendimento">
             <ul>
               {supportTopics.map(({ topic, label }) => (
                 <li key={topic}>
@@ -64,9 +64,9 @@ export function SiteFooter() {
             </ul>
           </FooterColumn>
 
-          <FooterColumn title="Newsletter">
+          <FooterColumn title="Novidades por e-mail">
             <p className="type-body-sm text-muted-foreground max-w-[40ch]">
-              Novidades do Lookbook e novos tecidos, algumas vezes por temporada.
+              Novas peças, tecidos e fotos do lookbook. Alguns e-mails por temporada.
             </p>
             <NewsletterForm />
           </FooterColumn>
@@ -78,8 +78,8 @@ export function SiteFooter() {
             <RaceLine />
           </div>
           <p className="type-caption text-muted-foreground max-w-[52ch]">
-            Uma loja de demonstração de {showcaseCredit.name}. Millrace e Hollins Weir
-            são fictícios; nada é vendido ou enviado.
+            Site de demonstração criado por {showcaseCredit.name}. Millrace e Hollins Weir
+            são fictícios. As compras são simuladas, sem cobrança ou envio.
           </p>
         </div>
       </div>

@@ -21,7 +21,7 @@ export function Hero() {
         imageKey="editorial/hero-mobile"
         desktopImageKey="editorial/hero-desktop"
         slot="home-hero"
-        alt="Um homem usando a Field Jacket oliva e jeans selvedge caminha pela trilha de pedras molhada ao longo do canal do moinho, com o açude e o moinho ao fundo."
+        alt="Homem de jaqueta de campo verde-oliva e jeans selvedge no caminho de pedras molhadas junto ao canal. Ao fundo, o açude e o moinho."
       />
       <div aria-hidden="true" className="absolute inset-0 hidden bg-black/40 md:block" />
 
@@ -31,11 +31,11 @@ export function Hero() {
             Hollins Weir · {lookbook.seasonLabel}
           </p>
           <RevealLine as="h1" className="type-display max-w-[14ch] text-balance">
-            <span id="hero-line">Tecido pesado. Corte simples.</span>
+            <span id="hero-line">Roupa boa acompanha a vida</span>
           </RevealLine>
           <div className="flex flex-wrap gap-3 md:gap-4">
             <Link href={routes.lookbook} className={cn(buttonVariants())}>
-              Abrir o Lookbook
+              Ver o lookbook
             </Link>
             <Link href={routes.shop} className={cn(buttonVariants({ variant: "secondary" }))}>
               Ver a coleção

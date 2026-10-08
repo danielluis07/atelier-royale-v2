@@ -57,7 +57,7 @@ export function LookPanel({ number, caption, pieces, image, thumbnails }: LookPa
     <Sheet>
       <SheetTrigger
         render={<Button variant="link" className="type-body-sm self-start" />}>
-        Comprar este look
+        Ver peças do look
         <span className="sr-only">, Look {number}</span>
       </SheetTrigger>
       <SheetContent
@@ -165,9 +165,9 @@ function LookPanelRow({ piece, thumbnail }: { piece: LookPiece; thumbnail: React
                 variant="secondary"
                 size="dense"
                 className="min-w-36 px-4"
-                aria-label={added ? undefined : `Adicionar rapidamente, ${piece.name}`}
+                aria-label={added ? undefined : `Adicionar à sacola, ${piece.name}`}
                 onClick={quickAdd}>
-                {added ? addedLabel(added) : "Adicionar rapidamente"}
+                {added ? addedLabel(added) : "Adicionar à sacola"}
               </Button>
             </div>
             {missingSize && (

@@ -66,7 +66,7 @@ export function PieceView({ piece, sizes, media, smallPrint, children }: PieceVi
     <div className="flex flex-col gap-10 md:grid md:grid-cols-12 md:grid-rows-[auto_1fr] md:gap-x-5 md:gap-y-24 lg:gap-x-6">
       <Gallery
         pieceId={piece.id}
-        label={`${piece.name} in ${colorway.name}`}
+        label={`${piece.name} na cor ${colorway.name}`}
         media={media[colorway.id]}
         className="md:col-span-6"
       />
@@ -415,12 +415,12 @@ function BuyPanel({
           )}
           {soldOutNote && (
             <p id={noteId} className="type-caption text-muted-foreground">
-              Os tamanhos riscados estão esgotados em {colorway.name}.
+              Tamanhos riscados: esgotados nesta cor.
             </p>
           )}
           {piece.category === "trousers" && (
             <p className="type-caption text-muted-foreground">
-              Entreperna de 34 pol. Vendida sem barra; costura de corrente no comprimento sob solicitação.
+              Sem barra, com 34 pol. de entreperna. A barra pode ser feita com ponto corrente na medida que você pedir.
             </p>
           )}
         </div>

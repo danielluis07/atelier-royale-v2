@@ -46,7 +46,7 @@ function ProductsPlaceholder() {
 export function FeaturedProducts() {
   return (
     <section aria-labelledby="featured-products" className="mx-auto w-full max-w-[1536px] px-4 py-16 md:px-8 md:py-24 lg:px-12">
-      <h2 id="featured-products" className="type-h2">Featured pieces</h2>
+      <h2 id="featured-products" className="type-h2">Mais peças da coleção</h2>
       <Suspense fallback={<ProductsPlaceholder />}>
         <RandomProducts />
       </Suspense>

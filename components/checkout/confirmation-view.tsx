@@ -49,14 +49,15 @@ function Placed({ order, headingRef }: { order: Order; headingRef: HeadingRef })
     <div className="flex flex-col gap-16 lg:grid lg:grid-cols-12 lg:gap-x-6">
       <div className="flex flex-col gap-6 lg:col-span-5">
         <h1 ref={headingRef} tabIndex={-1} className="type-h1 outline-none">
-          Pedido realizado.
+          Simulação concluída.
         </h1>
         <dl className="flex flex-col gap-1">
           <dt className="type-label">Número do pedido</dt>
           <dd className="font-mono text-2xl tracking-wide">{order.number}</dd>
         </dl>
         <p className="type-lede max-w-[36ch]">
-          Obrigado. A confirmação segue para {order.email}.
+          Você chegou ao fim da compra de demonstração. Nenhum valor foi cobrado
+          e nenhum e-mail será enviado para {order.email}.
         </p>
       </div>
 
@@ -70,14 +71,14 @@ function Placed({ order, headingRef }: { order: Order; headingRef: HeadingRef })
 
         <section aria-labelledby="order-next" className="flex flex-col gap-6">
           <SpecHeading id="order-next" number="02">
-            O que acontece agora
+            Como seria a entrega
           </SpecHeading>
           <ol className="border-t border-foreground">
             {[
-              "O pedido é separado e embalado em Hollins Weir.",
-              "Ele sai do moinho em até 2 dias úteis, com um link de rastreamento por e-mail.",
-              `A entrega ${delivery.name.toLowerCase()} chega a ${city}, ${state} em ${delivery.days}.`,
-              "Quando uma peça precisar de reparo, mande-a de volta ao moinho. Reparos gratuitos para toda a vida.",
+              "As peças seriam separadas e embaladas em Hollins Weir.",
+              "O envio seria feito em até 2 dias úteis, com rastreamento por e-mail.",
+              `A entrega seria em ${city}, ${state}, pelo serviço ${delivery.name.toLowerCase()}, com prazo de ${delivery.days}.`,
+              "As peças teriam reparos gratuitos por toda a vida em Hollins Weir.",
             ].map((step, index, steps) => (
               <li
                 key={index}
@@ -94,7 +95,7 @@ function Placed({ order, headingRef }: { order: Order; headingRef: HeadingRef })
           <Link
             href={routes.lookbook}
             className={cn(buttonVariants({ variant: "link" }), "type-body self-start")}>
-            Voltar ao Lookbook
+            Voltar ao lookbook
           </Link>
         </section>
       </div>
@@ -127,7 +128,7 @@ function OrderLedger({ order }: { order: Order }) {
           label={`Frete, ${deliveryMethods[order.delivery].name.toLowerCase()}`}
           value={order.shipping === 0 ? "Grátis" : formatPrice(order.shipping)}
         />
-        <LedgerTotal label="Total pago" value={formatPrice(order.total)} strong />
+        <LedgerTotal label="Total simulado" value={formatPrice(order.total)} strong />
       </dl>
     </div>
   );
@@ -151,16 +152,16 @@ function NoOrder({ headingRef }: { headingRef: HeadingRef }) {
     <div className="flex flex-col gap-6 lg:grid lg:grid-cols-12 lg:gap-x-6">
       <div className="flex flex-col gap-6 lg:col-span-6 lg:col-start-2">
         <h1 ref={headingRef} tabIndex={-1} className="type-h1 max-w-[16ch] outline-none">
-          Nenhum pedido por aqui.
+          Nenhuma simulação para mostrar.
         </h1>
         <p className="type-lede max-w-[40ch]">
-          A confirmação de um pedido fica nesta página até a aba ser fechada. O Lookbook
-          continua aberto.
+          Depois de simular uma compra, o resumo fica aqui até você fechar a aba.
+          Veja as peças no lookbook para começar.
         </p>
         <Link
           href={routes.lookbook}
           className={cn(buttonVariants({ variant: "secondary" }), "self-start")}>
-          Ver o Lookbook
+          Ver o lookbook
         </Link>
       </div>
     </div>

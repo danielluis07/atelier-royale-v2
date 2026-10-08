@@ -18,15 +18,15 @@ export default function NotFound() {
       <div className="flex flex-col gap-6 lg:col-span-5 lg:col-start-2 lg:self-center">
         <p className="type-caption text-muted-foreground">404</p>
         <RevealLine as="h1" className="type-display max-w-[11ch]">
-          Esta página não está aqui.
+          Página não encontrada.
         </RevealLine>
         <p className="type-lede max-w-[36ch]">
-          Este endereço está desatualizado. O Lookbook continua aqui.
+          Confira o endereço ou volte ao lookbook para continuar vendo as peças.
         </p>
         <Link
           href={routes.lookbook}
           className={cn(buttonVariants({ variant: "secondary" }), "self-start")}>
-          Ver o Lookbook
+          Ver o lookbook
         </Link>
       </div>
       <MillraceImage

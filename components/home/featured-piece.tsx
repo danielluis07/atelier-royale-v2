@@ -47,7 +47,7 @@ export function FeaturedPiece() {
           <p className="type-lede max-w-[36ch]">{piece.story}</p>
           <ProofRows rows={piece.proof.slice(0, proofSlice)} />
           <Link href={href} className={cn(buttonVariants({ variant: "link" }), "self-start")}>
-            Ver a ficha técnica
+            Ver a peça e os detalhes
             <span className="sr-only">, {piece.name}</span>
           </Link>
         </div>

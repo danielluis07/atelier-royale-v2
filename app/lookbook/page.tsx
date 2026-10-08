@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Lookbook",
   description:
-    "FW26 em Hollins Weir: oito looks em tecidos pesados, das primeiras folhas à geada no açude.",
+    "Outono/Inverno 2026 em Hollins Weir. Veja 8 looks com as jaquetas, camisas, calças, malhas e botas da Millrace.",
 };
 
 const frameWidth = {

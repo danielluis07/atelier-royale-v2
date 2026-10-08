@@ -11,13 +11,13 @@ export function ByCloth() {
     <section aria-labelledby="by-cloth" className="mx-auto w-full max-w-[1536px] px-4 py-16 md:px-8 md:py-24 lg:px-12">
       <div className="grid gap-4 lg:grid-cols-12 lg:gap-6">
         <div className="flex flex-col gap-4 lg:col-span-6 lg:col-start-2">
-          <p className="type-label text-muted-foreground">Tecido</p>
+          <p className="type-label text-muted-foreground">Materiais</p>
           <RevealLine as="h2" className="type-h1">
-            <span id="by-cloth">Por tecido.</span>
+            <span id="by-cloth">Começa pelo tecido.</span>
           </RevealLine>
         </div>
         <p className="type-lede max-w-[36ch] lg:col-span-4 lg:col-start-8 lg:self-end">
-          Cada peça começa com um dos seis tecidos. Escolha aquele que você conhece.
+          Do algodão encerado ao couro, cada material tem seu toque e seus cuidados. Veja as peças feitas com cada um.
         </p>
       </div>
       <ul className="mt-10 grid grid-cols-2 gap-x-4 gap-y-8 md:mt-12 md:grid-cols-3 md:gap-x-5 md:gap-y-10 xl:grid-cols-6 xl:gap-x-6">

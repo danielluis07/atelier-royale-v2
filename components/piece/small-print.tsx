@@ -12,14 +12,14 @@ export function SmallPrint({ category }: { category: CategoryId }) {
   return (
     <div className="border-t border-border">
       <Disclosure title="Envio" topic="shipping">
-        Enviamos os pedidos de Hollins Weir em até 2 dias úteis. O frete é
-        grátis para pedidos nos EUA acima de R$ 250 e custa R$ 12 abaixo disso.
+        Os pedidos saem de Hollins Weir em até 2 dias úteis. Nos EUA, o frete
+        padrão é grátis a partir de R$ 250. Abaixo desse valor, custa R$ 12.
       </Disclosure>
       <Disclosure title="Devoluções" topic="returns">
-        Devolva uma peça não usada em até 30 dias após a entrega. As devoluções são
-        gratuitas dentro dos EUA.
+        Você pode devolver uma peça sem uso em até 30 dias após a entrega.
+        A devolução é gratuita dentro dos EUA.
         {category === "trousers" &&
-          " Calças com costura de corrente ajustadas ao comprimento não podem ser devolvidas."}
+          " Calças com a barra feita sob medida não podem ser devolvidas."}
       </Disclosure>
     </div>
   );
@@ -48,7 +48,7 @@ function Disclosure({
         <SupportSheetTrigger
           topic={topic}
           className={cn(buttonVariants({ variant: "link" }), "type-body-sm")}>
-          {title} na íntegra
+          Ver condições de {title.toLowerCase()}
         </SupportSheetTrigger>
       </div>
     </details>

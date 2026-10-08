@@ -292,3 +292,30 @@ Sample lines to calibrate tone, not final copy:
 - Showcase note at Checkout: "Showcase store, no payment is taken."
 - Empty cart: "Your bag is empty. See the Lookbook."
 - 404: "This page isn't here."
+
+### Brazilian Portuguese storefront
+
+Customer-facing copy is written in Brazilian Portuguese. The English examples
+above describe the register; write for a Brazilian reader instead of translating
+their sentence structure. Keep code identifiers, route slugs and image keys in
+English.
+
+- Use complete, conversational sentences when they help. Avoid strings of poetic
+  fragments, personified weather and abstract slogans about cloth or craft.
+- Explain the cut, feel or use of a Piece with facts from its catalog entry.
+  Technical terms belong in Proof; editorial descriptions should make them easy
+  to understand. Keep established terms such as denim, selvedge, moleskin and
+  Goodyear when they identify a material or construction.
+- Display vocabulary: Piece → peça, Proof → materiais e construção,
+  Cloth → tecido, Collection → coleção, Colourway → cor. Look and lookbook
+  remain familiar fashion terms. Leather may be grouped with fabrics under the
+  broader heading materiais.
+- Address the reader as você when useful. Natural phrases such as "por baixo",
+  "à sua medida" and "quando precisar" fit the voice. Avoid forced slang,
+  artificial intimacy and generic fashion claims.
+- Use sentence case, e-mail and familiar actions such as "Ver o lookbook" and
+  "Adicionar à sacola". Display color names in Portuguese while keeping their
+  internal IDs stable. Preserve the catalog's size systems and measurements.
+- Use "Reparos gratuitos por toda a vida" consistently for the repair promise.
+- Checkout, order confirmation and newsletter success must describe the demo
+  accurately: a simulated order, no charge, no shipment and no email sent.

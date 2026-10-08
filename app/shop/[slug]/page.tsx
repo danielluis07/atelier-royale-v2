@@ -35,7 +35,7 @@ export async function generateMetadata({
   if (!piece) return {};
   return {
     title: piece.name,
-    description: `${piece.story} ${getCloth(piece.cloth)!.name}, cortada e costurada em Hollins Weir.`,
+    description: `${piece.story} Material: ${getCloth(piece.cloth)!.name}. Peça feita em Hollins Weir.`,
   };
 }
 
@@ -57,7 +57,7 @@ export default async function PiecePage({ params }: PageProps<"/shop/[slug]">) {
         <ProofLedger piece={piece} />
       </PieceView>
 
-      <SpecSection number="02" title="Usadas">
+      <SpecSection number="02" title="Esta peça nos looks">
         <ul className="grid grid-cols-2 gap-x-4 gap-y-10 md:grid-cols-3 md:gap-x-5 lg:grid-cols-4 lg:gap-x-6">
           {wornIn.map((look) => (
             <li key={look.id}>
@@ -95,7 +95,7 @@ function galleryMedia(piece: Piece): Record<string, ColorwayMedia> {
             key={colorway.images[view.image]}
             imageKey={colorway.images[view.image]}
             slot={index === 0 ? "piece-main" : "piece-gallery"}
-            alt={`${piece.name} in ${colorway.name}, ${view.label.toLowerCase()}`}
+            alt={`${piece.name} na cor ${colorway.name}, ${view.label.toLowerCase()}`}
           />
         )),
         thumbnails: galleryViews.map((view) => (
@@ -111,7 +111,7 @@ function galleryMedia(piece: Piece): Record<string, ColorwayMedia> {
             key={colorway.images[view.image]}
             imageKey={colorway.images[view.image]}
             slot="lightbox"
-            alt={`${piece.name} in ${colorway.name}, ${view.label.toLowerCase()}`}
+            alt={`${piece.name} na cor ${colorway.name}, ${view.label.toLowerCase()}`}
           />
         )),
       },

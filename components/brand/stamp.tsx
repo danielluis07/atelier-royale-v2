@@ -12,7 +12,7 @@ export function Stamp({ className, ...props }: React.ComponentProps<"p">) {
         className,
       )}
       {...props}>
-      Reparos gratuitos para toda a vida
+      Reparos gratuitos por toda a vida
     </p>
   );
 }

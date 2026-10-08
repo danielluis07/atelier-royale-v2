@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: "%s · Millrace",
   },
   description:
-    "Roupas de trabalho em tecidos pesados, cortadas e costuradas em Hollins Weir. Jaquetas, camisas, calças, malhas e botas, reparadas para a vida toda.",
+    "Roupas masculinas de inspiração workwear, feitas em Hollins Weir. Jaquetas, camisas, calças, malhas e botas, com reparos gratuitos por toda a vida.",
   applicationName: "Millrace",
 };
 

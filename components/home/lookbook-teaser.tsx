@@ -27,13 +27,13 @@ export function LookbookTeaser() {
             Lookbook · {lookbook.season}
           </p>
           <RevealLine as="h2" className="type-h1 max-w-[16ch]">
-            <span id="lookbook-teaser">Oito looks de Hollins Weir.</span>
+            <span id="lookbook-teaser">Dias frios em Hollins Weir.</span>
           </RevealLine>
         </div>
         <div className="flex flex-col items-start gap-2 lg:col-span-4 lg:col-start-8 lg:self-end">
           <p className="type-lede max-w-[36ch]">{lookbook.intro}</p>
           <Link href={routes.lookbook} className={cn(buttonVariants({ variant: "link" }), "self-start")}>
-          Abrir o Lookbook
+          Ver o lookbook
           </Link>
         </div>
       </div>

@@ -8,7 +8,7 @@ import { getCollection, getLook } from "@/lib/catalog";
 export const metadata: Metadata = {
   title: "Loja",
   description:
-    "Compre jaquetas, camisas, calças, malhas e botas por categoria ou tecido. Cortadas e costuradas em Hollins Weir.",
+    "Veja as peças da Millrace por categoria, tecido, cor ou tamanho. Jaquetas, camisas, calças, malhas e botas feitas em Hollins Weir.",
 };
 
 // One Collection template for all Pieces, one Category or one Cloth. The shell

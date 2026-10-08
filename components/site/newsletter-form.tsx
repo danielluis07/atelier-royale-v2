@@ -18,7 +18,7 @@ export function NewsletterForm() {
   if (done) {
     return (
       <p ref={confirmation} tabIndex={-1} className="type-lede max-w-[32ch]">
-        Você está na lista. O Lookbook FW26 será a primeira coisa que enviaremos.
+        Inscrição simulada. Este site de demonstração não envia e-mails.
       </p>
     );
   }
@@ -31,7 +31,7 @@ export function NewsletterForm() {
         setDone(true);
       }}>
       <label htmlFor={id} className="type-label">
-        Email
+        E-mail
       </label>
       <div className="flex flex-wrap gap-3">
         <Input
@@ -43,7 +43,7 @@ export function NewsletterForm() {
           className="min-w-48 flex-1"
         />
         <Button type="submit" variant="secondary">
-          Inscrever-se
+          Quero receber
         </Button>
       </div>
     </form>

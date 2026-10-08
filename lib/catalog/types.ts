@@ -110,7 +110,7 @@ export interface Piece {
   readonly category: CategoryId;
   readonly cloth: ClothId;
   readonly price: number;
-  readonly badge?: "NOVA" | "ÚLTIMAS DO TECIDO";
+  readonly badge?: "NOVA" | "ÚLTIMAS PEÇAS";
   readonly story: string;
   readonly proof: readonly ProofRow[];
   readonly featuredRank: number;

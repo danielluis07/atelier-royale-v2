@@ -21,200 +21,200 @@ import {
 
 const ids = (pieces: readonly Piece[]) => pieces.map((piece) => piece.id);
 
-// Literal expectations come from #6, rather than the module's storage format.
+// Literal expectations preserve the roster from #6 with the pt-BR display copy.
 const roster = [
   [
     "014",
-    "Chore Jacket",
+    "Jaqueta de trabalho",
     "outerwear",
     "selvedge-denim",
     420,
-    ["Indigo", "Ecru"],
+    ["Índigo", "Cru"],
     undefined,
   ],
   [
     "027",
-    "Field Jacket",
+    "Jaqueta de campo",
     "outerwear",
     "waxed-cotton",
     560,
-    ["Olive", "Tobacco", "Navy"],
+    ["Verde-oliva", "Tabaco", "Azul-marinho"],
     undefined,
   ],
   [
     "031",
-    "Cruiser Jacket",
+    "Jaqueta curta",
     "outerwear",
     "waxed-cotton",
     520,
-    ["Tobacco", "Black"],
+    ["Tabaco", "Preto"],
     undefined,
   ],
   [
     "046",
-    "Work Coat",
+    "Casaco de trabalho",
     "outerwear",
     "moleskin",
     480,
-    ["Slate", "Moss"],
+    ["Cinza-ardósia", "Verde-musgo"],
     undefined,
   ],
   [
     "052",
-    "Rider Jacket",
+    "Jaqueta de montaria",
     "outerwear",
     "selvedge-denim",
     440,
-    ["Indigo"],
-    "NEW",
+    ["Índigo"],
+    "NOVA",
   ],
   [
     "068",
-    "Mill Overshirt",
+    "Sobrecamisa do moinho",
     "outerwear",
     "brushed-flannel",
     420,
-    ["Grey Check"],
-    "LAST OF THE CLOTH",
+    ["Xadrez cinza"],
+    "ÚLTIMAS PEÇAS",
   ],
   [
     "073",
-    "Leather Work Jacket",
+    "Jaqueta de trabalho de couro",
     "outerwear",
     "full-grain-leather",
     620,
-    ["Saddle"],
+    ["Caramelo"],
     undefined,
   ],
   [
     "101",
-    "Work Shirt",
+    "Camisa de trabalho",
     "shirts",
     "selvedge-denim",
     185,
-    ["Indigo", "Ecru"],
+    ["Índigo", "Cru"],
     undefined,
   ],
   [
     "104",
-    "Western Shirt",
+    "Camisa western",
     "shirts",
     "selvedge-denim",
     195,
-    ["Indigo"],
+    ["Índigo"],
     undefined,
   ],
   [
     "112",
-    "Flannel Shirt",
+    "Camisa de flanela",
     "shirts",
     "brushed-flannel",
     175,
-    ["Grey Check", "Red Check", "Green Check"],
+    ["Xadrez cinza", "Xadrez vermelho", "Xadrez verde"],
     undefined,
   ],
-  ["118", "Popover Shirt", "shirts", "brushed-flannel", 180, ["Oat"], "NEW"],
+  ["118", "Camisa pulôver", "shirts", "brushed-flannel", 180, ["Aveia"], "NOVA"],
   [
     "125",
-    "Moleskin Shirt",
+    "Camisa de moleskin",
     "shirts",
     "moleskin",
     210,
-    ["Slate", "Tobacco"],
+    ["Cinza-ardósia", "Tabaco"],
     undefined,
   ],
   [
     "131",
-    "Straight Jean",
+    "Jeans reto",
     "trousers",
     "selvedge-denim",
     240,
-    ["Indigo", "Rinsed"],
+    ["Índigo", "Índigo enxaguado"],
     undefined,
   ],
   [
     "137",
-    "Double-Knee Trouser",
+    "Calça de joelho duplo",
     "trousers",
     "waxed-cotton",
     260,
-    ["Olive"],
+    ["Verde-oliva"],
     undefined,
   ],
   [
     "140",
-    "Work Trouser",
+    "Calça de trabalho",
     "trousers",
     "moleskin",
     230,
-    ["Slate", "Moss"],
+    ["Cinza-ardósia", "Verde-musgo"],
     undefined,
   ],
-  ["146", "Fatigue Trouser", "trousers", "moleskin", 220, ["Oat"], undefined],
+  ["146", "Calça fatigue", "trousers", "moleskin", 220, ["Aveia"], undefined],
   [
     "152",
-    "Pleated Trouser",
+    "Calça com pregas",
     "trousers",
     "brushed-flannel",
     250,
-    ["Charcoal"],
-    "LAST OF THE CLOTH",
+    ["Chumbo"],
+    "ÚLTIMAS PEÇAS",
   ],
   [
     "160",
-    "Shetland Crew",
+    "Suéter Shetland",
     "knitwear",
     "shetland-wool",
     260,
-    ["Oat", "Navy", "Moss"],
+    ["Aveia", "Azul-marinho", "Verde-musgo"],
     undefined,
   ],
   [
     "163",
-    "Shetland Cardigan",
+    "Cardigã Shetland",
     "knitwear",
     "shetland-wool",
     320,
-    ["Charcoal"],
+    ["Chumbo"],
     undefined,
   ],
   [
     "169",
-    "Roll-Neck",
+    "Suéter de gola alta",
     "knitwear",
     "shetland-wool",
     290,
-    ["Ecru", "Navy"],
-    "NEW",
+    ["Cru", "Azul-marinho"],
+    "NOVA",
   ],
   [
     "177",
-    "Engineer Boot",
+    "Bota engineer",
     "boots",
     "full-grain-leather",
     460,
-    ["Black", "Saddle"],
+    ["Preto", "Caramelo"],
     undefined,
   ],
   [
     "182",
-    "Service Boot",
+    "Bota service",
     "boots",
     "full-grain-leather",
     400,
-    ["Oxblood"],
+    ["Bordô"],
     undefined,
   ],
   [
     "188",
-    "Moc-Toe Boot",
+    "Bota moc toe",
     "boots",
     "full-grain-leather",
     420,
-    ["Saddle"],
+    ["Caramelo"],
     undefined,
   ],
-  ["194", "Chukka", "boots", "full-grain-leather", 380, ["Tobacco"], undefined],
+  ["194", "Chukka", "boots", "full-grain-leather", 380, ["Tabaco"], undefined],
 ];
 
 describe("catalog integrity through its public interface", () => {
@@ -299,7 +299,7 @@ describe("catalog integrity through its public interface", () => {
       ),
     ).toBe(true);
     expect(getCategory("trousers")!.sizeGuide.note).toContain(
-      "chain-stitched to length on request",
+      "A barra pode ser feita com ponto corrente",
     );
   });
 
@@ -313,22 +313,22 @@ describe("catalog integrity through its public interface", () => {
         cloth.facts.shirtWeight,
       ]),
     ).toEqual([
-      ["waxed-cotton", "10oz", "100% cotton", "paraffin wax finish", undefined],
-      ["selvedge-denim", "13.5oz", "100% cotton", "rope-dyed indigo", "8oz"],
-      ["moleskin", "12oz", "100% cotton", "brushed face", undefined],
-      ["brushed-flannel", "9oz", "100% cotton", "double-napped", undefined],
+      ["waxed-cotton", "10oz", "100% algodão", "acabamento com cera de parafina", undefined],
+      ["selvedge-denim", "13.5oz", "100% algodão", "tingimento em corda com índigo", "8oz"],
+      ["moleskin", "12oz", "100% algodão", "superfície escovada", undefined],
+      ["brushed-flannel", "9oz", "100% algodão", "escovado dos dois lados", undefined],
       [
         "shetland-wool",
-        "3-ply",
-        "100% Shetland wool",
-        "natural wool face",
+        "3 fios",
+        "100% lã Shetland",
+        "textura natural da lã",
         undefined,
       ],
       [
         "full-grain-leather",
         "2mm",
-        "100% full-grain leather",
-        "vegetable-tanned",
+        "100% couro de flor integral",
+        "curtimento vegetal",
         undefined,
       ],
     ]);
@@ -341,13 +341,13 @@ describe("catalog integrity through its public interface", () => {
       for (const piece of collection) {
         const value = (label: ProofLabel) =>
           piece.proof.find((row) => row.label === label)!.value;
-        expect(value("WEIGHT")).toBe(
+        expect(value("PESO")).toBe(
           cloth.id === "selvedge-denim" && piece.category === "shirts"
             ? "8oz"
             : cloth.facts.weight,
         );
-        expect(value("COMPOSITION")).toBe(cloth.facts.composition);
-        expect(value("CLOTH")).toBe(`${cloth.name} · ${cloth.facts.finish}`);
+        expect(value("COMPOSIÇÃO")).toBe(cloth.facts.composition);
+        expect(value("TECIDO")).toBe(`${cloth.name} · ${cloth.facts.finish}`);
       }
     }
   });
@@ -356,34 +356,34 @@ describe("catalog integrity through its public interface", () => {
     for (const piece of getCollection()) {
       const labels = piece.proof.map((row) => row.label);
       const expected: ProofLabel[] = [
-        "CLOTH",
-        "WEIGHT",
-        "COMPOSITION",
-        "CONSTRUCTION",
+        "TECIDO",
+        "PESO",
+        "COMPOSIÇÃO",
+        "CONSTRUÇÃO",
       ];
-      if (labels.includes("HARDWARE")) expected.push("HARDWARE");
-      expected.push("FIT", "MADE IN", "CARE", "REPAIR");
-      if (piece.category === "boots") expected.push("LAST", "SOLE", "WELT");
+      if (labels.includes("AVIAMENTOS")) expected.push("AVIAMENTOS");
+      expected.push("CAIMENTO", "FABRICADO EM", "CUIDADOS", "REPARO");
+      if (piece.category === "boots") expected.push("FORMA", "SOLA", "VIRA");
       expect(labels).toEqual(expected);
       expect(piece.proof.every((row) => row.value.trim().length > 0)).toBe(
         true,
       );
       const lines = piece.proof
-        .find((row) => row.label === "CONSTRUCTION")!
+        .find((row) => row.label === "CONSTRUÇÃO")!
         .value.split("\n");
       expect(lines.length).toBeGreaterThanOrEqual(3);
       expect(lines.length).toBeLessThanOrEqual(5);
-      expect(piece.proof.find((row) => row.label === "MADE IN")!.value).toBe(
+      expect(piece.proof.find((row) => row.label === "FABRICADO EM")!.value).toBe(
         piece.category === "boots"
-          ? "Hollins Weir · Goodyear welted"
+          ? "Hollins Weir · vira Goodyear"
           : "Hollins Weir",
       );
-      expect(piece.proof.find((row) => row.label === "REPAIR")!.value).toMatch(
-        /^Mended free for life\n.+/,
+      expect(piece.proof.find((row) => row.label === "REPARO")!.value).toMatch(
+        /^Reparos gratuitos por toda a vida\n.+/,
       );
       if (piece.category === "trousers")
-        expect(piece.proof.find((row) => row.label === "FIT")!.value).toContain(
-          "34in inseam, sold unhemmed; chain-stitched to length on request",
+        expect(piece.proof.find((row) => row.label === "CAIMENTO")!.value).toContain(
+          "entreperna de 34 pol.; sem barra; barra com ponto corrente sob medida, a pedido",
         );
     }
   });
@@ -495,7 +495,7 @@ describe("catalog integrity through its public interface", () => {
 
   test("the FW26 Lookbook opens on a cover and places its 2 Interstitials between Looks", () => {
     const book = getLookbook();
-    expect(book.season).toBe("Fall/Winter 2026");
+    expect(book.season).toBe("Outono/Inverno 2026");
     expect(book.seasonLabel).toBe("FW26");
     expect(
       book.frames.map((frame) => (frame.kind === "cover" ? "cover" : frame.id)),
@@ -582,10 +582,13 @@ describe("Collection queries", () => {
 
   test("size filters require an available size in the matching Colourway", () => {
     expect(
-      ids(getCollection({ category: "outerwear", color: "Olive", size: "XL" })),
+      ids(getCollection({ category: "outerwear", color: "Verde-oliva", size: "XL" })),
     ).toEqual([]);
     expect(
       ids(getCollection({ category: "outerwear", color: "olive", size: "M" })),
+    ).toEqual(["field-jacket"]);
+    expect(
+      ids(getCollection({ category: "outerwear", color: "Verde-oliva", size: "M" })),
     ).toEqual(["field-jacket"]);
     expect(ids(getCollection({ category: "outerwear", size: "XL" }))).toContain(
       "field-jacket",
@@ -633,7 +636,7 @@ describe("Collection queries", () => {
       ids(
         getCollection({
           category: "outerwear",
-          color: ["olive", "Tobacco"],
+          color: ["olive", "Tabaco"],
           size: ["XL"],
         }),
       ),
@@ -731,8 +734,8 @@ describe("derived values and search", () => {
   });
 
   test("search matches case-insensitive substrings of Piece name, Category and Cloth", () => {
-    expect(ids(search("  FiElD  ").pieces)).toEqual(["field-jacket"]);
-    expect(ids(search("SHIRT").pieces)).toEqual([
+    expect(ids(search("  CaMpO  ").pieces)).toEqual(["field-jacket"]);
+    expect(ids(search("CAMISA").pieces)).toEqual([
       "mill-overshirt",
       "work-shirt",
       "western-shirt",
@@ -740,7 +743,7 @@ describe("derived values and search", () => {
       "popover-shirt",
       "moleskin-shirt",
     ]);
-    expect(ids(search("outER").pieces)).toEqual([
+    expect(ids(search("CASACOS").pieces)).toEqual([
       "field-jacket",
       "chore-jacket",
       "cruiser-jacket",
@@ -749,7 +752,7 @@ describe("derived values and search", () => {
       "mill-overshirt",
       "leather-work-jacket",
     ]);
-    expect(ids(search("waxed").pieces)).toEqual([
+    expect(ids(search("encerado").pieces)).toEqual([
       "field-jacket",
       "cruiser-jacket",
       "double-knee-trouser",
@@ -761,7 +764,7 @@ describe("derived values and search", () => {
       "western-shirt",
       "straight-jean",
     ]);
-    expect(search("field").suggestions).toEqual([]);
+    expect(search("campo").suggestions).toEqual([]);
     expect(search("olive").pieces).toEqual([]); // Colourway is not a search field.
   });
 

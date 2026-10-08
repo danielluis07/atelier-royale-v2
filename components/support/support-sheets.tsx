@@ -62,12 +62,12 @@ function SupportContent({ topic, category }: SupportPayload) {
       return (
         <Ledger
           title="Envio"
-          description="Preparamos os pedidos em Hollins Weir e os enviamos em até 2 dias úteis."
+          description="Os pedidos saem de Hollins Weir em até 2 dias úteis."
           rows={[
-            ["Padrão", "Grátis para pedidos nos EUA acima de R$ 250; caso contrário, R$ 12. A entrega leva de 3 a 5 dias úteis."],
-            ["Expresso", "R$ 25 para entrega em 1 a 2 dias úteis."],
-            ["Rastreamento", "Enviamos um link de rastreamento por e-mail quando o pacote sai do moinho."],
-            ["Onde", "Enviamos dentro dos Estados Unidos. Todos os preços estão em reais (BRL)."],
+            ["Padrão", "Frete grátis a partir de R$ 250. Abaixo desse valor, o frete custa R$ 12. A entrega leva de 3 a 5 dias úteis dentro dos EUA."],
+            ["Expresso", "Frete de R$ 25, com entrega em 1 a 2 dias úteis."],
+            ["Rastreamento", "O link de rastreamento chega por e-mail assim que o pedido é enviado."],
+            ["Destino", "As entregas são feitas apenas nos Estados Unidos. Os preços são exibidos em reais (BRL)."],
           ]}
         />
       );
@@ -75,12 +75,12 @@ function SupportContent({ topic, category }: SupportPayload) {
       return (
         <Ledger
           title="Devoluções"
-          description="Devolva uma peça não usada em até 30 dias."
+          description="Você tem 30 dias após a entrega para devolver uma peça sem uso."
           rows={[
-            ["Prazo", "30 dias a partir da entrega. Mantenha as etiquetas e não use nem lave a peça."],
-            ["Custo", "As devoluções são gratuitas dentro dos EUA. A etiqueta pré-paga está na caixa."],
-            ["Reembolso", "Reembolsamos o pagamento original em até 5 dias úteis após a peça chegar ao moinho."],
-            ["Final", "Não aceitamos calças com costura de corrente ajustadas ao comprimento."],
+            ["Prazo", "Até 30 dias após receber o pedido. A peça deve estar com as etiquetas, sem uso e sem lavagem."],
+            ["Custo", "A devolução é gratuita dentro dos EUA. Use a etiqueta de envio pré-paga que acompanha o pedido."],
+            ["Reembolso", "O valor é devolvido pela mesma forma de pagamento, em até 5 dias úteis após a peça chegar a Hollins Weir."],
+            ["Peças ajustadas", "Calças com a barra feita sob medida não podem ser devolvidas."],
           ]}
         />
       );
@@ -88,12 +88,12 @@ function SupportContent({ topic, category }: SupportPayload) {
       return (
         <Ledger
           title="Reparos"
-          description="Reparamos cada peça enquanto você a usar."
+          description="Se uma peça precisar de conserto, ela pode voltar a Hollins Weir. O reparo é gratuito, por toda a vida."
           rows={[
-            ["Cobertura", "Todas as peças, enquanto você as usar. Você não precisa de recibo."],
-            ["Trabalho", "Refazemos costuras, trocamos botões e rebites, renovamos a cera e refazemos as solas das botas no debrum original."],
-            ["Envio", "Cobrimos o frete de ida e volta dentro dos EUA."],
-            ["Prazo", "Os reparos levam de 3 a 4 semanas em Hollins Weir."],
+            ["Cobertura", "Todas as peças têm direito a reparo enquanto você as usar. Não é preciso apresentar comprovante de compra."],
+            ["Trabalho", "O serviço inclui refazer costuras, trocar botões e rebites, reaplicar a cera e trocar as solas das botas, mantendo a vira original."],
+            ["Envio", "O frete de ida e volta é gratuito dentro dos EUA."],
+            ["Prazo", "O serviço leva de 3 a 4 semanas em Hollins Weir."],
           ]}
         />
       );

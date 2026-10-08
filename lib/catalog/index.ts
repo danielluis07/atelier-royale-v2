@@ -87,6 +87,7 @@ export function getCollection(filter: CollectionFilter = {}): readonly Piece[] {
       (colorway) =>
         (!colors.length ||
           colors.includes(colorway.id) ||
+          colors.includes(colorway.id.replaceAll("-", " ")) ||
           colors.includes(colorway.name.toLowerCase())) &&
         (!sizes.length ||
           offered.some((size) => !colorway.soldOutSizes.includes(size))),

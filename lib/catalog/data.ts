@@ -35,7 +35,7 @@ function topCategory(
         size,
         measurements: [chest + i * 2, length + i * 0.5, 32 + i * 0.5],
       })),
-      note: "Estas são medidas da peça. Meça o peito ao redor da peça e a manga a partir do centro das costas; depois compare com uma peça que vista bem em você.",
+      note: "As medidas são da roupa, não do corpo. Compare com uma peça que você já usa: meça a circunferência do peito e a manga a partir do centro das costas.",
     },
   };
 }
@@ -44,15 +44,15 @@ export const categories: readonly Category[] = [
   topCategory(
     "outerwear",
     "Casacos",
-    "Camadas resistentes para caminhadas molhadas até o moinho.",
+    "Jaquetas e casacos com espaço para uma camisa ou um suéter por baixo.",
     44,
     28,
   ),
-  topCategory("shirts", "Camisas", "Colarinhos simples e espaço para trabalhar.", 40, 29),
+  topCategory("shirts", "Camisas", "Camisas de algodão, do denim leve à flanela encorpada.", 40, 29),
   {
     id: "trousers",
     name: "Calças",
-    intro: "Cortes retos, vendidos compridos para você ajustar a barra como preferir.",
+    intro: "Calças de corte reto, com comprimento para ajustar a barra à sua medida.",
     sizes: waistSizes,
     tileImage: "categories/trousers",
     sizeGuide: {
@@ -62,20 +62,20 @@ export const categories: readonly Category[] = [
         size,
         measurements: [Number(size), 34],
       })),
-      note: "As calças têm entreperna de 34 pol. e chegam sem barra. A barra pode ser feita com ponto corrente no comprimento solicitado. Meça a cintura ao redor do cós.",
+      note: "As calças vêm sem barra, com 34 pol. de entreperna. A barra pode ser feita com ponto corrente na medida que você pedir. Para conferir a cintura, meça toda a volta do cós.",
     },
   },
   topCategory(
     "knitwear",
     "Malhas",
-    "Lã Shetland para o espaço entre a pele e o tempo.",
+    "Suéteres e cardigãs de lã Shetland para os dias frios.",
     40,
     26,
   ),
   {
     id: "boots",
     name: "Botas",
-    intro: "Couro de flor integral com vira pronta para outra sola.",
+    intro: "Botas de couro com sola que pode ser trocada quando gastar.",
     sizes: bootSizes,
     tileImage: "categories/boots",
     sizeGuide: {
@@ -85,7 +85,7 @@ export const categories: readonly Category[] = [
         size,
         measurements: [9.875 + i * 0.3125],
       })),
-      note: "Tamanhos inteiros dos EUA. Em pé, usando as meias que você usará, meça do calcanhar até o dedo mais longo.",
+      note: "A numeração é americana, sem meios tamanhos. Calce as meias que pretende usar com a bota e, em pé, meça do calcanhar até o dedo mais longo.",
     },
   },
 ];
@@ -94,67 +94,67 @@ export const cloths: readonly Cloth[] = [
   {
     id: "waxed-cotton",
     name: "Algodão encerado",
-    intro: "A chuva forma gotas no algodão acabado com cera de parafina.",
+    intro: "O acabamento com cera de parafina faz a água escorrer em gotas pela superfície do algodão.",
     facts: {
       weight: "10oz",
-      composition: "100% cotton",
-      finish: "paraffin wax finish",
+      composition: "100% algodão",
+      finish: "acabamento com cera de parafina",
     },
     image: "cloths/waxed-cotton",
   },
   {
     id: "selvedge-denim",
     name: "Denim selvedge",
-    intro: "Uma borda tecida e índigo incorporado ao fio.",
+    intro: "Denim tingido com índigo, com a borda selvedge formada durante a tecelagem.",
     facts: {
       weight: "13.5oz",
       shirtWeight: "8oz",
-      composition: "100% cotton",
-      finish: "rope-dyed indigo",
+      composition: "100% algodão",
+      finish: "tingimento em corda com índigo",
     },
     image: "cloths/selvedge-denim",
   },
   {
     id: "moleskin",
     name: "Moleskin",
-    intro: "Algodão encorpado com face macia e escovada.",
+    intro: "Algodão encorpado, escovado na superfície para ficar macio ao toque.",
     facts: {
       weight: "12oz",
-      composition: "100% cotton",
-      finish: "brushed face",
+      composition: "100% algodão",
+      finish: "superfície escovada",
     },
     image: "cloths/moleskin",
   },
   {
     id: "brushed-flannel",
     name: "Flanela escovada",
-    intro: "Algodão escovado dos dois lados para manhãs frias.",
+    intro: "Flanela de algodão escovada dos dois lados, para vestir nos dias frios.",
     facts: {
       weight: "9oz",
-      composition: "100% cotton",
-      finish: "double-napped",
+      composition: "100% algodão",
+      finish: "escovado dos dois lados",
     },
     image: "cloths/brushed-flannel",
   },
   {
     id: "shetland-wool",
     name: "Lã Shetland",
-    intro: "Lã de três fios que dispensa forro.",
+    intro: "Lã de 3 fios, com a textura natural da fibra.",
     facts: {
-      weight: "3-ply",
-      composition: "100% Lã Shetland",
-      finish: "natural wool face",
+      weight: "3 fios",
+      composition: "100% lã Shetland",
+      finish: "textura natural da lã",
     },
     image: "cloths/shetland-wool",
   },
   {
     id: "full-grain-leather",
     name: "Couro de flor integral",
-    intro: "A flor permanece visível, e o uso deixa sua marca.",
+    intro: "Couro que preserva a superfície natural e ganha marcas com o uso.",
     facts: {
       weight: "2mm",
-      composition: "100% full-grain leather",
-      finish: "vegetable-tanned",
+      composition: "100% couro de flor integral",
+      finish: "curtimento vegetal",
     },
     image: "cloths/full-grain-leather",
   },
@@ -177,6 +177,25 @@ const swatches: Record<string, string> = {
   Rinsed: "#26344F",
   Charcoal: "#464744",
   Oxblood: "#603438",
+};
+
+const colorNames: Record<string, string> = {
+  "Indigo": "Índigo",
+  "Ecru": "Cru",
+  "Olive": "Verde-oliva",
+  "Tobacco": "Tabaco",
+  "Navy": "Azul-marinho",
+  "Black": "Preto",
+  "Slate": "Cinza-ardósia",
+  "Moss": "Verde-musgo",
+  "Grey Check": "Xadrez cinza",
+  "Saddle": "Caramelo",
+  "Red Check": "Xadrez vermelho",
+  "Green Check": "Xadrez verde",
+  "Oat": "Aveia",
+  "Rinsed": "Índigo enxaguado",
+  "Charcoal": "Chumbo",
+  "Oxblood": "Bordô",
 };
 
 type PieceDefinition = {
@@ -205,15 +224,15 @@ const definitions: readonly PieceDefinition[] = [
     price: 420,
     colors: ["Indigo", "Ecru"],
     story:
-      "Quatro bolsos, barra reta e denim que se acomoda ao trabalho.",
+      "O denim vai amaciando com o uso. O corte é reto, com 4 bolsos para ter o essencial à mão.",
     construction: [
       "Costuras de ombro rebatidas",
       "4 bolsos aplicados",
       "Cantos dos bolsos presos com travete",
     ],
     hardware: "Botões de pressão de latão",
-    fit: "Corpo reto; espaço para uma camisa e uma malha",
-    repair: "Cantos dos bolsos e costuras refeitos.",
+    fit: "Corte reto; espaço para uma camisa e uma malha",
+    repair: "Reforço dos cantos dos bolsos e reparo das costuras.",
   },
   {
     number: "027",
@@ -222,7 +241,7 @@ const definitions: readonly PieceDefinition[] = [
     cloth: "waxed-cotton",
     price: 560,
     colors: ["Olive", "Tobacco", "Navy"],
-    story: "Algodão encerado para a pedra molhada e a caminhada de volta.",
+    story: "O algodão encerado ajuda a proteger da chuva. Os 4 bolsos têm abas, e o cordão ajusta a cintura.",
     construction: [
       "Costuras externas com pesponto duplo",
       "4 bolsos sanfonados com abas",
@@ -230,8 +249,8 @@ const definitions: readonly PieceDefinition[] = [
       "Revel de gola de veludo cotelê",
     ],
     hardware: "Zíper de latão bidirecional; botões de pressão de latão",
-    fit: "Corpo reto; cintura com cordão; espaço para camadas",
-    repair: "Parte externa remendada e abas dos bolsos refeitas.",
+    fit: "Corte reto; cintura com cordão; espaço para outras peças por baixo",
+    repair: "Remendos no tecido externo e reparo das abas dos bolsos.",
   },
   {
     number: "031",
@@ -240,15 +259,15 @@ const definitions: readonly PieceDefinition[] = [
     cloth: "waxed-cotton",
     price: 520,
     colors: ["Tobacco", "Black"],
-    story: "Uma camada encerada curta que fica acima do quadril.",
+    story: "Curta, com corte amplo e barra na altura do quadril. O algodão encerado dá estrutura à jaqueta.",
     construction: [
       "Costuras com pesponto duplo",
       "2 bolsos no peito e 2 bolsos para as mãos",
       "Pala traseira reforçada",
     ],
     hardware: "Botões de pressão de latão",
-    fit: "Corpo quadrado; barra na altura do quadril",
-    repair: "Costuras da pala e dos bolsos refeitas.",
+    fit: "Corte amplo e reto; barra na altura do quadril",
+    repair: "Reparo das costuras da pala e dos bolsos.",
   },
   {
     number: "046",
@@ -257,15 +276,15 @@ const definitions: readonly PieceDefinition[] = [
     cloth: "moleskin",
     price: 480,
     colors: ["Slate", "Moss"],
-    story: "Algodão encorpado, cortado longo o bastante para cobrir o quadril.",
+    story: "O moleskin é encorpado e macio ao toque. O casaco cobre o quadril e tem reforços nos cotovelos.",
     construction: [
       "Costuras laterais rebatidas",
       "3 bolsos aplicados",
       "Painéis de cotovelo reforçados",
     ],
     hardware: "Botões de corozo",
-    fit: "Corpo confortável; comprimento abaixo do quadril",
-    repair: "Cotovelo remendado e bolsos reforçados.",
+    fit: "Corte solto; comprimento abaixo do quadril",
+    repair: "Remendos nos cotovelos e reforço dos bolsos.",
   },
   {
     number: "052",
@@ -275,15 +294,15 @@ const definitions: readonly PieceDefinition[] = [
     price: 440,
     colors: ["Indigo"],
     badge: "NOVA",
-    story: "Uma jaqueta de denim ajustada, com espaço nos ombros.",
+    story: "Mais ajustada no corpo, com espaço nos ombros. As abas na barra permitem acertar o caimento na cintura.",
     construction: [
       "Costuras dos painéis com pesponto duplo",
       "Painéis frontais plissados",
       "Abas de ajuste na barra",
     ],
     hardware: "Botões de pressão de latão",
-    fit: "Corpo ajustado; barra na altura da cintura",
-    repair: "Costuras dos painéis refeitas e abas da barra substituídas.",
+    fit: "Corte ajustado; barra na altura da cintura",
+    repair: "Reparo das costuras dos painéis e troca das abas da barra.",
   },
   {
     number: "068",
@@ -292,16 +311,16 @@ const definitions: readonly PieceDefinition[] = [
     cloth: "brushed-flannel",
     price: 420,
     colors: ["Grey Check"],
-    badge: "ÚLTIMAS DO TECIDO",
-    story: "Peso de jaqueta com o colarinho simples de uma camisa.",
+    badge: "ÚLTIMAS PEÇAS",
+    story: "Flanela encorpada para usar por cima da camisa. A barra reta tem aberturas nas laterais.",
     construction: [
       "Costuras de ombro rebatidas",
       "2 bolsos no peito",
       "Barra reta com fendas laterais",
     ],
     hardware: "Botões de corozo",
-    fit: "Corpo confortável; corte para usar sobre uma camisa",
-    repair: "Punhos remendados e fendas laterais refeitas.",
+    fit: "Corte solto; corte para usar sobre uma camisa",
+    repair: "Remendos nos punhos e reparo das aberturas laterais.",
   },
   {
     number: "073",
@@ -310,15 +329,15 @@ const definitions: readonly PieceDefinition[] = [
     cloth: "full-grain-leather",
     price: 620,
     colors: ["Saddle"],
-    story: "Couro de flor integral que ganha as marcas de quem o veste.",
+    story: "O couro ganha marcas com o uso, e cada jaqueta fica um pouco diferente. Por dentro, o forro é de algodão.",
     construction: [
       "Painéis de couro com costura travada",
       "Corpo forrado de algodão",
       "Aberturas dos bolsos reforçadas",
     ],
     hardware: "Zíper de latão",
-    fit: "Corpo reto; barra na altura do quadril",
-    repair: "Forro remendado e costuras dos painéis refeitas.",
+    fit: "Corte reto; barra na altura do quadril",
+    repair: "Remendos no forro e reparo das costuras dos painéis.",
   },
   {
     number: "101",
@@ -327,15 +346,15 @@ const definitions: readonly PieceDefinition[] = [
     cloth: "selvedge-denim",
     price: 185,
     colors: ["Indigo", "Ecru"],
-    story: "Denim leve como camisa, com borda tecida e frente sem adornos.",
+    story: "Denim de 8oz, mais leve que o das jaquetas. Corte reto, barra curva e 2 bolsos no peito.",
     construction: [
       "Costuras laterais rebatidas",
       "2 bolsos no peito",
       "Barra com ponto corrente",
     ],
     hardware: "Botões de corozo",
-    fit: "Straight body; curved hem",
-    repair: "Colarinho e punhos remendados.",
+    fit: "Corte reto; barra curva",
+    repair: "Remendos no colarinho e nos punhos.",
   },
   {
     number: "104",
@@ -344,15 +363,15 @@ const definitions: readonly PieceDefinition[] = [
     cloth: "selvedge-denim",
     price: 195,
     colors: ["Indigo"],
-    story: "Denim mais leve na pala pontuda, com botões de pressão na frente.",
+    story: "As palas pontudas e os botões de pressão perolados dão o desenho western à camisa. O denim é de 8oz.",
     construction: [
       "Palas frontais e traseiras pontudas",
       "Costuras laterais rebatidas",
       "2 bolsos no peito com abas",
     ],
     hardware: "Botões de pressão com face perolada",
-    fit: "Corpo ajustado; barra curva",
-    repair: "Costuras das palas refeitas e abas dos bolsos remendadas.",
+    fit: "Corte ajustado; barra curva",
+    repair: "Reparo das costuras das palas e remendos nas abas dos bolsos.",
   },
   {
     number: "112",
@@ -361,15 +380,15 @@ const definitions: readonly PieceDefinition[] = [
     cloth: "brushed-flannel",
     price: 175,
     colors: ["Grey Check", "Red Check", "Green Check"],
-    story: "Algodão escovado dos dois lados para manhãs à beira da água.",
+    story: "Flanela macia dos dois lados, com o xadrez alinhado nos bolsos. Para os dias em que a camisa precisa aquecer um pouco mais.",
     construction: [
       "Costuras laterais rebatidas",
       "Xadrez alinhado nos bolsos",
       "Pala traseira dupla",
     ],
     hardware: "Botões de corozo",
-    fit: "Corpo regular; barra curva",
-    repair: "Punhos remendados e costuras da pala refeitas.",
+    fit: "Corte regular; barra curva",
+    repair: "Remendos nos punhos e reparo das costuras da pala.",
   },
   {
     number: "118",
@@ -379,15 +398,15 @@ const definitions: readonly PieceDefinition[] = [
     price: 180,
     colors: ["Oat"],
     badge: "NOVA",
-    story: "Uma carcela curta de algodão macio que se veste pela cabeça.",
+    story: "Veste pela cabeça, com uma abertura curta de botões. A flanela escovada é macia, e o corte deixa o corpo à vontade.",
     construction: [
       "Meia carcela reforçada",
       "Costuras laterais rebatidas",
       "Fendas laterais com reforço",
     ],
     hardware: "Botões de corozo",
-    fit: "Corpo confortável; barra reta",
-    repair: "Carcela e reforços laterais reforçados.",
+    fit: "Corte solto; barra reta",
+    repair: "Reforço na abertura de botões e nas fendas laterais.",
   },
   {
     number: "125",
@@ -396,15 +415,15 @@ const definitions: readonly PieceDefinition[] = [
     cloth: "moleskin",
     price: 210,
     colors: ["Slate", "Tobacco"],
-    story: "Uma camisa de algodão escovado encorpado para usar fechada ou aberta à porta do moinho.",
+    story: "O moleskin dá peso e um toque macio à camisa. Use fechada ou aberta sobre outra peça.",
     construction: [
       "Costuras de ombro rebatidas",
       "2 bolsos no peito",
       "Punhos com pesponto duplo",
     ],
     hardware: "Botões de corozo",
-    fit: "Straight body; curved hem",
-    repair: "Bordas dos bolsos e punhos remendados.",
+    fit: "Corte reto; barra curva",
+    repair: "Remendos nas bordas dos bolsos e nos punhos.",
   },
   {
     number: "131",
@@ -413,15 +432,15 @@ const definitions: readonly PieceDefinition[] = [
     cloth: "selvedge-denim",
     price: 240,
     colors: ["Indigo", "Rinsed"],
-    story: "Perna reta desde o quadril, com selvedge na costura externa.",
+    story: "Reto do quadril à barra, com 5 bolsos. Ao dobrar a barra, a borda selvedge aparece na costura lateral.",
     construction: [
       "Costuras externas selvedge",
       "Construção de 5 bolsos",
       "Cós com ponto corrente",
     ],
     hardware: "Rebites de latão; braguilha com botões",
-    fit: "Cintura média; perna reta; entreperna de 34 pol., vendido sem barra; barra com ponto corrente no comprimento solicitado",
-    repair: "Joelhos remendados e forros dos bolsos substituídos.",
+    fit: "Cintura média; perna reta; entreperna de 34 pol.; sem barra; barra com ponto corrente sob medida, a pedido",
+    repair: "Remendos nos joelhos e troca dos forros dos bolsos.",
   },
   {
     number: "137",
@@ -430,15 +449,15 @@ const definitions: readonly PieceDefinition[] = [
     cloth: "waxed-cotton",
     price: 260,
     colors: ["Olive"],
-    story: "Uma camada extra para o lugar onde seu joelho encontra o chão.",
+    story: "Os joelhos levam uma camada dupla de tecido. A perna reta tem folga, e o bolso de ferramentas é reforçado.",
     construction: [
       "Painéis duplos nos joelhos",
       "Entrepernas com pesponto triplo",
       "Bolso de ferramentas reforçado",
     ],
     hardware: "Rebites de latão; braguilha com botões",
-    fit: "Cintura alta; perna reta confortável; entreperna de 34 pol., vendido sem barra; barra com ponto corrente no comprimento solicitado",
-    repair: "Painéis dos joelhos substituídos e bolso de ferramentas remendado.",
+    fit: "Cintura alta; perna reta com folga; entreperna de 34 pol.; sem barra; barra com ponto corrente sob medida, a pedido",
+    repair: "Troca dos reforços dos joelhos e remendos no bolso de ferramentas.",
   },
   {
     number: "140",
@@ -447,15 +466,15 @@ const definitions: readonly PieceDefinition[] = [
     cloth: "moleskin",
     price: 230,
     colors: ["Slate", "Moss"],
-    story: "Algodão escovado, perna reta e bolsos fundos.",
+    story: "Moleskin macio, com corte reto e bolsos fundos. A cintura fica na altura média.",
     construction: [
       "Entrepernas rebatidas",
       "Forros fundos de algodão para os bolsos",
       "Passantes presos com travete",
     ],
     hardware: "Botão de cós de corozo; braguilha com zíper de latão",
-    fit: "Cintura média; perna reta; entreperna de 34 pol., vendido sem barra; barra com ponto corrente no comprimento solicitado",
-    repair: "Forros dos bolsos substituídos e passantes refeitos.",
+    fit: "Cintura média; perna reta; entreperna de 34 pol.; sem barra; barra com ponto corrente sob medida, a pedido",
+    repair: "Troca dos forros dos bolsos e reparo dos passantes.",
   },
   {
     number: "146",
@@ -464,33 +483,33 @@ const definitions: readonly PieceDefinition[] = [
     cloth: "moleskin",
     price: 220,
     colors: ["Oat"],
-    story: "Bolsos aplicados e perna solta para caminhar pela trilha do campo.",
+    story: "Cintura alta e pernas soltas, com bolsos grandes na frente. As abas laterais ajustam o cós.",
     construction: [
       "Grandes bolsos frontais aplicados",
       "Entrepernas rebatidas",
       "Abas de ajuste na cintura",
     ],
     hardware: "Botões de corozo",
-    fit: "Cintura alta; perna confortável; entreperna de 34 pol., vendido sem barra; barra com ponto corrente no comprimento solicitado",
-    repair: "Bolsos aplicados reforçados e abas da cintura substituídas.",
+    fit: "Cintura alta; perna solta; entreperna de 34 pol.; sem barra; barra com ponto corrente sob medida, a pedido",
+    repair: "Reforço dos bolsos e troca das abas da cintura.",
   },
   {
     number: "152",
-    name: "Calça plissada",
+    name: "Calça com pregas",
     category: "trousers",
     cloth: "brushed-flannel",
     price: 250,
     colors: ["Charcoal"],
-    badge: "ÚLTIMAS DO TECIDO",
-    story: "Uma prega dá espaço para a flanela pesada cair.",
+    badge: "ÚLTIMAS PEÇAS",
+    story: "As pregas dão mais espaço nas coxas e deixam a flanela cair solta. A perna segue reta até a barra.",
     construction: [
       "Pregas frontais simples",
       "Cós interno com acabamento",
       "Bolsos traseiros embutidos",
     ],
     hardware: "Botão de cós de corozo; braguilha com zíper de latão",
-    fit: "Cintura alta; coxa ampla; perna reta; entreperna de 34 pol., vendido sem barra; barra com ponto corrente no comprimento solicitado",
-    repair: "Bolsos embutidos e cós refeitos.",
+    fit: "Cintura alta; coxa ampla; perna reta; entreperna de 34 pol.; sem barra; barra com ponto corrente sob medida, a pedido",
+    repair: "Reparo dos bolsos embutidos e do cós.",
   },
   {
     number: "160",
@@ -499,14 +518,14 @@ const definitions: readonly PieceDefinition[] = [
     cloth: "shetland-wool",
     price: 260,
     colors: ["Oat", "Navy", "Moss"],
-    story: "Lã de três fios com gola simples e espaço para uma camisa por baixo.",
+    story: "Tricô de lã Shetland com espaço para uma camisa por baixo. Gola, punhos e barra têm acabamento canelado.",
     construction: [
       "Corpo com modelagem integral",
       "Costuras de ombro unidas",
       "Gola, punhos e barra canelados",
     ],
-    fit: "Corpo regular; barra na altura do quadril",
-    repair: "Cotovelos e punhos cerzidos com lã combinando.",
+    fit: "Corte regular; barra na altura do quadril",
+    repair: "Cerzido nos cotovelos e nos punhos, com lã da mesma cor.",
   },
   {
     number: "163",
@@ -515,32 +534,32 @@ const definitions: readonly PieceDefinition[] = [
     cloth: "shetland-wool",
     price: 320,
     colors: ["Charcoal"],
-    story: "Uma camada aberta de lã Shetland para a primeira geada forte.",
+    story: "Lã Shetland com fechamento de botões e 2 bolsos de tricô. O corte tem folga para usar sobre a camisa.",
     construction: [
       "Corpo com modelagem integral",
       "Vista de botões reforçada",
       "2 bolsos de tricô aplicados",
     ],
     hardware: "Botões de corozo",
-    fit: "Corpo confortável; barra na altura do quadril",
-    repair: "Vista de botões reforçada e áreas gastas cerzidas.",
+    fit: "Corte solto; barra na altura do quadril",
+    repair: "Reforço da abertura de botões e cerzido nas áreas gastas.",
   },
   {
     number: "169",
-    name: "Gola alta",
+    name: "Suéter de gola alta",
     category: "knitwear",
     cloth: "shetland-wool",
     price: 290,
     colors: ["Ecru", "Navy"],
     badge: "NOVA",
-    story: "Lã dobrada na gola para deixar menos espaço para o vento.",
+    story: "A gola alta dobra sobre si mesma e cobre o pescoço. O corpo tem corte regular, com barra na altura do quadril.",
     construction: [
       "Corpo com modelagem integral",
       "Costuras de ombro unidas",
-      "Gola alta canelada profunda",
+      "Gola alta canelada e dobrável",
     ],
-    fit: "Corpo regular; barra na altura do quadril",
-    repair: "Gola canelada e punhos cerzidos com lã combinando.",
+    fit: "Corte regular; barra na altura do quadril",
+    repair: "Cerzido na gola e nos punhos, com lã da mesma cor.",
   },
   {
     number: "177",
@@ -549,15 +568,15 @@ const definitions: readonly PieceDefinition[] = [
     cloth: "full-grain-leather",
     price: 460,
     colors: ["Black", "Saddle"],
-    story: "Uma bota de calçar, com bico largo e fivela no peito do pé.",
+    story: "Sem cadarços, com bico largo e fivelas no cano e no peito do pé. Tem espaço para uma meia mais grossa.",
     construction: [
       "Cano forrado de couro",
       "Contraforte reforçado",
       "Painéis do cabedal com costura travada",
     ],
     hardware: "Fivelas sólidas de latão no peito do pé e no cano",
-    fit: "Tamanhos inteiros dos EUA; espaço para meia de trabalho",
-    repair: "Costuras do cabedal refeitas; solas gastas substituídas.",
+    fit: "Tamanhos inteiros dos EUA; espaço para meias grossas",
+    repair: "Reparo das costuras do cabedal e troca das solas gastas.",
     last: "Bico redondo; antepé largo; peito do pé médio",
     sole: "Borracha resistente a óleo; salto de couro empilhado",
   },
@@ -568,7 +587,7 @@ const definitions: readonly PieceDefinition[] = [
     cloth: "full-grain-leather",
     price: 400,
     colors: ["Oxblood"],
-    story: "Couro de bico liso com cadarço fechado acima do tornozelo.",
+    story: "Bota de couro com bico liso e cano acima do tornozelo. Os ganchos de latão facilitam o ajuste dos cadarços.",
     construction: [
       "Cabedal forrado de couro",
       "Contraforte reforçado",
@@ -576,7 +595,7 @@ const definitions: readonly PieceDefinition[] = [
     ],
     hardware: "Ilhoses e ganchos rápidos de latão",
     fit: "Tamanhos inteiros dos EUA; largura regular",
-    repair: "Quartos refeitos; solas gastas substituídas.",
+    repair: "Reparo das laterais do cabedal e troca das solas gastas.",
     last: "Bico redondo; antepé regular; peito do pé médio",
     sole: "Borracha com tachas; salto de couro empilhado",
   },
@@ -587,7 +606,7 @@ const definitions: readonly PieceDefinition[] = [
     cloth: "full-grain-leather",
     price: 420,
     colors: ["Saddle"],
-    story: "Bico costurado e sola cunha plana para o pátio de pedras.",
+    story: "A costura do bico é feita à mão. A sola de borracha em cunha acompanha toda a base da bota.",
     construction: [
       "Costura do bico moc feita à mão",
       "Cabedal forrado de couro",
@@ -595,7 +614,7 @@ const definitions: readonly PieceDefinition[] = [
     ],
     hardware: "Ilhoses de latão",
     fit: "Tamanhos inteiros dos EUA; antepé largo",
-    repair: "Costura do bico refeita; solas cunha gastas substituídas.",
+    repair: "Reparo da costura do bico e troca das solas em cunha.",
     last: "Bico moc; antepé largo; peito do pé médio",
     sole: "Cunha de borracha com desenho raso",
   },
@@ -606,7 +625,7 @@ const definitions: readonly PieceDefinition[] = [
     cloth: "full-grain-leather",
     price: 380,
     colors: ["Tobacco"],
-    story: "Três ilhoses e uma bota baixa de couro para a entrada do moinho.",
+    story: "Bota de cano baixo, com 3 ilhoses e sola de borracha crepe. O cabedal é forrado de couro.",
     construction: [
       "Cabedal forrado de couro",
       "Quartos com pesponto duplo",
@@ -614,7 +633,7 @@ const definitions: readonly PieceDefinition[] = [
     ],
     hardware: "Ilhoses de latão",
     fit: "Tamanhos inteiros dos EUA; largura regular",
-    repair: "Costuras do cabedal refeitas; solas gastas substituídas.",
+    repair: "Reparo das costuras do cabedal e troca das solas gastas.",
     last: "Bico redondo; antepé regular; peito do pé baixo",
     sole: "Borracha crepe; salto baixo de couro empilhado",
   },
@@ -666,12 +685,12 @@ function makePiece(definition: PieceDefinition, index: number): Piece {
   const id = pieceIds[number] ?? slug(name);
   const leather = clothId === "full-grain-leather";
   const care = leather
-    ? "Remova a sujeira com uma escova; seque ao ar, longe do calor; hidrate com moderação."
+    ? "Tire a sujeira com uma escova. Deixe secar naturalmente, longe do calor. Hidrate o couro com moderação."
     : clothId === "waxed-cotton"
-      ? "Remova a sujeira com uma escova; passe uma esponja com água fria; não lave à máquina; reencere quando necessário."
+      ? "Tire a sujeira com uma escova e passe uma esponja com água fria. Não lave na máquina. Reaplique a cera quando necessário."
       : clothId === "shetland-wool"
-        ? "Lave à mão em água fria; remodele e seque na horizontal."
-        : "Lave a frio do avesso; seque no varal; não use alvejante.";
+        ? "Lave à mão em água fria. Acerte o formato da peça e deixe secar na horizontal."
+        : "Lave do avesso em água fria e seque no varal. Não use alvejante.";
   const proof: ProofRow[] = [
     { label: "TECIDO", value: `${cloth.name} · ${cloth.facts.finish}` },
     {
@@ -693,14 +712,14 @@ function makePiece(definition: PieceDefinition, index: number): Piece {
           : "Hollins Weir",
     },
     { label: "CUIDADOS", value: care },
-    { label: "REPARO", value: `Consertos gratuitos por toda a vida\n${repair}` },
+    { label: "REPARO", value: `Reparos gratuitos por toda a vida\n${repair}` },
     ...(category === "boots"
       ? [
           { label: "FORMA" as const, value: last! },
           { label: "SOLA" as const, value: sole! },
           {
             label: "VIRA" as const,
-            value: "360° Goodyear welt; vira de couro costurada",
+            value: "Vira de couro costurada em 360°, construção Goodyear",
           },
         ]
       : []),
@@ -710,7 +729,7 @@ function makePiece(definition: PieceDefinition, index: number): Piece {
     const key = `pieces/${number}-${id}/${colorId}`;
     return {
       id: colorId,
-      name,
+      name: colorNames[name],
       swatch: swatches[name],
       images: {
         still: `${key}-still`,
@@ -757,14 +776,14 @@ function look(
 }
 
 const looks = [
-  look("01", "A primeira luz sobre a represa. A névoa ainda paira sobre a água.", "4:5", [
+  look("01", "Ainda há neblina sobre a água quando o dia começa em Hollins Weir.", "4:5", [
     ["field-jacket", "olive"],
     ["shetland-crew", "navy"],
     ["flannel-shirt", "grey-check"],
     ["straight-jean", "indigo"],
     ["service-boot", "oxblood"],
   ]),
-  look("02", "A chuva passou. Os campos a guardam por mais um tempo.", "4:5", [
+  look("02", "Depois da chuva, o chão continua molhado no caminho pelo campo.", "4:5", [
     ["chore-jacket", "indigo"],
     ["shetland-crew", "oat"],
     ["work-trouser", "slate"],
@@ -772,7 +791,7 @@ const looks = [
   ]),
   look(
     "03",
-    "Nuvens baixas sobre o rio. Uma pausa à beira da água.",
+    "Uma pausa à beira do rio, sob o céu nublado.",
     "3:2",
     [
       ["leather-work-jacket", "saddle"],
@@ -781,24 +800,24 @@ const looks = [
       ["engineer-boot", "black"],
     ],
   ),
-  look("04", "À porta aberta do moinho, uma barra é costurada no comprimento.", "4:5", [
+  look("04", "À porta do moinho, uma calça recebe o ajuste da barra.", "4:5", [
     ["work-coat", "moss"],
     ["roll-neck", "ecru"],
     ["pleated-trouser", "charcoal"],
     ["chukka", "tobacco"],
   ]),
-  look("05", "Gola levantada. As últimas folhas cobrem o caminho de madeira.", "3:2", [
+  look("05", "O frio pede a gola levantada no caminho de madeira coberto de folhas.", "3:2", [
     ["cruiser-jacket", "tobacco"],
     ["work-shirt", "ecru"],
     ["double-knee-trouser", "olive"],
     ["engineer-boot", "saddle"],
   ]),
-  look("06", "A chuva abre no portão do campo. A luz quase se foi.", "4:5", [
+  look("06", "A chuva dá uma trégua perto do portão, já no fim da tarde.", "4:5", [
     ["rider-jacket", "indigo"],
     ["popover-shirt", "oat"],
     ["fatigue-trouser", "oat"],
   ]),
-  look("07", "Lenha rachada. Galhos nus. A primeira geada forte.", "4:5", [
+  look("07", "A primeira geada chega com as árvores já sem folhas e a lenha cortada.", "4:5", [
     ["shetland-cardigan", "charcoal"],
     ["moleskin-shirt", "slate"],
     ["straight-jean", "indigo"],
@@ -806,7 +825,7 @@ const looks = [
   ]),
   look(
     "08",
-    "A água ainda corre abaixo da represa. Geada sobre as pedras.",
+    "A água segue correndo abaixo da represa, entre as pedras cobertas de geada.",
     "3:2",
     [
       ["mill-overshirt", "grey-check"],
@@ -821,7 +840,7 @@ export const lookbook: Lookbook = {
   season: "Outono/Inverno 2026",
   seasonLabel: "FW26",
   intro:
-    "A estação vai das primeiras folhas à geada na represa, com tecidos pesados para os meses frios.",
+    "O frio chega aos poucos em Hollins Weir. Entre o moinho e o rio, 8 looks mostram como vestir as peças nos meses mais frios.",
   frames: [
     { kind: "cover", title: "FW26 · Hollins Weir" },
     looks[0],
@@ -832,7 +851,7 @@ export const lookbook: Lookbook = {
       id: "woods",
       image: "editorial/interstitial-woods",
       aspect: "4:5",
-      caption: "Carvalhos e bétulas ao longo de um caminho que entra na névoa.",
+      caption: "O caminho entre carvalhos e bétulas desaparece na neblina.",
     },
     looks[3],
     looks[4],

@@ -27,9 +27,9 @@ export interface CollectionQuery {
 }
 
 export const sortOptions: readonly { value: CollectionSort; label: string }[] = [
-  { value: "featured", label: "Featured" },
-  { value: "price-asc", label: "Price: low to high" },
-  { value: "price-desc", label: "Price: high to low" },
+  { value: "featured", label: "Destaques" },
+  { value: "price-asc", label: "Menor preço" },
+  { value: "price-desc", label: "Maior preço" },
 ];
 
 export const emptyQuery: CollectionQuery = {
@@ -89,7 +89,10 @@ export function parseCollectionQuery(params: {
     ),
     colors: unique(
       [...params.getAll("colour"), ...params.getAll("color")]
-        .map((value) => colors.get(value.trim().toLowerCase())?.id)
+        .map((value) => {
+          const normalized = value.trim().toLowerCase();
+          return (colors.get(normalized) ?? colors.get(normalized.replaceAll(" ", "-")))?.id;
+        })
         .filter((id) => id !== undefined),
     ),
     sort: sort ?? "featured",
@@ -146,17 +149,17 @@ export function describeCollection(query: CollectionQuery): {
 } {
   if (query.category) {
     const category = getCategory(query.category)!;
-    return { kicker: "Category", title: category.name, intro: category.intro };
+    return { kicker: "Categoria", title: category.name, intro: category.intro };
   }
   if (query.cloths.length === 1) {
     const cloth = getCloth(query.cloths[0])!;
-    return { kicker: "Cloth", title: cloth.name, intro: cloth.intro };
+    return { kicker: "Tecido", title: cloth.name, intro: cloth.intro };
   }
   return {
-    kicker: "Collection",
-    title: "All Pieces",
+    kicker: "Coleção",
+    title: "Todas as peças",
     intro:
-      "Jackets, shirts, trousers, knitwear and boots. Cut and sewn at Hollins Weir.",
+      "Jaquetas, camisas, calças, malhas e botas feitas em Hollins Weir. Veja os cortes, compare os tecidos e escolha por onde começar.",
   };
 }
 

@@ -5,7 +5,7 @@ export const galleryViews: readonly {
   readonly image: keyof Colorway["images"];
   readonly label: string;
 }[] = [
-  { image: "still", label: "Natureza-morta" },
+  { image: "still", label: "Peça fora do corpo" },
   { image: "front", label: "No corpo, frente" },
   { image: "back", label: "No corpo, costas" },
   { image: "detail", label: "Detalhe" },

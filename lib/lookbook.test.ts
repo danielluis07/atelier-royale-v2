@@ -29,7 +29,7 @@ describe("Lookbook counter", () => {
       "01 / 08", "01 / 08", "02 / 08", "03 / 08", "03 / 08",
       "04 / 08", "05 / 08", "06 / 08", "06 / 08", "07 / 08", "08 / 08",
     ]);
-    expect(describePosition(3, 8)).toBe("Look 3 of 8");
+    expect(describePosition(3, 8)).toBe("Look 3 de 8");
   });
 
   test("deep links resolve a zero-padded number", () => {
@@ -64,7 +64,7 @@ describe("Lookbook snap steps", () => {
 describe("Look alt text", () => {
   test("names each Piece in the Colourway worn", () => {
     expect(lookAlt(getLook("06")!)).toBe(
-      "Look 06 at Hollins Weir: Rider Jacket in Indigo, Popover Shirt in Oat and Fatigue Trouser in Oat.",
+      "Look 06 em Hollins Weir: Jaqueta de montaria na cor Índigo, Camisa pulôver na cor Aveia e Calça fatigue na cor Aveia.",
     );
   });
 });
@@ -90,7 +90,7 @@ describe("Look panel", () => {
 
   test("Look 06 lists the Rider Jacket in Indigo first", () => {
     const [first] = lookPieces(getLook("06")!);
-    expect(first).toMatchObject({ name: "Rider Jacket", colourwayName: "Indigo" });
+    expect(first).toMatchObject({ name: "Jaqueta de montaria", colourwayName: "Índigo" });
   });
 
   test("quick add makes a line in the worn Colourway and refuses sold-out or unknown sizes", () => {
@@ -109,7 +109,7 @@ describe("Look panel", () => {
   });
 
   test("the button and the live region say what was added", () => {
-    expect(addedLabel("M")).toBe("Added · M");
-    expect(describeQuickAdd({ name: "Chore Jacket" }, "M")).toBe("Added: Chore Jacket, M");
+    expect(addedLabel("M")).toBe("Na sacola · M");
+    expect(describeQuickAdd({ name: "Jaqueta de trabalho" }, "M")).toBe("Jaqueta de trabalho, tamanho M, na sacola");
   });
 });
