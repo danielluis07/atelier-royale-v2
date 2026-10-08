@@ -13,7 +13,7 @@ export function SmallPrint({ category }: { category: CategoryId }) {
     <div className="border-t border-border">
       <Disclosure title="Envio" topic="shipping">
         Enviamos os pedidos de Hollins Weir em até 2 dias úteis. O frete é
-        grátis para pedidos nos EUA acima de US$ 250 e custa US$ 12 abaixo disso.
+        grátis para pedidos nos EUA acima de R$ 250 e custa R$ 12 abaixo disso.
       </Disclosure>
       <Disclosure title="Devoluções" topic="returns">
         Devolva uma peça não usada em até 30 dias após a entrega. As devoluções são

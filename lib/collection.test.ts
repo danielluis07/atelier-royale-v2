@@ -111,9 +111,15 @@ describe("filter options", () => {
   });
 });
 
-test("prices and colour counts follow the house style", () => {
-  expect(formatPrice(480)).toBe("$480");
-  expect(formatPrice(1240)).toBe("$1,240");
+test("prices follow the house style in Brazilian reais", () => {
+  expect(formatPrice(480)).toBe("R$ 480");
+  expect(formatPrice(1240)).toBe("R$ 1.240");
+  expect(formatPrice(12.5)).toBe("R$ 12,50");
+  expect(formatPrice(1240.99)).toBe("R$ 1.240,99");
+  expect(formatPrice(0)).toBe("R$ 0");
+});
+
+test("colour counts follow the house style", () => {
   expect(formatColorCount(1)).toBe("1 colour");
   expect(formatColorCount(3)).toBe("3 colours");
 });

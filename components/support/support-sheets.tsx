@@ -64,10 +64,10 @@ function SupportContent({ topic, category }: SupportPayload) {
           title="Envio"
           description="Preparamos os pedidos em Hollins Weir e os enviamos em até 2 dias úteis."
           rows={[
-            ["Padrão", "Grátis para pedidos nos EUA acima de US$ 250; caso contrário, US$ 12. A entrega leva de 3 a 5 dias úteis."],
-            ["Expresso", "US$ 25 para entrega em 1 a 2 dias úteis."],
+            ["Padrão", "Grátis para pedidos nos EUA acima de R$ 250; caso contrário, R$ 12. A entrega leva de 3 a 5 dias úteis."],
+            ["Expresso", "R$ 25 para entrega em 1 a 2 dias úteis."],
             ["Rastreamento", "Enviamos um link de rastreamento por e-mail quando o pacote sai do moinho."],
-            ["Onde", "Enviamos dentro dos Estados Unidos. Todos os preços estão em USD."],
+            ["Onde", "Enviamos dentro dos Estados Unidos. Todos os preços estão em reais (BRL)."],
           ]}
         />
       );

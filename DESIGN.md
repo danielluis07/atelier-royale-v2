@@ -95,7 +95,7 @@ Rules:
 - Serif display is used for emotion and story; it never appears in buttons, form fields or table cells.
 - Italic serif is reserved for the place line and pull quotes. One italic per screen at most.
 - Piece numbers are always mono, always formatted `No. 014` (zero-padded to three digits).
-- Prices use tabular figures and USD with no cents when whole: `$480`.
+- Prices use tabular figures and BRL with Brazilian number formatting and no cents when whole: `R$ 480`.
 - Body measure: 62ch maximum. Story copy 52ch.
 - Labels are the condensed-caps sans: category chips, section kickers (`PROOF`, `WORN IN`), step numbers.
 - Keep at most two font weights visible in any one component.
@@ -274,7 +274,7 @@ Heavy cloth woven and finished in the mill, indigo-dyed in the old way, cut and 
 - No heritage clichés: *artisan*, *timeless*, *crafted with love*, *since*, *founded*, *legacy*. No founder figure, no dates.
 - No luxury clichés: *curated*, *elevated* (the word), *exclusive*, *discover*.
 - Use the glossary: **Piece** (not product or item), **Proof** (not specs), **Look** (not outfit), **Cloth**, **Collection**, **Lookbook**, **Colourway**.
-- Numbers are numerals: `14oz`, `3 colours`, `$480`. British or American spelling is picked once: **American** (the site is USD-only), except the Cloth names and **colour / Colourway**, which are trade words and stay traditional.
+- Numbers are numerals: `14oz`, `3 colours`, `R$ 480`. British or American spelling is picked once: **American** (the site displays prices in BRL), except the Cloth names and **colour / Colourway**, which are trade words and stay traditional.
 - Second person is allowed, sparingly. First-person plural ("we") is avoided; the house speaks about the work, not about itself.
 - Microcopy is one short line. Error messages say what happened and what to do, with no apology.
 

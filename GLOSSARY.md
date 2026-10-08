@@ -9,7 +9,7 @@ The fictional premium heritage workwear house the site presents (jackets, boots,
 _Avoid_: Atelier Royale (the retired working name), Maison
 
 **Shopper persona**:
-The enthusiast collector, someone who cares about fabric, construction, and provenance, with the urban professional wearing workwear as a considered uniform as a secondary reading. Prices sit at premium heritage level (a jacket roughly $400 to $600) and only need to be believable.
+The enthusiast collector, someone who cares about fabric, construction, and provenance, with the urban professional wearing workwear as a considered uniform as a secondary reading. Prices sit at premium heritage level (a jacket roughly R$ 400 to R$ 600) and only need to be believable.
 
 **Visitor**:
 A prospective client (a real brand or retailer) who views the site to judge the studio's craft. The site is aimed at the Visitor, not at an end shopper.
